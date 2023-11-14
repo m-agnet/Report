@@ -1,10 +1,10 @@
-This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.9.10)  14 NOV 2023 17:35
+This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.9.10)  15 NOV 2023 08:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/2023_2gou/Desktop/r_yamamoto/Share/rin/report/seminar.tex
-(/Users/2023_2gou/Desktop/r_yamamoto/Share/rin/report/seminar.tex
+**/Users/2023_2gou/Desktop/r_yamamoto/Report/seminar.tex
+(/Users/2023_2gou/Desktop/r_yamamoto/Report/seminar.tex
 pLaTeX2e <2023-02-14>+1 (based on LaTeX2e <2022-11-01> patch level 1)
 L3 programming layer <2023-02-22> (/usr/local/texlive/2023/texmf-dist/tex/platex/jsclasses/jsarticle.cls
 Document Class: jsarticle 2023/02/23 jsclasses (okumura, texjporg)
@@ -814,59 +814,59 @@ File: image/2023-11-13T17:41:52.785__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0
 <image/2023-11-13T17:41:52.785__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run2.0e7_output.png>
 [11]
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 515.
+(Font)              scaled to size 7.68799pt on input line 508.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 515.
+(Font)              scaled to size 5.76599pt on input line 508.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 515.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 515.
+(hyperref)                removing `math shift' on input line 508.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 515.
+(hyperref)                removing `subscript' on input line 508.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 515.
+(hyperref)                removing `math shift' on input line 508.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 515.
+(hyperref)                removing `math shift' on input line 508.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 515.
+(hyperref)                removing `subscript' on input line 508.
 
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 526.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 508.
+
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 519.
 LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 526.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 519.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 526.
+(Font)              scaled to size 9.60999pt on input line 519.
 LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 526.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 519.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 526.
+(Font)              scaled to size 9.60999pt on input line 519.
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 526.
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 519.
 [12]
-LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 526.
+LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 519.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-) [13] [14] [15] [16] [17] [18] [19] [20] [21] (out/seminar.aux)
+) [13] [14] [15] [16] [17] [18] (out/seminar.aux)
 Package rerunfilecheck Info: File `seminar.out' has not changed.
-(rerunfilecheck)             Checksum: 15D7BFD819A7C5F06ED3AB8C60421DE8;920.
+(rerunfilecheck)             Checksum: FD12083ED6D22C6E9F5B5A57227AB13F;930.
  ) 
 Here is how much of TeX's memory you used:
- 31652 strings out of 476693
- 631537 string characters out of 5805373
- 2258209 words of memory out of 5000000
- 51603 multiletter control sequences out of 15000+600000
+ 31594 strings out of 476693
+ 630664 string characters out of 5805373
+ 2259209 words of memory out of 5000000
+ 51548 multiletter control sequences out of 15000+600000
  566925 words of font info for 137 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 84i,16n,89p,513b,2945s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,16n,89p,503b,2945s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/seminar.dvi (21 pages, 170100 bytes).
+Output written on out/seminar.dvi (18 pages, 128128 bytes).

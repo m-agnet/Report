@@ -108,19 +108,23 @@
   % &= \tilde{\phi}_{\text{LJ}}^{\text{wall}}(y_i - 0;r_{\text{cut}}^{\text{wall}}) + \tilde{\phi}_{\text{LJ}}^{\text{wall}}(L_y - y_i;r_{\text{cut}}^{\text{wall}})
 \end{align}
 
+以降, 本節はこれに至るまでの過程を述べる.
+
 \subsubsection{粒子-粒子間相互作用ポテンシャル}
 
-典型的な粒子間相互作用ポテンシャルとして, 12-6 Lennard-Jones Potential を採用する.
+シミュレーションを行う際に, 典型的な粒子間相互作用ポテンシャルとして, 12-6 Lennard-Jones Potential を採用する.
 
 \begin{align}
   \phi_{\text{LJ}}^{\text{pair}}(r; \varepsilon, \sigma) = 4\varepsilon \qty[\qty(\frac{\sigma}{r})^{12} - \qty(\frac{\sigma}{r})^{6} ] \\
 \end{align}
 
-カットオフ長 $r_{\text{cut}}^{\text{pair}}=3\sigma$ とポテンシャルのシフトアップを考慮して
+シミュレーション上では, カットオフ長 $r_{\text{cut}}^{\text{pair}}=3\sigma$ とポテンシャルのシフトアップを考慮して
 
 \begin{align}
   \tilde{\phi}_{\text{LJ}}^{\text{pair}}(r;r_{\text{cut}}^{\text{pair}}) = \qty{\phi_{\text{LJ}}^{\text{pair}}(r) - \phi_{\text{LJ}}^{\text{pair}}(r_{\text{cut}}^{\text{pair}})}\theta \qty(r_{\text{cut}}^{\text{pair}}-r) \\
 \end{align}
+
+のように書き換えたポテンシャルを用いている.
 
 % このポテンシャルを図示すると, 図\ref{fig:LJ-potential(pair)}のようになる.
 
@@ -139,7 +143,7 @@
   \sum_{n_x \in \mathbb{Z}} \sum_{i=1}^{N} \sum_{\substack{j=1 \\ (j \neq i \ \text{for} \ n_{x} = 0)}}^{N} \frac{1}{2} \phi_{\text{LJ}}^{\text{pair}}(|\bm{r}_i -(\bm{r}_j + L_x \bm{e}_x)|)
 \end{align}
 
-ここで, $n_x = 0$のオリジナルセルの中では, 同じ$i,\ j$ペアのポテンシャルエネルギーを2回足すことになるので, ポテンシャルを$1/2$している. その上で, $j = i$の場合は自分自身との相互作用になるため, これは除外する. $n_x \neq 0$の場合は, 粒子$j$はイメージ粒子となるので, $j=i$の場合も含める. この場合にもダブルカウントがあるので, ポテンシャルを$1/2$する.
+ここで, $n_x = 0$; オリジナルセルの中では, 同じ$i,\ j$ペアのポテンシャルエネルギーを2回足すことになるので, ポテンシャルを$1/2$している. その上で, $j = i$の場合は自分自身との相互作用になるため, これは除外する. $n_x \neq 0$の場合, 粒子$j$はイメージ粒子となるため, $j=i$の場合も含めることになる. このときにもダブルカウントがあるので, ポテンシャルを$1/2$している.
 
 \begin{figure}[H]
   \centering
@@ -148,29 +152,17 @@
   \includegraphics[scale=0.7]{image/system_periodic.jpg}
 \end{figure}
 
-また, 注目する系の粒子が常にオリジナルセルの中にとどまっているかのようにMD上で扱うには,
+注目する系の粒子が常にオリジナルセルの中にとどまっているかのようにMD上で扱うには,
 
 \begin{align}
   x_{i} = x_{i}' \mod L_{x}
 \end{align}
 
-のように,  飛び出した粒子の$x$座標$x_{i}'$を上式のように$x_i$にシフトすれば良い. しかし, 周期境界条件とセットにして, 最近接イメージ規約として, 粒子$i$がオリジナル粒子と各イメージ粒子の中で最も近い粒子$j$らとのみ相互作用をすることを考えると, 粒子間の相互ポテンシャルはより簡単に書けるようになる.
+のように,  飛び出した粒子の$x$座標$x_{i}'$を上式のように$x_i$にシフトすれば良い. しかし, 周期境界条件とセットに, 最近接イメージ規約として, 粒子$i$がオリジナル粒子と各イメージ粒子の中で最も近い粒子$j$らとのみ相互作用をすることを課すと, 粒子間の相互ポテンシャルの総計は先ほどよりも簡単に書けるようになる.
 
 \begin{align}
   \sum_{i=1}^{N} \sum_{j > i}^{N} \phi_{\text{LJ}}^{\text{pair}} (r_{ij})
 \end{align}
-
-
-
-
-
-% また, 1次元の周期境界条件($x$軸両方向)を考慮するときには, 注目粒子$i$を$L_x$だけ$x$方向にずらして他の粒子$j$との相互作用を考えると適切に課すことができる.(式\eqref{eq:periodic}) ただし, これは$r_{\text{cut}}^{\text{pair}} < L_{x}/2$ であるような短いカットオフ長を選ぶことが前提である. (図3)
-
-% \begin{align}
-%   \sum_{i=1}^{N}\sum_{j=1}^{N}\tilde{\phi}_{\text{LJ}}^{\text{pair}}(|\bm{r}_j -(\bm{r}_i + L_x \bm{e}_x)|;r_{\text{cut}}^{\text{pair}}) \label{eq:periodic}
-% \end{align}
-
-
 
 
 \subsubsection{壁-粒子間相互作用ポテンシャル}
@@ -272,6 +264,7 @@ langevin熱浴に侵入した粒子に対しては, brownian 動力学計算を�
   \item $\bm{F}^r$; ランダム力
 \end{itemize}
 
+
 \subsection{温度制御}
 
 
@@ -287,7 +280,7 @@ langevin熱浴に侵入した粒子に対しては, brownian 動力学計算を�
   \dot{\bm{r}_i} &= \pdv{H}{\bm{p}_i} \\
   \dot{\bm{p}_i} &= - \pdv{H}{\bm{r}_i} - \gamma \dot{\bm{r}_i} + \sqrt{2 \gamma k_{\text{B}}T_{\nu}}\bm{\xi}_i (t) \\
   \expval{\xi_{i}^{a}(t)} &= 0 \\
-  \expval{\xi_{i}^{a}(t)\xi_{j}^{b}(t')} &= \delta_{i,j} \delta_{a,b}\delta (t-t') \\
+  \expval{\xi_{i}^{a}(t)\xi_{j}^{b}(t')} &= \delta_{i,j} \delta_{a,b}\delta (t-t') 
 \end{align}
 
 \begin{align}
@@ -350,16 +343,16 @@ langevin熱浴に侵入した粒子に対しては, brownian 動力学計算を�
   \item $L_y / \sigma = 158.1\dots$
   \item $k_{\text{B}} T/\varepsilon = 4.3$
   \item $k_{\text{B}} \Delta T/\varepsilon = 0.0$
-  \item $mg = 2.0 \times 10^{-4}$
-  \item $\sim t \sqrt{\varepsilon / m \sigma^2} = 5.0 \times 10^{5}$
+  \item $mg\sigma/\varepsilon = 2.0 \times 10^{-4}$
+  \item $t_i \sqrt{\varepsilon / m \sigma^2} = 5.0 \times 10^{5}$
 \end{itemize}
 
-重力をかけた緩和後の系で, 熱浴の温度差を以下のようにつけて, 熱流を流して実行をする.
+重力をかけた緩和後の系で, 熱浴の温度差を改めて以下のようにつけ, 熱流を流してシミュレーションをする.
 
 \begin{itemize}
   \item $\chi = k_{\text{B}}\Delta T / mg L_y = 1.265$
   \item $k_{\text{B}} \Delta T/\varepsilon = 0.04$
-  \item $\sim t \sqrt{\varepsilon / m \sigma^2} = 5.0 \times 10^{5}$
+  \item $t_f \sqrt{\varepsilon / m \sigma^2} = 5.0 \times 10^{5}$
 \end{itemize}
 
 % \subsection{実際にやってみた}
@@ -479,7 +472,7 @@ langevin熱浴に侵入した粒子に対しては, brownian 動力学計算を�
   \text{R}_\text{a} &: 濡れ具合.
 \end{align}
 
-これに伴い, 壁-粒子間相互作用LJポテンシャルは以下のように書き表せるようになる.
+これを用いて, 壁-粒子間相互作用LJポテンシャルは以下のように書き表す.
 
 \begin{align}
   \varepsilon^{\text{wall}} &= \qty(1.0 - \text{R}_\text{d}) \times \varepsilon \\
@@ -512,7 +505,7 @@ langevin熱浴に侵入した粒子に対しては, brownian 動力学計算を�
 
 
 
-\subsection{$\text{R}_\text{a}$, $\text{R}_\text{t}$}
+\subsection{$\text{R}_\text{a}$, $\text{R}_\text{t}$ マップ}
 
 $\text{R}_\text{a}$ を
 
@@ -525,9 +518,7 @@ $\text{R}_\text{a}$ を
 
 \lstinputlisting[caption=in.vdw\_mod]{src/in.vdw2d_mod}
 \lstinputlisting[caption=lammps\_modexe.jl]{src/lammps_modexe.jl}
-\lstinputlisting[caption=LJpotential\_pair.jl]{src/LJpotential_pair.jl}
-\lstinputlisting[caption=LJpotential\_wall.jl]{src/LJpotential_wall.jl}
-\lstinputlisting[caption=iLJpotential\_wall\_rc.jl]{src/LJpotential_wall_rc.jl}
+
 
 
 \end{document}

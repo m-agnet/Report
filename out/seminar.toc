@@ -9,5 +9,5 @@
 \contentsline {section}{\numberline {2}追実験}{10}{section.2}%
 \contentsline {subsection}{\numberline {2.1}先行研究の設定}{10}{subsection.2.1}%
 \contentsline {section}{\numberline {3}コレクション}{10}{section.3}%
-\contentsline {subsection}{\numberline {3.1}$\text {R}_\text {a}$, $\text {R}_\text {t}$}{12}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.1}$\text {R}_\text {a}$, $\text {R}_\text {t}$ マップ}{12}{subsection.3.1}%
 \contentsline {section}{\numberline {付録A}ソースコード}{12}{appendix.A}%
