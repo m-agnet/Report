@@ -1203,18 +1203,6 @@ INPUT ./image/system_periodic.jpg
 INPUT ./image/system_periodic.jpg
 INPUT image/system_periodic.jpg
 INPUT extractbb -B cropbox -O image/system_periodic.jpg
-INPUT ./image/LJ-Potential_wall_epsilon=1.0-sigma=0.5-rc=0.56.png
-INPUT ./image/LJ-Potential_wall_epsilon=1.0-sigma=0.5-rc=0.56.png
-INPUT image/LJ-Potential_wall_epsilon=1.0-sigma=0.5-rc=0.56.png
-INPUT extractbb -B cropbox -O image/LJ-Potential_wall_epsilon=1.0-sigma=0.5-rc=0.56.png
-INPUT ./image/LJ-Potential_wall_epsilon=1.0-sigma=0.5-rc.png
-INPUT ./image/LJ-Potential_wall_epsilon=1.0-sigma=0.5-rc.png
-INPUT image/LJ-Potential_wall_epsilon=1.0-sigma=0.5-rc.png
-INPUT extractbb -B cropbox -O image/LJ-Potential_wall_epsilon=1.0-sigma=0.5-rc.png
-INPUT ./image/LJ-Potential_wall_epsilon=1.0-sigma=0.5-rc_zoom.png
-INPUT ./image/LJ-Potential_wall_epsilon=1.0-sigma=0.5-rc_zoom.png
-INPUT image/LJ-Potential_wall_epsilon=1.0-sigma=0.5-rc_zoom.png
-INPUT extractbb -B cropbox -O image/LJ-Potential_wall_epsilon=1.0-sigma=0.5-rc_zoom.png
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT ./image/2023-11-13T17:41:52.785__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run2.0e7_output.png
@@ -1236,6 +1224,13 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tctt1000.tfm
 INPUT ./src/lammps_modexe.jl
 INPUT src/lammps_modexe.jl
 INPUT src/lammps_modexe.jl
+INPUT ./src/plot_LJpotential.jl
+INPUT src/plot_LJpotential.jl
+INPUT src/plot_LJpotential.jl
+INPUT out/seminar.bbl
+INPUT out/seminar.bbl
+INPUT out/seminar.bbl
+INPUT out/seminar.bbl
 INPUT out/seminar.aux
 INPUT out/seminar.out
 INPUT out/seminar.out

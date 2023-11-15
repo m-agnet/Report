@@ -60,6 +60,8 @@
 \usepackage{cleveref}
 \usepackage{autonum}
 \numberwithin{equation}{subsection}
+% 目次に参考文献を入れる.
+% \usepackage{tocbibind}
 
 \begin{document}
 
@@ -104,7 +106,7 @@
   \right] . \ \tag*{\eqref{Hamiltonian}} \\
   % \tilde{\phi}_{\text{LJ}}^{\text{pair}}(r ;r_{\text{cut}}^{\text{pair}}) 
   % &= \qty[4\varepsilon \qty{\qty(\frac{\sigma}{r})^{12} - \qty(\frac{\sigma}{r})^{6}} - 4\varepsilon \qty{\qty(\frac{\sigma}{r_{\text{cut}}^{\text{pair}}})^{12} - \qty(\frac{\sigma}{r_{\text{cut}}^{\text{pair}}})^{6}}]\theta \qty(r_{\text{cut}}^{\text{pair}}-r) \\
-  % V^{\text{wall}} (y_;i) 
+  % V^{\text{wall}} (y_i) 
   % &= \tilde{\phi}_{\text{LJ}}^{\text{wall}}(y_i - 0;r_{\text{cut}}^{\text{wall}}) + \tilde{\phi}_{\text{LJ}}^{\text{wall}}(L_y - y_i;r_{\text{cut}}^{\text{wall}})
 \end{align}
 
@@ -190,41 +192,41 @@
   \tilde{\phi}_{\text{LJ}}^{\text{wall}}(r;r_{\text{cut}}^{\text{wall}}) = \qty{\phi_{\text{LJ}}^{\text{wall}}(r) - \phi_{\text{LJ}}^{\text{wall}}(r_{\text{cut}}^{\text{wall}})}\theta \qty(r_{\text{cut}}^{\text{wall}}-r) \\
 \end{align}
 
-このポテンシャルも図示したい. 
+% このポテンシャルも図示したい. 
 
-まず$r_{\text{attractive}} =0.0$, つまりカットオフ長 $r_{\text{cut}}^{\text{wall}}=0.5612\dots$のときは, 図\ref{fig:LJ-potential(wall)rc=0.5612}が示すようにWCAポテンシャルとなる.
+% まず$r_{\text{attractive}} =0.0$, つまりカットオフ長 $r_{\text{cut}}^{\text{wall}}=0.5612\dots$のときは, 図\ref{fig:LJ-potential(wall)rc=0.5612}が示すようにWCAポテンシャルとなる.
 
-\begin{figure}[H]
-  \centering
-  \caption{}
-  \label{fig:LJ-potential(wall)rc=0.5612}
-  \includegraphics[scale=0.7]{image/LJ-Potential_wall_epsilon=1.0-sigma=0.5-rc=0.56.png}
-\end{figure}
+% \begin{figure}[H]
+%   \centering
+%   \caption{}
+%   \label{fig:LJ-potential(wall)rc=0.5612}
+%   \includegraphics[scale=0.7]{image/LJ-Potential_wall_epsilon=1.0-sigma=0.5-rc=0.56.png}
+% \end{figure}
 
-また, 参考のために, $r_{\text{cut}}^{\text{wall}}$ が$2^{1/6}\sigma^{\text{wall}}=0.5612\dots$から$3\sigma^{\text{wall}}=1.5$を超えるまで, $c_{\text{attractive}}$を0.0から2.0まで0.2ずつ増やした壁-粒子間の相互ポテンシャルの同時プロットを図示する.(図\ref{fig:LJ-Potential_wall_epsilon=1.0-sigma=0.5-rc}, 図\ref{fig:LJ-Potential_wall_epsilon=1.0-sigma=0.5-rc_zoom})
+% また, 参考のために, $r_{\text{cut}}^{\text{wall}}$ が$2^{1/6}\sigma^{\text{wall}}=0.5612\dots$から$3\sigma^{\text{wall}}=1.5$を超えるまで, $c_{\text{attractive}}$を0.0から2.0まで0.2ずつ増やした壁-粒子間の相互ポテンシャルの同時プロットを図示する.(図\ref{fig:LJ-Potential_wall_epsilon=1.0-sigma=0.5-rc}, 図\ref{fig:LJ-Potential_wall_epsilon=1.0-sigma=0.5-rc_zoom})
 
-\begin{figure}[H]
-  \centering
-  \caption{}
-  \label{fig:LJ-Potential_wall_epsilon=1.0-sigma=0.5-rc}
-  \includegraphics[scale=0.7]{image/LJ-Potential_wall_epsilon=1.0-sigma=0.5-rc.png}  
-\end{figure}
-\begin{figure}[H]
-  \centering
-  \caption{zoom}
-  \label{fig:LJ-Potential_wall_epsilon=1.0-sigma=0.5-rc_zoom}
-  \includegraphics[scale=0.7]{image/LJ-Potential_wall_epsilon=1.0-sigma=0.5-rc_zoom.png}  
-\end{figure}
+% \begin{figure}[H]
+%   \centering
+%   \caption{}
+%   \label{fig:LJ-Potential_wall_epsilon=1.0-sigma=0.5-rc}
+%   \includegraphics[scale=0.7]{image/LJ-Potential_wall_epsilon=1.0-sigma=0.5-rc.png}  
+% \end{figure}
+% \begin{figure}[H]
+%   \centering
+%   \caption{zoom}
+%   \label{fig:LJ-Potential_wall_epsilon=1.0-sigma=0.5-rc_zoom}
+%   \includegraphics[scale=0.7]{image/LJ-Potential_wall_epsilon=1.0-sigma=0.5-rc_zoom.png}  
+% \end{figure}
 
-図\ref{fig:LJ-Potential_wall_epsilon=1.0-sigma=0.5-rc_zoom}からもわかるように, $r = r_{\text{cut}}^{\text{wall}}$となるときには微分不可能であることには留意する必要がある.
+% 図\ref{fig:LJ-Potential_wall_epsilon=1.0-sigma=0.5-rc_zoom}からもわかるように, $r = r_{\text{cut}}^{\text{wall}}$となるときには微分不可能であることには留意する必要がある.
 
-このことから, 壁ポテンシャルは
+この系では, $y$軸方向に壁がついている. よって, 壁ポテンシャルは
 
 \begin{align}
   V^{\text{wall}}(y; L_y) &= \tilde{\phi}_{\text{LJ}}^{\text{wall}}(y;r_{\text{cut}}^{\text{wall}}) + \tilde{\phi}_{\text{LJ}}^{\text{wall}}(L_y - y;r_{\text{cut}}^{\text{wall}})
 \end{align}
 
-周期境界条件を考慮した系のハミルトニアンは以下のように書き表せる.
+のように書ける. これまでのことより, ハミルトニアンは以下のように書き表せる.
 
 \begin{align}
   \label{Hamiltonian}
@@ -265,7 +267,7 @@ langevin熱浴に侵入した粒子に対しては, brownian 動力学計算を�
 \end{itemize}
 
 
-\subsection{温度制御}
+\subsubsection{温度制御}
 
 
 2d kinetic temperature
@@ -507,17 +509,21 @@ langevin熱浴に侵入した粒子に対しては, brownian 動力学計算を�
 
 \subsection{$\text{R}_\text{a}$, $\text{R}_\text{t}$ マップ}
 
-$\text{R}_\text{a}$ を
+$\text{R}_\text{a}$ を~\cite{本}
 
 
 
 \appendix
-\section{ソースコード}
-
-% \href{https://github.com/m-agnet/seminar.git}{GitHub}
-
+\section{\href{https://github.com/m-agnet/Report.git}{ソースコード}}
+% ここにソースコードを追加.
 \lstinputlisting[caption=in.vdw\_mod]{src/in.vdw2d_mod}
 \lstinputlisting[caption=lammps\_modexe.jl]{src/lammps_modexe.jl}
+\lstinputlisting[caption=plot\_LJpotential.jl]{src/plot_LJpotential.jl}
+
+
+% 参考文献
+\bibliographystyle{jplain}
+\bibliography{seminar}
 
 
 
