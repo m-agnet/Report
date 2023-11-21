@@ -13,8 +13,10 @@
 \usepackage{siunitx}
 \usepackage[thicklines]{cancel}
 % 画像
-\usepackage[dvipdfmx]{graphicx}
-% \usepackage[draft]{graphicx} % 画像出力を枠だけにする.
+% \usepackage[dvipdfmx]{graphicx} 
+\usepackage[draft]{graphicx} % 画像出力を枠だけにする.
+\usepackage[hang,small,bf]{caption}
+\usepackage[subrefformat=parens]{subcaption}
 \usepackage{here}
 % グラフ
 \usepackage{tikz}
@@ -60,7 +62,7 @@
 \usepackage{cleveref}
 \usepackage{autonum}
 \numberwithin{equation}{subsection}
-% 目次に参考文献を入れる. これをonにすると目次の体裁が崩れる.
+% 目次に参考文献を入れる. これをonにすると目次の体裁が崩れてしまう.
 % \usepackage{tocbibind}
 
 \begin{document}
@@ -77,7 +79,6 @@
 \newpage
 % 本文
 
-% \chapter{実験モデル}
 \section{系の設定}
 
 2次元の気液共存系で, 質量$m$の粒子が$N$個存在することを考え, 系の上下には壁, 左右には周期境界条件を課す. また, 重力を$y$軸正の向きにかけて, 熱流を$y$軸負の向きに流す. この熱流は, 系の上下の領域にそれぞれ異なる温度を設定したlangevin熱浴を使用することによってかけることとし, NVT-MDシミュレーションを実行する. また, 各熱浴の$y$幅は$8\sigma$となるように設定する. (図\ref{fig:system})
@@ -103,11 +104,7 @@
       \tilde{\phi}_{\text{LJ}}^{\text{pair}}(r_{ij})
     + mgy_i
     + V^{\text{wall}} (y_i)
-  \right] . \ \tag*{\eqref{Hamiltonian}} \\
-  % \tilde{\phi}_{\text{LJ}}^{\text{pair}}(r ;r_{\text{cut}}^{\text{pair}}) 
-  % &= \qty[4\varepsilon \qty{\qty(\frac{\sigma}{r})^{12} - \qty(\frac{\sigma}{r})^{6}} - 4\varepsilon \qty{\qty(\frac{\sigma}{r_{\text{cut}}^{\text{pair}}})^{12} - \qty(\frac{\sigma}{r_{\text{cut}}^{\text{pair}}})^{6}}]\theta \qty(r_{\text{cut}}^{\text{pair}}-r) \\
-  % V^{\text{wall}} (y_i) 
-  % &= \tilde{\phi}_{\text{LJ}}^{\text{wall}}(y_i - 0;r_{\text{cut}}^{\text{wall}}) + \tilde{\phi}_{\text{LJ}}^{\text{wall}}(L_y - y_i;r_{\text{cut}}^{\text{wall}})
+  \right] . \ \tag*{\eqref{Hamiltonian}} 
 \end{align}
 
 以降, 本節はこれに至るまでの過程を述べる.
@@ -127,15 +124,6 @@
 \end{align}
 
 のように書き換えたポテンシャルを用いている.
-
-% このポテンシャルを図示すると, 図\ref{fig:LJ-potential(pair)}のようになる.
-
-% \begin{figure}[H]
-%   \centering
-%   \caption{}
-%   \label{fig:LJ-potential(pair)}
-%   \includegraphics[scale=0.7]{image/LJ-Potential_pair_epsilon=1.0-sigma=1.0-rc=3.0.png}
-% \end{figure}
 
 \subsubsection{周期境界条件と最近接イメージ規約}
 
@@ -166,9 +154,7 @@
   \sum_{i=1}^{N} \sum_{j > i}^{N} \phi_{\text{LJ}}^{\text{pair}} (r_{ij})
 \end{align}
 
-
 \subsubsection{壁-粒子間相互作用ポテンシャル}
-
 
 \begin{align}
   \phi_{\text{LJ}}^{\text{wall}}(r; \varepsilon^{\text{wall}}, \sigma^{\text{wall}}) = 4\varepsilon^{\text{wall}} \qty[\qty(\frac{\sigma^{\text{wall}}}{r})^{12} - \qty(\frac{\sigma^{\text{wall}}}{r})^{6} ] \\
@@ -182,43 +168,11 @@
   r^{\text{wall}}_{\text{cut}} &= \qty(2^{1/6} + \text{R}_\text{a}) \times \sigma^{\text{wall}}
 \end{align}
 
-
-
 カットオフ長とシフトアップを考慮して
-
-
 
 \begin{align}
   \tilde{\phi}_{\text{LJ}}^{\text{wall}}(r;r_{\text{cut}}^{\text{wall}}) = \qty{\phi_{\text{LJ}}^{\text{wall}}(r) - \phi_{\text{LJ}}^{\text{wall}}(r_{\text{cut}}^{\text{wall}})}\theta \qty(r_{\text{cut}}^{\text{wall}}-r) \\
 \end{align}
-
-% このポテンシャルも図示したい. 
-
-% まず$r_{\text{attractive}} =0.0$, つまりカットオフ長 $r_{\text{cut}}^{\text{wall}}=0.5612\dots$のときは, 図\ref{fig:LJ-potential(wall)rc=0.5612}が示すようにWCAポテンシャルとなる.
-
-% \begin{figure}[H]
-%   \centering
-%   \caption{}
-%   \label{fig:LJ-potential(wall)rc=0.5612}
-%   \includegraphics[scale=0.7]{image/LJ-Potential_wall_epsilon=1.0-sigma=0.5-rc=0.56.png}
-% \end{figure}
-
-% また, 参考のために, $r_{\text{cut}}^{\text{wall}}$ が$2^{1/6}\sigma^{\text{wall}}=0.5612\dots$から$3\sigma^{\text{wall}}=1.5$を超えるまで, $c_{\text{attractive}}$を0.0から2.0まで0.2ずつ増やした壁-粒子間の相互ポテンシャルの同時プロットを図示する.(図\ref{fig:LJ-Potential_wall_epsilon=1.0-sigma=0.5-rc}, 図\ref{fig:LJ-Potential_wall_epsilon=1.0-sigma=0.5-rc_zoom})
-
-% \begin{figure}[H]
-%   \centering
-%   \caption{}
-%   \label{fig:LJ-Potential_wall_epsilon=1.0-sigma=0.5-rc}
-%   \includegraphics[scale=0.7]{image/LJ-Potential_wall_epsilon=1.0-sigma=0.5-rc.png}  
-% \end{figure}
-% \begin{figure}[H]
-%   \centering
-%   \caption{zoom}
-%   \label{fig:LJ-Potential_wall_epsilon=1.0-sigma=0.5-rc_zoom}
-%   \includegraphics[scale=0.7]{image/LJ-Potential_wall_epsilon=1.0-sigma=0.5-rc_zoom.png}  
-% \end{figure}
-
-% 図\ref{fig:LJ-Potential_wall_epsilon=1.0-sigma=0.5-rc_zoom}からもわかるように, $r = r_{\text{cut}}^{\text{wall}}$となるときには微分不可能であることには留意する必要がある.
 
 この系では, $y$軸方向に壁がついている. よって, 壁ポテンシャルは
 
@@ -239,8 +193,6 @@
       + mgy_i +V^{\text{wall}}(y_i)
     \right]
 \end{align}
-
-
 
 \subsection{熱流}
 
@@ -291,52 +243,21 @@ langevin熱浴に侵入した粒子に対しては, brownian 動力学計算を�
   \gamma(y_i) &= 0. \ T_{\nu}(y_i) = T. \ (8\sigma < y_i < L_y - 8\sigma)
 \end{align}
 
-% 見覚えのある形にすると, 
+\section{実験}
 
-% \begin{align}
-%   \bm{F}_i^f &= -\frac{m_i}{\gamma}\bm{v}_i \\
-%   F_i^r &\propto \sqrt{\frac{m_i D}{dt}}
-% \end{align}
+雨が降るシミュレーションをしたい.
 
-% となる.
-
-
-% \section{数値実験}
-
-% \subsection{濡れ壁}
-
-% 壁-粒子間相互作用ポテンシャルにおけるカットオフ長$r_{\text{cut}}^{\text{wall}}$をWCAポテンシャルに相当するところよりも大きくすると, 粒子は壁からの斥力だけでなく引力も受けるようになる.
-
-% ここで, 重心($Y_g=\text{CoM[2]}$)のゆらぎ(標準偏差$\sigma(Y_g)$)を見る.
-
-% パラメータ
-
-% \begin{itemize}
-
-% \end{itemize}
-
-% \begin{align}
-%   \sigma (Y_g) &= \sqrt{\frac{1}{\text{d}}\sum_{i=1}^{\text{d}}\qty(Y_{g}^i + \bar{Y_g})^2}
-% \end{align}
-
-
-% \subsection{壁の厚み}
-
-\newpage
-
-\section{追実験}
-
-雨が降るシミュレーションを再現したい. 壁を完全に濡らしていることを考えたいので, $\sigma^{\text{wall}}=1.0\neq 0.5$ とする.
-
-また, 系の両端のポテンシャルエネルギー差$mgL_y$と運動エネルギー差$k_{\text{B}}\Delta T$の比を$\chi$として以下のようにする.
+系の両端のポテンシャルエネルギー差$mgL_y$と運動エネルギー差$k_{\text{B}}\Delta T$の比を$\chi$として以下のように設定する.
 
 \begin{align}
   \chi \equiv \frac{k_{\text{B}}\Delta T}{mgL_{y}} = 1.265
 \end{align}
 
-\subsection{先行研究の設定}
+\subsection{追実験}
 
-重力をかけた状態で緩和するまでシミュレーションを行う.
+壁を完全に濡らしていることを考えたいので, $\sigma^{\text{wall}}=1.0\neq 0.5$ のときを考えている.
+
+重力をかけた状態で緩和するまでシミュレーションを行っている.
 
 \begin{itemize}
   \item $N = 5000$
@@ -346,125 +267,16 @@ langevin熱浴に侵入した粒子に対しては, brownian 動力学計算を�
   \item $k_{\text{B}} T/\varepsilon = 4.3$
   \item $k_{\text{B}} \Delta T/\varepsilon = 0.0$
   \item $mg\sigma/\varepsilon = 2.0 \times 10^{-4}$
-  \item $t_i \sqrt{\varepsilon / m \sigma^2} = 5.0 \times 10^{5}$
+  \item $t_b \sqrt{\varepsilon / m \sigma^2} = 5.0 \times 10^{5}$
 \end{itemize}
 
-重力をかけた緩和後の系で, 熱浴の温度差を改めて以下のようにつけ, 熱流を流してシミュレーションをする.
+重力をかけた緩和後の系で, 熱浴の温度差を改めて以下のようにつけ, 熱流を流してシミュレーションをしている.
 
 \begin{itemize}
   \item $\chi = k_{\text{B}}\Delta T / mg L_y = 1.265$
   \item $k_{\text{B}} \Delta T/\varepsilon = 0.04$
-  \item $t_f \sqrt{\varepsilon / m \sigma^2} = 5.0 \times 10^{5}$
+  \item $t_a \sqrt{\varepsilon / m \sigma^2} = 5.0 \times 10^{5}$
 \end{itemize}
-
-% \subsection{実際にやってみた}
-
-
-% \begin{itemize}
-%   \item $N = 1250$
-%   \item $L_x / \sigma = 39.5\dots$
-%   \item $L_y / \sigma = 79.0\dots$
-%   \item $k_{\text{B}} T / \varepsilon = 0.43$
-%   \item $k_{\text{B}} \Delta T / \varepsilon = 0.04$
-%   \item $mg = 2.0 \times 10^{-4}$
-%   \item $\tau \sqrt{\varepsilon / m \sigma^2} = 4.5 \times 10^{2}$
-%   \item $t \sqrt{\varepsilon / m \sigma^2} = 5.0 \times 10^{4}$
-% \end{itemize}
-
-% \begin{figure}[H]
-%   \centering
-%   \href{https://youtube.com/shorts/5dD1dH0l6Ug?feature=share}{\includegraphics[scale=0.2]{image/rainAy50_rho0.4_T0.43_dT0.04_g0.0004_run1.0e7.png}}
-%   \caption{rainAy50\_rho0.4\_T0.43\_dT0.04\_g0.0004\_run1.0e7}
-% \end{figure}
-
-% 系のサイズが小さいことで, 相対的に壁の引力の影響が大きくなってしまっていて, 粒子が落ちてこない現象が起きている可能性がある.
-
-% \begin{itemize}
-%   \item $N = 5000$
-%   \item $L_x / \sigma = 79.0\dots$
-%   \item $L_y / \sigma = 158.1\dots$
-%   \item $k_{\text{B}} T / \varepsilon = 0.43$
-%   \item $k_{\text{B}} \Delta T / \varepsilon = 0.04$
-%   \item $mg = 2.0 \times 10^{-4}$
-%   \item $\tau \sqrt{\varepsilon / m \sigma^2} = 4.5 \times 10^{2}$
-%   \item $t \sqrt{\varepsilon / m \sigma^2} = 5.0 \times 10^{5}$
-% \end{itemize}
-
-
-
-
-% \begin{figure}[H]
-%   \centering
-%   \href{https://youtube.com/shorts/LvWMi7j88eQ?feature=share}{\includegraphics[scale=0.2]{image/rainAy100_rho0.4_T0.43_dT0.04_g0.0002_run1.0e8.png}}
-%   \caption{Ay50\_rho0.4\_T0.43\_dT0.0\_g0.0\_run1.0e8}
-% \end{figure}
-
-
-% \begin{figure}[H]
-%   \centering
-%   \href{https://youtube.com/shorts/XPwz7CEhw_4?feature=share}{\includegraphics[scale=0.4]{image/Ay50_rho0.4_T0.43_dT0.0_g0.0_run1.0e7.png}}
-%   \caption{Ay50\_rho0.4\_T0.43\_dT0.0\_g0.0\_run1.0e7}
-% \end{figure}
-
-% 重力と熱流を流さずに, 壁だけを濡らした.($r_{\text{cut}}^{\text{wall}}=3.0\sigma$)
-
-% \begin{itemize}
-%   \item $N = 1250$
-%   \item $L_x / \sigma = 39.5\dots$
-%   \item $L_y / \sigma = 79.0\dots$
-%   \item $k_{\text{B}} T / \varepsilon = 0.43$
-%   \item $k_{\text{B}} \Delta T / \varepsilon = 0.0$
-%   \item $mg = 0.0$
-%   \item $\tau \sqrt{\varepsilon / m \sigma^2} = 4.5 \times 10^{2}$
-%   \item $t \sqrt{\varepsilon / m \sigma^2} = 5.0 \times 10^{4}$
-% \end{itemize}
-
-% \begin{figure}[H]
-%   \centering
-%   \href{https://youtube.com/shorts/XPwz7CEhw_4?feature=share}{\includegraphics[scale=0.4]{image/Ay50_rho0.4_T0.43_dT0.0_g0.0_run1.0e7.png}}
-%   \caption{Ay50\_rho0.4\_T0.43\_dT0.0\_g0.0\_run1.0e7}
-% \end{figure}
-
-
-% 熱流を流さずに, 重力をかけた.
-
-% \begin{itemize}
-%   \item $N = 1250$
-%   \item $L_x / \sigma = 39.5\dots$
-%   \item $L_y / \sigma = 79.0\dots$
-%   \item $k_{\text{B}} T / \varepsilon = 0.43$
-%   \item $k_{\text{B}} \Delta T / \varepsilon = 0.0$
-%   \item $mg = 4.0 \times 10^{-4}$
-%   \item $\tau \sqrt{\varepsilon / m \sigma^2} = 4.5 \times 10^{2}$
-%   \item $t \sqrt{\varepsilon / m \sigma^2} = 5.0 \times 10^{4}$
-% \end{itemize}
-
-% \begin{figure}[H]
-%   \centering
-%   \href{https://youtube.com/shorts/OsQDscRtRgc?feature=share}{\includegraphics[scale=0.4]{image/Ay50_rho0.4_T0.43_dT0.0_g0.0004_run1.0e7.png}}
-%   \caption{Ay50\_rho0.4\_T0.43\_dT0.0\_g0.0004\_run1.0e7}
-% \end{figure}
-
-% 重力と熱流をかけた.
-
-% \begin{itemize}
-%   \item $N = 1250$
-%   \item $L_x / \sigma = 39.5\dots$
-%   \item $L_y / \sigma = 79.0\dots$
-%   \item $k_{\text{B}} T / \varepsilon = 0.43$
-%   \item $k_{\text{B}} \Delta T / \varepsilon = 0.04$
-%   \item $mg = 4.0 \times 10^{-4}$
-%   \item $\tau \sqrt{\varepsilon / m \sigma^2} = 4.5 \times 10^{2}$
-%   \item $t \sqrt{\varepsilon / m \sigma^2} = 5.0 \times 10^{4}$
-% \end{itemize}
-
-% \begin{figure}[H]
-%   \centering
-%   \href{https://youtube.com/shorts/muZ_mSa57xQ?feature=share}{\includegraphics[scale=0.4]{image/Ay50_rho0.4_T0.43_dT0.04_g0.0004_run1.0e7.png}}
-%   \caption{Ay50\_rho0.4\_T0.43\_dT0.04\_g0.0004\_run1.0e7}
-% \end{figure}
-
-\section{コレクション}
 
 壁ポテンシャルまわりのパラメーターを3つ用意する.
 
@@ -482,20 +294,20 @@ langevin熱浴に侵入した粒子に対しては, brownian 動力学計算を�
   r^{\text{wall}}_{\text{cut}} &= \qty(2^{1/6} + \text{R}_\text{a}) \times \sigma^{\text{wall}}
 \end{align}
 
-新たなパラメータ $(\text{R}_\text{d}, \text{R}_\text{t}, \text{R}_\text{a})$ を変えて, 壁-粒子間相互作用LJポテンシャルを変えたときにどのように粒子集団の様相が変化するかをみる. 以降の実験は基本的に以下のパラメータに近い値で行うものとする. 
+新たなパラメータ $(\text{R}_\text{d}, \text{R}_\text{t}, \text{R}_\text{a})$ を変えて, 壁-粒子間相互作用LJポテンシャルを変えたときにどのように粒子集団の様相が変化するかをみる. 本章の以降の実験は以下のパラメータに近い値で行うものとする. 
 
 \begin{itemize}
   \item $N = 1250$
   \item $\rho {\sigma}^2 = 0.4$
-  \item $L_x / \sigma = 40$
-  \item $L_y / \sigma = 80$
+  \item $L_x / \sigma = 39.5\dots$
+  \item $L_y / \sigma = 79.0\dots$
   \item $k_{\text{B}} T / \varepsilon = 0.43$
   \item $k_{\text{B}} \Delta T / \varepsilon = 0.04$
   \item $mg\sigma/\varepsilon = 4.0 \times 10^{-4}$
   \item $t_f \sqrt{\varepsilon / m \sigma^2} = 1.0 \times 10^{5}$
 \end{itemize}
 
-まずは, $(\text{R}_\text{d} = 0.0, \text{R}_\text{t} = 0.5, \text{R}_\text{a} = 3.0 - 2^{1/6})$ で実験を行う. これは, $(\varepsilon^{\text{wall}} = \varepsilon, \sigma^{\text{wall}} = \sigma, r^{\text{wall}}_{\text{cut}} = 3\sigma^{\text{wall}})$ に対応しているので, $\phi_{\text{LJ}} = \phi_{\text{LJ}}^{\text{wall}}$ ということになり, 追実験と同じ結果を得る. このときには, 壁の厚みが$0.5\sigma$で壁が十分に濡れていると考える.
+まずは, $(\text{R}_\text{d} = 0.0, \text{R}_\text{t} = 0.5, \text{R}_\text{a} = 3.0 - 2^{1/6})$ で実験を行う. これは, $(\varepsilon^{\text{wall}} = \varepsilon, \sigma^{\text{wall}} = \sigma, r^{\text{wall}}_{\text{cut}} = 3\sigma^{\text{wall}})$ に対応しているので, $\phi_{\text{LJ}} = \phi_{\text{LJ}}^{\text{wall}}$ ということになり, 先行研究と同じ結果を得るはずである.
 
 \begin{figure}[H]
   \centering
@@ -509,9 +321,77 @@ langevin熱浴に侵入した粒子に対しては, brownian 動力学計算を�
 
 \subsection{$\text{R}_\text{a}$, $\text{R}_\text{t}$ マップ}
 
-$\text{R}_\text{a}$ を~\cite{本}
 
+\begin{align}
+  \text{R}_\text{a} &= 0.0 \sim 3.0 - 2^{1/6} \\
+  \text{R}_\text{t} &= 0.0 \sim 0.5
+\end{align}
 
+\begin{figure}[H]
+  \begin{tabular}{ccccc}
+    \begin{minipage}[t]{0.2\hsize}
+      \centering
+      \includegraphics[scale=0.1]{image/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png}
+      \subcaption{}
+      % \label{}
+    \end{minipage} &
+    \begin{minipage}[t]{0.2\hsize}
+      \centering
+      \includegraphics[scale=0.1]{image/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png}
+      \subcaption{}
+      % \label{}
+    \end{minipage} &
+    \begin{minipage}[t]{0.2\hsize}
+      \centering
+      \includegraphics[scale=0.1]{image/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png}
+      \subcaption{}
+      % \label{}
+    \end{minipage} &
+    \begin{minipage}[t]{0.2\hsize}
+      \centering
+      \includegraphics[scale=0.1]{image/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png}
+      \subcaption{}
+      % \label{}
+    \end{minipage} &
+    \begin{minipage}[t]{0.2\hsize}
+      \centering
+      \includegraphics[scale=0.1]{image/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png}
+      \subcaption{}
+      % \label{}
+    \end{minipage} \\
+    \begin{minipage}[t]{0.2\hsize}
+      \centering
+      \includegraphics[scale=0.1]{image/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png}
+      \subcaption{}
+      % \label{}
+    \end{minipage} &
+    \begin{minipage}[t]{0.2\hsize}
+      \centering
+      \includegraphics[scale=0.1]{image/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png}
+      \subcaption{}
+      % \label{}
+    \end{minipage} &
+    \begin{minipage}[t]{0.2\hsize}
+      \centering
+      \includegraphics[scale=0.1]{image/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png}
+      \subcaption{}
+      % \label{}
+    \end{minipage} &
+    \begin{minipage}[t]{0.2\hsize}
+      \centering
+      \includegraphics[scale=0.1]{image/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png}
+      \subcaption{}
+      % \label{}
+    \end{minipage} &
+    \begin{minipage}[t]{0.2\hsize}
+      \centering
+      \includegraphics[scale=0.1]{image/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png}
+      \subcaption{}
+      % \label{}
+    \end{minipage} \\
+  \end{tabular}
+  \caption{}
+\end{figure}
 
 \appendix
 \section{\href{https://github.com/m-agnet/Report.git}{ソースコード}}

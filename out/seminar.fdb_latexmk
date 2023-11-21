@@ -1,19 +1,19 @@
 # Fdb version 4
-["bibtex out/seminar"] 1700163376 "out/seminar.aux" "out/seminar.bbl" "out/seminar" 1700163389 0
+["bibtex out/seminar"] 1700542098 "out/seminar.aux" "out/seminar.bbl" "out/seminar" 1700542308 0
   "./seminar.bib" 1700006402 147 a9fd33829f15405a875ff88186ce828a ""
   "jplain.bst" 0 -1 0 ""
-  "out/seminar.aux" 1700163388 3629 a1613dfb9b682c73aa9a249a61b16de8 "latex"
+  "out/seminar.aux" 1700542308 3779 4a9051aa080864a539021d998b9560ab "latex"
   (generated)
   "out/seminar.bbl"
   "out/seminar.blg"
   (rewritten before read)
-["dvipdf"] 1700163389 "out/seminar.dvi" "out/seminar.pdf" "out/seminar" 1700163389 0
-  "out/seminar.dvi" 1700163388 143292 db34dd0f83259632921550d150955700 "latex"
+["dvipdf"] 1700542308 "out/seminar.dvi" "out/seminar.pdf" "out/seminar" 1700542308 0
+  "out/seminar.dvi" 1700542308 145328 503ff2ad9df4e08cd552d4154ff26dd6 "latex"
   (generated)
   "out/seminar.pdf"
   (rewritten before read)
-["latex"] 1700163386 "/Users/2023_2gou/Desktop/r_yamamoto/Report/seminar.tex" "out/seminar.dvi" "seminar" 1700163389 0
-  "/Users/2023_2gou/Desktop/r_yamamoto/Report/seminar.tex" 1700163386 19881 6a80772a22bfa0f78d0bf5edee0df1dc ""
+["latex"] 1700542306 "/Users/2023_2gou/Desktop/r_yamamoto/Report/seminar.tex" "out/seminar.dvi" "seminar" 1700542308 0
+  "/Users/2023_2gou/Desktop/r_yamamoto/Report/seminar.tex" 1700542306 15608 2d267e479772e5574458402cb75226d2 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1136768653 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -48,6 +48,7 @@
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm" 1136768653 1344 8a0be4fe4d376203000810ad4dc81558 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm" 1136768653 1336 3125ccb448c1a09074e3aa4a9832f130 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm" 1136768653 1332 1fde11373e221473104d6cc5993f046e ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm" 1136768653 1328 5442e22a7072966dbaf88ca900acf3f0 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1136768653 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -153,6 +154,9 @@
   "/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmtt.fd" 1667332637 2287 948a4376ad21a952b34faf55edab8f65 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/bxjatoucs/bxjatoucs.sty" 1571867428 9159 ebd68ea70b64dbc04bdc806c9afa9ea1 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/cancel/cancel.sty" 1388445839 7592 dd751af313a16a0308545d5bfd7aaaa2 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption.sty" 1678653221 55778 14d5c99aa26410e440820bb9ea5b8b3a ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty" 1678653221 71836 1a735454ad10692452eb2f2fc37f3865 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty" 1678653221 12462 ecf33913ce1e8012075d24e1f47f0d9b ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/cleveref/cleveref.sty" 1525128982 329481 7fc6b003158402a4c694bc0a1b729308 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/etex-pkg/etex.sty" 1470088041 19013 c49da619eb7bd8093706fabc7ba9ceae ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/etextools/etextools.sty" 1291849858 53492 4d40bc192d73974908f75dd1cd902199 ""
@@ -219,13 +223,14 @@
   "/usr/local/texlive/2023/texmf-var/web2c/eptex/platex.fmt" 1694326018 7883682 d7630b6b2b162635e06112c975ffa0be ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
   "image/2023-11-13T17:41:52.785__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run2.0e7_output.png" 1699893262 31263 fb7d40f6464f0d12296da08bfd3b666a ""
+  "image/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png" 1700539833 35738 5adb746e464ebd3e2d524cbd66e15745 ""
   "image/system.jpg" 1698650208 11059 699a95380173ca12c74c6ec6f0edf7e0 ""
   "image/system_periodic.jpg" 1698719063 16103 f9c326214c0cf777898bc5a6db8b65a6 ""
-  "out/seminar.aux" 1700163388 3629 a1613dfb9b682c73aa9a249a61b16de8 "latex"
-  "out/seminar.bbl" 1700163377 169 dad700111d603d969e724c608c42bf45 "bibtex out/seminar"
-  "out/seminar.out" 1700163388 942 80ad02fde1f9ee3d75cce834677de1cc "latex"
-  "out/seminar.toc" 1700163388 1204 6a51c8a0b9fce0b0beaf5f1f5b09501f "latex"
-  "seminar.tex" 1700163386 19881 6a80772a22bfa0f78d0bf5edee0df1dc ""
+  "out/seminar.aux" 1700542308 3779 4a9051aa080864a539021d998b9560ab "latex"
+  "out/seminar.bbl" 1700542098 49 0eba253fc001332e731e8aba3f23127b "bibtex out/seminar"
+  "out/seminar.out" 1700542308 872 e5534ac3590eb028521f568e043f2e65 "latex"
+  "out/seminar.toc" 1700542308 1114 745b42a541710a50965d2b359afcebe9 "latex"
+  "seminar.tex" 1700542306 15608 2d267e479772e5574458402cb75226d2 ""
   "src/in.vdw2d_mod" 1699233754 7644 d6a2d74d1798824c8bf20f06152216af ""
   "src/lammps_modexe.jl" 1699233793 4082 93cf126ff2a6f245755835e8d7dd3999 ""
   "src/plot_LJpotential.jl" 1699999910 1693 e489ce2ff6deaaf8cf76c9aacf00ec98 ""
