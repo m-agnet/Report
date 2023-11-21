@@ -13,8 +13,8 @@
 \usepackage{siunitx}
 \usepackage[thicklines]{cancel}
 % 画像
-% \usepackage[dvipdfmx]{graphicx} 
-\usepackage[draft]{graphicx} % 画像出力を枠だけにする.
+\usepackage[dvipdfmx]{graphicx} 
+% \usepackage[draft]{graphicx} % 画像出力を枠だけにする.
 \usepackage[hang,small,bf]{caption}
 \usepackage[subrefformat=parens]{subcaption}
 \usepackage{here}
@@ -327,71 +327,7 @@ langevin熱浴に侵入した粒子に対しては, brownian 動力学計算を�
   \text{R}_\text{t} &= 0.0 \sim 0.5
 \end{align}
 
-\begin{figure}[H]
-  \begin{tabular}{ccccc}
-    \begin{minipage}[t]{0.2\hsize}
-      \centering
-      \includegraphics[scale=0.1]{image/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png}
-      \subcaption{}
-      % \label{}
-    \end{minipage} &
-    \begin{minipage}[t]{0.2\hsize}
-      \centering
-      \includegraphics[scale=0.1]{image/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png}
-      \subcaption{}
-      % \label{}
-    \end{minipage} &
-    \begin{minipage}[t]{0.2\hsize}
-      \centering
-      \includegraphics[scale=0.1]{image/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png}
-      \subcaption{}
-      % \label{}
-    \end{minipage} &
-    \begin{minipage}[t]{0.2\hsize}
-      \centering
-      \includegraphics[scale=0.1]{image/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png}
-      \subcaption{}
-      % \label{}
-    \end{minipage} &
-    \begin{minipage}[t]{0.2\hsize}
-      \centering
-      \includegraphics[scale=0.1]{image/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png}
-      \subcaption{}
-      % \label{}
-    \end{minipage} \\
-    \begin{minipage}[t]{0.2\hsize}
-      \centering
-      \includegraphics[scale=0.1]{image/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png}
-      \subcaption{}
-      % \label{}
-    \end{minipage} &
-    \begin{minipage}[t]{0.2\hsize}
-      \centering
-      \includegraphics[scale=0.1]{image/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png}
-      \subcaption{}
-      % \label{}
-    \end{minipage} &
-    \begin{minipage}[t]{0.2\hsize}
-      \centering
-      \includegraphics[scale=0.1]{image/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png}
-      \subcaption{}
-      % \label{}
-    \end{minipage} &
-    \begin{minipage}[t]{0.2\hsize}
-      \centering
-      \includegraphics[scale=0.1]{image/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png}
-      \subcaption{}
-      % \label{}
-    \end{minipage} &
-    \begin{minipage}[t]{0.2\hsize}
-      \centering
-      \includegraphics[scale=0.1]{image/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png}
-      \subcaption{}
-      % \label{}
-    \end{minipage} \\
-  \end{tabular}
-  \caption{}
-\end{figure}
+\input{RaRtmap}
 
 \appendix
 \section{\href{https://github.com/m-agnet/Report.git}{ソースコード}}
