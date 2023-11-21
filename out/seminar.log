@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.9.10)  22 NOV 2023 06:59
+This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.9.10)  22 NOV 2023 07:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -943,7 +943,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 322.
 
-(./RaRtmap_LJ.tex
+(./subtex/RaRtmap_LJ.tex
 File: image/RaRtmap_LJ/LJ-Potential_Rt0.0.png Graphic file (type bmp)
 <image/RaRtmap_LJ/LJ-Potential_Rt0.0.png>
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <8> not available
@@ -967,7 +967,7 @@ Overfull \hbox (59.9931pt too wide) in paragraph at lines 3--35
  [][] 
  []
 
-) (./RaRtmap_movie.tex
+) (./subtex/RaRtmap_movie.tex
 File: image/RaRtmap/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
 <image/RaRtmap/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png>
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
@@ -1028,7 +1028,7 @@ Overfull \hbox (59.9931pt too wide) in paragraph at lines 2--154
 ) [9]
 Overfull \vbox (4.15982pt too high) has occurred while \output is active []
 
-[10] (./RaRtmap_time.tex
+[10] (./subtex/RaRtmap_time.tex
 File: image/RaRtmap_time/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
 <image/RaRtmap_time/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png>
 File: image/RaRtmap_time/2023-11-14T19:14:52.710__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
@@ -1114,8 +1114,8 @@ Package rerunfilecheck Info: File `seminar.out' has not changed.
 (rerunfilecheck)             Checksum: E5534AC3590EB028521F568E043F2E65;872.
  ) 
 Here is how much of TeX's memory you used:
- 33356 strings out of 476693
- 692518 string characters out of 5805373
+ 33357 strings out of 476693
+ 692616 string characters out of 5805373
  2241209 words of memory out of 5000000
  53255 multiletter control sequences out of 15000+600000
  567703 words of font info for 141 fonts, out of 8000000 for 9000

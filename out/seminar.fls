@@ -1251,10 +1251,10 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.t
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
-INPUT ./RaRtmap_LJ.tex
-INPUT RaRtmap_LJ.tex
-INPUT ./RaRtmap_LJ.tex
-INPUT RaRtmap_LJ.tex
+INPUT ./subtex/RaRtmap_LJ.tex
+INPUT subtex/RaRtmap_LJ.tex
+INPUT ./subtex/RaRtmap_LJ.tex
+INPUT subtex/RaRtmap_LJ.tex
 INPUT ./image/RaRtmap_LJ/LJ-Potential_Rt0.0.png
 INPUT ./image/RaRtmap_LJ/LJ-Potential_Rt0.0.png
 INPUT image/RaRtmap_LJ/LJ-Potential_Rt0.0.png
@@ -1275,13 +1275,13 @@ INPUT ./image/RaRtmap_LJ/LJ-Potential_Rt0.5.png
 INPUT ./image/RaRtmap_LJ/LJ-Potential_Rt0.5.png
 INPUT image/RaRtmap_LJ/LJ-Potential_Rt0.5.png
 INPUT extractbb -B cropbox -O image/RaRtmap_LJ/LJ-Potential_Rt0.5.png
-INPUT ./RaRtmap_movie.tex
-INPUT ./RaRtmap_movie.tex
-INPUT ./RaRtmap_movie.tex
-INPUT RaRtmap_movie.tex
-INPUT ./RaRtmap_movie.tex
-INPUT ./RaRtmap_movie.tex
-INPUT RaRtmap_movie.tex
+INPUT ./subtex/RaRtmap_movie.tex
+INPUT ./subtex/RaRtmap_movie.tex
+INPUT ./subtex/RaRtmap_movie.tex
+INPUT subtex/RaRtmap_movie.tex
+INPUT ./subtex/RaRtmap_movie.tex
+INPUT ./subtex/RaRtmap_movie.tex
+INPUT subtex/RaRtmap_movie.tex
 INPUT ./image/RaRtmap/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png
 INPUT ./image/RaRtmap/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png
 INPUT image/RaRtmap/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png
@@ -1383,10 +1383,10 @@ INPUT ./image/RaRtmap/2023-11-15T15:21:59.073__chi1.265_Ay50_rho0.4_T0.43_dT0.04
 INPUT ./image/RaRtmap/2023-11-15T15:21:59.073__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7_output.png
 INPUT image/RaRtmap/2023-11-15T15:21:59.073__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7_output.png
 INPUT extractbb -B cropbox -O image/RaRtmap/2023-11-15T15:21:59.073__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7_output.png
-INPUT ./RaRtmap_time.tex
-INPUT RaRtmap_time.tex
-INPUT ./RaRtmap_time.tex
-INPUT RaRtmap_time.tex
+INPUT ./subtex/RaRtmap_time.tex
+INPUT subtex/RaRtmap_time.tex
+INPUT ./subtex/RaRtmap_time.tex
+INPUT subtex/RaRtmap_time.tex
 INPUT ./image/RaRtmap_time/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png
 INPUT ./image/RaRtmap_time/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png
 INPUT image/RaRtmap_time/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png
