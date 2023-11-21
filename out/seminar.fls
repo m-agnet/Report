@@ -1487,10 +1487,10 @@ INPUT ./image/RaRtmap_time/2023-11-15T15:21:59.073__chi1.265_Ay50_rho0.4_T0.43_d
 INPUT ./image/RaRtmap_time/2023-11-15T15:21:59.073__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7_output.png
 INPUT image/RaRtmap_time/2023-11-15T15:21:59.073__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7_output.png
 INPUT extractbb -B cropbox -O image/RaRtmap_time/2023-11-15T15:21:59.073__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7_output.png
-INPUT ./image/lnStdYg_Ra.png
-INPUT ./image/lnStdYg_Ra.png
-INPUT image/lnStdYg_Ra.png
-INPUT extractbb -B cropbox -O image/lnStdYg_Ra.png
+INPUT ./image/lnStdYg_Ra_ti10000.png
+INPUT ./image/lnStdYg_Ra_ti10000.png
+INPUT image/lnStdYg_Ra_ti10000.png
+INPUT extractbb -B cropbox -O image/lnStdYg_Ra_ti10000.png
 INPUT ./src/in.vdw2d_mod
 INPUT src/in.vdw2d_mod
 INPUT src/in.vdw2d_mod
