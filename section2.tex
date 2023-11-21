@@ -1,0 +1,111 @@
+\section{実験}
+
+雨が降るシミュレーションをしたい.
+
+系の両端のポテンシャルエネルギー差$mgL_y$と運動エネルギー差$k_{\text{B}}\Delta T$の比を$\chi$として以下のように設定する.
+
+\begin{align}
+  \chi \equiv \frac{k_{\text{B}}\Delta T}{mgL_{y}} = 1.265
+\end{align}
+
+壁ポテンシャルまわりの無次元パラメータを3つ用意する.
+
+\begin{align}
+  \text{R}_\text{d} &: 乾き具合. \\
+  \text{R}_\text{t} &: 壁の厚み. \\
+  \text{R}_\text{a} &: 濡れ具合.
+\end{align}
+
+これを用いて, 壁-粒子間相互作用LJポテンシャルは以下のように書き表す.
+
+\begin{align}
+  \varepsilon^{\text{wall}} &= \qty(1.0 - \text{R}_\text{d}) \times \varepsilon \\
+  \sigma^{\text{wall}} &= \qty(0.5 + \text{R}_\text{t}) \times \sigma \\
+  r^{\text{wall}}_{\text{cut}} &= \qty(2^{1/6} + \text{R}_\text{a}) \times \sigma^{\text{wall}}
+\end{align}
+
+パラメータ $(\text{R}_\text{d}, \text{R}_\text{t}, \text{R}_\text{a})$ を変えることによって, 壁-粒子間相互作用LJポテンシャルが変わったときに, どのように粒子集団の様相が変化するかをみる. 本章の以降の実験は特記がない限り以下のパラメータに近い値で行うものとする. 
+
+\begin{itemize}
+  \item $N = 1250$
+  \item $\rho {\sigma}^2 = 0.4$
+  \item $L_x / \sigma = 39.5\dots$
+  \item $L_y / \sigma = 79.0\dots$
+  \item $k_{\text{B}} T / \varepsilon = 0.43$
+  \item $k_{\text{B}} \Delta T / \varepsilon = 0.04$
+  \item $mg\sigma/\varepsilon = 4.0 \times 10^{-4}$
+  \item $t_f \sqrt{\varepsilon / m \sigma^2} = 1.0 \times 10^{5}$
+\end{itemize}
+
+
+\subsection{追実験}
+
+壁を完全に濡らしていることを考えたいので, $\sigma^{\text{wall}}=1.0\neq 0.5$ のときを考えている.
+
+重力をかけた状態で緩和するまでシミュレーションを行っている.
+
+\begin{itemize}
+  \item $N = 5000$
+  \item $\rho \sigma^2 = 0.4$
+  \item $L_x / \sigma = 79.0\dots$
+  \item $L_y / \sigma = 158.1\dots$
+  \item $k_{\text{B}} T/\varepsilon = 4.3$
+  \item $k_{\text{B}} \Delta T/\varepsilon = 0.0$
+  \item $mg\sigma/\varepsilon = 2.0 \times 10^{-4}$
+  \item $t_b \sqrt{\varepsilon / m \sigma^2} = 5.0 \times 10^{5}$
+\end{itemize}
+
+重力をかけた緩和後の系で, 熱浴の温度差を改めて以下のようにつけ, 熱流を流してシミュレーションをしている.
+
+\begin{itemize}
+  \item $\chi = k_{\text{B}}\Delta T / mg L_y = 1.265$
+  \item $k_{\text{B}} \Delta T/\varepsilon = 0.04$
+  \item $t_a \sqrt{\varepsilon / m \sigma^2} = 5.0 \times 10^{5}$
+\end{itemize}
+
+
+まずは, $(\text{R}_\text{d} = 0.0, \text{R}_\text{t} = 0.5, \text{R}_\text{a} = 3.0 - 2^{1/6})$ で実験を行う. これは, $(\varepsilon^{\text{wall}} = \varepsilon, \sigma^{\text{wall}} = \sigma, r^{\text{wall}}_{\text{cut}} = 3\sigma^{\text{wall}})$ に対応しているので, $\phi_{\text{LJ}} = \phi_{\text{LJ}}^{\text{wall}}$ ということになり, 先行研究と同じ結果を得るはずである.
+
+\begin{figure}[H]
+  \centering
+  \href{https://youtu.be/fxn1mU1ZZFQ}{\includegraphics[scale=0.2]{image/2023-11-13T17:41:52.785__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run2.0e7_output.png}}
+  \caption{Ay50\_rho0.4\_T0.43\_dT0.04\_Rd0.0\_Rt0.5\_Ra1.877538\_g0.0004\_run2.0e7}
+  \label{}
+\end{figure}
+
+
+\subsection{$\text{R}_\text{a}$, $\text{R}_\text{t}$ マップ}
+
+
+\begin{align}
+  \text{R}_\text{a} &= 0.0 \sim 3.0 - 2^{1/6} \\
+  \text{R}_\text{t} &= 0.0 \sim 0.5
+\end{align}
+
+\input{subtex/RaRtmap_LJ.tex}
+
+\begin{itemize}
+  \item $N = 1250$
+  \item $\rho {\sigma}^2 = 0.4$
+  \item $L_x / \sigma = 39.5\dots$
+  \item $L_y / \sigma = 79.0\dots$
+  \item $k_{\text{B}} T / \varepsilon = 0.43$
+  \item $k_{\text{B}} \Delta T / \varepsilon = 0.04$
+  \item $mg\sigma/\varepsilon = 4.0 \times 10^{-4}$
+  \item $t_f \sqrt{\varepsilon / m \sigma^2} = 2.0 \times 10^{5}$
+\end{itemize}
+
+\input{subtex/RaRtmap_movie}
+
+重心位置をスケーリングして, 時系列プロットすると,
+
+\input{subtex/RaRtmap_time.tex}
+
+重心位置の揺らぎについて同時プロットで表してみる.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.75]{image/lnStdYg_Ra_ti10000.png}
+  \caption{}
+  \label{}
+\end{figure}
