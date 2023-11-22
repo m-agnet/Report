@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.9.10)  22 NOV 2023 11:39
+This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.9.10)  22 NOV 2023 19:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -916,8 +916,8 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 File: image/system_periodic.jpg Graphic file (type bmp)
 <image/system_periodic.jpg>
 [4] [5] [6]) (./section2.tex [7]
-File: image/2023-11-13T17:41:52.785__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run2.0e7_output.png Graphic file (type bmp)
-<image/2023-11-13T17:41:52.785__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run2.0e7_output.png>
+File: image/2023-11-21T21:01:17.543_followup_chi1.265_Ay100_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.00019998593898298055_run1.0e8_output.png Graphic file (type bmp)
+<image/2023-11-21T21:01:17.543_followup_chi1.265_Ay100_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.00019998593898298055_run1.0e8_output.png>
 [8]
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 7.68799pt on input line 77.
@@ -1115,11 +1115,11 @@ Package rerunfilecheck Info: File `seminar.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  33377 strings out of 476693
- 692949 string characters out of 5805373
+ 692999 string characters out of 5805373
  2242209 words of memory out of 5000000
  53267 multiletter control sequences out of 15000+600000
  567703 words of font info for 141 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  89i,16n,92p,494b,2945s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/seminar.dvi (19 pages, 169008 bytes).
+Output written on out/seminar.dvi (19 pages, 169016 bytes).
