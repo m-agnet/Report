@@ -63,7 +63,6 @@
   \item $t_a \sqrt{\varepsilon / m \sigma^2} = 5.0 \times 10^{5}$
 \end{itemize}
 
-
 まずは, $(\text{R}_\text{d} = 0.0, \text{R}_\text{t} = 0.5, \text{R}_\text{a} = 3.0 - 2^{1/6})$ で実験を行う. これは, $(\varepsilon^{\text{wall}} = \varepsilon, \sigma^{\text{wall}} = \sigma, r^{\text{wall}}_{\text{cut}} = 3\sigma^{\text{wall}})$ に対応しているので, $\phi_{\text{LJ}} = \phi_{\text{LJ}}^{\text{wall}}$ ということになり, 先行研究と同じ結果を得るはずである.
 
 \begin{figure}[H]
@@ -75,7 +74,6 @@
 
 
 \subsection{$\text{R}_\text{a}$, $\text{R}_\text{t}$ マップ}
-
 
 \begin{align}
   \text{R}_\text{a} &= 0.0 \sim 3.0 - 2^{1/6} \\
@@ -101,11 +99,30 @@
 
 \input{subtex/RaRtmap_time.tex}
 
-重心位置の揺らぎについて同時プロットで表してみる.
+重心位置の揺らぎについて同時プロットで表してみる. 図\ref{fig:RaRtmap_time_Ra0.0_Rt0.0}から$\tau \sqrt{\varepsilon / m \sigma^2} = 2.5 \times 10^{4}$からのデータを用いてプロットしている.
 
 \begin{figure}[H]
-  \centering
-  \includegraphics[scale=0.75]{image/lnStdYg_Ra_ti10000.png}
+  \begin{tabular}{cc}
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[width=\textwidth]{image/lnStdYg_Ra_ti25000.png}
+      \subcaption{}
+      \label{}
+    \end{minipage}
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[width=\textwidth]{image/lnStdYg_Rt_ti25000.png}
+      \subcaption{}
+      \label{}
+    \end{minipage}
+  \end{tabular}
   \caption{}
   \label{}
 \end{figure}
+
+\subsection{周期性}
+
+重心位置が周期的に変化しているのかを調べたい.
+
+図\ref{fig:RaRtmap_time_Ra0.469_Rt0.500}と図\ref{fig:RaRtmap_time_Ra0.938_Rt0.500}の間をもっと詳しく見る.
+

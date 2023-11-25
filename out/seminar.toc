@@ -9,4 +9,5 @@
 \contentsline {section}{\numberline {2}実験}{7}{section.2}%
 \contentsline {subsection}{\numberline {2.1}追実験}{8}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}$\text {R}_\text {a}$, $\text {R}_\text {t}$ マップ}{9}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}周期性}{12}{subsection.2.3}%
 \contentsline {section}{\numberline {付録A}\href {https://github.com/m-agnet/Report.git}{ソースコード}}{12}{appendix.A}%
