@@ -95,23 +95,39 @@
 
 \input{subtex/RaRtmap_movie}
 
-重心位置をスケーリングして, 時系列プロットすると,
+重心位置$Y_g$をスケーリングして, 時系列プロットすると,
+
+\begin{align}
+  Y_g &= \frac{1}{N} \sum_{i}^{N} y_i
+\end{align}
 
 \input{subtex/RaRtmap_time.tex}
 
 重心位置の揺らぎについて同時プロットで表してみる. 図\ref{fig:RaRtmap_time_Ra0.0_Rt0.0}から$\tau \sqrt{\varepsilon / m \sigma^2} = 2.5 \times 10^{4}$からのデータを用いてプロットすることにしている.
 
+
+\begin{align}
+  \sigma (Y_g) &= \sqrt{\frac{1}{N_{D}}\sum_{t}^{t_f} (Y_{g_{t}} - \bar{Y_g})^2}
+\end{align}
+
+
+\begin{align}
+  \left(\sigma_{Y_g} (t)\right)^2 
+  &= \frac{1}{N} \sum_{i=1}^{N} (y_i - Y_g )^2 \\
+  &= \frac{1}{N} \sum_{i=1}^{N} {y_i}^2 - {Y_g}^2
+\end{align}
+
 \begin{figure}[H]
   \begin{tabular}{cc}
     \begin{minipage}[t]{0.5\hsize}
       \centering
-      \includegraphics[width=\textwidth]{image/lnStdYg_Ra_ti25000.png}
+      \includegraphics[width=\textwidth]{image/lnStdYg_Ra0.0to1.877538_Rt0.0to0.5_ti25000.png}
       \subcaption{}
       \label{}
     \end{minipage}
     \begin{minipage}[t]{0.5\hsize}
       \centering
-      \includegraphics[width=\textwidth]{image/lnStdYg_Rt_ti25000.png}
+      \includegraphics[width=\textwidth]{image/lnStdYg_Rt0.0to0.5_Ra0.0to1.877538_ti25000.png}
       \subcaption{}
       \label{}
     \end{minipage}
@@ -127,3 +143,29 @@
 図\ref{fig:RaRtmap_time_Ra0.469_Rt0.500}と図\ref{fig:RaRtmap_time_Ra0.938_Rt0.500}の間をもっと詳しく見る.
 
 \input{subtex/Ra0.469to0.938Rt0.5_time.tex}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.5]{image/lnStdYg_Ra0.4693845to0.98769_Rt0.5_ti25000.png}
+  \caption{}
+  \label{}
+\end{figure}
+
+\input{subtex/Ra0.762to0.938Rt0.5_time.tex}
+
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.5]{image/lnStdYg_Ra0.70407675to0.98769_Rt0.5_ti25000.png}
+  \caption{}
+  \label{}
+\end{figure}
+
+\input{subtex/Ra0.5to1.0Rt0.5_time.tex}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.5]{image/lnStdYg_Ra0.5to1.0_Rt0.5_ti25000.png}
+  \caption{}
+  \label{}
+\end{figure}
