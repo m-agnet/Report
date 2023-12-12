@@ -2,7 +2,7 @@
 
 雨が降るシミュレーションをしたい.
 
-系の両端のポテンシャルエネルギー差$mgL_y$と運動エネルギー差$k_{\text{B}}\Delta T$の比を$\chi$として以下のように設定する.
+系の上下両端のポテンシャルエネルギー差$mgL_y$と運動エネルギー差$k_{\text{B}}\Delta T$の比を$\chi$として以下のように設定する.
 
 \begin{align}
   \chi \equiv \frac{k_{\text{B}}\Delta T}{mgL_{y}} = 1.265
@@ -34,15 +34,25 @@
   \item $k_{\text{B}} T / \varepsilon = 0.43$
   \item $k_{\text{B}} \Delta T / \varepsilon = 0.04$
   \item $mg\sigma/\varepsilon = 4.0 \times 10^{-4}$
-  \item $t_f \sqrt{\varepsilon / m \sigma^2} = 1.0 \times 10^{5}$
 \end{itemize}
 
 
+以下に示すのは, 今後解析をする際に示すシミュレーションの時間関連の説明である.(\textcolor{red}{要確認}: 日本語)
+
+\begin{align}
+  t_i &\colon シミュレーション開始時から, 物理量を解析する際にデータを採用し始める時間. \\
+  t_f & \colon シミュレーション開始時から, シミュレーションの終了時及びデータを採用し終わる時間.
+\end{align}
+
+いずれの実験の場合も$t=0$の時点では粒子は以下の画像のように, 系に規則正しく並べられているとする.
+
+(\textcolor{red}{画像追加})
+
 \subsection{追実験}
 
-壁を完全に濡らしていることを考えたいので, $r^{\text{wall}}_{\text{cut}}=1.0$ のときを考えている.
+壁を完全に濡らしている状態を考えたいので, $r^{\text{wall}}_{\text{cut}}=3.0\sigma$ に設定する.
 
-重力をかけた状態で緩和するまでシミュレーションを行っている.
+また, 重力をかけた状態で粒子が下に落ちきり, 緩和しているとみなせるまでシミュレーションを行ってから, 熱流をかけている. この時点でのシミュレーションではデータを解析することはない.
 
 \begin{itemize}
   \item $N = 5000$
@@ -52,18 +62,21 @@
   \item $k_{\text{B}} T/\varepsilon = 4.3$
   \item $k_{\text{B}} \Delta T/\varepsilon = 0.0$
   \item $mg\sigma/\varepsilon = 2.0 \times 10^{-4}$
-  \item $t_b \sqrt{\varepsilon / m \sigma^2} = 5.0 \times 10^{5}$
+  \item $t_f \sqrt{\varepsilon / m \sigma^2} = 5.0 \times 10^{5}$
 \end{itemize}
 
-重力をかけた緩和後の系で, 熱浴の温度差を改めて以下のようにつけ, 熱流を流してシミュレーションをしている.
+(\textcolor{red}{画像追加}: $t \sqrt{\varepsilon / m \sigma^2} = 5.0 \times 10^{5}$でのスナップショット)
+
+続いて重力をかけた緩和後の系で, 熱浴の温度差を改めて以下のようにつけ, 熱流をかけてシミュレーションをしている. このシミュレーションでデータを解析する.
 
 \begin{itemize}
   \item $\chi = k_{\text{B}}\Delta T / mg L_y = 1.265$
   \item $k_{\text{B}} \Delta T/\varepsilon = 0.04$
-  \item $t_a \sqrt{\varepsilon / m \sigma^2} = 5.0 \times 10^{5}$
+  \item $t_i \sqrt{\varepsilon / m \sigma^2} = 5.0 \times 10^{5}$
+  \item $t_f \sqrt{\varepsilon / m \sigma^2} = 1.0 \times 10^{6}$
 \end{itemize}
 
-まずは, $(\text{R}_\text{d} = 0.0, \text{R}_\text{t} = 0.5, \text{R}_\text{a} = 3.0 - 2^{1/6})$ で実験を行う. これは, $(\varepsilon^{\text{wall}} = \varepsilon, \sigma^{\text{wall}} = \sigma, r^{\text{wall}}_{\text{cut}} = 3\sigma^{\text{wall}})$ に対応しているので, $\phi_{\text{LJ}} = \phi_{\text{LJ}}^{\text{wall}}$ ということになり, 先行研究と同じ結果を得るはずである.
+$(\text{R}_\text{d} = 0.0, \text{R}_\text{t} = 0.5, \text{R}_\text{a} = 3.0 - 2^{1/6})$ で実験を行う. これは, $(\varepsilon^{\text{wall}} = \varepsilon, \sigma^{\text{wall}} = \sigma, r^{\text{wall}}_{\text{cut}} = 3.0 \sigma^{\text{wall}})$ に対応しているので, ${\phi_{\text{LJ}}}^{\text{wall}} = \phi_{\text{LJ}}$ ということになり, 先行研究と同じ結果を得ることができる.
 
 \begin{figure}[H]
   \centering
@@ -75,12 +88,16 @@
 
 \subsection{$\text{R}_\text{a}$, $\text{R}_\text{t}$ マップ}
 
+$\text{R}_\text{a}$ と $\text{R}_\text{t}$ を少しずつ変えた系でシミュレーションをして, 粒子集団の様相の変化を見たい. 以下に示すのが, それらを動かす範囲である.
+
 \begin{align}
-  \text{R}_\text{a} &= 0.0 \sim 3.0 - 2^{1/6} \\
+  \text{R}_\text{a} &= 0.0 \sim 3.0 - 2^{1/6} = 1.877\dots \\
   \text{R}_\text{t} &= 0.0 \sim 0.5
 \end{align}
 
 \input{subtex/RaRtmap_LJ.tex}
+
+パラメータを確認.
 
 \begin{itemize}
   \item $N = 1250$
@@ -98,21 +115,24 @@
 重心位置$Y_g$をスケーリングして, 時系列プロットすると,
 
 \begin{align}
-  Y_g &= \frac{1}{N} \sum_{i}^{N} y_i
+  Y_g &\equiv \bar{y_i} = \frac{1}{N} \sum_{i}^{N} y_i
 \end{align}
 
 \input{subtex/RaRtmap_time.tex}
 
-重心位置の揺らぎについて同時プロットで表してみる. 図\ref{fig:RaRtmap_time_Ra0.0_Rt0.0}から$\tau \sqrt{\varepsilon / m \sigma^2} = 2.5 \times 10^{4}$からのデータを用いてプロットすることにしている.
+重心位置の揺らぎについて同時プロットで表してみる. 図\ref{fig:RaRtmap_time_Ra0.0_Rt0.0}から$t_i \sqrt{\varepsilon / m \sigma^2} = 2.5 \times 10^{4}$からのデータを用いてプロットすることにしている.
 
+重心の標準偏差は以下のように書くことができる.
 
 \begin{align}
   \sigma (Y_g) &= \sqrt{\frac{1}{N_{D}}\sum_{t}^{t_f} (Y_{g_{t}} - \bar{Y_g})^2}
 \end{align}
 
 
+
 \begin{align}
   \left(\sigma_{Y_g} (t)\right)^2 
+  &= \frac{1}{N} \sum_{i=1}^{N} (y_i - \bar{y_i} )^2 \\
   &= \frac{1}{N} \sum_{i=1}^{N} (y_i - Y_g )^2 \\
   &= \frac{1}{N} \sum_{i=1}^{N} {y_i}^2 - {Y_g}^2
 \end{align}

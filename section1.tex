@@ -94,7 +94,7 @@
   \tilde{\phi}_{\text{LJ}}^{\text{wall}}(r;r_{\text{cut}}^{\text{wall}}) = \qty{\phi_{\text{LJ}}^{\text{wall}}(r) - \phi_{\text{LJ}}^{\text{wall}}(r_{\text{cut}}^{\text{wall}})}\theta \qty(r_{\text{cut}}^{\text{wall}}-r) \\
 \end{align}
 
-この系では, $y$軸方向に壁がついている. よって, 壁ポテンシャルは
+この系では, $y$軸方向垂直に壁がついている. よって, 壁ポテンシャルは
 
 \begin{align}
   V^{\text{wall}}(y; L_y) &= \tilde{\phi}_{\text{LJ}}^{\text{wall}}(y;r_{\text{cut}}^{\text{wall}}) + \tilde{\phi}_{\text{LJ}}^{\text{wall}}(L_y - y;r_{\text{cut}}^{\text{wall}})
@@ -115,7 +115,7 @@
 
 \subsection{熱流}
 
-langevin熱浴に侵入した粒子に対しては, brownian 動力学計算を実行する(\url{https://docs.lammps.org/fix_langevin.html}). その粒子$i$にはたらく力$\bm{F}_i$はLAMMPSのドキュメントに則った形式だと以下のように書き表せる.
+langevin熱浴に侵入した粒子に対しては, brownian 動力学計算を実行する. その粒子$i$にはたらく力$\bm{F}_i$は\href{https://docs.lammps.org/fix_langevin.html}{LAMMPSのドキュメント}に則った形式だと以下のように書き表せる.
 
 \begin{align}
   \bm{F}_i &= \bm{F}_i^c + \bm{F}_i^f + \bm{F}_i^r \\
