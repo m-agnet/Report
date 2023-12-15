@@ -8,6 +8,7 @@
 \contentsline {subsubsection}{\numberline {1.2.1}温度制御}{6}{subsubsection.1.2.1}%
 \contentsline {section}{\numberline {2}実験}{7}{section.2}%
 \contentsline {subsection}{\numberline {2.1}追実験}{8}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}$\text {R}_\text {a}$, $\text {R}_\text {t}$ マップ}{9}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}周期性}{13}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.2}定常状態}{9}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}$\text {R}_\text {a}$, $\text {R}_\text {t}$ マップ}{9}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}周期性}{13}{subsection.2.4}%
 \contentsline {section}{\numberline {付録A}\href {https://github.com/m-agnet/Report.git}{ソースコード}}{15}{appendix.A}%

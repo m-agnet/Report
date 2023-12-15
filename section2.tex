@@ -34,6 +34,7 @@
   \item $k_{\text{B}} T / \varepsilon = 0.43$
   \item $k_{\text{B}} \Delta T / \varepsilon = 0.04$
   \item $mg\sigma/\varepsilon = 4.0 \times 10^{-4}$
+  \item $\dd t \sqrt{\epsilon/m{\sigma}^2} = 0.005$
 \end{itemize}
 
 
@@ -86,6 +87,8 @@ $(\text{R}_\text{d} = 0.0, \text{R}_\text{t} = 0.5, \text{R}_\text{a} = 3.0 - 2^
 \end{figure}
 
 
+\subsection{定常状態}
+
 \subsection{$\text{R}_\text{a}$, $\text{R}_\text{t}$ マップ}
 
 $\text{R}_\text{a}$ と $\text{R}_\text{t}$ を少しずつ変えた系でシミュレーションをして, 粒子集団の様相の変化を見たい. 以下に示すのが, それらを動かす範囲である.
@@ -112,7 +115,7 @@ $\text{R}_\text{a}$ と $\text{R}_\text{t}$ を少しずつ変えた系でシミ
 
 \input{subtex/RaRtmap_movie}
 
-重心位置$Y_g$をスケーリングして, 時系列プロットすると,
+重心位置$Y_g$を系の$y$幅でスケーリングして, 時系列プロットすると,
 
 \begin{align}
   Y_g &\equiv \bar{y_i} = \frac{1}{N} \sum_{i}^{N} y_i
@@ -120,7 +123,7 @@ $\text{R}_\text{a}$ と $\text{R}_\text{t}$ を少しずつ変えた系でシミ
 
 \input{subtex/RaRtmap_time.tex}
 
-重心位置の揺らぎについて同時プロットで表してみる. 図\ref{fig:RaRtmap_time_Ra0.0_Rt0.0}から$t_i \sqrt{\varepsilon / m \sigma^2} = 2.5 \times 10^{4}$からのデータを用いてプロットすることにしている.
+重心位置の標準偏差について同時プロットで表してみる. 図\ref{fig:RaRtmap_time_Ra0.0_Rt0.0}から$t_i \sqrt{\varepsilon / m \sigma^2} = 2.5 \times 10^{4}$からのデータを用いてプロットすることにしている.
 
 重心の標準偏差は以下のように書くことができる.
 
@@ -131,10 +134,10 @@ $\text{R}_\text{a}$ と $\text{R}_\text{t}$ を少しずつ変えた系でシミ
 
 
 \begin{align}
-  \left(\sigma_{Y_g} (t)\right)^2 
-  &= \frac{1}{N} \sum_{i=1}^{N} (y_i - \bar{y_i} )^2 \\
-  &= \frac{1}{N} \sum_{i=1}^{N} (y_i - Y_g )^2 \\
-  &= \frac{1}{N} \sum_{i=1}^{N} {y_i}^2 - {Y_g}^2
+  \sigma_{Y_g} (t)
+  &= \sqrt{\frac{1}{N} \sum_{i=1}^{N} (y_i - \bar{y_i} )^2} \\
+  &= \sqrt{\frac{1}{N} \sum_{i=1}^{N} (y_i - Y_g )^2} \\
+  &= \sqrt{\frac{1}{N} \sum_{i=1}^{N} {y_i}^2 - {Y_g}^2}
 \end{align}
 
 \begin{figure}[H]
@@ -160,7 +163,7 @@ $\text{R}_\text{a}$ と $\text{R}_\text{t}$ を少しずつ変えた系でシミ
 
 重心位置が周期的に変化しているのかを調べたい.
 
-図\ref{fig:RaRtmap_time_Ra0.469_Rt0.500}と図\ref{fig:RaRtmap_time_Ra0.938_Rt0.500}の間をもっと詳しく見る.
+図\ref{fig:RaRtmap_time_Ra0.469_Rt0.500}$R_a = 0.469, R_t = 0.5$と図\ref{fig:RaRtmap_time_Ra0.938_Rt0.500} $R_a = 0.938, R_t = 0.5$の間をもっと詳しく見る.
 
 \input{subtex/Ra0.469to0.938Rt0.5_time.tex}
 
@@ -173,6 +176,7 @@ $\text{R}_\text{a}$ と $\text{R}_\text{t}$ を少しずつ変えた系でシミ
 
 \input{subtex/Ra0.762to0.938Rt0.5_time.tex}
 
+図\ref{fig:RaRtmap_time_Ra0.469_Rt0.500}$R_a = 0.469, R_t = 0.5$と図\ref{fig:RaRtmap_time_Ra0.938_Rt0.500} $R_a = 0.938, R_t = 0.5$の間をもっと詳しく見る.
 
 \begin{figure}[H]
   \centering
