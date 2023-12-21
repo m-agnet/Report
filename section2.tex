@@ -86,9 +86,6 @@ $(\text{R}_\text{d} = 0.0, \text{R}_\text{t} = 0.5, \text{R}_\text{a} = 3.0 - 2^
   \label{}
 \end{figure}
 
-
-\subsection{定常状態}
-
 \subsection{$\text{R}_\text{a}$, $\text{R}_\text{t}$ マップ}
 
 $\text{R}_\text{a}$ と $\text{R}_\text{t}$ を少しずつ変えた系でシミュレーションをして, 粒子集団の様相の変化を見たい. 以下に示すのが, それらを動かす範囲である.
@@ -123,22 +120,13 @@ $\text{R}_\text{a}$ と $\text{R}_\text{t}$ を少しずつ変えた系でシミ
 
 \input{subtex/RaRtmap_time.tex}
 
-重心位置の標準偏差について同時プロットで表してみる. 図\ref{fig:RaRtmap_time_Ra0.0_Rt0.0}から$t_i \sqrt{\varepsilon / m \sigma^2} = 2.5 \times 10^{4}$からのデータを用いてプロットすることにしている.
-
-重心の標準偏差は以下のように書くことができる.
+ここで, 重心の標準偏差は以下のように書くことができる.
 
 \begin{align}
-  \sigma (Y_g) &= \sqrt{\frac{1}{N_{D}}\sum_{t}^{t_f} (Y_{g_{t}} - \bar{Y_g})^2}
+  \sigma (Y_g) &= \sqrt{\frac{1}{N_{D}}\sum_{t=t_i}^{t=t_f} (Y_{g}(t) - \bar{Y_g})^2}
 \end{align}
 
-
-
-\begin{align}
-  \sigma_{Y_g} (t)
-  &= \sqrt{\frac{1}{N} \sum_{i=1}^{N} (y_i - \bar{y_i} )^2} \\
-  &= \sqrt{\frac{1}{N} \sum_{i=1}^{N} (y_i - Y_g )^2} \\
-  &= \sqrt{\frac{1}{N} \sum_{i=1}^{N} {y_i}^2 - {Y_g}^2}
-\end{align}
+重心位置の標準偏差について同時プロットで表してみる. 以降の解析は図\ref{fig:RaRtmap_time_Ra0.0_Rt0.0}から定常状態にあるとみなせる, $t_i \sqrt{\varepsilon / m \sigma^2} = 2.5 \times 10^{4}$からのデータを用いてプロットすることにしている.
 
 \begin{figure}[H]
   \begin{tabular}{cc}
@@ -155,7 +143,7 @@ $\text{R}_\text{a}$ と $\text{R}_\text{t}$ を少しずつ変えた系でシミ
       \label{}
     \end{minipage}
   \end{tabular}
-  \caption{}
+  \caption{$t_i \sqrt{\varepsilon / m \sigma^2} = 2.5 \times 10^{4}$}
   \label{}
 \end{figure}
 
@@ -176,14 +164,14 @@ $\text{R}_\text{a}$ と $\text{R}_\text{t}$ を少しずつ変えた系でシミ
 
 \input{subtex/Ra0.762to0.938Rt0.5_time.tex}
 
-図\ref{fig:RaRtmap_time_Ra0.469_Rt0.500}$R_a = 0.469, R_t = 0.5$と図\ref{fig:RaRtmap_time_Ra0.938_Rt0.500} $R_a = 0.938, R_t = 0.5$の間をもっと詳しく見る.
-
 \begin{figure}[H]
   \centering
   \includegraphics[scale=0.5]{image/lnStdYg_Ra0.70407675to0.98769_Rt0.5_ti25000.png}
   \caption{}
   \label{}
 \end{figure}
+
+図\ref{fig:RaRtmap_time_Ra0.469_Rt0.500}$R_a = 0.469, R_t = 0.5$と図\ref{fig:RaRtmap_time_Ra0.938_Rt0.500} $R_a = 0.938, R_t = 0.5$の間をもっと詳しく見る. その際, 簡単のため, $Ra =0.5 \sim 1.0$の間を見ることにする.
 
 \input{subtex/Ra0.5to1.0Rt0.5_time.tex}
 
@@ -193,3 +181,15 @@ $\text{R}_\text{a}$ と $\text{R}_\text{t}$ を少しずつ変えた系でシミ
   \caption{}
   \label{}
 \end{figure}
+
+\subsection{サイクル}
+
+粒子のばらつき具合を時系列で考える.
+
+\begin{align}
+  \sigma_{y} (t)
+  &= \sqrt{\frac{1}{N} \sum_{i=1}^{N} (y_i (t) - \bar{y_i}(t) )^2} \\
+  &= \sqrt{\frac{1}{N} \sum_{i=1}^{N} (y_i (t) - Y_g (t) )^2} \\
+  &= \sqrt{\frac{1}{N} \sum_{i=1}^{N} {{y_i} (t)}^2 - {{Y_g} (t)}^2}
+\end{align}
+
