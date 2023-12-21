@@ -1,31 +1,44 @@
-# 汎用時系列グラフ描画セル.
-
-# ライブラリ.
 using Plots
 using YAML
 using Statistics
+using Glob
 
-# 複数のパスに手動で対応.
-yaml_file_path = "/Users/2023_2gou/Desktop/r_yamamoto/Research/outputdir_pinkimac/231114outputdir/yamldir/2023-11-15T15:21:59.073__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7_output.yaml"
-
-# YAMLファイルを読み取る.
-data = YAML.load_file(yaml_file_path)
-
-# 各データポイントから必要なデータを抽出.
-parameter_list = ["step", "time", "temp", "pe", "ke", "etotal", "Yg"]
-extracted_data = Dict{String, Any}()
-for parameter in parameter_list
-    extracted_data[parameter] = [entry[parameter] for entry in data if entry["time"] > 25000]
-end
-
-# x軸y軸の代表パラメータ.
-time_values = extracted_data["time"]
-Yg_values = extracted_data["Yg"] ./ 80
-
-
-
-const lammpstrj_file = "/Users/2023_2gou/Desktop/r_yamamoto/Research/outputdir_pinkimac/231114outputdir/lammpstrjdir/2023-11-15T15:21:59.073__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7_output.lammpstrj"
 const NUM_ATOMS = 1250
+
+function process_files(yaml_dir, lammpstrj_dir)
+    # Find all YAML files in the YAML directory
+    yaml_files = glob("*.yaml", yaml_dir)
+
+    for yaml_file in yaml_files
+        # Load YAML file
+        data = YAML.load_file(yaml_file)
+
+        # Extract necessary data from YAML
+        parameter_list = ["time", "Yg"]
+        extracted_data = Dict{String, Any}()
+        for parameter in parameter_list
+            extracted_data[parameter] = [entry[parameter] for entry in data]
+        end
+
+        time_values = extracted_data["time"]
+        Yg_values = extracted_data["Yg"] ./ 80
+
+        # Find corresponding lammpstrj file
+        filename = basename(yaml_file)
+        lammpstrj_file = joinpath(lammpstrj_dir, replace(filename, r"yaml$" => "lammpstrj"))
+
+        # Read lammpstrj file
+        data = read_atoms_data(lammpstrj_file)
+        y_std_deviations = calculate_y_std_deviation(data["atoms_data"], NUM_ATOMS)
+
+        # Plot and save image
+        plt = plot(Yg_values, y_std_deviations, label="", st=scatter, mc=:red, ms=5, xlims=(0.2, 0.8))
+        title!("(StD of y)/Ly vs. Yg/Ly")
+        xlabel!("Yg/Ly")
+        ylabel!("(StD of y)/Ly")
+        savefig(plt, replace(filename, r".yaml$" => ".png"))
+    end
+end
 
 function read_atoms_data(lammpstrj_file)
     data = Dict{String, Any}()
@@ -40,10 +53,6 @@ function read_atoms_data(lammpstrj_file)
             if occursin("ITEM: TIMESTEP", line)
                 step = parse(Float64, readline(file))
                 time = step * 0.005
-                # timeが25000より小さい時は, time_dataもatoms_dataも, push!をスキップしたい.
-                if time <= 25000
-                    continue  # 次のループに進む
-                end
                 push!(time_data, time)
             elseif occursin("ITEM: ATOMS", line)
                 atoms_section = true
@@ -76,18 +85,9 @@ function calculate_y_std_deviation(atoms_data, num_atoms)
     return standard_deviations
 end
 
-data = read_atoms_data(lammpstrj_file)
-y_std_deviations= calculate_y_std_deviation(data["atoms_data"], NUM_ATOMS)
+# Specify directories containing YAML and lammpstrj files
+yaml_directory = "/Users/2023_2gou/Desktop/r_yamamoto/Research/outputdir_pinkimac/231114outputdir/yamldir"
+lammpstrj_directory = "/Users/2023_2gou/Desktop/r_yamamoto/Research/outputdir_pinkimac/231114outputdir/lammpstrjdir"
 
-# plotly()
-plot()
-plt = plot!(Yg_values,y_std_deviations,label="",st=scatter,mc=:red,ms=5,xlims=(0.2,0.8))
-title!("(StD of y)/Ly vs. Yg/Ly")
-xlabel!("Yg/Ly")
-ylabel!("(StD of y)/Ly")
-zlabel!("time")
-display(plot!())
-savefig("fig4y_cycle")
-
-ccall(:jl_tty_set_mode, Int32, (Ptr{Cvoid}, Int32), stdin.handle, true)
-read(stdin, 1)
+# Process files
+process_files(yaml_directory, lammpstrj_directory)
