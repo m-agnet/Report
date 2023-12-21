@@ -32,10 +32,12 @@ function process_files(yaml_dir, lammpstrj_dir)
         y_std_deviations = calculate_y_std_deviation(data["atoms_data"], NUM_ATOMS)
 
         # Plot and save image
-        plt = plot(Yg_values, y_std_deviations, label="", st=scatter, mc=:red, ms=5, xlims=(0.2, 0.8))
+        plt = plot(Yg_values, y_std_deviations, label="", st=scatter, mc=:red, ms=5)
         title!("(StD of y)/Ly vs. Yg/Ly")
         xlabel!("Yg/Ly")
         ylabel!("(StD of y)/Ly")
+        xlims!(0.2, 0.8)
+        ylims!(0.1, 0.4)
         savefig(plt, replace(filename, r".yaml$" => ".png"))
     end
 end
