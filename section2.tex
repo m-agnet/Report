@@ -1,11 +1,11 @@
-\section{実験}
+\section{実験}\label{sec:simulation}
 
-雨が降るシミュレーションをしたい.
+この章では, 行ったシミュレーションの設定についてそれぞれ説明をしていく.
 
 系の上下両端のポテンシャルエネルギー差$mgL_y$と運動エネルギー差$k_{\text{B}}\Delta T$の比を$\chi$として以下のように設定する.
 
 \begin{align}
-  \chi \equiv \frac{k_{\text{B}}\Delta T}{mgL_{y}} = 1.265
+  \chi \equiv \frac{k_{\text{B}}\Delta T}{mgL_{y}}
 \end{align}
 
 壁ポテンシャルまわりの無次元パラメータを3つ用意する.
@@ -16,7 +16,7 @@
   \text{R}_\text{a} &: 濡れ具合.
 \end{align}
 
-これを用いて, 壁-粒子間相互作用LJポテンシャルは以下のように書き表す.
+これらを用いて, 壁-粒子間相互作用LJポテンシャルは以下のように書き表す.
 
 \begin{align}
   \varepsilon^{\text{wall}} &= \qty(1.0 - \text{R}_\text{d}) \times \varepsilon \\
@@ -24,30 +24,35 @@
   r^{\text{wall}}_{\text{cut}} &= \qty(2^{1/6} + \text{R}_\text{a}) \times \sigma^{\text{wall}}
 \end{align}
 
-パラメータ $(\text{R}_\text{d}, \text{R}_\text{t}, \text{R}_\text{a})$ を変えることによって, 壁-粒子間相互作用LJポテンシャルが変わったときに, どのように粒子集団の様相が変化するかをみる. 本章の以降の実験は特記がない限り以下のパラメータに近い値で行うものとする. 
+パラメータ $(\text{R}_\text{d}, \text{R}_\text{t}, \text{R}_\text{a})$ を変えることによって, 壁-粒子間相互作用LJポテンシャルが変わる. このときに, どのようにして粒子集団の様相が変化するかをみる. 本章の以降の実験は特記がない限り以下のパラメータに近い値で行うものとする. 
 
 \begin{itemize}
-  \item $N = 1250$
-  \item $\rho {\sigma}^2 = 0.4$
-  \item $L_x / \sigma = 39.5\dots$
-  \item $L_y / \sigma = 79.0\dots$
-  \item $k_{\text{B}} T / \varepsilon = 0.43$
-  \item $k_{\text{B}} \Delta T / \varepsilon = 0.04$
-  \item $mg\sigma/\varepsilon = 4.0 \times 10^{-4}$
-  \item $\dd t \sqrt{\epsilon/m{\sigma}^2} = 0.005$
+  \item $N = 1250$: 粒子数
+  \item $\rho {\sigma}^2 = 0.4$: 粒子数密度
+  \item $L_x / \sigma = 39.528471 \simeq 39.5$: 系の$x$幅
+  \item $L_y / \sigma = 79.0569414 \simeq 79.0$: 系の$y$幅
+  \item $k_{\text{B}} T / \varepsilon = 0.43$: 初期温度
+  \item $k_{\text{B}} \Delta T / \varepsilon = 0.04$: 熱浴の温度差
+  \item $mg\sigma/\varepsilon = 0.0003999718779659611 \simeq 4.0 \times 10^{-4}$: 粒子にかかる重力の大きさ
+  \item $\dd t \sqrt{\epsilon/m{\sigma}^2} = 0.005$: シミュレーションにおける時間刻み.
 \end{itemize}
 
 
-以下に示すのは, 今後解析をする際に示すシミュレーションの時間関連の説明である.(\textcolor{red}{要確認}: 日本語)
+以下に記すのは, 今後解析をする際に示すシミュレーションについての時間に関する説明である.
 
 \begin{align}
   t_i &\colon シミュレーション開始時から, 物理量を解析する際にデータを採用し始める時間. \\
   t_f & \colon シミュレーション開始時から, シミュレーションの終了時及びデータを採用し終わる時間.
 \end{align}
 
-いずれの実験の場合も$t=0$の時点では粒子は以下の画像のように, 系に規則正しく並べられているとする.
+いずれの実験の場合も$t\sqrt{\epsilon/m{\sigma}^2}=0$の時点では粒子は以下の画像のように, 系に規則正しく並べられているとする.
 
-(\textcolor{red}{画像追加})
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.1]{image/initial1250.png}
+  \caption{$N=1250$}
+  \label{}
+\end{figure}
 
 \subsection{追実験}
 
@@ -86,7 +91,7 @@ $(\text{R}_\text{d} = 0.0, \text{R}_\text{t} = 0.5, \text{R}_\text{a} = 3.0 - 2^
   \label{}
 \end{figure}
 
-\subsection{$\text{R}_\text{a}$, $\text{R}_\text{t}$ マップ}
+\subsection{重力と熱流を同時にかける}
 
 $\text{R}_\text{a}$ と $\text{R}_\text{t}$ を少しずつ変えた系でシミュレーションをして, 粒子集団の様相の変化を見たい. 以下に示すのが, それらを動かす範囲である.
 
@@ -120,97 +125,27 @@ $\text{R}_\text{a}$ と $\text{R}_\text{t}$ を少しずつ変えた系でシミ
 
 \input{subtex/RaRtmap_time.tex}
 
-ここで, 重心の標準偏差は以下のように書くことができる.
 
-\begin{align}
-  \sigma (Y_g) &= \sqrt{\frac{1}{N_{D}}\sum_{t=t_i}^{t=t_f} (Y_{g}(t) - \bar{Y_g})^2}
-\end{align}
-
-重心位置の標準偏差について同時プロットで表してみる. 以降の解析は図\ref{fig:RaRtmap_time_Ra0.0_Rt0.0}から定常状態にあるとみなせる, $t_i \sqrt{\varepsilon / m \sigma^2} = 2.5 \times 10^{4}$からのデータを用いてプロットすることにしている.
-
-\begin{figure}[H]
-  \begin{tabular}{cc}
-    \begin{minipage}[t]{0.5\hsize}
-      \centering
-      \includegraphics[width=\textwidth]{image/lnStdYg_Ra0.0to1.877538_Rt0.0to0.5_ti25000.png}
-      \subcaption{}
-      \label{}
-    \end{minipage}
-    \begin{minipage}[t]{0.5\hsize}
-      \centering
-      \includegraphics[width=\textwidth]{image/lnStdYg_Rt0.0to0.5_Ra0.0to1.877538_ti25000.png}
-      \subcaption{}
-      \label{}
-    \end{minipage}
-  \end{tabular}
-  \caption{$t_i \sqrt{\varepsilon / m \sigma^2} = 2.5 \times 10^{4}$}
-  \label{}
-\end{figure}
-
-\subsection{周期性}
-
-重心位置が周期的に変化しているのかを調べたい.
-
-図\ref{fig:RaRtmap_time_Ra0.469_Rt0.500}$R_a = 0.469, R_t = 0.5$と図\ref{fig:RaRtmap_time_Ra0.938_Rt0.500} $R_a = 0.938, R_t = 0.5$の間をもっと詳しく見る.
-
-\input{subtex/Ra0.469to0.938Rt0.5_time.tex}
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[scale=0.5]{image/lnStdYg_Ra0.4693845to0.98769_Rt0.5_ti25000.png}
-  \caption{}
-  \label{}
-\end{figure}
-
-\input{subtex/Ra0.762to0.938Rt0.5_time.tex}
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[scale=0.5]{image/lnStdYg_Ra0.70407675to0.98769_Rt0.5_ti25000.png}
-  \caption{}
-  \label{}
-\end{figure}
-
-図\ref{fig:RaRtmap_time_Ra0.469_Rt0.500}$R_a = 0.469, R_t = 0.5$と図\ref{fig:RaRtmap_time_Ra0.938_Rt0.500} $R_a = 0.938, R_t = 0.5$の間をもっと詳しく見る. その際, 簡単のため, $Ra =0.5 \sim 1.0$の間を見ることにする.
-
-\input{subtex/Ra0.5to1.0Rt0.5_time.tex}
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[scale=0.5]{image/lnStdYg_Ra0.5to1.0_Rt0.5_ti25000.png}
-  \caption{}
-  \label{}
-\end{figure}
-
-\subsection{サイクル}
-
-図\ref{fig:RaRtmap_time}の結果をそれぞれ正規化したヒストグラムにして表す.
-
-\input{subtex/RaRtmap_hist.tex}
-
-粒子集団のばらつき具合, 空間的な揺らぎを時系列で考える.
-
-\begin{align}
-  \sigma_{y} (t)
-  &= \sqrt{\frac{1}{N} \sum_{i=1}^{N} (y_i (t) - \bar{y_i}(t) )^2} \\
-  &= \sqrt{\frac{1}{N} \sum_{i=1}^{N} (y_i (t) - Y_g (t) )^2} \\
-  &= \sqrt{\frac{1}{N} \sum_{i=1}^{N} {{y_i} (t)}^2 - {{Y_g} (t)}^2}
-\end{align}
-
-\input{subtex/RaRtmap_cycle.tex}
-
-\input{subtex/RaRtmap_cycle3d.tex}
-
-\input{subtex/RaRtmap_heat.tex}
+\subsection{重力を先にかけて, 熱流を後からかける}
 
 以下は, 追実験のときと同じように, まず重力のみをかけて, 粒子集団が落ちきってから熱流をかけると同時に測定を開始するものである.
 
 \input{subtex/RaRtmap_drop_time.tex}
 
-\input{subtex/RaRtmap_drop_hist.tex}
 
-\input{subtex/RaRtmap_drop_cycle.tex}
 
-\input{subtex/RaRtmap_drop_cycle3d.tex}
+\subsection{重力のみをかける}
 
-\input{subtex/RaRtmap_drop_heat.tex}
+\begin{align}
+  \dd T &= 0.0 \\
+  g &= 4e-4 \\
+  \chi &\rightarrow \infty
+\end{align}
+
+\subsection{熱流のみをかける}
+
+\begin{align}
+  \dd T &= 0.04 \\
+  g &= 0.0 \\
+  \chi &\rightarrow 0
+\end{align}
