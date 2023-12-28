@@ -5,7 +5,7 @@
 系の上下両端のポテンシャルエネルギー差$mgL_y$と運動エネルギー差$k_{\text{B}}\Delta T$の比を$\chi$として以下のように設定する.
 
 \begin{align}
-  \chi \equiv \frac{k_{\text{B}}\Delta T}{mgL_{y}}
+  \chi &\equiv \frac{k_{\text{B}}\Delta T}{mgL_{y}}
 \end{align}
 
 壁ポテンシャルまわりの無次元パラメータを3つ用意する.
@@ -24,7 +24,18 @@
   r^{\text{wall}}_{\text{cut}} &= \qty(2^{1/6} + \text{R}_\text{a}) \times \sigma^{\text{wall}}
 \end{align}
 
-パラメータ $(\text{R}_\text{d}, \text{R}_\text{t}, \text{R}_\text{a})$ を変えることによって, 壁-粒子間相互作用LJポテンシャルが変わる. このときに, どのようにして粒子集団の様相が変化するかをみる. 本章の以降の実験は特記がない限り以下のパラメータに近い値で行うものとする. 
+パラメータ $(\text{R}_\text{d}, \text{R}_\text{t}, \text{R}_\text{a})$ を変えることによって, 壁-粒子間相互作用LJポテンシャルが変わる. このときに, どのようにして粒子集団の様相が変化するかをみる.
+
+$\text{R}_\text{a}$ と $\text{R}_\text{t}$ を少しずつ変えた系でシミュレーションをして, 粒子集団の様相の変化を見たい. 以下に示すのが, それらを動かす範囲である.
+
+\begin{align}
+  \text{R}_\text{a} &\colon 0.0 \sim 3.0 - 2^{1/6} = 1.877538\dots \\
+  \text{R}_\text{t} &\colon 0.0 \sim 0.5
+\end{align}
+
+\input{subtex/RaRtmap_LJ.tex}
+
+本章の以降の実験は特記がない限り以下のパラメータに近い値で行うものとする. 
 
 \begin{itemize}
   \item $N = 1250$: 粒子数
@@ -41,15 +52,15 @@
 以下に記すのは, 今後解析をする際に示すシミュレーションについての時間に関する説明である.
 
 \begin{align}
-  t_i &\colon シミュレーション開始時から, 物理量を解析する際にデータを採用し始める時間. \\
-  t_f & \colon シミュレーション開始時から, シミュレーションの終了時及びデータを採用し終わる時間.
+  t_i &\colon シミュレーション開始時から, 物理量を解析する際にデータを採用し始める時間. これ以降は定常状態であるとみなす. \\
+  t_f & \colon シミュレーション開始時から, シミュレーションの終了時までの時間.
 \end{align}
 
 いずれの実験の場合も$t\sqrt{\epsilon/m{\sigma}^2}=0$の時点では粒子は以下の画像のように, 系に規則正しく並べられているとする.
 
 \begin{figure}[H]
   \centering
-  \includegraphics[scale=0.1]{image/initial1250.png}
+  \includegraphics[scale=0.2]{image/initial1250.png}
   \caption{$N=1250$}
   \label{}
 \end{figure}
@@ -71,7 +82,12 @@
   \item $t_f \sqrt{\varepsilon / m \sigma^2} = 5.0 \times 10^{5}$
 \end{itemize}
 
-(\textcolor{red}{画像追加}: $t \sqrt{\varepsilon / m \sigma^2} = 5.0 \times 10^{5}$でのスナップショット)
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.2]{image/drop5000.png}
+  \caption{$t \sqrt{\varepsilon / m \sigma^2} = 5.0 \times 10^{5}$でのスナップショット}
+  \label{}
+\end{figure}
 
 続いて重力をかけた緩和後の系で, 熱浴の温度差を改めて以下のようにつけ, 熱流をかけてシミュレーションをしている. このシミュレーションでデータを解析する.
 
@@ -93,16 +109,22 @@ $(\text{R}_\text{d} = 0.0, \text{R}_\text{t} = 0.5, \text{R}_\text{a} = 3.0 - 2^
 
 \subsection{重力と熱流を同時にかける}
 
-$\text{R}_\text{a}$ と $\text{R}_\text{t}$ を少しずつ変えた系でシミュレーションをして, 粒子集団の様相の変化を見たい. 以下に示すのが, それらを動かす範囲である.
+以下のように, $\text{R}_\text{a}$と$\text{R}_\text{t}$を少しずつ変えた系を設定して, それぞれシミュレーションをした.
 
-\begin{align}
-  \text{R}_\text{a} &= 0.0 \sim 3.0 - 2^{1/6} = 1.877\dots \\
-  \text{R}_\text{t} &= 0.0 \sim 0.5
-\end{align}
 
-\input{subtex/RaRtmap_LJ.tex}
 
-パラメータを確認.
+\begin{tabular}{|c|c|c|c|c|c|} \hline
+        & $\text{R}_\text{a}:0.0$ & $\text{R}_\text{a}:0.469$ & $\text{R}_\text{a}:0.938$ & $\text{R}_\text{a}:1.408$ & $\text{R}_\text{a}:1.877$ \\ \hline
+  $\text{R}_\text{t}:0.0$ & a      & b      & c      & d      & e     \\ \hline
+  $\text{R}_\text{t}:0.125$ & f      & g      & h      & i      & j     \\ \hline
+  $\text{R}_\text{t}:0.25$ & k      & l      & m      & n      & o     \\ \hline
+  $\text{R}_\text{t}:0.375$ & p      & q      & r      & s      & t     \\ \hline
+  $\text{R}_\text{t}:0.5$ & u      & v      & w      & x      & y     \\ \hline
+\end{tabular}
+
+
+
+パラメータを確認する.
 
 \begin{itemize}
   \item $N = 1250$
@@ -115,7 +137,9 @@ $\text{R}_\text{a}$ と $\text{R}_\text{t}$ を少しずつ変えた系でシミ
   \item $t_f \sqrt{\varepsilon / m \sigma^2} = 2.0 \times 10^{5}$
 \end{itemize}
 
-\input{subtex/RaRtmap_movie}
+この際の粒子集団の様相は以下のようになる.
+
+\input{subtex/RaRtmap_movie.tex}
 
 重心位置$Y_g$を系の$y$幅でスケーリングして, 時系列プロットすると,
 
@@ -136,16 +160,28 @@ $\text{R}_\text{a}$ と $\text{R}_\text{t}$ を少しずつ変えた系でシミ
 
 \subsection{重力のみをかける}
 
-\begin{align}
-  \dd T &= 0.0 \\
-  g &= 4e-4 \\
-  \chi &\rightarrow \infty
-\end{align}
+\begin{itemize}
+  \item $N = 1250$
+  \item $\rho {\sigma}^2 = 0.4$
+  \item $L_x / \sigma = 39.5\dots$
+  \item $L_y / \sigma = 79.0\dots$
+  \item $k_{\text{B}} T / \varepsilon = 0.43$
+  \item $k_{\text{B}} \Delta T / \varepsilon = 0.0$
+  \item $mg\sigma/\varepsilon = 4.0 \times 10^{-4}$
+  \item $t_f \sqrt{\varepsilon / m \sigma^2} = 2.0 \times 10^{5}$
+\end{itemize}
 
 \subsection{熱流のみをかける}
 
-\begin{align}
-  \dd T &= 0.04 \\
-  g &= 0.0 \\
-  \chi &\rightarrow 0
-\end{align}
+\begin{itemize}
+  \item $N = 1250$
+  \item $\rho {\sigma}^2 = 0.4$
+  \item $L_x / \sigma = 39.5\dots$
+  \item $L_y / \sigma = 79.0\dots$
+  \item $k_{\text{B}} T / \varepsilon = 0.43$
+  \item $k_{\text{B}} \Delta T / \varepsilon = 0.04$
+  \item $mg\sigma/\varepsilon = 0.0$
+  \item $t_f \sqrt{\varepsilon / m \sigma^2} = 2.0 \times 10^{5}$
+\end{itemize}
+
+
