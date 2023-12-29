@@ -1,4 +1,4 @@
-\section{実験}\label{sec:simulation}
+\section{実験の設定}\label{sec:simulation}
 
 この章では, 行ったシミュレーションの設定についてそれぞれ説明をしていく.
 
@@ -69,7 +69,7 @@ $\text{R}_\text{a}$ と $\text{R}_\text{t}$ を少しずつ変えた系でシミ
 
 壁を完全に濡らしている状態を考えたいので, $r^{\text{wall}}_{\text{cut}}=3.0\sigma$ に設定する.
 
-また, 重力をかけた状態で粒子が下に落ちきり, 緩和しているとみなせるまでシミュレーションを行ってから, 熱流をかけている. この時点でのシミュレーションではデータを解析することはない.
+また, 重力をかけた状態で粒子が下に落ちきり, 定常状態にあるとみなせるまでシミュレーションを行ってから, 熱流をかけている.
 
 \begin{itemize}
   \item $N = 5000$
@@ -79,7 +79,7 @@ $\text{R}_\text{a}$ と $\text{R}_\text{t}$ を少しずつ変えた系でシミ
   \item $k_{\text{B}} T/\varepsilon = 4.3$
   \item $k_{\text{B}} \Delta T/\varepsilon = 0.0$
   \item $mg\sigma/\varepsilon = 2.0 \times 10^{-4}$
-  \item $t_f \sqrt{\varepsilon / m \sigma^2} = 5.0 \times 10^{5}$
+  \item ${t_f}^{\prime} \sqrt{\varepsilon / m \sigma^2} = 5.0 \times 10^{5}$
 \end{itemize}
 
 \begin{figure}[H]
@@ -89,7 +89,7 @@ $\text{R}_\text{a}$ と $\text{R}_\text{t}$ を少しずつ変えた系でシミ
   \label{}
 \end{figure}
 
-続いて重力をかけた緩和後の系で, 熱浴の温度差を改めて以下のようにつけ, 熱流をかけてシミュレーションをしている. このシミュレーションでデータを解析する.
+続いて重力をかけた緩和後の系で, 熱浴の温度差を改めて以下のようにつけ, 熱流をかけてシミュレーションをしている. 
 
 \begin{itemize}
   \item $\chi = k_{\text{B}}\Delta T / mg L_y = 1.265$
@@ -98,7 +98,7 @@ $\text{R}_\text{a}$ と $\text{R}_\text{t}$ を少しずつ変えた系でシミ
   \item $t_f \sqrt{\varepsilon / m \sigma^2} = 1.0 \times 10^{6}$
 \end{itemize}
 
-$(\text{R}_\text{d} = 0.0, \text{R}_\text{t} = 0.5, \text{R}_\text{a} = 3.0 - 2^{1/6})$ で実験を行う. これは, $(\varepsilon^{\text{wall}} = \varepsilon, \sigma^{\text{wall}} = \sigma, r^{\text{wall}}_{\text{cut}} = 3.0 \sigma^{\text{wall}})$ に対応しているので, ${\phi_{\text{LJ}}}^{\text{wall}} = \phi_{\text{LJ}}$ ということになり, 先行研究と同じ結果を得ることができる.
+$(\text{R}_\text{d} = 0.0, \text{R}_\text{t} = 0.5, \text{R}_\text{a} = 3.0 - 2^{1/6})$ で実験を行う. このとき, $(\varepsilon^{\text{wall}} = \varepsilon, \sigma^{\text{wall}} = \sigma, r^{\text{wall}}_{\text{cut}} = 3.0 \sigma^{\text{wall}})$ になるので, ${\phi_{\text{LJ}}^{\text{wall}}} = \phi_{\text{LJ}}$ ということになり, 先行研究と同じシミュレーションを行うことができる.
 
 \begin{figure}[H]
   \centering
@@ -123,6 +123,17 @@ $(\text{R}_\text{d} = 0.0, \text{R}_\text{t} = 0.5, \text{R}_\text{a} = 3.0 - 2^
 \end{tabular}
 
 \vspace{1\baselineskip}
+
+参考のために,
+
+\begin{align}
+  \text{R}_\text{a} &= 0.0 \Rightarrow r_{\text{cut}}^{\text{wall}} = 2^{1/6} \sigma_{\text{wall}} \\
+  \text{R}_\text{a} &= 1.877\dots \Rightarrow r_{\text{cut}}^{\text{wall}} = 3.0 \sigma_{\text{wall}} \\
+  \text{R}_\text{t} &= 0.0 \Rightarrow \sigma_{\text{wall}} = 0.5 \sigma \\
+  \text{R}_\text{t} &= 0.5 \Rightarrow \sigma_{\text{wall}} = \sigma 
+\end{align}
+
+である. 
 
 パラメータを確認する.
 
