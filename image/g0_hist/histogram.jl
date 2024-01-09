@@ -33,9 +33,9 @@ function process_files(yaml_dir, lammpstrj_dir)
 
         # Plot and save image
         # plt = plot(Yg_values, y_std_deviations, label="", st=scatter, mc=:red, ms=5, xlims=(0.2, 0.8))
-        plt = histogram(Yg_values, bins=50, alpha=0.5, label="", normalize=true)
+        plt = histogram(Yg_values[201:1001], bins=50, alpha=0.5, label="", normalize=true)
         xlims!(0.2,0.8)
-        ylims!(0,40)
+        ylims!(0,80)
         title!("Density Distribution of Yg/Ly")
         xlabel!("Yg/Ly")
         ylabel!("Frequency")

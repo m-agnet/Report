@@ -33,7 +33,7 @@ function process_files(yaml_dir, lammpstrj_dir)
 
         # Plot and save image
         # plt = plot(Yg_values, y_std_deviations, label="", st=scatter, mc=:red, ms=5, xlims=(0.2, 0.8))
-        plt = histogram2d(Yg_values[301:1001],y_std_deviations[301:1001],bins=(50,50),color=:Reds,norm=true)
+        plt = histogram2d(Yg_values[201:1001],y_std_deviations[201:1001],bins=(50,50),color=:Reds,norm=true)
         xlims!(0.2,0.8)
         ylims!(0.1,0.4)
         title!("Heatmap: (StD of y)/Ly vs. Yg/Ly")

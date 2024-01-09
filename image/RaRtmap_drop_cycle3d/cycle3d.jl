@@ -32,7 +32,7 @@ function process_files(yaml_dir, lammpstrj_dir)
         y_std_deviations = calculate_y_std_deviation(data["atoms_data"], NUM_ATOMS)
 
         # Plot and save image
-        plt = plot(Yg_values[301:1001], y_std_deviations[301:1001], time_values, label="", st=scatter, mc=:red, ms=5)
+        plt = plot(Yg_values[201:1001], y_std_deviations[201:1001], time_values[201:1001], label="", st=scatter, mc=:red, ms=5)
         title!("(StD of y)/Ly vs. Yg/Ly over Time")
         xlabel!("Yg/Ly")
         ylabel!("std y/Ly")

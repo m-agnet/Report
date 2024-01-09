@@ -32,10 +32,11 @@ function process_files(yaml_dir, lammpstrj_dir)
         y_std_deviations = calculate_y_std_deviation(data["atoms_data"], NUM_ATOMS)
 
         # Plot and save image
-        plt = plot(data["time_data"][301:1001], y_std_deviations[301:1001], label="")
+        plt = plot(data["time_data"][201:1001], y_std_deviations[201:1001], label="")
         title!("(StD of y)/Ly vs. time")
         xlabel!("time")
         ylabel!("(StD of y)/Ly")
+        # xlims!(4e4,2e5)
         ylims!(0.1, 0.4)
         savefig(plt, replace(filename, r".yaml$" => ".png"))
     end
