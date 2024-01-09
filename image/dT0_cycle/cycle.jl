@@ -88,8 +88,8 @@ function calculate_y_std_deviation(atoms_data, num_atoms)
 end
 
 # Specify directories containing YAML and lammpstrj files
-yaml_directory = "/Users/2023_2gou/Desktop/r_yamamoto/Research/outputdir_ness/231228outputdir/yamldir"
-lammpstrj_directory = "/Users/2023_2gou/Desktop/r_yamamoto/Research/outputdir_ness/231228outputdir/lammpstrjdir"
+yaml_directory = "/Users/2023_2gou/Desktop/r_yamamoto/Research/outputdir_ness/240109outputdir/yamldir"
+lammpstrj_directory = "/Users/2023_2gou/Desktop/r_yamamoto/Research/outputdir_ness/240109outputdir/lammpstrjdir"
 
 # Process files
 process_files(yaml_directory, lammpstrj_directory)

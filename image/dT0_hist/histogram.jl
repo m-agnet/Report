@@ -32,11 +32,13 @@ function process_files(yaml_dir, lammpstrj_dir)
         y_std_deviations = calculate_y_std_deviation(data["atoms_data"], NUM_ATOMS)
 
         # Plot and save image
-        plt = plot(data["time_data"], y_std_deviations, label="")
-        title!("(StD of y)/Ly vs. time")
-        xlabel!("time")
-        ylabel!("(StD of y)/Ly")
-        ylims!(0.1, 0.4)
+        # plt = plot(Yg_values, y_std_deviations, label="", st=scatter, mc=:red, ms=5, xlims=(0.2, 0.8))
+        plt = histogram(Yg_values, bins=50, alpha=0.5, label="", normalize=true)
+        xlims!(0.2,0.8)
+        ylims!(0,40)
+        title!("Density Distribution of Yg/Ly")
+        xlabel!("Yg/Ly")
+        ylabel!("Frequency")
         savefig(plt, replace(filename, r".yaml$" => ".png"))
     end
 end
@@ -87,8 +89,8 @@ function calculate_y_std_deviation(atoms_data, num_atoms)
 end
 
 # Specify directories containing YAML and lammpstrj files
-yaml_directory = "/Users/2023_2gou/Desktop/r_yamamoto/Research/outputdir_ness/231228outputdir/yamldir"
-lammpstrj_directory = "/Users/2023_2gou/Desktop/r_yamamoto/Research/outputdir_ness/231228outputdir/lammpstrjdir"
+yaml_directory = "/Users/2023_2gou/Desktop/r_yamamoto/Research/outputdir_ness/240109outputdir/yamldir"
+lammpstrj_directory = "/Users/2023_2gou/Desktop/r_yamamoto/Research/outputdir_ness/240109outputdir/lammpstrjdir"
 
 # Process files
 process_files(yaml_directory, lammpstrj_directory)
