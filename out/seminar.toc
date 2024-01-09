@@ -1,19 +1,45 @@
 \providecommand \autonum@processReference [2]{}
-\contentsline {section}{\numberline {1}系の設定}{3}{section.1}%
-\contentsline {subsection}{\numberline {1.1}ハミルトニアン}{3}{subsection.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.1}粒子-粒子間相互作用ポテンシャル}{4}{subsubsection.1.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.2}周期境界条件と最近接イメージ規約\cite {MD}}{4}{subsubsection.1.1.2}%
-\contentsline {subsubsection}{\numberline {1.1.3}壁-粒子間相互作用ポテンシャル}{5}{subsubsection.1.1.3}%
-\contentsline {subsection}{\numberline {1.2}熱流}{6}{subsection.1.2}%
-\contentsline {subsubsection}{\numberline {1.2.1}温度制御}{6}{subsubsection.1.2.1}%
-\contentsline {section}{\numberline {2}実験の設定}{7}{section.2}%
-\contentsline {subsection}{\numberline {2.1}追実験}{9}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}重力と熱流を同時にかける}{11}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}重力を先にかけて, 熱流を後からかける}{14}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}重力のみをかける}{15}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}熱流のみをかける}{15}{subsection.2.5}%
-\contentsline {section}{\numberline {3}分析}{15}{section.3}%
-\contentsline {subsection}{\numberline {3.1}$\text {R}_\text {a}$, $\text {R}_\text {t}$ マップ}{15}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}周期性}{16}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}サイクル}{18}{subsection.3.3}%
-\contentsline {section}{\numberline {付録A}\href {https://github.com/m-agnet/Report.git}{ソースコード}}{29}{appendix.A}%
+\contentsline {section}{\numberline {1}系の設定}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}ハミルトニアン}{4}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}粒子-粒子間相互作用ポテンシャル}{5}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}周期境界条件と最近接イメージ規約\cite {MD}}{5}{subsubsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.3}壁-粒子間相互作用ポテンシャル}{6}{subsubsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.2}熱流}{7}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}温度制御}{7}{subsubsection.1.2.1}%
+\contentsline {section}{\numberline {2}実験の設定}{8}{section.2}%
+\contentsline {subsection}{\numberline {2.1}追実験}{10}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}重力と熱流を同時にかける}{12}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}重力を先にかけて, 熱流を後からかける}{15}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}重力のみをかける}{16}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}熱流のみをかける}{16}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}重力と熱流を同時にかける(10倍)}{16}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}重力を先にかけて, 熱流を後からかける(10倍)}{17}{subsection.2.7}%
+\contentsline {section}{\numberline {3}分析}{17}{section.3}%
+\contentsline {subsection}{\numberline {3.1}$\text {R}_\text {a}$, $\text {R}_\text {t}$ マップ}{17}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}周期性}{17}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}ヒストグラム}{20}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}重力と熱流を同時にかける}{20}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}重力を先にかけて, 熱流を後からかける}{21}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}重力のみをかける}{22}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.4}熱流のみをかける}{22}{subsubsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.4}空間的な揺らぎ}{22}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}重力と熱流を同時にかける}{23}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}重力を先にかけて, 熱流を後からかける}{24}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.3}重力のみをかける}{25}{subsubsection.3.4.3}%
+\contentsline {subsubsection}{\numberline {3.4.4}熱流のみをかける}{26}{subsubsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.5}サイクル}{26}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}重力と熱流を同時にかける}{26}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}重力を先にかけて, 熱流を後からかける}{27}{subsubsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.3}重力のみをかける}{28}{subsubsection.3.5.3}%
+\contentsline {subsubsection}{\numberline {3.5.4}熱流のみをかける}{29}{subsubsection.3.5.4}%
+\contentsline {subsection}{\numberline {3.6}サイクル3d}{29}{subsection.3.6}%
+\contentsline {subsubsection}{\numberline {3.6.1}重力と熱流を同時にかける}{29}{subsubsection.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.6.2}重力を先にかけて, 熱流を後からかける}{30}{subsubsection.3.6.2}%
+\contentsline {subsubsection}{\numberline {3.6.3}重力のみをかける}{31}{subsubsection.3.6.3}%
+\contentsline {subsubsection}{\numberline {3.6.4}熱流のみをかける}{32}{subsubsection.3.6.4}%
+\contentsline {subsection}{\numberline {3.7}ヒートマップ}{32}{subsection.3.7}%
+\contentsline {subsubsection}{\numberline {3.7.1}重力と熱流を同時にかける}{32}{subsubsection.3.7.1}%
+\contentsline {subsubsection}{\numberline {3.7.2}重力を先にかけて, 熱流を後からかける}{33}{subsubsection.3.7.2}%
+\contentsline {subsubsection}{\numberline {3.7.3}重力のみをかける}{34}{subsubsection.3.7.3}%
+\contentsline {subsubsection}{\numberline {3.7.4}熱流のみをかける}{34}{subsubsection.3.7.4}%
+\contentsline {section}{\numberline {付録A}\href {https://github.com/m-agnet/Report.git}{ソースコード}}{34}{appendix.A}%
