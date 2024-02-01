@@ -16,7 +16,7 @@ function plot_data(data)
 end
 
 # 対象ディレクトリ内のYAMLファイルを取得
-yaml_directory = "/Users/2023_2gou/Desktop/r_yamamoto/Research/outputdir_ness/240109outputdir/yamldir"
+yaml_directory = "/Users/2023_2gou/Desktop/r_yamamoto/Research/outputdir_ness/240116v2outputdir/yamldir"
 yaml_files = filter(x -> occursin(".yaml", x), readdir(yaml_directory))
 
 for yaml_file in yaml_files

@@ -1615,34 +1615,210 @@ INPUT ./subtex/dT0_time.tex
 INPUT subtex/dT0_time.tex
 INPUT ./subtex/dT0_time.tex
 INPUT subtex/dT0_time.tex
-INPUT ./image/dT0_time/2024-01-07T22:21:47.320_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
-INPUT ./image/dT0_time/2024-01-07T22:21:47.320_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
-INPUT image/dT0_time/2024-01-07T22:21:47.320_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
-INPUT extractbb -B cropbox -O image/dT0_time/2024-01-07T22:21:47.320_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
-INPUT ./image/dT0_time/2024-01-07T22:21:47.833_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
-INPUT ./image/dT0_time/2024-01-07T22:21:47.833_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
-INPUT image/dT0_time/2024-01-07T22:21:47.833_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
-INPUT extractbb -B cropbox -O image/dT0_time/2024-01-07T22:21:47.833_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
-INPUT ./image/dT0_time/2024-01-07T22:21:47.918_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
-INPUT ./image/dT0_time/2024-01-07T22:21:47.918_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
-INPUT image/dT0_time/2024-01-07T22:21:47.918_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
-INPUT extractbb -B cropbox -O image/dT0_time/2024-01-07T22:21:47.918_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_time/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_time/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:46.901_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:46.901_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_time/2024-01-15T14:30:46.901_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_time/2024-01-15T14:30:46.901_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:46.968_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:46.968_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_time/2024-01-15T14:30:46.968_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_time/2024-01-15T14:30:46.968_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:47.037_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:47.037_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_time/2024-01-15T14:30:47.037_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_time/2024-01-15T14:30:47.037_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:47.119_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:47.119_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_time/2024-01-15T14:30:47.119_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_time/2024-01-15T14:30:47.119_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:47.186_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:47.186_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_time/2024-01-15T14:30:47.186_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_time/2024-01-15T14:30:47.186_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:47.255_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:47.255_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_time/2024-01-15T14:30:47.255_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_time/2024-01-15T14:30:47.255_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:47.323_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:47.323_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_time/2024-01-15T14:30:47.323_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_time/2024-01-15T14:30:47.323_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:47.390_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:47.390_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_time/2024-01-15T14:30:47.390_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_time/2024-01-15T14:30:47.390_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:47.459_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:47.459_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_time/2024-01-15T14:30:47.459_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_time/2024-01-15T14:30:47.459_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:47.525_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:47.525_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_time/2024-01-15T14:30:47.525_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_time/2024-01-15T14:30:47.525_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:47.592_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:47.592_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_time/2024-01-15T14:30:47.592_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_time/2024-01-15T14:30:47.592_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:47.659_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:47.659_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_time/2024-01-15T14:30:47.659_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_time/2024-01-15T14:30:47.659_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:47.726_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:47.726_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_time/2024-01-15T14:30:47.726_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_time/2024-01-15T14:30:47.726_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:47.794_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:47.794_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_time/2024-01-15T14:30:47.794_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_time/2024-01-15T14:30:47.794_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:47.876_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:47.876_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_time/2024-01-15T14:30:47.876_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_time/2024-01-15T14:30:47.876_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:47.945_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:47.945_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_time/2024-01-15T14:30:47.945_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_time/2024-01-15T14:30:47.945_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:48.012_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:48.012_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_time/2024-01-15T14:30:48.012_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_time/2024-01-15T14:30:48.012_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:48.081_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:48.081_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_time/2024-01-15T14:30:48.081_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_time/2024-01-15T14:30:48.081_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:48.147_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:48.147_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_time/2024-01-15T14:30:48.147_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_time/2024-01-15T14:30:48.147_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:48.227_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:48.227_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_time/2024-01-15T14:30:48.227_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_time/2024-01-15T14:30:48.227_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:48.295_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:48.295_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_time/2024-01-15T14:30:48.295_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_time/2024-01-15T14:30:48.295_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:48.365_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:48.365_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_time/2024-01-15T14:30:48.365_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_time/2024-01-15T14:30:48.365_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:48.432_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:48.432_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_time/2024-01-15T14:30:48.432_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_time/2024-01-15T14:30:48.432_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:48.499_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_time/2024-01-15T14:30:48.499_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_time/2024-01-15T14:30:48.499_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_time/2024-01-15T14:30:48.499_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7.png
 INPUT ./subtex/g0_time.tex
 INPUT subtex/g0_time.tex
 INPUT ./subtex/g0_time.tex
 INPUT subtex/g0_time.tex
-INPUT ./image/g0_time/2023-12-27T20:17:44.542_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
-INPUT ./image/g0_time/2023-12-27T20:17:44.542_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
-INPUT image/g0_time/2023-12-27T20:17:44.542_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
-INPUT extractbb -B cropbox -O image/g0_time/2023-12-27T20:17:44.542_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
-INPUT ./image/g0_time/2023-12-27T20:17:45.053_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
-INPUT ./image/g0_time/2023-12-27T20:17:45.053_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
-INPUT image/g0_time/2023-12-27T20:17:45.053_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
-INPUT extractbb -B cropbox -O image/g0_time/2023-12-27T20:17:45.053_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
-INPUT ./image/g0_time/2023-12-27T20:17:45.121_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
-INPUT ./image/g0_time/2023-12-27T20:17:45.121_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
-INPUT image/g0_time/2023-12-27T20:17:45.121_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
-INPUT extractbb -B cropbox -O image/g0_time/2023-12-27T20:17:45.121_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png
+INPUT image/g0_time/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_time/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:34.556_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:34.556_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0_run4.0e7.png
+INPUT image/g0_time/2024-01-15T14:07:34.556_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_time/2024-01-15T14:07:34.556_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:34.622_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:34.622_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.938769_g0_run4.0e7.png
+INPUT image/g0_time/2024-01-15T14:07:34.622_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.938769_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_time/2024-01-15T14:07:34.622_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:34.689_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:34.689_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.4081535_g0_run4.0e7.png
+INPUT image/g0_time/2024-01-15T14:07:34.689_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.4081535_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_time/2024-01-15T14:07:34.689_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:34.770_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:34.770_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.877538_g0_run4.0e7.png
+INPUT image/g0_time/2024-01-15T14:07:34.770_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.877538_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_time/2024-01-15T14:07:34.770_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:34.852_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:34.852_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.0_g0_run4.0e7.png
+INPUT image/g0_time/2024-01-15T14:07:34.852_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.0_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_time/2024-01-15T14:07:34.852_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:34.918_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:34.918_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.4693845_g0_run4.0e7.png
+INPUT image/g0_time/2024-01-15T14:07:34.918_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.4693845_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_time/2024-01-15T14:07:34.918_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:34.988_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:34.988_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.938769_g0_run4.0e7.png
+INPUT image/g0_time/2024-01-15T14:07:34.988_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.938769_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_time/2024-01-15T14:07:34.988_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:35.058_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:35.058_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.4081535_g0_run4.0e7.png
+INPUT image/g0_time/2024-01-15T14:07:35.058_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.4081535_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_time/2024-01-15T14:07:35.058_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:35.126_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:35.126_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0_run4.0e7.png
+INPUT image/g0_time/2024-01-15T14:07:35.126_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_time/2024-01-15T14:07:35.126_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:35.195_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:35.195_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.0_g0_run4.0e7.png
+INPUT image/g0_time/2024-01-15T14:07:35.195_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.0_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_time/2024-01-15T14:07:35.195_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:35.278_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:35.278_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.4693845_g0_run4.0e7.png
+INPUT image/g0_time/2024-01-15T14:07:35.278_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.4693845_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_time/2024-01-15T14:07:35.278_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:35.361_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:35.361_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.938769_g0_run4.0e7.png
+INPUT image/g0_time/2024-01-15T14:07:35.361_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.938769_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_time/2024-01-15T14:07:35.361_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:35.445_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:35.445_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.4081535_g0_run4.0e7.png
+INPUT image/g0_time/2024-01-15T14:07:35.445_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.4081535_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_time/2024-01-15T14:07:35.445_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:35.515_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:35.515_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.877538_g0_run4.0e7.png
+INPUT image/g0_time/2024-01-15T14:07:35.515_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.877538_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_time/2024-01-15T14:07:35.515_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:35.582_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:35.582_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.0_g0_run4.0e7.png
+INPUT image/g0_time/2024-01-15T14:07:35.582_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.0_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_time/2024-01-15T14:07:35.582_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:35.651_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:35.651_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
+INPUT image/g0_time/2024-01-15T14:07:35.651_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_time/2024-01-15T14:07:35.651_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:35.728_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:35.728_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
+INPUT image/g0_time/2024-01-15T14:07:35.728_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_time/2024-01-15T14:07:35.728_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:35.797_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:35.797_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
+INPUT image/g0_time/2024-01-15T14:07:35.797_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_time/2024-01-15T14:07:35.797_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:35.863_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:35.863_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.877538_g0_run4.0e7.png
+INPUT image/g0_time/2024-01-15T14:07:35.863_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.877538_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_time/2024-01-15T14:07:35.863_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:35.928_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:35.928_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.0_g0_run4.0e7.png
+INPUT image/g0_time/2024-01-15T14:07:35.928_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.0_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_time/2024-01-15T14:07:35.928_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:36.002_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:36.002_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0_run4.0e7.png
+INPUT image/g0_time/2024-01-15T14:07:36.002_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_time/2024-01-15T14:07:36.002_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:36.081_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:36.081_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.938769_g0_run4.0e7.png
+INPUT image/g0_time/2024-01-15T14:07:36.081_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.938769_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_time/2024-01-15T14:07:36.081_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:36.149_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:36.149_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.4081535_g0_run4.0e7.png
+INPUT image/g0_time/2024-01-15T14:07:36.149_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.4081535_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_time/2024-01-15T14:07:36.149_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:36.228_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_time/2024-01-15T14:07:36.228_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0_run4.0e7.png
+INPUT image/g0_time/2024-01-15T14:07:36.228_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_time/2024-01-15T14:07:36.228_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0_run4.0e7.png
 INPUT ./subtex/RaRtmap10_time.tex
 INPUT subtex/RaRtmap10_time.tex
 INPUT ./subtex/RaRtmap10_time.tex
@@ -2074,34 +2250,210 @@ INPUT ./subtex/dT0_hist.tex
 INPUT subtex/dT0_hist.tex
 INPUT ./subtex/dT0_hist.tex
 INPUT subtex/dT0_hist.tex
-INPUT ./image/dT0_hist/2024-01-07T22:21:47.320_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
-INPUT ./image/dT0_hist/2024-01-07T22:21:47.320_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
-INPUT image/dT0_hist/2024-01-07T22:21:47.320_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
-INPUT extractbb -B cropbox -O image/dT0_hist/2024-01-07T22:21:47.320_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
-INPUT ./image/dT0_hist/2024-01-07T22:21:47.833_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
-INPUT ./image/dT0_hist/2024-01-07T22:21:47.833_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
-INPUT image/dT0_hist/2024-01-07T22:21:47.833_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
-INPUT extractbb -B cropbox -O image/dT0_hist/2024-01-07T22:21:47.833_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
-INPUT ./image/dT0_hist/2024-01-07T22:21:47.918_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
-INPUT ./image/dT0_hist/2024-01-07T22:21:47.918_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
-INPUT image/dT0_hist/2024-01-07T22:21:47.918_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
-INPUT extractbb -B cropbox -O image/dT0_hist/2024-01-07T22:21:47.918_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_hist/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_hist/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:46.901_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:46.901_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_hist/2024-01-15T14:30:46.901_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_hist/2024-01-15T14:30:46.901_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:46.968_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:46.968_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_hist/2024-01-15T14:30:46.968_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_hist/2024-01-15T14:30:46.968_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:47.037_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:47.037_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_hist/2024-01-15T14:30:47.037_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_hist/2024-01-15T14:30:47.037_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:47.119_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:47.119_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_hist/2024-01-15T14:30:47.119_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_hist/2024-01-15T14:30:47.119_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:47.186_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:47.186_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_hist/2024-01-15T14:30:47.186_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_hist/2024-01-15T14:30:47.186_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:47.255_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:47.255_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_hist/2024-01-15T14:30:47.255_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_hist/2024-01-15T14:30:47.255_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:47.323_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:47.323_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_hist/2024-01-15T14:30:47.323_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_hist/2024-01-15T14:30:47.323_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:47.390_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:47.390_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_hist/2024-01-15T14:30:47.390_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_hist/2024-01-15T14:30:47.390_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:47.459_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:47.459_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_hist/2024-01-15T14:30:47.459_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_hist/2024-01-15T14:30:47.459_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:47.525_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:47.525_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_hist/2024-01-15T14:30:47.525_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_hist/2024-01-15T14:30:47.525_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:47.592_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:47.592_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_hist/2024-01-15T14:30:47.592_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_hist/2024-01-15T14:30:47.592_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:47.659_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:47.659_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_hist/2024-01-15T14:30:47.659_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_hist/2024-01-15T14:30:47.659_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:47.726_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:47.726_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_hist/2024-01-15T14:30:47.726_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_hist/2024-01-15T14:30:47.726_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:47.794_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:47.794_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_hist/2024-01-15T14:30:47.794_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_hist/2024-01-15T14:30:47.794_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:47.876_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:47.876_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_hist/2024-01-15T14:30:47.876_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_hist/2024-01-15T14:30:47.876_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:47.945_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:47.945_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_hist/2024-01-15T14:30:47.945_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_hist/2024-01-15T14:30:47.945_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:48.012_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:48.012_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_hist/2024-01-15T14:30:48.012_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_hist/2024-01-15T14:30:48.012_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:48.081_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:48.081_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_hist/2024-01-15T14:30:48.081_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_hist/2024-01-15T14:30:48.081_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:48.147_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:48.147_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_hist/2024-01-15T14:30:48.147_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_hist/2024-01-15T14:30:48.147_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:48.227_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:48.227_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_hist/2024-01-15T14:30:48.227_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_hist/2024-01-15T14:30:48.227_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:48.295_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:48.295_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_hist/2024-01-15T14:30:48.295_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_hist/2024-01-15T14:30:48.295_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:48.365_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:48.365_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_hist/2024-01-15T14:30:48.365_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_hist/2024-01-15T14:30:48.365_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:48.432_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:48.432_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_hist/2024-01-15T14:30:48.432_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_hist/2024-01-15T14:30:48.432_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:48.499_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_hist/2024-01-15T14:30:48.499_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_hist/2024-01-15T14:30:48.499_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_hist/2024-01-15T14:30:48.499_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7.png
 INPUT ./subtex/g0_hist.tex
 INPUT subtex/g0_hist.tex
 INPUT ./subtex/g0_hist.tex
 INPUT subtex/g0_hist.tex
-INPUT ./image/g0_hist/2023-12-27T20:17:44.542_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
-INPUT ./image/g0_hist/2023-12-27T20:17:44.542_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
-INPUT image/g0_hist/2023-12-27T20:17:44.542_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
-INPUT extractbb -B cropbox -O image/g0_hist/2023-12-27T20:17:44.542_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
-INPUT ./image/g0_hist/2023-12-27T20:17:45.053_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
-INPUT ./image/g0_hist/2023-12-27T20:17:45.053_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
-INPUT image/g0_hist/2023-12-27T20:17:45.053_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
-INPUT extractbb -B cropbox -O image/g0_hist/2023-12-27T20:17:45.053_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
-INPUT ./image/g0_hist/2023-12-27T20:17:45.121_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
-INPUT ./image/g0_hist/2023-12-27T20:17:45.121_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
-INPUT image/g0_hist/2023-12-27T20:17:45.121_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
-INPUT extractbb -B cropbox -O image/g0_hist/2023-12-27T20:17:45.121_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png
+INPUT image/g0_hist/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_hist/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:34.556_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:34.556_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0_run4.0e7.png
+INPUT image/g0_hist/2024-01-15T14:07:34.556_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_hist/2024-01-15T14:07:34.556_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:34.622_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:34.622_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.938769_g0_run4.0e7.png
+INPUT image/g0_hist/2024-01-15T14:07:34.622_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.938769_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_hist/2024-01-15T14:07:34.622_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:34.689_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:34.689_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.4081535_g0_run4.0e7.png
+INPUT image/g0_hist/2024-01-15T14:07:34.689_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.4081535_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_hist/2024-01-15T14:07:34.689_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:34.770_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:34.770_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.877538_g0_run4.0e7.png
+INPUT image/g0_hist/2024-01-15T14:07:34.770_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.877538_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_hist/2024-01-15T14:07:34.770_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:34.852_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:34.852_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.0_g0_run4.0e7.png
+INPUT image/g0_hist/2024-01-15T14:07:34.852_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.0_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_hist/2024-01-15T14:07:34.852_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:34.918_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:34.918_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.4693845_g0_run4.0e7.png
+INPUT image/g0_hist/2024-01-15T14:07:34.918_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.4693845_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_hist/2024-01-15T14:07:34.918_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:34.988_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:34.988_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.938769_g0_run4.0e7.png
+INPUT image/g0_hist/2024-01-15T14:07:34.988_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.938769_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_hist/2024-01-15T14:07:34.988_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:35.058_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:35.058_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.4081535_g0_run4.0e7.png
+INPUT image/g0_hist/2024-01-15T14:07:35.058_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.4081535_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_hist/2024-01-15T14:07:35.058_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:35.126_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:35.126_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0_run4.0e7.png
+INPUT image/g0_hist/2024-01-15T14:07:35.126_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_hist/2024-01-15T14:07:35.126_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:35.195_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:35.195_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.0_g0_run4.0e7.png
+INPUT image/g0_hist/2024-01-15T14:07:35.195_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.0_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_hist/2024-01-15T14:07:35.195_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:35.278_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:35.278_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.4693845_g0_run4.0e7.png
+INPUT image/g0_hist/2024-01-15T14:07:35.278_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.4693845_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_hist/2024-01-15T14:07:35.278_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:35.361_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:35.361_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.938769_g0_run4.0e7.png
+INPUT image/g0_hist/2024-01-15T14:07:35.361_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.938769_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_hist/2024-01-15T14:07:35.361_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:35.445_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:35.445_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.4081535_g0_run4.0e7.png
+INPUT image/g0_hist/2024-01-15T14:07:35.445_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.4081535_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_hist/2024-01-15T14:07:35.445_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:35.515_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:35.515_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.877538_g0_run4.0e7.png
+INPUT image/g0_hist/2024-01-15T14:07:35.515_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.877538_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_hist/2024-01-15T14:07:35.515_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:35.582_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:35.582_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.0_g0_run4.0e7.png
+INPUT image/g0_hist/2024-01-15T14:07:35.582_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.0_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_hist/2024-01-15T14:07:35.582_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:35.651_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:35.651_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
+INPUT image/g0_hist/2024-01-15T14:07:35.651_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_hist/2024-01-15T14:07:35.651_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:35.728_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:35.728_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
+INPUT image/g0_hist/2024-01-15T14:07:35.728_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_hist/2024-01-15T14:07:35.728_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:35.797_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:35.797_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
+INPUT image/g0_hist/2024-01-15T14:07:35.797_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_hist/2024-01-15T14:07:35.797_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:35.863_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:35.863_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.877538_g0_run4.0e7.png
+INPUT image/g0_hist/2024-01-15T14:07:35.863_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.877538_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_hist/2024-01-15T14:07:35.863_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:35.928_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:35.928_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.0_g0_run4.0e7.png
+INPUT image/g0_hist/2024-01-15T14:07:35.928_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.0_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_hist/2024-01-15T14:07:35.928_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:36.002_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:36.002_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0_run4.0e7.png
+INPUT image/g0_hist/2024-01-15T14:07:36.002_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_hist/2024-01-15T14:07:36.002_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:36.081_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:36.081_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.938769_g0_run4.0e7.png
+INPUT image/g0_hist/2024-01-15T14:07:36.081_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.938769_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_hist/2024-01-15T14:07:36.081_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:36.149_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:36.149_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.4081535_g0_run4.0e7.png
+INPUT image/g0_hist/2024-01-15T14:07:36.149_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.4081535_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_hist/2024-01-15T14:07:36.149_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:36.228_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_hist/2024-01-15T14:07:36.228_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0_run4.0e7.png
+INPUT image/g0_hist/2024-01-15T14:07:36.228_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_hist/2024-01-15T14:07:36.228_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0_run4.0e7.png
 INPUT ./subtex/RaRtmap10_hist.tex
 INPUT subtex/RaRtmap10_hist.tex
 INPUT ./subtex/RaRtmap10_hist.tex
@@ -2434,34 +2786,210 @@ INPUT ./subtex/dT0_stdy.tex
 INPUT subtex/dT0_stdy.tex
 INPUT ./subtex/dT0_stdy.tex
 INPUT subtex/dT0_stdy.tex
-INPUT ./image/dT0_stdy/2024-01-07T22:21:47.320_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
-INPUT ./image/dT0_stdy/2024-01-07T22:21:47.320_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
-INPUT image/dT0_stdy/2024-01-07T22:21:47.320_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
-INPUT extractbb -B cropbox -O image/dT0_stdy/2024-01-07T22:21:47.320_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
-INPUT ./image/dT0_stdy/2024-01-07T22:21:47.833_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
-INPUT ./image/dT0_stdy/2024-01-07T22:21:47.833_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
-INPUT image/dT0_stdy/2024-01-07T22:21:47.833_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
-INPUT extractbb -B cropbox -O image/dT0_stdy/2024-01-07T22:21:47.833_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
-INPUT ./image/dT0_stdy/2024-01-07T22:21:47.918_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
-INPUT ./image/dT0_stdy/2024-01-07T22:21:47.918_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
-INPUT image/dT0_stdy/2024-01-07T22:21:47.918_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
-INPUT extractbb -B cropbox -O image/dT0_stdy/2024-01-07T22:21:47.918_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_stdy/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_stdy/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:46.901_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:46.901_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_stdy/2024-01-15T14:30:46.901_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_stdy/2024-01-15T14:30:46.901_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:46.968_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:46.968_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_stdy/2024-01-15T14:30:46.968_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_stdy/2024-01-15T14:30:46.968_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:47.037_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:47.037_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_stdy/2024-01-15T14:30:47.037_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_stdy/2024-01-15T14:30:47.037_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:47.119_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:47.119_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_stdy/2024-01-15T14:30:47.119_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_stdy/2024-01-15T14:30:47.119_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:47.186_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:47.186_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_stdy/2024-01-15T14:30:47.186_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_stdy/2024-01-15T14:30:47.186_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:47.255_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:47.255_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_stdy/2024-01-15T14:30:47.255_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_stdy/2024-01-15T14:30:47.255_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:47.323_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:47.323_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_stdy/2024-01-15T14:30:47.323_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_stdy/2024-01-15T14:30:47.323_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:47.390_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:47.390_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_stdy/2024-01-15T14:30:47.390_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_stdy/2024-01-15T14:30:47.390_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:47.459_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:47.459_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_stdy/2024-01-15T14:30:47.459_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_stdy/2024-01-15T14:30:47.459_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:47.525_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:47.525_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_stdy/2024-01-15T14:30:47.525_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_stdy/2024-01-15T14:30:47.525_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:47.592_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:47.592_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_stdy/2024-01-15T14:30:47.592_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_stdy/2024-01-15T14:30:47.592_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:47.659_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:47.659_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_stdy/2024-01-15T14:30:47.659_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_stdy/2024-01-15T14:30:47.659_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:47.726_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:47.726_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_stdy/2024-01-15T14:30:47.726_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_stdy/2024-01-15T14:30:47.726_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:47.794_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:47.794_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_stdy/2024-01-15T14:30:47.794_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_stdy/2024-01-15T14:30:47.794_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:47.876_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:47.876_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_stdy/2024-01-15T14:30:47.876_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_stdy/2024-01-15T14:30:47.876_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:47.945_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:47.945_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_stdy/2024-01-15T14:30:47.945_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_stdy/2024-01-15T14:30:47.945_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:48.012_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:48.012_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_stdy/2024-01-15T14:30:48.012_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_stdy/2024-01-15T14:30:48.012_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:48.081_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:48.081_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_stdy/2024-01-15T14:30:48.081_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_stdy/2024-01-15T14:30:48.081_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:48.147_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:48.147_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_stdy/2024-01-15T14:30:48.147_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_stdy/2024-01-15T14:30:48.147_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:48.227_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:48.227_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_stdy/2024-01-15T14:30:48.227_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_stdy/2024-01-15T14:30:48.227_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:48.295_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:48.295_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_stdy/2024-01-15T14:30:48.295_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_stdy/2024-01-15T14:30:48.295_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:48.365_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:48.365_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_stdy/2024-01-15T14:30:48.365_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_stdy/2024-01-15T14:30:48.365_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:48.432_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:48.432_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_stdy/2024-01-15T14:30:48.432_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_stdy/2024-01-15T14:30:48.432_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:48.499_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_stdy/2024-01-15T14:30:48.499_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_stdy/2024-01-15T14:30:48.499_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_stdy/2024-01-15T14:30:48.499_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7.png
 INPUT ./subtex/g0_stdy.tex
 INPUT subtex/g0_stdy.tex
 INPUT ./subtex/g0_stdy.tex
 INPUT subtex/g0_stdy.tex
-INPUT ./image/g0_stdy/2023-12-27T20:17:44.542_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
-INPUT ./image/g0_stdy/2023-12-27T20:17:44.542_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
-INPUT image/g0_stdy/2023-12-27T20:17:44.542_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
-INPUT extractbb -B cropbox -O image/g0_stdy/2023-12-27T20:17:44.542_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
-INPUT ./image/g0_stdy/2023-12-27T20:17:45.053_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
-INPUT ./image/g0_stdy/2023-12-27T20:17:45.053_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
-INPUT image/g0_stdy/2023-12-27T20:17:45.053_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
-INPUT extractbb -B cropbox -O image/g0_stdy/2023-12-27T20:17:45.053_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
-INPUT ./image/g0_stdy/2023-12-27T20:17:45.121_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
-INPUT ./image/g0_stdy/2023-12-27T20:17:45.121_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
-INPUT image/g0_stdy/2023-12-27T20:17:45.121_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
-INPUT extractbb -B cropbox -O image/g0_stdy/2023-12-27T20:17:45.121_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png
+INPUT image/g0_stdy/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_stdy/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:34.556_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:34.556_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0_run4.0e7.png
+INPUT image/g0_stdy/2024-01-15T14:07:34.556_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_stdy/2024-01-15T14:07:34.556_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:34.622_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:34.622_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.938769_g0_run4.0e7.png
+INPUT image/g0_stdy/2024-01-15T14:07:34.622_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.938769_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_stdy/2024-01-15T14:07:34.622_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:34.689_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:34.689_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.4081535_g0_run4.0e7.png
+INPUT image/g0_stdy/2024-01-15T14:07:34.689_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.4081535_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_stdy/2024-01-15T14:07:34.689_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:34.770_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:34.770_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.877538_g0_run4.0e7.png
+INPUT image/g0_stdy/2024-01-15T14:07:34.770_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.877538_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_stdy/2024-01-15T14:07:34.770_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:34.852_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:34.852_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.0_g0_run4.0e7.png
+INPUT image/g0_stdy/2024-01-15T14:07:34.852_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.0_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_stdy/2024-01-15T14:07:34.852_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:34.918_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:34.918_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.4693845_g0_run4.0e7.png
+INPUT image/g0_stdy/2024-01-15T14:07:34.918_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.4693845_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_stdy/2024-01-15T14:07:34.918_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:34.988_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:34.988_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.938769_g0_run4.0e7.png
+INPUT image/g0_stdy/2024-01-15T14:07:34.988_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.938769_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_stdy/2024-01-15T14:07:34.988_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:35.058_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:35.058_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.4081535_g0_run4.0e7.png
+INPUT image/g0_stdy/2024-01-15T14:07:35.058_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.4081535_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_stdy/2024-01-15T14:07:35.058_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:35.126_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:35.126_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0_run4.0e7.png
+INPUT image/g0_stdy/2024-01-15T14:07:35.126_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_stdy/2024-01-15T14:07:35.126_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:35.195_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:35.195_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.0_g0_run4.0e7.png
+INPUT image/g0_stdy/2024-01-15T14:07:35.195_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.0_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_stdy/2024-01-15T14:07:35.195_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:35.278_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:35.278_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.4693845_g0_run4.0e7.png
+INPUT image/g0_stdy/2024-01-15T14:07:35.278_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.4693845_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_stdy/2024-01-15T14:07:35.278_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:35.361_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:35.361_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.938769_g0_run4.0e7.png
+INPUT image/g0_stdy/2024-01-15T14:07:35.361_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.938769_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_stdy/2024-01-15T14:07:35.361_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:35.445_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:35.445_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.4081535_g0_run4.0e7.png
+INPUT image/g0_stdy/2024-01-15T14:07:35.445_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.4081535_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_stdy/2024-01-15T14:07:35.445_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:35.515_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:35.515_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.877538_g0_run4.0e7.png
+INPUT image/g0_stdy/2024-01-15T14:07:35.515_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.877538_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_stdy/2024-01-15T14:07:35.515_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:35.582_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:35.582_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.0_g0_run4.0e7.png
+INPUT image/g0_stdy/2024-01-15T14:07:35.582_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.0_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_stdy/2024-01-15T14:07:35.582_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:35.651_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:35.651_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
+INPUT image/g0_stdy/2024-01-15T14:07:35.651_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_stdy/2024-01-15T14:07:35.651_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:35.728_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:35.728_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
+INPUT image/g0_stdy/2024-01-15T14:07:35.728_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_stdy/2024-01-15T14:07:35.728_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:35.797_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:35.797_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
+INPUT image/g0_stdy/2024-01-15T14:07:35.797_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_stdy/2024-01-15T14:07:35.797_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:35.863_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:35.863_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.877538_g0_run4.0e7.png
+INPUT image/g0_stdy/2024-01-15T14:07:35.863_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.877538_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_stdy/2024-01-15T14:07:35.863_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:35.928_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:35.928_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.0_g0_run4.0e7.png
+INPUT image/g0_stdy/2024-01-15T14:07:35.928_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.0_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_stdy/2024-01-15T14:07:35.928_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:36.002_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:36.002_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0_run4.0e7.png
+INPUT image/g0_stdy/2024-01-15T14:07:36.002_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_stdy/2024-01-15T14:07:36.002_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:36.081_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:36.081_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.938769_g0_run4.0e7.png
+INPUT image/g0_stdy/2024-01-15T14:07:36.081_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.938769_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_stdy/2024-01-15T14:07:36.081_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:36.149_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:36.149_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.4081535_g0_run4.0e7.png
+INPUT image/g0_stdy/2024-01-15T14:07:36.149_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.4081535_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_stdy/2024-01-15T14:07:36.149_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:36.228_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_stdy/2024-01-15T14:07:36.228_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0_run4.0e7.png
+INPUT image/g0_stdy/2024-01-15T14:07:36.228_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_stdy/2024-01-15T14:07:36.228_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0_run4.0e7.png
 INPUT ./subtex/RaRtmap10_stdy.tex
 INPUT subtex/RaRtmap10_stdy.tex
 INPUT ./subtex/RaRtmap10_stdy.tex
@@ -2794,34 +3322,210 @@ INPUT ./subtex/dT0_cycle.tex
 INPUT subtex/dT0_cycle.tex
 INPUT ./subtex/dT0_cycle.tex
 INPUT subtex/dT0_cycle.tex
-INPUT ./image/dT0_cycle/2024-01-07T22:21:47.320_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
-INPUT ./image/dT0_cycle/2024-01-07T22:21:47.320_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
-INPUT image/dT0_cycle/2024-01-07T22:21:47.320_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
-INPUT extractbb -B cropbox -O image/dT0_cycle/2024-01-07T22:21:47.320_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
-INPUT ./image/dT0_cycle/2024-01-07T22:21:47.833_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
-INPUT ./image/dT0_cycle/2024-01-07T22:21:47.833_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
-INPUT image/dT0_cycle/2024-01-07T22:21:47.833_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
-INPUT extractbb -B cropbox -O image/dT0_cycle/2024-01-07T22:21:47.833_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
-INPUT ./image/dT0_cycle/2024-01-07T22:21:47.918_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
-INPUT ./image/dT0_cycle/2024-01-07T22:21:47.918_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
-INPUT image/dT0_cycle/2024-01-07T22:21:47.918_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
-INPUT extractbb -B cropbox -O image/dT0_cycle/2024-01-07T22:21:47.918_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:46.901_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:46.901_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle/2024-01-15T14:30:46.901_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle/2024-01-15T14:30:46.901_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:46.968_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:46.968_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle/2024-01-15T14:30:46.968_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle/2024-01-15T14:30:46.968_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:47.037_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:47.037_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle/2024-01-15T14:30:47.037_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle/2024-01-15T14:30:47.037_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:47.119_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:47.119_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle/2024-01-15T14:30:47.119_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle/2024-01-15T14:30:47.119_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:47.186_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:47.186_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle/2024-01-15T14:30:47.186_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle/2024-01-15T14:30:47.186_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:47.255_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:47.255_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle/2024-01-15T14:30:47.255_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle/2024-01-15T14:30:47.255_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:47.323_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:47.323_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle/2024-01-15T14:30:47.323_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle/2024-01-15T14:30:47.323_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:47.390_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:47.390_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle/2024-01-15T14:30:47.390_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle/2024-01-15T14:30:47.390_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:47.459_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:47.459_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle/2024-01-15T14:30:47.459_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle/2024-01-15T14:30:47.459_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:47.525_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:47.525_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle/2024-01-15T14:30:47.525_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle/2024-01-15T14:30:47.525_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:47.592_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:47.592_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle/2024-01-15T14:30:47.592_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle/2024-01-15T14:30:47.592_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:47.659_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:47.659_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle/2024-01-15T14:30:47.659_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle/2024-01-15T14:30:47.659_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:47.726_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:47.726_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle/2024-01-15T14:30:47.726_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle/2024-01-15T14:30:47.726_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:47.794_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:47.794_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle/2024-01-15T14:30:47.794_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle/2024-01-15T14:30:47.794_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:47.876_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:47.876_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle/2024-01-15T14:30:47.876_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle/2024-01-15T14:30:47.876_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:47.945_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:47.945_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle/2024-01-15T14:30:47.945_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle/2024-01-15T14:30:47.945_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:48.012_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:48.012_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle/2024-01-15T14:30:48.012_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle/2024-01-15T14:30:48.012_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:48.081_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:48.081_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle/2024-01-15T14:30:48.081_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle/2024-01-15T14:30:48.081_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:48.147_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:48.147_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle/2024-01-15T14:30:48.147_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle/2024-01-15T14:30:48.147_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:48.227_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:48.227_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle/2024-01-15T14:30:48.227_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle/2024-01-15T14:30:48.227_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:48.295_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:48.295_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle/2024-01-15T14:30:48.295_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle/2024-01-15T14:30:48.295_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:48.365_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:48.365_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle/2024-01-15T14:30:48.365_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle/2024-01-15T14:30:48.365_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:48.432_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:48.432_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle/2024-01-15T14:30:48.432_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle/2024-01-15T14:30:48.432_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:48.499_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle/2024-01-15T14:30:48.499_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle/2024-01-15T14:30:48.499_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle/2024-01-15T14:30:48.499_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7.png
 INPUT ./subtex/g0_cycle.tex
 INPUT subtex/g0_cycle.tex
 INPUT ./subtex/g0_cycle.tex
 INPUT subtex/g0_cycle.tex
-INPUT ./image/g0_cycle/2023-12-27T20:17:44.542_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
-INPUT ./image/g0_cycle/2023-12-27T20:17:44.542_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
-INPUT image/g0_cycle/2023-12-27T20:17:44.542_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
-INPUT extractbb -B cropbox -O image/g0_cycle/2023-12-27T20:17:44.542_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
-INPUT ./image/g0_cycle/2023-12-27T20:17:45.053_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
-INPUT ./image/g0_cycle/2023-12-27T20:17:45.053_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
-INPUT image/g0_cycle/2023-12-27T20:17:45.053_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
-INPUT extractbb -B cropbox -O image/g0_cycle/2023-12-27T20:17:45.053_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
-INPUT ./image/g0_cycle/2023-12-27T20:17:45.121_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
-INPUT ./image/g0_cycle/2023-12-27T20:17:45.121_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
-INPUT image/g0_cycle/2023-12-27T20:17:45.121_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
-INPUT extractbb -B cropbox -O image/g0_cycle/2023-12-27T20:17:45.121_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png
+INPUT image/g0_cycle/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:34.556_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:34.556_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0_run4.0e7.png
+INPUT image/g0_cycle/2024-01-15T14:07:34.556_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle/2024-01-15T14:07:34.556_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:34.622_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:34.622_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.938769_g0_run4.0e7.png
+INPUT image/g0_cycle/2024-01-15T14:07:34.622_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.938769_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle/2024-01-15T14:07:34.622_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:34.689_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:34.689_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.4081535_g0_run4.0e7.png
+INPUT image/g0_cycle/2024-01-15T14:07:34.689_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.4081535_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle/2024-01-15T14:07:34.689_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:34.770_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:34.770_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.877538_g0_run4.0e7.png
+INPUT image/g0_cycle/2024-01-15T14:07:34.770_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.877538_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle/2024-01-15T14:07:34.770_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:34.852_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:34.852_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.0_g0_run4.0e7.png
+INPUT image/g0_cycle/2024-01-15T14:07:34.852_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.0_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle/2024-01-15T14:07:34.852_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:34.918_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:34.918_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.4693845_g0_run4.0e7.png
+INPUT image/g0_cycle/2024-01-15T14:07:34.918_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.4693845_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle/2024-01-15T14:07:34.918_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:34.988_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:34.988_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.938769_g0_run4.0e7.png
+INPUT image/g0_cycle/2024-01-15T14:07:34.988_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.938769_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle/2024-01-15T14:07:34.988_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:35.058_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:35.058_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.4081535_g0_run4.0e7.png
+INPUT image/g0_cycle/2024-01-15T14:07:35.058_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.4081535_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle/2024-01-15T14:07:35.058_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:35.126_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:35.126_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0_run4.0e7.png
+INPUT image/g0_cycle/2024-01-15T14:07:35.126_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle/2024-01-15T14:07:35.126_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:35.195_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:35.195_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.0_g0_run4.0e7.png
+INPUT image/g0_cycle/2024-01-15T14:07:35.195_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.0_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle/2024-01-15T14:07:35.195_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:35.278_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:35.278_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.4693845_g0_run4.0e7.png
+INPUT image/g0_cycle/2024-01-15T14:07:35.278_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.4693845_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle/2024-01-15T14:07:35.278_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:35.361_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:35.361_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.938769_g0_run4.0e7.png
+INPUT image/g0_cycle/2024-01-15T14:07:35.361_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.938769_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle/2024-01-15T14:07:35.361_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:35.445_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:35.445_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.4081535_g0_run4.0e7.png
+INPUT image/g0_cycle/2024-01-15T14:07:35.445_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.4081535_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle/2024-01-15T14:07:35.445_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:35.515_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:35.515_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.877538_g0_run4.0e7.png
+INPUT image/g0_cycle/2024-01-15T14:07:35.515_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.877538_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle/2024-01-15T14:07:35.515_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:35.582_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:35.582_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.0_g0_run4.0e7.png
+INPUT image/g0_cycle/2024-01-15T14:07:35.582_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.0_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle/2024-01-15T14:07:35.582_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:35.651_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:35.651_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
+INPUT image/g0_cycle/2024-01-15T14:07:35.651_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle/2024-01-15T14:07:35.651_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:35.728_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:35.728_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
+INPUT image/g0_cycle/2024-01-15T14:07:35.728_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle/2024-01-15T14:07:35.728_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:35.797_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:35.797_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
+INPUT image/g0_cycle/2024-01-15T14:07:35.797_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle/2024-01-15T14:07:35.797_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:35.863_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:35.863_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.877538_g0_run4.0e7.png
+INPUT image/g0_cycle/2024-01-15T14:07:35.863_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.877538_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle/2024-01-15T14:07:35.863_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:35.928_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:35.928_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.0_g0_run4.0e7.png
+INPUT image/g0_cycle/2024-01-15T14:07:35.928_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.0_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle/2024-01-15T14:07:35.928_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:36.002_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:36.002_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0_run4.0e7.png
+INPUT image/g0_cycle/2024-01-15T14:07:36.002_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle/2024-01-15T14:07:36.002_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:36.081_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:36.081_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.938769_g0_run4.0e7.png
+INPUT image/g0_cycle/2024-01-15T14:07:36.081_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.938769_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle/2024-01-15T14:07:36.081_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:36.149_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:36.149_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.4081535_g0_run4.0e7.png
+INPUT image/g0_cycle/2024-01-15T14:07:36.149_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.4081535_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle/2024-01-15T14:07:36.149_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:36.228_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_cycle/2024-01-15T14:07:36.228_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0_run4.0e7.png
+INPUT image/g0_cycle/2024-01-15T14:07:36.228_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle/2024-01-15T14:07:36.228_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0_run4.0e7.png
 INPUT ./subtex/RaRtmap10_cycle.tex
 INPUT subtex/RaRtmap10_cycle.tex
 INPUT ./subtex/RaRtmap10_cycle.tex
@@ -3150,38 +3854,214 @@ INPUT ./image/RaRtmap_drop_cycle3d/2023-12-21T10:44:58.955_RaRtmap_chi1.265_Ay50
 INPUT ./image/RaRtmap_drop_cycle3d/2023-12-21T10:44:58.955_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7.png
 INPUT image/RaRtmap_drop_cycle3d/2023-12-21T10:44:58.955_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7.png
 INPUT extractbb -B cropbox -O image/RaRtmap_drop_cycle3d/2023-12-21T10:44:58.955_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7.png
-INPUT ./subtex/g0_cycle3d.tex
-INPUT subtex/g0_cycle3d.tex
-INPUT ./subtex/g0_cycle3d.tex
-INPUT subtex/g0_cycle3d.tex
-INPUT ./image/g0_cycle3d/2023-12-27T20:17:44.542_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
-INPUT ./image/g0_cycle3d/2023-12-27T20:17:44.542_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
-INPUT image/g0_cycle3d/2023-12-27T20:17:44.542_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
-INPUT extractbb -B cropbox -O image/g0_cycle3d/2023-12-27T20:17:44.542_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
-INPUT ./image/g0_cycle3d/2023-12-27T20:17:45.053_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
-INPUT ./image/g0_cycle3d/2023-12-27T20:17:45.053_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
-INPUT image/g0_cycle3d/2023-12-27T20:17:45.053_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
-INPUT extractbb -B cropbox -O image/g0_cycle3d/2023-12-27T20:17:45.053_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
-INPUT ./image/g0_cycle3d/2023-12-27T20:17:45.121_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
-INPUT ./image/g0_cycle3d/2023-12-27T20:17:45.121_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
-INPUT image/g0_cycle3d/2023-12-27T20:17:45.121_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
-INPUT extractbb -B cropbox -O image/g0_cycle3d/2023-12-27T20:17:45.121_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
 INPUT ./subtex/dT0_cycle3d.tex
 INPUT subtex/dT0_cycle3d.tex
 INPUT ./subtex/dT0_cycle3d.tex
 INPUT subtex/dT0_cycle3d.tex
-INPUT ./image/dT0_cycle3d/2024-01-07T22:21:47.320_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
-INPUT ./image/dT0_cycle3d/2024-01-07T22:21:47.320_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
-INPUT image/dT0_cycle3d/2024-01-07T22:21:47.320_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
-INPUT extractbb -B cropbox -O image/dT0_cycle3d/2024-01-07T22:21:47.320_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
-INPUT ./image/dT0_cycle3d/2024-01-07T22:21:47.833_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
-INPUT ./image/dT0_cycle3d/2024-01-07T22:21:47.833_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
-INPUT image/dT0_cycle3d/2024-01-07T22:21:47.833_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
-INPUT extractbb -B cropbox -O image/dT0_cycle3d/2024-01-07T22:21:47.833_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
-INPUT ./image/dT0_cycle3d/2024-01-07T22:21:47.918_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
-INPUT ./image/dT0_cycle3d/2024-01-07T22:21:47.918_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
-INPUT image/dT0_cycle3d/2024-01-07T22:21:47.918_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
-INPUT extractbb -B cropbox -O image/dT0_cycle3d/2024-01-07T22:21:47.918_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle3d/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle3d/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:46.901_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:46.901_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle3d/2024-01-15T14:30:46.901_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle3d/2024-01-15T14:30:46.901_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:46.968_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:46.968_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle3d/2024-01-15T14:30:46.968_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle3d/2024-01-15T14:30:46.968_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:47.037_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:47.037_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle3d/2024-01-15T14:30:47.037_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle3d/2024-01-15T14:30:47.037_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:47.119_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:47.119_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle3d/2024-01-15T14:30:47.119_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle3d/2024-01-15T14:30:47.119_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:47.186_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:47.186_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle3d/2024-01-15T14:30:47.186_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle3d/2024-01-15T14:30:47.186_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:47.255_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:47.255_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle3d/2024-01-15T14:30:47.255_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle3d/2024-01-15T14:30:47.255_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:47.323_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:47.323_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle3d/2024-01-15T14:30:47.323_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle3d/2024-01-15T14:30:47.323_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:47.390_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:47.390_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle3d/2024-01-15T14:30:47.390_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle3d/2024-01-15T14:30:47.390_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:47.459_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:47.459_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle3d/2024-01-15T14:30:47.459_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle3d/2024-01-15T14:30:47.459_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:47.525_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:47.525_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle3d/2024-01-15T14:30:47.525_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle3d/2024-01-15T14:30:47.525_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:47.592_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:47.592_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle3d/2024-01-15T14:30:47.592_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle3d/2024-01-15T14:30:47.592_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:47.659_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:47.659_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle3d/2024-01-15T14:30:47.659_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle3d/2024-01-15T14:30:47.659_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:47.726_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:47.726_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle3d/2024-01-15T14:30:47.726_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle3d/2024-01-15T14:30:47.726_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:47.794_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:47.794_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle3d/2024-01-15T14:30:47.794_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle3d/2024-01-15T14:30:47.794_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:47.876_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:47.876_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle3d/2024-01-15T14:30:47.876_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle3d/2024-01-15T14:30:47.876_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:47.945_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:47.945_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle3d/2024-01-15T14:30:47.945_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle3d/2024-01-15T14:30:47.945_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:48.012_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:48.012_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle3d/2024-01-15T14:30:48.012_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle3d/2024-01-15T14:30:48.012_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:48.081_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:48.081_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle3d/2024-01-15T14:30:48.081_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle3d/2024-01-15T14:30:48.081_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:48.147_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:48.147_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle3d/2024-01-15T14:30:48.147_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle3d/2024-01-15T14:30:48.147_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:48.227_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:48.227_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle3d/2024-01-15T14:30:48.227_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle3d/2024-01-15T14:30:48.227_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:48.295_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:48.295_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle3d/2024-01-15T14:30:48.295_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle3d/2024-01-15T14:30:48.295_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:48.365_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:48.365_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle3d/2024-01-15T14:30:48.365_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle3d/2024-01-15T14:30:48.365_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:48.432_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:48.432_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle3d/2024-01-15T14:30:48.432_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle3d/2024-01-15T14:30:48.432_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:48.499_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_cycle3d/2024-01-15T14:30:48.499_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_cycle3d/2024-01-15T14:30:48.499_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_cycle3d/2024-01-15T14:30:48.499_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./subtex/g0_cycle3d.tex
+INPUT subtex/g0_cycle3d.tex
+INPUT ./subtex/g0_cycle3d.tex
+INPUT subtex/g0_cycle3d.tex
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png
+INPUT image/g0_cycle3d/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle3d/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:34.556_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:34.556_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0_run4.0e7.png
+INPUT image/g0_cycle3d/2024-01-15T14:07:34.556_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle3d/2024-01-15T14:07:34.556_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:34.622_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:34.622_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.938769_g0_run4.0e7.png
+INPUT image/g0_cycle3d/2024-01-15T14:07:34.622_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.938769_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle3d/2024-01-15T14:07:34.622_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:34.689_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:34.689_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.4081535_g0_run4.0e7.png
+INPUT image/g0_cycle3d/2024-01-15T14:07:34.689_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.4081535_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle3d/2024-01-15T14:07:34.689_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:34.770_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:34.770_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.877538_g0_run4.0e7.png
+INPUT image/g0_cycle3d/2024-01-15T14:07:34.770_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.877538_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle3d/2024-01-15T14:07:34.770_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:34.852_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:34.852_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.0_g0_run4.0e7.png
+INPUT image/g0_cycle3d/2024-01-15T14:07:34.852_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.0_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle3d/2024-01-15T14:07:34.852_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:34.918_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:34.918_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.4693845_g0_run4.0e7.png
+INPUT image/g0_cycle3d/2024-01-15T14:07:34.918_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.4693845_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle3d/2024-01-15T14:07:34.918_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:34.988_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:34.988_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.938769_g0_run4.0e7.png
+INPUT image/g0_cycle3d/2024-01-15T14:07:34.988_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.938769_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle3d/2024-01-15T14:07:34.988_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:35.058_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:35.058_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.4081535_g0_run4.0e7.png
+INPUT image/g0_cycle3d/2024-01-15T14:07:35.058_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.4081535_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle3d/2024-01-15T14:07:35.058_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:35.126_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:35.126_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0_run4.0e7.png
+INPUT image/g0_cycle3d/2024-01-15T14:07:35.126_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle3d/2024-01-15T14:07:35.126_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:35.195_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:35.195_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.0_g0_run4.0e7.png
+INPUT image/g0_cycle3d/2024-01-15T14:07:35.195_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.0_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle3d/2024-01-15T14:07:35.195_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:35.278_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:35.278_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.4693845_g0_run4.0e7.png
+INPUT image/g0_cycle3d/2024-01-15T14:07:35.278_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.4693845_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle3d/2024-01-15T14:07:35.278_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:35.361_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:35.361_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.938769_g0_run4.0e7.png
+INPUT image/g0_cycle3d/2024-01-15T14:07:35.361_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.938769_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle3d/2024-01-15T14:07:35.361_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:35.445_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:35.445_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.4081535_g0_run4.0e7.png
+INPUT image/g0_cycle3d/2024-01-15T14:07:35.445_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.4081535_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle3d/2024-01-15T14:07:35.445_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:35.515_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:35.515_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.877538_g0_run4.0e7.png
+INPUT image/g0_cycle3d/2024-01-15T14:07:35.515_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.877538_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle3d/2024-01-15T14:07:35.515_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:35.582_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:35.582_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.0_g0_run4.0e7.png
+INPUT image/g0_cycle3d/2024-01-15T14:07:35.582_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.0_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle3d/2024-01-15T14:07:35.582_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:35.651_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:35.651_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
+INPUT image/g0_cycle3d/2024-01-15T14:07:35.651_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle3d/2024-01-15T14:07:35.651_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:35.728_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:35.728_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
+INPUT image/g0_cycle3d/2024-01-15T14:07:35.728_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle3d/2024-01-15T14:07:35.728_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:35.797_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:35.797_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
+INPUT image/g0_cycle3d/2024-01-15T14:07:35.797_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle3d/2024-01-15T14:07:35.797_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:35.863_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:35.863_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.877538_g0_run4.0e7.png
+INPUT image/g0_cycle3d/2024-01-15T14:07:35.863_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.877538_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle3d/2024-01-15T14:07:35.863_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:35.928_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:35.928_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.0_g0_run4.0e7.png
+INPUT image/g0_cycle3d/2024-01-15T14:07:35.928_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.0_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle3d/2024-01-15T14:07:35.928_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:36.002_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:36.002_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0_run4.0e7.png
+INPUT image/g0_cycle3d/2024-01-15T14:07:36.002_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle3d/2024-01-15T14:07:36.002_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:36.081_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:36.081_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.938769_g0_run4.0e7.png
+INPUT image/g0_cycle3d/2024-01-15T14:07:36.081_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.938769_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle3d/2024-01-15T14:07:36.081_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:36.149_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:36.149_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.4081535_g0_run4.0e7.png
+INPUT image/g0_cycle3d/2024-01-15T14:07:36.149_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.4081535_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle3d/2024-01-15T14:07:36.149_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:36.228_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_cycle3d/2024-01-15T14:07:36.228_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0_run4.0e7.png
+INPUT image/g0_cycle3d/2024-01-15T14:07:36.228_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_cycle3d/2024-01-15T14:07:36.228_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0_run4.0e7.png
 INPUT ./subtex/RaRtmap10_cycle3d.tex
 INPUT subtex/RaRtmap10_cycle3d.tex
 INPUT ./subtex/RaRtmap10_cycle3d.tex
@@ -3510,38 +4390,214 @@ INPUT ./image/RaRtmap_drop_heat/2023-12-21T10:44:58.955_RaRtmap_chi1.265_Ay50_rh
 INPUT ./image/RaRtmap_drop_heat/2023-12-21T10:44:58.955_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7.png
 INPUT image/RaRtmap_drop_heat/2023-12-21T10:44:58.955_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7.png
 INPUT extractbb -B cropbox -O image/RaRtmap_drop_heat/2023-12-21T10:44:58.955_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7.png
-INPUT ./subtex/g0_heat.tex
-INPUT subtex/g0_heat.tex
-INPUT ./subtex/g0_heat.tex
-INPUT subtex/g0_heat.tex
-INPUT ./image/g0_heat/2023-12-27T20:17:44.542_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
-INPUT ./image/g0_heat/2023-12-27T20:17:44.542_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
-INPUT image/g0_heat/2023-12-27T20:17:44.542_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
-INPUT extractbb -B cropbox -O image/g0_heat/2023-12-27T20:17:44.542_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
-INPUT ./image/g0_heat/2023-12-27T20:17:45.053_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
-INPUT ./image/g0_heat/2023-12-27T20:17:45.053_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
-INPUT image/g0_heat/2023-12-27T20:17:45.053_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
-INPUT extractbb -B cropbox -O image/g0_heat/2023-12-27T20:17:45.053_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
-INPUT ./image/g0_heat/2023-12-27T20:17:45.121_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
-INPUT ./image/g0_heat/2023-12-27T20:17:45.121_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
-INPUT image/g0_heat/2023-12-27T20:17:45.121_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
-INPUT extractbb -B cropbox -O image/g0_heat/2023-12-27T20:17:45.121_qrs_g0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
 INPUT ./subtex/dT0_heat.tex
 INPUT subtex/dT0_heat.tex
 INPUT ./subtex/dT0_heat.tex
 INPUT subtex/dT0_heat.tex
-INPUT ./image/dT0_heat/2024-01-07T22:21:47.320_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
-INPUT ./image/dT0_heat/2024-01-07T22:21:47.320_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
-INPUT image/dT0_heat/2024-01-07T22:21:47.320_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
-INPUT extractbb -B cropbox -O image/dT0_heat/2024-01-07T22:21:47.320_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
-INPUT ./image/dT0_heat/2024-01-07T22:21:47.833_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
-INPUT ./image/dT0_heat/2024-01-07T22:21:47.833_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
-INPUT image/dT0_heat/2024-01-07T22:21:47.833_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
-INPUT extractbb -B cropbox -O image/dT0_heat/2024-01-07T22:21:47.833_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
-INPUT ./image/dT0_heat/2024-01-07T22:21:47.918_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
-INPUT ./image/dT0_heat/2024-01-07T22:21:47.918_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
-INPUT image/dT0_heat/2024-01-07T22:21:47.918_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
-INPUT extractbb -B cropbox -O image/dT0_heat/2024-01-07T22:21:47.918_qrsdT0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_heat/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_heat/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:46.901_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:46.901_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_heat/2024-01-15T14:30:46.901_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_heat/2024-01-15T14:30:46.901_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:46.968_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:46.968_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_heat/2024-01-15T14:30:46.968_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_heat/2024-01-15T14:30:46.968_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:47.037_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:47.037_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_heat/2024-01-15T14:30:47.037_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_heat/2024-01-15T14:30:47.037_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:47.119_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:47.119_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_heat/2024-01-15T14:30:47.119_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_heat/2024-01-15T14:30:47.119_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:47.186_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:47.186_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_heat/2024-01-15T14:30:47.186_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_heat/2024-01-15T14:30:47.186_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:47.255_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:47.255_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_heat/2024-01-15T14:30:47.255_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_heat/2024-01-15T14:30:47.255_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:47.323_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:47.323_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_heat/2024-01-15T14:30:47.323_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_heat/2024-01-15T14:30:47.323_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:47.390_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:47.390_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_heat/2024-01-15T14:30:47.390_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_heat/2024-01-15T14:30:47.390_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:47.459_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:47.459_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_heat/2024-01-15T14:30:47.459_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_heat/2024-01-15T14:30:47.459_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:47.525_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:47.525_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_heat/2024-01-15T14:30:47.525_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_heat/2024-01-15T14:30:47.525_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:47.592_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:47.592_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_heat/2024-01-15T14:30:47.592_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_heat/2024-01-15T14:30:47.592_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:47.659_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:47.659_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_heat/2024-01-15T14:30:47.659_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_heat/2024-01-15T14:30:47.659_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:47.726_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:47.726_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_heat/2024-01-15T14:30:47.726_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_heat/2024-01-15T14:30:47.726_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:47.794_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:47.794_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_heat/2024-01-15T14:30:47.794_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_heat/2024-01-15T14:30:47.794_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:47.876_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:47.876_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_heat/2024-01-15T14:30:47.876_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_heat/2024-01-15T14:30:47.876_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:47.945_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:47.945_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_heat/2024-01-15T14:30:47.945_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_heat/2024-01-15T14:30:47.945_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:48.012_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:48.012_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_heat/2024-01-15T14:30:48.012_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_heat/2024-01-15T14:30:48.012_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:48.081_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:48.081_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_heat/2024-01-15T14:30:48.081_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_heat/2024-01-15T14:30:48.081_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:48.147_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:48.147_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_heat/2024-01-15T14:30:48.147_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_heat/2024-01-15T14:30:48.147_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:48.227_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:48.227_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_heat/2024-01-15T14:30:48.227_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_heat/2024-01-15T14:30:48.227_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.0_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:48.295_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:48.295_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_heat/2024-01-15T14:30:48.295_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_heat/2024-01-15T14:30:48.295_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:48.365_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:48.365_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_heat/2024-01-15T14:30:48.365_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_heat/2024-01-15T14:30:48.365_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.938769_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:48.432_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:48.432_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_heat/2024-01-15T14:30:48.432_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_heat/2024-01-15T14:30:48.432_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.4081535_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:48.499_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./image/dT0_heat/2024-01-15T14:30:48.499_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT image/dT0_heat/2024-01-15T14:30:48.499_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT extractbb -B cropbox -O image/dT0_heat/2024-01-15T14:30:48.499_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7.png
+INPUT ./subtex/g0_heat.tex
+INPUT subtex/g0_heat.tex
+INPUT ./subtex/g0_heat.tex
+INPUT subtex/g0_heat.tex
+INPUT ./image/g0_heat/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png
+INPUT image/g0_heat/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_heat/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:34.556_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:34.556_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0_run4.0e7.png
+INPUT image/g0_heat/2024-01-15T14:07:34.556_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_heat/2024-01-15T14:07:34.556_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:34.622_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:34.622_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.938769_g0_run4.0e7.png
+INPUT image/g0_heat/2024-01-15T14:07:34.622_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.938769_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_heat/2024-01-15T14:07:34.622_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:34.689_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:34.689_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.4081535_g0_run4.0e7.png
+INPUT image/g0_heat/2024-01-15T14:07:34.689_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.4081535_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_heat/2024-01-15T14:07:34.689_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:34.770_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:34.770_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.877538_g0_run4.0e7.png
+INPUT image/g0_heat/2024-01-15T14:07:34.770_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.877538_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_heat/2024-01-15T14:07:34.770_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:34.852_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:34.852_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.0_g0_run4.0e7.png
+INPUT image/g0_heat/2024-01-15T14:07:34.852_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.0_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_heat/2024-01-15T14:07:34.852_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:34.918_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:34.918_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.4693845_g0_run4.0e7.png
+INPUT image/g0_heat/2024-01-15T14:07:34.918_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.4693845_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_heat/2024-01-15T14:07:34.918_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:34.988_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:34.988_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.938769_g0_run4.0e7.png
+INPUT image/g0_heat/2024-01-15T14:07:34.988_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.938769_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_heat/2024-01-15T14:07:34.988_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:35.058_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:35.058_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.4081535_g0_run4.0e7.png
+INPUT image/g0_heat/2024-01-15T14:07:35.058_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.4081535_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_heat/2024-01-15T14:07:35.058_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:35.126_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:35.126_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0_run4.0e7.png
+INPUT image/g0_heat/2024-01-15T14:07:35.126_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_heat/2024-01-15T14:07:35.126_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:35.195_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:35.195_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.0_g0_run4.0e7.png
+INPUT image/g0_heat/2024-01-15T14:07:35.195_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.0_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_heat/2024-01-15T14:07:35.195_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:35.278_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:35.278_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.4693845_g0_run4.0e7.png
+INPUT image/g0_heat/2024-01-15T14:07:35.278_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.4693845_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_heat/2024-01-15T14:07:35.278_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:35.361_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:35.361_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.938769_g0_run4.0e7.png
+INPUT image/g0_heat/2024-01-15T14:07:35.361_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.938769_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_heat/2024-01-15T14:07:35.361_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:35.445_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:35.445_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.4081535_g0_run4.0e7.png
+INPUT image/g0_heat/2024-01-15T14:07:35.445_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.4081535_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_heat/2024-01-15T14:07:35.445_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:35.515_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:35.515_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.877538_g0_run4.0e7.png
+INPUT image/g0_heat/2024-01-15T14:07:35.515_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.877538_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_heat/2024-01-15T14:07:35.515_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:35.582_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:35.582_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.0_g0_run4.0e7.png
+INPUT image/g0_heat/2024-01-15T14:07:35.582_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.0_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_heat/2024-01-15T14:07:35.582_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:35.651_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:35.651_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
+INPUT image/g0_heat/2024-01-15T14:07:35.651_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_heat/2024-01-15T14:07:35.651_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:35.728_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:35.728_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
+INPUT image/g0_heat/2024-01-15T14:07:35.728_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_heat/2024-01-15T14:07:35.728_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:35.797_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:35.797_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
+INPUT image/g0_heat/2024-01-15T14:07:35.797_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_heat/2024-01-15T14:07:35.797_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:35.863_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:35.863_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.877538_g0_run4.0e7.png
+INPUT image/g0_heat/2024-01-15T14:07:35.863_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.877538_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_heat/2024-01-15T14:07:35.863_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:35.928_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:35.928_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.0_g0_run4.0e7.png
+INPUT image/g0_heat/2024-01-15T14:07:35.928_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.0_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_heat/2024-01-15T14:07:35.928_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.0_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:36.002_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:36.002_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0_run4.0e7.png
+INPUT image/g0_heat/2024-01-15T14:07:36.002_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_heat/2024-01-15T14:07:36.002_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:36.081_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:36.081_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.938769_g0_run4.0e7.png
+INPUT image/g0_heat/2024-01-15T14:07:36.081_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.938769_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_heat/2024-01-15T14:07:36.081_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.938769_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:36.149_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:36.149_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.4081535_g0_run4.0e7.png
+INPUT image/g0_heat/2024-01-15T14:07:36.149_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.4081535_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_heat/2024-01-15T14:07:36.149_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.4081535_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:36.228_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0_run4.0e7.png
+INPUT ./image/g0_heat/2024-01-15T14:07:36.228_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0_run4.0e7.png
+INPUT image/g0_heat/2024-01-15T14:07:36.228_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0_run4.0e7.png
+INPUT extractbb -B cropbox -O image/g0_heat/2024-01-15T14:07:36.228_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0_run4.0e7.png
 INPUT ./subtex/RaRtmap10_heat.tex
 INPUT subtex/RaRtmap10_heat.tex
 INPUT ./subtex/RaRtmap10_heat.tex
