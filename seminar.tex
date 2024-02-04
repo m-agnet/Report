@@ -1,14 +1,15 @@
-\documentclass[dvipdfmx]{jsarticle}
+\documentclass[dvipdfmx]{jsreport}
 
 \input{usepackage.tex}
 
 \begin{document}
 
 % 表紙
-\title{\href{https://github.com/m-agnet/Report.git}{壁の濡れ性が誘起する, \\ 重力と熱流をかけた流体系のダイナミクスの変化}}
-\author{理学部理学科物理学コース 学籍番号20S2035Y 山本 凜}
+\title{\href{https://github.com/m-agnet/Report.git}{壁の濡れ性から誘起される非平衡流体系のダイナミクスの変化}}
+\author{20S2035Y 山本 凜 \thanks{茨城大学 理学部理学科物理学コース 物性理論グループ 中川研究室}}
 \date{最終更新日: \today}
 \maketitle
+
 \newpage
 % 目次
 \setcounter{tocdepth}{3}
@@ -16,30 +17,23 @@
 \newpage
 % 本文
 
-\input{section0.tex}
-
-\input{section1.tex}
-
-\input{section2.tex}
-
-\input{section3.tex}
-
-\input{section4.tex}
+\input{abstract.tex}
+\input{chapter1.tex}
+\input{chapter2.tex}
+\input{chapter3.tex}
+\input{chapter4.tex}
+\input{acknowledgement.tex}
 
 % 付録
 \appendix
-\section{\href{https://github.com/m-agnet/Report.git}{ソースコード}}
+\chapter{\href{https://github.com/m-agnet/Report.git}{ソースコード}}
 % ここにソースコードを追加.
 \lstinputlisting[caption=in.2DLJ\_mod]{src/in.2dLJ_mod}
 \lstinputlisting[caption=lammps\_modexe.jl]{src/lammps_modexe.jl}
 \lstinputlisting[caption=plot\_LJpotential.jl]{src/plot_LJpotential.jl}
 
-
 % 参考文献
-\addcontentsline{toc}{section}{参考文献}
 \bibliographystyle{jplain}
 \bibliography{seminar}
-
-
 
 \end{document}
