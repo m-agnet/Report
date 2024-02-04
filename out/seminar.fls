@@ -4764,6 +4764,10 @@ INPUT ./acknowledgement.tex
 INPUT acknowledgement.tex
 INPUT ./acknowledgement.tex
 INPUT acknowledgement.tex
+INPUT ./appendix/src.tex
+INPUT appendix/src.tex
+INPUT ./appendix/src.tex
+INPUT appendix/src.tex
 INPUT ./src/in.2dLJ_mod
 INPUT src/in.2dLJ_mod
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
@@ -4779,6 +4783,10 @@ INPUT src/lammps_modexe.jl
 INPUT ./src/plot_LJpotential.jl
 INPUT src/plot_LJpotential.jl
 INPUT src/plot_LJpotential.jl
+INPUT ./appendix/analysis.tex
+INPUT appendix/analysis.tex
+INPUT ./appendix/analysis.tex
+INPUT appendix/analysis.tex
 INPUT out/seminar.bbl
 INPUT out/seminar.bbl
 INPUT out/seminar.bbl

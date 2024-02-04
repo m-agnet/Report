@@ -5,18 +5,18 @@
 \begin{document}
 
 % 表紙
-\title{\href{https://github.com/m-agnet/Report.git}{壁の濡れ性から誘起される非平衡流体系のダイナミクスの変化}}
+\title{\href{https://github.com/m-agnet/Report.git}{壁の濡れ性から誘起される非平衡流体系ダイナミクスの変化}}
 \author{20S2035Y 山本 凜 \thanks{茨城大学 理学部理学科物理学コース 物性理論グループ 中川研究室}}
 \date{最終更新日: \today}
 \maketitle
-
 \newpage
+
 % 目次
 \setcounter{tocdepth}{3}
 \tableofcontents
 \newpage
-% 本文
 
+% 本文
 \input{abstract.tex}
 \input{chapter1.tex}
 \input{chapter2.tex}
@@ -26,11 +26,8 @@
 
 % 付録
 \appendix
-\chapter{\href{https://github.com/m-agnet/Report.git}{ソースコード}}
-% ここにソースコードを追加.
-\lstinputlisting[caption=in.2DLJ\_mod]{src/in.2dLJ_mod}
-\lstinputlisting[caption=lammps\_modexe.jl]{src/lammps_modexe.jl}
-\lstinputlisting[caption=plot\_LJpotential.jl]{src/plot_LJpotential.jl}
+\input{appendix/src.tex}
+\input{appendix/analysis.tex}
 
 % 参考文献
 \bibliographystyle{jplain}

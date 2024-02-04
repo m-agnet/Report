@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.9.10)  4 FEB 2024 18:02
+This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.9.10)  5 FEB 2024 08:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2356,12 +2356,6 @@ LaTeX Warning: Label `sub@' multiply defined.
 
 
 LaTeX Warning: Label `sub@@cref' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
@@ -9761,41 +9755,43 @@ File: image/qrs10_drop_time/2023-12-28T10:59:29.846_qrs_gap_chi1.265_Ay50_rho0.4
 )) (./chapter3.tex [20] [21]
 第3章
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 5.
+(Font)              scaled to size 6.72699pt on input line 7.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 5.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 5.
+(hyperref)                removing `math shift' on input line 7.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 5.
+(hyperref)                removing `subscript' on input line 7.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 5.
+(hyperref)                removing `math shift' on input line 7.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 5.
+(hyperref)                removing `math shift' on input line 7.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 5.
+(hyperref)                removing `subscript' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 7.
 
 File: image/lnStdYg_Ra0.0to1.877538_Rt0.0to0.5_ti25000.png Graphic file (type bmp)
 <image/lnStdYg_Ra0.0to1.877538_Rt0.0to0.5_ti25000.png>
 File: image/lnStdYg_Rt0.0to0.5_Ra0.0to1.877538_ti25000.png Graphic file (type bmp)
 <image/lnStdYg_Rt0.0to0.5_Ra0.0to1.877538_ti25000.png>
 
-Overfull \hbox (15.33333pt too wide) in paragraph at lines 17--31
+Overfull \hbox (15.33333pt too wide) in paragraph at lines 21--35
 [][] 
  []
 
-(./subtex/Ra0.469to0.938Rt0.5_time.tex
+[22
+
+] (./subtex/Ra0.469to0.938Rt0.5_time.tex
 File: image/RaRtmap_time/2023-11-22T18:19:26.970_RaRt_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run1.2e8.png Graphic file (type bmp)
 <image/RaRtmap_time/2023-11-22T18:19:26.970_RaRt_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run1.2e8.png>
 File: image/RaRtmap_time/2023-11-22T18:19:27.571_RaRt_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.586730625_g0.0003999718779659611_run1.2e8.png Graphic file (type bmp)
@@ -9811,9 +9807,7 @@ Overfull \hbox (59.9931pt too wide) in paragraph at lines 3--35
  [][] 
  []
 
-) [22
-
-]
+)
 File: image/lnStdYg_Ra0.4693845to0.98769_Rt0.5_ti25000.png Graphic file (type bmp)
 <image/lnStdYg_Ra0.4693845to0.98769_Rt0.5_ti25000.png>
 (./subtex/Ra0.762to0.938Rt0.5_time.tex
@@ -9854,7 +9848,7 @@ Overfull \hbox (59.9931pt too wide) in paragraph at lines 3--35
 )
 File: image/lnStdYg_Ra0.5to1.0_Rt0.5_ti25000.png Graphic file (type bmp)
 <image/lnStdYg_Ra0.5to1.0_Rt0.5_ti25000.png>
-(./subtex/RaRtmap_hist.tex
+[24] (./subtex/RaRtmap_hist.tex
 File: image/RaRtmap_hist/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
 <image/RaRtmap_hist/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png>
 File: image/RaRtmap_hist/2023-11-14T19:14:52.710__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
@@ -9910,7 +9904,7 @@ Overfull \hbox (59.9931pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-[24]) (./subtex/RaRtmap_drop_hist.tex
+) [25] (./subtex/RaRtmap_drop_hist.tex
 File: image/RaRtmap_drop_hist/2023-12-21T10:44:56.628_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/RaRtmap_drop_hist/2023-12-21T10:44:56.628_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png>
 File: image/RaRtmap_drop_hist/2023-12-21T10:44:57.232_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
@@ -9966,7 +9960,7 @@ Overfull \hbox (59.9931pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [25] (./subtex/dT0_hist.tex
+) [26] (./subtex/dT0_hist.tex
 File: image/dT0_hist/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/dT0_hist/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png>
 File: image/dT0_hist/2024-01-15T14:30:46.901_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
@@ -10022,7 +10016,7 @@ Overfull \hbox (59.9931pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [26] (./subtex/g0_hist.tex
+) [27] (./subtex/g0_hist.tex
 File: image/g0_hist/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png Graphic file (type bmp)
 <image/g0_hist/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png>
 File: image/g0_hist/2024-01-15T14:07:34.556_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0_run4.0e7.png Graphic file (type bmp)
@@ -10078,7 +10072,7 @@ Overfull \hbox (59.9931pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [27] (./subtex/RaRtmap10_hist.tex
+) [28] (./subtex/RaRtmap10_hist.tex
 File: image/RaRtmap10_hist/2023-12-28T12:38:50.578_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/RaRtmap10_hist/2023-12-28T12:38:50.578_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e8.png>
 File: image/RaRtmap10_hist/2023-12-28T12:38:51.188_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
@@ -10134,14 +10128,14 @@ Overfull \hbox (59.9931pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [28] (./subtex/qrs10_drop_hist.tex
+) [29] (./subtex/qrs10_drop_hist.tex
 File: image/qrs10_drop_hist/2023-12-28T10:59:29.242_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/qrs10_drop_hist/2023-12-28T10:59:29.242_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e8.png>
 File: image/qrs10_drop_hist/2023-12-28T10:59:29.748_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/qrs10_drop_hist/2023-12-28T10:59:29.748_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e8.png>
 File: image/qrs10_drop_hist/2023-12-28T10:59:29.846_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/qrs10_drop_hist/2023-12-28T10:59:29.846_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e8.png>
-) [29] (./subtex/RaRtmap_stdy.tex
+) [30] (./subtex/RaRtmap_stdy.tex
 File: image/RaRtmap_stdy/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
 <image/RaRtmap_stdy/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png>
 File: image/RaRtmap_stdy/2023-11-14T19:14:52.710__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
@@ -10197,7 +10191,7 @@ Overfull \hbox (59.9931pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [30] (./subtex/RaRtmap_drop_stdy.tex
+) [31] (./subtex/RaRtmap_drop_stdy.tex
 File: image/RaRtmap_drop_stdy/2023-12-21T10:44:56.628_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/RaRtmap_drop_stdy/2023-12-21T10:44:56.628_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png>
 File: image/RaRtmap_drop_stdy/2023-12-21T10:44:57.232_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
@@ -10253,7 +10247,7 @@ Overfull \hbox (59.9931pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [31] (./subtex/dT0_stdy.tex
+) [32] (./subtex/dT0_stdy.tex
 File: image/dT0_stdy/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/dT0_stdy/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png>
 File: image/dT0_stdy/2024-01-15T14:30:46.901_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
@@ -10309,7 +10303,7 @@ Overfull \hbox (59.9931pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [32] (./subtex/g0_stdy.tex
+) [33] (./subtex/g0_stdy.tex
 File: image/g0_stdy/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png Graphic file (type bmp)
 <image/g0_stdy/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png>
 File: image/g0_stdy/2024-01-15T14:07:34.556_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0_run4.0e7.png Graphic file (type bmp)
@@ -10365,7 +10359,7 @@ Overfull \hbox (59.9931pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [33] (./subtex/RaRtmap10_stdy.tex
+) [34] (./subtex/RaRtmap10_stdy.tex
 File: image/RaRtmap10_stdy/2023-12-28T12:38:50.578_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/RaRtmap10_stdy/2023-12-28T12:38:50.578_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e8.png>
 File: image/RaRtmap10_stdy/2023-12-28T12:38:51.188_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
@@ -10421,14 +10415,14 @@ Overfull \hbox (59.9931pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [34] (./subtex/qrs10_drop_stdy.tex
+) [35] (./subtex/qrs10_drop_stdy.tex
 File: image/qrs10_drop_stdy/2023-12-28T10:59:29.242_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/qrs10_drop_stdy/2023-12-28T10:59:29.242_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e8.png>
 File: image/qrs10_drop_stdy/2023-12-28T10:59:29.748_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/qrs10_drop_stdy/2023-12-28T10:59:29.748_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e8.png>
 File: image/qrs10_drop_stdy/2023-12-28T10:59:29.846_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/qrs10_drop_stdy/2023-12-28T10:59:29.846_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e8.png>
-) [35] (./subtex/RaRtmap_cycle.tex
+) [36] (./subtex/RaRtmap_cycle.tex
 File: image/RaRtmap_cycle/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
 <image/RaRtmap_cycle/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png>
 File: image/RaRtmap_cycle/2023-11-14T19:14:52.710__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
@@ -10484,7 +10478,7 @@ Overfull \hbox (59.9931pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [36] (./subtex/RaRtmap_drop_cycle.tex
+) [37] (./subtex/RaRtmap_drop_cycle.tex
 File: image/RaRtmap_drop_cycle/2023-12-21T10:44:56.628_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/RaRtmap_drop_cycle/2023-12-21T10:44:56.628_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png>
 File: image/RaRtmap_drop_cycle/2023-12-21T10:44:57.232_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
@@ -10540,7 +10534,7 @@ Overfull \hbox (59.9931pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [37] (./subtex/dT0_cycle.tex
+) [38] (./subtex/dT0_cycle.tex
 File: image/dT0_cycle/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/dT0_cycle/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png>
 File: image/dT0_cycle/2024-01-15T14:30:46.901_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
@@ -10596,7 +10590,7 @@ Overfull \hbox (59.9931pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [38] (./subtex/g0_cycle.tex
+) [39] (./subtex/g0_cycle.tex
 File: image/g0_cycle/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png Graphic file (type bmp)
 <image/g0_cycle/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png>
 File: image/g0_cycle/2024-01-15T14:07:34.556_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0_run4.0e7.png Graphic file (type bmp)
@@ -10652,7 +10646,7 @@ Overfull \hbox (59.9931pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [39] (./subtex/RaRtmap10_cycle.tex
+) [40] (./subtex/RaRtmap10_cycle.tex
 File: image/RaRtmap10_cycle/2023-12-28T12:38:50.578_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/RaRtmap10_cycle/2023-12-28T12:38:50.578_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e8.png>
 File: image/RaRtmap10_cycle/2023-12-28T12:38:51.188_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
@@ -10708,14 +10702,14 @@ Overfull \hbox (59.9931pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [40] (./subtex/qrs10_drop_cycle.tex
+) [41] (./subtex/qrs10_drop_cycle.tex
 File: image/qrs10_drop_cycle/2023-12-28T10:59:29.242_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/qrs10_drop_cycle/2023-12-28T10:59:29.242_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e8.png>
 File: image/qrs10_drop_cycle/2023-12-28T10:59:29.748_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/qrs10_drop_cycle/2023-12-28T10:59:29.748_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e8.png>
 File: image/qrs10_drop_cycle/2023-12-28T10:59:29.846_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/qrs10_drop_cycle/2023-12-28T10:59:29.846_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e8.png>
-) [41] (./subtex/RaRtmap_cycle3d.tex
+) [42] (./subtex/RaRtmap_cycle3d.tex
 File: image/RaRtmap_cycle3d/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
 <image/RaRtmap_cycle3d/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png>
 File: image/RaRtmap_cycle3d/2023-11-14T19:14:52.710__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
@@ -10771,7 +10765,7 @@ Overfull \hbox (59.9931pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [42] (./subtex/RaRtmap_drop_cycle3d.tex
+) [43] (./subtex/RaRtmap_drop_cycle3d.tex
 File: image/RaRtmap_drop_cycle3d/2023-12-21T10:44:56.628_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/RaRtmap_drop_cycle3d/2023-12-21T10:44:56.628_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png>
 File: image/RaRtmap_drop_cycle3d/2023-12-21T10:44:57.232_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
@@ -10827,7 +10821,7 @@ Overfull \hbox (59.9931pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [43] (./subtex/dT0_cycle3d.tex
+) [44] (./subtex/dT0_cycle3d.tex
 File: image/dT0_cycle3d/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/dT0_cycle3d/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png>
 File: image/dT0_cycle3d/2024-01-15T14:30:46.901_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
@@ -10883,7 +10877,7 @@ Overfull \hbox (59.9931pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [44] (./subtex/g0_cycle3d.tex
+) [45] (./subtex/g0_cycle3d.tex
 File: image/g0_cycle3d/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png Graphic file (type bmp)
 <image/g0_cycle3d/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png>
 File: image/g0_cycle3d/2024-01-15T14:07:34.556_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0_run4.0e7.png Graphic file (type bmp)
@@ -10939,7 +10933,7 @@ Overfull \hbox (59.9931pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [45] (./subtex/RaRtmap10_cycle3d.tex
+) [46] (./subtex/RaRtmap10_cycle3d.tex
 File: image/RaRtmap10_cycle3d/2023-12-28T12:38:50.578_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/RaRtmap10_cycle3d/2023-12-28T12:38:50.578_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e8.png>
 File: image/RaRtmap10_cycle3d/2023-12-28T12:38:51.188_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
@@ -10995,14 +10989,14 @@ Overfull \hbox (59.9931pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [46] (./subtex/qrs10_drop_cycle3d.tex
+) [47] (./subtex/qrs10_drop_cycle3d.tex
 File: image/qrs10_drop_cycle3d/2023-12-28T10:59:29.242_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/qrs10_drop_cycle3d/2023-12-28T10:59:29.242_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e8.png>
 File: image/qrs10_drop_cycle3d/2023-12-28T10:59:29.748_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/qrs10_drop_cycle3d/2023-12-28T10:59:29.748_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e8.png>
 File: image/qrs10_drop_cycle3d/2023-12-28T10:59:29.846_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/qrs10_drop_cycle3d/2023-12-28T10:59:29.846_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e8.png>
-) [47] (./subtex/RaRtmap_heat.tex
+) [48] (./subtex/RaRtmap_heat.tex
 File: image/RaRtmap_heat/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
 <image/RaRtmap_heat/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png>
 File: image/RaRtmap_heat/2023-11-14T19:14:52.710__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
@@ -11058,7 +11052,7 @@ Overfull \hbox (59.9931pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [48] (./subtex/RaRtmap_drop_heat.tex
+) [49] (./subtex/RaRtmap_drop_heat.tex
 File: image/RaRtmap_drop_heat/2023-12-21T10:44:56.628_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/RaRtmap_drop_heat/2023-12-21T10:44:56.628_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png>
 File: image/RaRtmap_drop_heat/2023-12-21T10:44:57.232_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
@@ -11114,7 +11108,7 @@ Overfull \hbox (59.9931pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [49] (./subtex/dT0_heat.tex
+) [50] (./subtex/dT0_heat.tex
 File: image/dT0_heat/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/dT0_heat/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png>
 File: image/dT0_heat/2024-01-15T14:30:46.901_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
@@ -11170,7 +11164,7 @@ Overfull \hbox (59.9931pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [50] (./subtex/g0_heat.tex
+) [51] (./subtex/g0_heat.tex
 File: image/g0_heat/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png Graphic file (type bmp)
 <image/g0_heat/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png>
 File: image/g0_heat/2024-01-15T14:07:34.556_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0_run4.0e7.png Graphic file (type bmp)
@@ -11226,7 +11220,7 @@ Overfull \hbox (59.9931pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [51] (./subtex/RaRtmap10_heat.tex
+) [52] (./subtex/RaRtmap10_heat.tex
 File: image/RaRtmap10_heat/2023-12-28T12:38:50.578_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/RaRtmap10_heat/2023-12-28T12:38:50.578_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e8.png>
 File: image/RaRtmap10_heat/2023-12-28T12:38:51.188_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
@@ -11282,53 +11276,57 @@ Overfull \hbox (59.9931pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [52] (./subtex/qrs10_drop_heat.tex
+) [53] (./subtex/qrs10_drop_heat.tex
 File: image/qrs10_drop_heat/2023-12-28T10:59:29.242_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/qrs10_drop_heat/2023-12-28T10:59:29.242_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e8.png>
 File: image/qrs10_drop_heat/2023-12-28T10:59:29.748_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/qrs10_drop_heat/2023-12-28T10:59:29.748_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e8.png>
 File: image/qrs10_drop_heat/2023-12-28T10:59:29.846_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/qrs10_drop_heat/2023-12-28T10:59:29.846_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e8.png>
-) [53]) (./chapter4.tex [54]
+) [54]) (./chapter4.tex [55]
 第4章
-) (./acknowledgement.tex [55
+) (./acknowledgement.tex [56
 
-]) [56
+]) (./appendix/src.tex [57
 
 ]
 付録A
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 31.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 4.
 LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 31.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 31.
+(Font)              scaled to size 9.60999pt on input line 4.
 LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 31.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 31.
+(Font)              scaled to size 9.60999pt on input line 4.
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 31.
-LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 31.
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 4.
+LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 4.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-) [57
+) [58
 
-] [58] [59] [60] [61] [62] [63] (out/seminar.bbl [64]) [65
+] [59] [60] [61] [62] [63] [64]) (./appendix/analysis.tex [65]
+付録B
+) (out/seminar.bbl [66
+
+]) [67
 
 ] (out/seminar.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `seminar.out' has not changed.
-(rerunfilecheck)             Checksum: D9342BEFA7F7B1D14A92C0375BC5780B;4975.
+(rerunfilecheck)             Checksum: C2C9E806B16E504848489EE82F2B501A;5235.
  ) 
 Here is how much of TeX's memory you used:
- 37394 strings out of 476693
- 1174705 string characters out of 5805373
- 2229209 words of memory out of 5000000
- 56953 multiletter control sequences out of 15000+600000
+ 37411 strings out of 476693
+ 1175204 string characters out of 5805373
+ 2222209 words of memory out of 5000000
+ 56963 multiletter control sequences out of 15000+600000
  573763 words of font info for 167 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  89i,16n,92p,511b,2900s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/seminar.dvi (66 pages, 521764 bytes).
+Output written on out/seminar.dvi (68 pages, 526664 bytes).

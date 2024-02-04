@@ -1,6 +1,8 @@
 \chapter{分析}
 
-この章では, \ref{sec:simulation}章において行ったシミュレーションに対して, それぞれ分析をしていく.
+この章では, 第\ref{sec:simulation}章において行ったシミュレーションに対して, それぞれ分析をしていく.
+
+以降の解析は図\ref{fig:RaRtmap_time_Ra0.0_Rt0.0}から定常状態であるとみなせる, $t_i \sqrt{\varepsilon / m \sigma^2} = 2.5 \times 10^{4}$からのデータを用いてプロットすることにしている. 定常状態であるとみなせる時間については議論する必要がある.
 
 \section{$\text{R}_\text{a}$, $\text{R}_\text{t}$ マップ}
 
@@ -11,7 +13,9 @@
   \sigma (Y_g) &= \sqrt{\frac{1}{N_{D}}\sum_{t=t_i}^{t=t_f} (Y_{g}(t) - \bar{Y_g})^2}
 \end{align}
 
-重心位置の標準偏差について同時プロットで表してみる. 以降の解析は図\ref{fig:RaRtmap_time_Ra0.0_Rt0.0}から定常状態にあるとみなせる, $t_i \sqrt{\varepsilon / m \sigma^2} = 2.5 \times 10^{4}$からのデータを用いてプロットすることにしている.
+これは, 時間発展する重心位置のばらつき具合を意味する. 後述する空間的なばらつきとは定義から見ても分かるとおり, 異なる量である.
+
+重心位置の標準偏差について同時プロットで表してみる. 
 
 \begin{figure}[H]
   \begin{tabular}{cc}
@@ -34,7 +38,7 @@
 
 \section{周期性}
 
-重心位置が周期的に変化しているのかを調べたい.
+重心位置が周期的に変化しているのかを考えたい.
 
 図\ref{fig:RaRtmap_time_Ra0.469_Rt0.500}$R_a = 0.469, R_t = 0.5$と図\ref{fig:RaRtmap_time_Ra0.938_Rt0.500} $R_a = 0.938, R_t = 0.5$の間をもっと詳しく見る.
 
@@ -47,6 +51,8 @@
   \label{}
 \end{figure}
 
+図\ref{fig:Ra0.70407675Rt0.5}$R_a = 0.469, R_t = 0.5$と図\ref{fig:Ra0.938769Rt0.5} $R_a = 0.938, R_t = 0.5$の間をもっと詳しく見る. 
+
 \input{subtex/Ra0.762to0.938Rt0.5_time.tex}
 
 \begin{figure}[H]
@@ -56,7 +62,7 @@
   \label{}
 \end{figure}
 
-図\ref{fig:RaRtmap_time_Ra0.469_Rt0.500}$R_a = 0.469, R_t = 0.5$と図\ref{fig:RaRtmap_time_Ra0.938_Rt0.500} $R_a = 0.938, R_t = 0.5$の間をもっと詳しく見る. その際, 簡単のため, $Ra =0.5 \sim 1.0$の間を見ることにする.
+先の分析では, 時間プロットの幅が大きい可能性があるため, 図\ref{fig:RaRtmap_time_Ra0.469_Rt0.500}$R_a = 0.469, R_t = 0.5$と図\ref{fig:RaRtmap_time_Ra0.938_Rt0.500} $R_a = 0.938, R_t = 0.5$の間のプロット幅を小さくしたデータを使う. その際, 簡単のため, $Ra =0.5 \sim 1.0$の間を見ることにする.
 
 \input{subtex/Ra0.5to1.0Rt0.5_time.tex}
 
@@ -64,8 +70,10 @@
   \centering
   \includegraphics[scale=0.5]{image/lnStdYg_Ra0.5to1.0_Rt0.5_ti25000.png}
   \caption{}
-  \label{}
+  \label{fig:lnStdYg_Ra0.5to1.0_Rt0.5_ti25000}
 \end{figure}
+
+図\ref{fig:lnStdYg_Ra0.5to1.0_Rt0.5_ti25000}からも見て分かるように, $\text{R}_\text{t} = 0.5$において, $\text{R}_\text{a}$ の値を大きくするほど, 各系の重心位置の時間発展はばらつきが小さくなると言うことがわかる.
 
 
 \section{ヒストグラム}
