@@ -1,19 +1,19 @@
 # Fdb version 4
-["bibtex out/seminar"] 1707092016 "out/seminar.aux" "out/seminar.bbl" "out/seminar" 1707092171 0
+["bibtex out/seminar"] 1707095198 "out/seminar.aux" "out/seminar.bbl" "out/seminar" 1707095359 0
   "./seminar.bib" 1700607958 146 e5deeff7c692931eff4cac840a13c339 ""
   "jplain.bst" 0 -1 0 ""
-  "out/seminar.aux" 1707092122 374692 cbd0a37482ec3ed30bade036f561928c "latex"
+  "out/seminar.aux" 1707095310 375367 74a6e1ff6445692b7a5fba7fdde8c394 "latex"
   (generated)
   "out/seminar.bbl"
   "out/seminar.blg"
   (rewritten before read)
-["dvipdf"] 1707092123 "out/seminar.dvi" "out/seminar.pdf" "out/seminar" 1707092171 0
-  "out/seminar.dvi" 1707092122 581488 c9ec5da6cf19edfe3c4426b778c623cb "latex"
+["dvipdf"] 1707095311 "out/seminar.dvi" "out/seminar.pdf" "out/seminar" 1707095359 0
+  "out/seminar.dvi" 1707095310 585052 4b88be7625b7d473675ac9152d3f3b95 "latex"
   (generated)
   "out/seminar.pdf"
   (rewritten before read)
-["latex"] 1707092016 "/Users/2023_2gou/Desktop/r_yamamoto/Report/seminar.tex" "out/seminar.dvi" "seminar" 1707092171 0
-  "/Users/2023_2gou/Desktop/r_yamamoto/Report/seminar.tex" 1707090957 751 7b311ffa9e9d673c6e0d17eac5b772c2 ""
+["latex"] 1707095199 "/Users/2023_2gou/Desktop/r_yamamoto/Report/seminar.tex" "out/seminar.dvi" "seminar" 1707095359 0
+  "/Users/2023_2gou/Desktop/r_yamamoto/Report/seminar.tex" 1707095160 775 2e0ab4db54011f284f9ba70009ea5c2a ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1136768653 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -230,9 +230,10 @@
   "/usr/local/texlive/2023/texmf-var/web2c/eptex/platex.fmt" 1694326018 7883682 d7630b6b2b162635e06112c975ffa0be ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
   "abstract.tex" 1707034668 2622 201641f71ad2bfe428c9d98f42659b62 ""
-  "acknowledgement.tex" 1707034972 17 b7772bd7323693e9e5a7a36098a13ebb ""
+  "acknowledgement.tex" 1707094433 56 fb3b5958fa730b272001ab5464444469 ""
   "ap_analysis.tex" 1707091385 3288 b6aa00df265f5201131c909c55ff9253 ""
-  "ap_src.tex" 1707091658 394 3d0b193717de70acf635cb49d969ce57 ""
+  "ap_method.tex" 1707094896 111 4bb11326116c3c3066a978b428eb9177 ""
+  "ap_src.tex" 1707094313 403 5f506ebdd3d989c8f6a25a47f943163d ""
   "chapter1.tex" 1707034712 7137 f510a3920d4ae4607ba88f9bb164d62c ""
   "chapter2.tex" 1707035894 8895 66e1c2b068dea31314a179d76e627e75 ""
   "chapter3.tex" 1707091858 4249 a229073b7b5a34ff519f3c6098ba806a ""
@@ -1060,11 +1061,11 @@
   "image/qrs10_drop_time/2023-12-28T10:59:29.846_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e8.png" 1704764366 68721 3d13d6ea94e4d6e5d84dea40cb17df9f ""
   "image/system.jpg" 1698650208 11059 699a95380173ca12c74c6ec6f0edf7e0 ""
   "image/system_periodic.jpg" 1698719063 16103 f9c326214c0cf777898bc5a6db8b65a6 ""
-  "out/seminar.aux" 1707092122 374692 cbd0a37482ec3ed30bade036f561928c "latex"
-  "out/seminar.bbl" 1707092016 168 1992e08544f97c900ad5c85882ef3f5e "bibtex out/seminar"
-  "out/seminar.out" 1707092122 5526 9cb654acc217c176dcb847a0955c1ae4 "latex"
-  "out/seminar.toc" 1707092122 6376 74ea63a42d7083dbffa35443b37672c3 "latex"
-  "seminar.tex" 1707090957 751 7b311ffa9e9d673c6e0d17eac5b772c2 ""
+  "out/seminar.aux" 1707095310 375367 74a6e1ff6445692b7a5fba7fdde8c394 "latex"
+  "out/seminar.bbl" 1707095199 168 1992e08544f97c900ad5c85882ef3f5e "bibtex out/seminar"
+  "out/seminar.out" 1707095310 5838 7a28f29486274fedb5c6ed12cef44729 "latex"
+  "out/seminar.toc" 1707095310 6746 8182f99ada10870cdb401578c4f94aca "latex"
+  "seminar.tex" 1707095160 775 2e0ab4db54011f284f9ba70009ea5c2a ""
   "src/in.2dLJ_mod" 1699233754 7644 d6a2d74d1798824c8bf20f06152216af ""
   "src/lammps_modexe.jl" 1699233793 4082 93cf126ff2a6f245755835e8d7dd3999 ""
   "src/plot_LJpotential.jl" 1700603961 1873 8b3cc84fd44f87f49dc22f2462e8a41a ""
