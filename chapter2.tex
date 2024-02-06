@@ -8,34 +8,43 @@
   \chi &\equiv \frac{k_{\text{B}}\Delta T}{mgL_{y}}
 \end{align}
 
-壁ポテンシャルまわりの無次元パラメータを3つ用意する.
+壁の濡れ性を制御する無次元パラメータを3つ用意する.
 
 \begin{align}
   \text{R}_\text{d} &: 乾き具合. \\
   \text{R}_\text{t} &: 壁の厚み. \\
-  \text{R}_\text{a} &: 濡れ具合.
+  \text{R}_\text{a} &: 引力幅.
 \end{align}
 
 これらを用いて, 壁-粒子間相互作用LJポテンシャルは以下のように書き表す.
 
 \begin{align}
   \varepsilon^{\text{wall}} &= \qty(1.0 - \text{R}_\text{d}) \times \varepsilon \\
-  \sigma^{\text{wall}} &= \qty(0.5 + \text{R}_\text{t}) \times \sigma \\
-  r^{\text{wall}}_{\text{cut}} &= \qty(2^{1/6} + \text{R}_\text{a}) \times \sigma^{\text{wall}}
+  \sigma^{\text{wall}} &= \qty(0.5 + \text{R}_\text{t}) \times \sigma , \\
+  r^{\text{wall}}_{\text{cut}} &= \qty(2^{1/6} + \text{R}_\text{a}) \times \sigma^{\text{wall}} 
 \end{align}
 
 パラメータ $(\text{R}_\text{d}, \text{R}_\text{t}, \text{R}_\text{a})$ を変えることによって, 壁-粒子間相互作用LJポテンシャルが変わる. このときに, どのようにして粒子集団の様相が変化するかをみる.
 
-$\text{R}_\text{a}$ と $\text{R}_\text{t}$ を少しずつ変えた系でシミュレーションをして, 粒子集団の様相の変化を見たい. 以下に示すのが, それらを動かす範囲である.
+本論では$\text{R}_\text{d}$は動かさずに, $\text{R}_\text{t}$ と $\text{R}_\text{a}$ を少しずつ変えた系でシミュレーションをして, 粒子集団の様相の変化を見たい. 以下に示すのが, それらを動かす範囲である.
 
 \begin{align}
-  \text{R}_\text{a} &\colon 0.0 \sim 3.0 - 2^{1/6} = 1.877538\dots \\
-  \text{R}_\text{t} &\colon 0.0 \sim 0.5
+  \text{R}_\text{t} &\colon 0.0 \sim 0.5 \\
+  \text{R}_\text{a} &\colon 0.0 \sim 3.0 - 2^{1/6} = 1.877538\dots
 \end{align}
+
+数値実験上で実際に入力する値を以下に示す. 本論では簡単のため簡略して示すことがある.
+
+\begin{align}
+  \text{R}_\text{t} &= 0.0, 0.125, 0.25, 0.375, 0.5 \\
+  \text{R}_\text{a} &= 0.0, 0.4693845, 0.938769, 1.4081535, 1.877538, 1.877538
+\end{align}
+
+以下は$\text{R}_\text{t}$, $\text{R}_\text{a}$を変化させたときのLJポテンシャルがどのように変化するのかを可視化したグラフである.
 
 \input{subtex/RaRtmap_LJ.tex}
 
-本章の以降の実験は特記がない限り以下のパラメータに近い値で行うものとする. 
+本章の以降の実験は特記がない限り以下のパラメータで行うものとする. 
 
 \begin{itemize}
   \item $N = 1250$: 粒子数
@@ -74,11 +83,11 @@ $\text{R}_\text{a}$ と $\text{R}_\text{t}$ を少しずつ変えた系でシミ
 \begin{itemize}
   \item $N = 5000$
   \item $\rho \sigma^2 = 0.4$
-  \item $L_x / \sigma = 79.0\dots$
-  \item $L_y / \sigma = 158.1\dots$
+  \item $L_x / \sigma \simeq 79.0$
+  \item $L_y / \sigma \simeq 158.1$
   \item $k_{\text{B}} T/\varepsilon = 4.3$
   \item $k_{\text{B}} \Delta T/\varepsilon = 0.0$
-  \item $mg\sigma/\varepsilon = 2.0 \times 10^{-4}$
+  \item $mg\sigma/\varepsilon \simeq 2.0 \times 10^{-4}$
   \item ${t_f}^{\prime} \sqrt{\varepsilon / m \sigma^2} = 5.0 \times 10^{5}$
 \end{itemize}
 
@@ -89,7 +98,7 @@ $\text{R}_\text{a}$ と $\text{R}_\text{t}$ を少しずつ変えた系でシミ
   \label{}
 \end{figure}
 
-続いて重力をかけた緩和後の系で, 熱浴の温度差を改めて以下のようにつけ, 熱流をかけてシミュレーションをしている. 
+続いて重力をかけた緩和後の系で, 温度差のある熱浴をそれぞれ改めて以下のようにつけ, 熱流をかけてシミュレーションをしている. 
 
 \begin{itemize}
   \item $\chi = k_{\text{B}}\Delta T / mg L_y = 1.265$
@@ -98,12 +107,12 @@ $\text{R}_\text{a}$ と $\text{R}_\text{t}$ を少しずつ変えた系でシミ
   \item $t_f \sqrt{\varepsilon / m \sigma^2} = 1.0 \times 10^{6}$
 \end{itemize}
 
-$(\text{R}_\text{d} = 0.0, \text{R}_\text{t} = 0.5, \text{R}_\text{a} = 3.0 - 2^{1/6})$ で実験を行う. このとき, $(\varepsilon^{\text{wall}} = \varepsilon, \sigma^{\text{wall}} = \sigma, r^{\text{wall}}_{\text{cut}} = 3.0 \sigma^{\text{wall}})$ になるので, ${\phi_{\text{LJ}}^{\text{wall}}} = \phi_{\text{LJ}}$ ということになり, 先行研究と同じシミュレーションを行うことができる.
+$(\text{R}_\text{t} = 0.5, \text{R}_\text{a} = 3.0 - 2^{1/6})$ で実験を行う. このときには, $(\varepsilon^{\text{wall}} = \varepsilon, \sigma^{\text{wall}} = \sigma, r^{\text{wall}}_{\text{cut}} = 3.0 \sigma^{\text{wall}})$ になるので, ${\phi_{\text{LJ}}^{\text{wall}}} = \phi_{\text{LJ}}$ ということになり, 先行研究と同じシミュレーションを行うことができる.
 
 \begin{figure}[H]
   \centering
   \href{https://youtu.be/CIEyUPvPY6A}{\includegraphics[scale=0.2]{image/2023-11-21T21:01:17.543_followup_chi1.265_Ay100_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.00019998593898298055_run1.0e8_output.png}}
-  \caption{Ay100\_rho0.4\_T0.43\_dT0.04\_Rd0.0\_Rt0.5\_Ra1.877538\_g0.0004\_run1.0e8}
+  \caption{$t \sqrt{\varepsilon / m \sigma^2} = 1.0 \times 10^{6}$でのスナップショット}
   \label{}
 \end{figure}
 
@@ -127,10 +136,10 @@ $(\text{R}_\text{d} = 0.0, \text{R}_\text{t} = 0.5, \text{R}_\text{a} = 3.0 - 2^
 参考のために, 各パラメータの値を変えることによって, カットオフ長と衝突直径がどのように変わるのかを示す.
 
 \begin{align}
-  \text{R}_\text{a} = 0.0 &\Rightarrow r_{\text{cut}}^{\text{wall}} = 2^{1/6} \sigma_{\text{wall}} \\
-  \text{R}_\text{a} = 1.877 &\Rightarrow r_{\text{cut}}^{\text{wall}} = 3.0 \sigma_{\text{wall}} \\
-  \text{R}_\text{t} = 0.0 &\Rightarrow \sigma_{\text{wall}} = 0.5 \sigma \\
-  \text{R}_\text{t} = 0.5 &\Rightarrow \sigma_{\text{wall}} = \sigma 
+  \text{R}_\text{a} = 0.0 &\Rightarrow r_{\text{cut}}^{\text{wall}} = 2^{1/6} \sigma^{\text{wall}} \\
+  \text{R}_\text{a} = 1.877 &\Rightarrow r_{\text{cut}}^{\text{wall}} = 3.0 \sigma^{\text{wall}} \\
+  \text{R}_\text{t} = 0.0 &\Rightarrow \sigma^{\text{wall}} = 0.5 \sigma \\
+  \text{R}_\text{t} = 0.5 &\Rightarrow \sigma^{\text{wall}} = \sigma 
 \end{align}
 
 である. 

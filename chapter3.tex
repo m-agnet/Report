@@ -1,19 +1,19 @@
 \chapter{分析と考察}
 
-この章では, 第\ref{sec:simulation}章において行ったシミュレーションに対して, それぞれ分析と考察をしていく. 適宜文脈に則した分析画像を提示するが, 入りきらない部分は付録\ref{ap:analysis}に収録する.
+この章では, 第\ref{sec:simulation}章において行ったシミュレーションを用いて, それぞれ分析と考察をしていく. 適宜文脈に則した分析画像を提示するが, 入りきらない部分は付録\ref{ap:analysis}に収録する.
 
-以降の解析は図\ref{fig:RaRtmap_time_Ra0.0_Rt0.0}から定常状態であるとみなせる, $t_i \sqrt{\varepsilon / m \sigma^2} = 2.5 \times 10^{4}$からのデータを用いてプロットすることにしている. 定常状態であるとみなせる時間については議論する必要がある.
+以降の解析は定常状態であるとみなせる, $t_i \sqrt{\varepsilon / m \sigma^2} = 4.0 \times 10^{4}$からのデータを用いてプロットすることにしている. 定常状態であるとみなせる時間については議論する必要がある.
 
 \section{$\text{R}_\text{a}$, $\text{R}_\text{t}$ マップ}
 
 
-ここで, 重心の標準偏差は以下のように書くことができる.
+重心位置の標準偏差は以下のように書くことができる.
 
 \begin{align}
   \sigma (Y_g) &= \sqrt{\frac{1}{N_{D}}\sum_{t=t_i}^{t=t_f} (Y_{g}(t) - \bar{Y_g})^2}
 \end{align}
 
-これは, 時間発展する重心位置のばらつき具合を意味する. 後述する空間的なばらつきとは定義から見ても分かるとおり, 異なる量である.
+これは, 時間発展する重心位置のばらつき具合を意味する. 後述する空間的なばらつきとは定義から見ても分かるとおり異なる量である.
 
 重心位置の標準偏差について同時プロットで表してみる. 
 
@@ -22,23 +22,20 @@
     \begin{minipage}[t]{0.5\hsize}
       \centering
       \includegraphics[width=\textwidth]{image/lnStdYg_Ra0.0to1.877538_Rt0.0to0.5_ti25000.png}
-      \subcaption{}
+      \subcaption{横軸$\colon \text{R}_\text{a}$}
       \label{}
     \end{minipage}
     \begin{minipage}[t]{0.5\hsize}
       \centering
       \includegraphics[width=\textwidth]{image/lnStdYg_Rt0.0to0.5_Ra0.0to1.877538_ti25000.png}
-      \subcaption{}
+      \subcaption{横軸$\colon \text{R}_\text{t}$}
       \label{}
     \end{minipage}
   \end{tabular}
-  \caption{$t_i \sqrt{\varepsilon / m \sigma^2} = 2.5 \times 10^{4}$}
+  \caption{縦軸 $\colon$ 重心位置の標準偏差の対数プロット}
   \label{}
 \end{figure}
 
-
-
-重心位置が周期的に変化しているのかを考えたい.
 
 図\ref{fig:RaRtmap_time_Ra0.469_Rt0.500}$\text{R}_\text{a} = 0.469, \text{R}_\text{t} = 0.5$と図\ref{fig:RaRtmap_time_Ra0.938_Rt0.500} $\text{R}_\text{a} = 0.938, \text{R}_\text{t} = 0.5$の間をもっと詳しく見る.
 
@@ -51,7 +48,7 @@
   \label{}
 \end{figure}
 
-図\ref{fig:Ra0.70407675Rt0.5}$\text{R}_\text{a} = 0.469, \text{R}_\text{t} = 0.5$と図\ref{fig:Ra0.938769Rt0.5} $\text{R}_\text{a} = 0.938, \text{R}_\text{t} = 0.5$の間をもっと詳しく見る. 
+図\ref{fig:Ra0.70407675Rt0.5}$\text{R}_\text{a} = 0.469, \text{R}_\text{t} = 0.5$と図\ref{fig:Ra0.938769Rt0.5} $\text{R}_\text{a} = 0.938, \text{R}_\text{t} = 0.5$の間を詳しく見る. 
 
 \input{subtex/Ra0.762to0.938Rt0.5_time.tex}
 
