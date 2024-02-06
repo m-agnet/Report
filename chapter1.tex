@@ -31,7 +31,7 @@
   \right]
 \end{align}
 
-以降, 本節はこれに至るまでの過程を述べる.
+第1項から第4項まで順に, 運動エネルギー, 粒子-粒子間相互作用ポテンシャル, 重力ポテンシャル, 壁-粒子間相互作用ポテンシャルである. 以降, 本節はこのハミルトニアンに至るまでの過程を述べる.
 
 \subsection{粒子-粒子間相互作用ポテンシャル}
 
@@ -49,9 +49,9 @@
 
 のように書き換えたポテンシャルを用いている.
 
-\subsection{周期境界条件と最近接イメージ規約\cite{MD}}
+\subsection{周期境界条件と最近接イメージ規約}
 
-周期境界条件を考慮すると, 粒子-粒子間相互ポテンシャルの総計はまず以下のように書ける.
+周期境界条件を考慮すると, 粒子-粒子間相互ポテンシャルの総計はまず以下のように書ける.\cite{MD}
 
 \begin{align}
   \sum_{n_x \in \mathbb{Z}} \sum_{i=1}^{N} \sum_{\substack{j=1 \\ (j \neq i \ \text{for} \ n_{x} = 0)}}^{N} \frac{1}{2} \phi_{\text{LJ}}^{\text{pair}}(|\bm{r}_i -(\bm{r}_j + L_x \bm{e}_x)|)
@@ -104,7 +104,7 @@
   V^{\text{wall}}(y; L_y) &= \tilde{\phi}_{\text{LJ}}^{\text{wall}}(y;r_{\text{cut}}^{\text{wall}}) + \tilde{\phi}_{\text{LJ}}^{\text{wall}}(L_y - y;r_{\text{cut}}^{\text{wall}})
 \end{align}
 
-のように書ける. これまでのことより, ハミルトニアンは以下のように書き表せる.
+のように書ける. これまでのことより, ハミルトニアンは式\eqref{Hamiltonian}のように書き表せる.
 
 \begin{align}
     H(\Gamma; g)

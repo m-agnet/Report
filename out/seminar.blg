@@ -1,47 +1,50 @@
 This is upBibTeX, Version 0.99d-j0.36-u1.29 (TeX Live 2023)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: seminar.aux
-The style file: jplain.bst
+The style file: junsrt.bst
 Database file #1: seminar.bib
-You've used 1 entry,
-            2620 wiz_defined-function locations,
-            597 strings with 4588 characters,
-and the built_in function-call counts, 283 in all, are:
-= -- 19
-> -- 7
+Warning--empty title in Yoshida
+Warning--empty year in Yoshida
+You've used 2 entries,
+            2270 wiz_defined-function locations,
+            547 strings with 4131 characters,
+and the built_in function-call counts, 379 in all, are:
+= -- 20
+> -- 8
 < -- 0
-+ -- 3
++ -- 4
 - -- 2
-* -- 8
-:= -- 48
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 3
+* -- 9
+:= -- 55
+add.period$ -- 5
+call.type$ -- 2
+change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 19
-empty$ -- 30
-format.name$ -- 3
-if$ -- 61
+cite$ -- 4
+duplicate$ -- 31
+empty$ -- 46
+format.name$ -- 4
+if$ -- 87
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 2
-newline$ -- 8
+int.to.str$ -- 2
+missing$ -- 3
+newline$ -- 12
 num.names$ -- 2
-pop$ -- 13
+pop$ -- 21
 preamble$ -- 1
-purify$ -- 3
+purify$ -- 0
 quote$ -- 0
-skip$ -- 14
+skip$ -- 19
 stack$ -- 0
-substring$ -- 5
+substring$ -- 0
 swap$ -- 0
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2
-warning$ -- 0
+type$ -- 0
+warning$ -- 2
 while$ -- 2
-width$ -- 2
-write$ -- 12
-is.kanji.str$ -- 8
+width$ -- 3
+write$ -- 19
+is.kanji.str$ -- 16
+(There were 2 warnings)

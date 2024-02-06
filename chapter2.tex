@@ -69,7 +69,7 @@ $\text{R}_\text{a}$ と $\text{R}_\text{t}$ を少しずつ変えた系でシミ
 
 壁を完全に濡らしている状態を考えたいので, $r^{\text{wall}}_{\text{cut}}=3.0\sigma$ に設定する.
 
-また, 重力をかけた状態で粒子が下に落ちきり, 定常状態にあるとみなせるまでシミュレーションを行ってから, 熱流をかけている.
+また, 重力をかけた状態で粒子が下に落ちきり, 定常状態にあるとみなせるまでシミュレーションを行ってから, 熱流をかけている.\cite{Yoshida}
 
 \begin{itemize}
   \item $N = 5000$
@@ -114,7 +114,7 @@ $(\text{R}_\text{d} = 0.0, \text{R}_\text{t} = 0.5, \text{R}_\text{a} = 3.0 - 2^
 \vspace{1\baselineskip}
 
 \begin{tabular}{|c|c|c|c|c|c|} \hline
-        & $\text{R}_\text{a}:0.0$ & $\text{R}_\text{a}:0.469$ & $\text{R}_\text{a}:0.938$ & $\text{R}_\text{a}:1.408$ & $\text{R}_\text{a}:1.877$ \\ \hline
+        & $\text{R}_\text{a}:0.0$ & $\text{R}_\text{a}:0.4693$ & $\text{R}_\text{a}:0.9387$ & $\text{R}_\text{a}:1.408$ & $\text{R}_\text{a}:1.877$ \\ \hline
   $\text{R}_\text{t}:0.0$ & a      & b      & c      & d      & e     \\ \hline
   $\text{R}_\text{t}:0.125$ & f      & g      & h      & i      & j     \\ \hline
   $\text{R}_\text{t}:0.25$ & k      & l      & m      & n      & o     \\ \hline
@@ -124,13 +124,13 @@ $(\text{R}_\text{d} = 0.0, \text{R}_\text{t} = 0.5, \text{R}_\text{a} = 3.0 - 2^
 
 \vspace{1\baselineskip}
 
-参考のために,
+参考のために, 各パラメータの値を変えることによって, カットオフ長と衝突直径がどのように変わるのかを示す.
 
 \begin{align}
-  \text{R}_\text{a} &= 0.0 \Rightarrow r_{\text{cut}}^{\text{wall}} = 2^{1/6} \sigma_{\text{wall}} \\
-  \text{R}_\text{a} &= 1.877\dots \Rightarrow r_{\text{cut}}^{\text{wall}} = 3.0 \sigma_{\text{wall}} \\
-  \text{R}_\text{t} &= 0.0 \Rightarrow \sigma_{\text{wall}} = 0.5 \sigma \\
-  \text{R}_\text{t} &= 0.5 \Rightarrow \sigma_{\text{wall}} = \sigma 
+  \text{R}_\text{a} = 0.0 &\Rightarrow r_{\text{cut}}^{\text{wall}} = 2^{1/6} \sigma_{\text{wall}} \\
+  \text{R}_\text{a} = 1.877 &\Rightarrow r_{\text{cut}}^{\text{wall}} = 3.0 \sigma_{\text{wall}} \\
+  \text{R}_\text{t} = 0.0 &\Rightarrow \sigma_{\text{wall}} = 0.5 \sigma \\
+  \text{R}_\text{t} = 0.5 &\Rightarrow \sigma_{\text{wall}} = \sigma 
 \end{align}
 
 である. 
@@ -199,7 +199,7 @@ $(\text{R}_\text{d} = 0.0, \text{R}_\text{t} = 0.5, \text{R}_\text{a} = 3.0 - 2^
 
 \input{subtex/g0_time.tex}
 
-\section{重力と熱流を同時にかける(10倍)}
+\section{重力と熱流を同時にかける(時間10倍)}
 
 \begin{itemize}
   \item $N = 1250$
@@ -214,6 +214,6 @@ $(\text{R}_\text{d} = 0.0, \text{R}_\text{t} = 0.5, \text{R}_\text{a} = 3.0 - 2^
 
 \input{subtex/RaRtmap10_time.tex}
 
-\section{重力を先にかけて, 熱流を後からかける(10倍)}
+\section{重力を先にかけて, 熱流を後からかける(時間10倍)}
 
 \input{subtex/qrs10_drop_time.tex}
