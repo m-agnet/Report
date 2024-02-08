@@ -8,10 +8,9 @@
   \chi &\equiv \frac{k_{\text{B}}\Delta T}{mgL_{y}}
 \end{align}
 
-壁の濡れ性を制御する無次元パラメータを3つ用意する.
+壁の濡れ性を制御する無次元パラメータを2つ用意する.
 
 \begin{align}
-  \text{R}_\text{d} &: 乾き具合. \\
   \text{R}_\text{t} &: 壁の厚み. \\
   \text{R}_\text{a} &: 引力幅.
 \end{align}
@@ -19,14 +18,13 @@
 これらを用いて, 壁-粒子間相互作用LJポテンシャルは以下のように書き表す.
 
 \begin{align}
-  \varepsilon^{\text{wall}} &= \qty(1.0 - \text{R}_\text{d}) \times \varepsilon \\
   \sigma^{\text{wall}} &= \qty(0.5 + \text{R}_\text{t}) \times \sigma , \\
   r^{\text{wall}}_{\text{cut}} &= \qty(2^{1/6} + \text{R}_\text{a}) \times \sigma^{\text{wall}} 
 \end{align}
 
-パラメータ $(\text{R}_\text{d}, \text{R}_\text{t}, \text{R}_\text{a})$ を変えることによって, 壁-粒子間相互作用LJポテンシャルが変わる. このときに, どのようにして粒子集団の様相が変化するかをみる.
+パラメータ $(\text{R}_\text{t}, \text{R}_\text{a})$ を変えることによって, 壁-粒子間相互作用LJポテンシャルが変わる. このときに, どのようにして粒子集団の様相が変化するかをみる.
 
-本論では$\text{R}_\text{d}$は動かさずに, $\text{R}_\text{t}$ と $\text{R}_\text{a}$ を少しずつ変えた系でシミュレーションをして, 粒子集団の様相の変化を見たい. 以下に示すのが, それらを動かす範囲である.
+本論では$\text{R}_\text{t}$ と $\text{R}_\text{a}$ を少しずつ変えた系でシミュレーションをして, 粒子集団の様相の変化を見たい. 以下に示すのが, それらを動かす範囲である.
 
 \begin{align}
   \text{R}_\text{t} &\colon 0.0 \sim 0.5 \\
@@ -37,7 +35,7 @@
 
 \begin{align}
   \text{R}_\text{t} &= 0.0, 0.125, 0.25, 0.375, 0.5 \\
-  \text{R}_\text{a} &= 0.0, 0.4693845, 0.938769, 1.4081535, 1.877538, 1.877538
+  \text{R}_\text{a} &= 0.0, 0.4693845, 0.938769, 1.4081535, 1.877538
 \end{align}
 
 以下は$\text{R}_\text{t}$, $\text{R}_\text{a}$を変化させたときのLJポテンシャルがどのように変化するのかを可視化したグラフである.
