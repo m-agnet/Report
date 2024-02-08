@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.9.10)  6 FEB 2024 18:05
+This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.9.10)  8 FEB 2024 16:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -12728,7 +12728,12 @@ LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 5
 File: ts1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 ) [65
 
-] [66] [67] [68] [69] [70] [71]) (out/seminar.bbl [72]) [73
+] [66] [67]
+Overfull \hbox (123.49602pt too wide) in paragraph at lines 7--7
+[][] 
+ []
+
+[68] [69] [70] [71]) (out/seminar.bbl [72]) [73
 
 ] (out/seminar.aux)
 
@@ -12738,12 +12743,12 @@ Package rerunfilecheck Info: File `seminar.out' has not changed.
 (rerunfilecheck)             Checksum: BC753ED4F9680DD7298AFD0D0B68025F;6069.
  ) 
 Here is how much of TeX's memory you used:
- 37419 strings out of 476693
- 1175330 string characters out of 5805373
- 2222209 words of memory out of 5000000
- 56962 multiletter control sequences out of 15000+600000
+ 37403 strings out of 476693
+ 1175424 string characters out of 5805373
+ 2207209 words of memory out of 5000000
+ 56946 multiletter control sequences out of 15000+600000
  571107 words of font info for 157 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 89i,16n,92p,511b,2900s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,16n,92p,511b,2896s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/seminar.dvi (74 pages, 579484 bytes).
+Output written on out/seminar.dvi (74 pages, 577744 bytes).
