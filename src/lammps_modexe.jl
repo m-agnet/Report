@@ -1,14 +1,14 @@
 #===
 # LAMMPSシミュレーション実行と出力ファイル保管
 
-このJuliaコードは、LAMMPS分子動力学シミュレーションを実行し、生成された出力ファイルを適切なディレクトリに保存します.
+このJuliaコードは,LAMMPS分子動力学シミュレーションを実行し,生成された出力ファイルを適切なディレクトリに保存します.
 
 ## 機能
 
 - `Glob`と`Dates`パッケージを使用してファイルマッチングと日時取得を行う
 - パラメータを配列で定義
-- LAMMPSファイル内のプレースホルダーをパラメータ値に置き換えて実行用スクリプトを生成
-- パラメータごとにLAMMPSを実行し、生成された出力ファイルを指定のディレクトリに移動
+- LAMMPSファイル内のプレースホルダーをパラメータ値に置き換えて,実行用スクリプトを生成
+- パラメータごとにLAMMPSを実行し,生成された出力ファイルを指定のディレクトリに移動
 - 使用済みの仮LAMMPSファイルを一括削除
 
 ## 手順
@@ -19,7 +19,7 @@
 4. 出力ファイルを指定ディレクトリに保存
 5. 使用済みの仮LAMMPSファイルを削除
 
-このコードは、異なるパラメータでのLAMMPSシミュレーションを自動化し、出力ファイルの整理と保管を行います.
+このコードは,異なるパラメータでのLAMMPSシミュレーションを自動化し,出力ファイルの整理と保管を行います.
 ===#
 
 using Glob # ファイルパターンのマッチングに使用するパッケージ
@@ -63,7 +63,7 @@ for Ay_value in Ay_range,
     parameter = "chi$(chi)_Ay$(Ay_value)_rho$(rho_value)_T$(T_value)_dT$(dT_value)_Rd$(Rd_value)_Rt$(Rt_value)_Ra$(Ra_value)_g$(g_value)_run$(run_value)"
     outputtitle = "$(n)_$(remark_text)_$(parameter)"
 
-    # LAMMPSファイルの内容を読み込み、パラメータを置換
+    # LAMMPSファイルの内容を読み込み,パラメータを置換
     template_script = read(lammpsfile, String)
     mod_script = replace(template_script,
         "PLACEHOLDER_Ay" => string(Ay_value),
@@ -78,7 +78,7 @@ for Ay_value in Ay_range,
         "PLACEHOLDER_outputtitle" => string(outputtitle)
     )
 
-    # 一意のファイル名を生成して仮ファイルを作成し、パラメータを書き込む
+    # 一意のファイル名を生成して仮ファイルを作成し,パラメータを書き込む
     tempfile = "in.temp_script_$(n)"
     fp = open(tempfile, "w")
     write(fp, mod_script)

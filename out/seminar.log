@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.9.10)  8 FEB 2024 16:48
+This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.9.10)  8 FEB 2024 17:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -671,10 +671,10 @@ Package: pxjahyper-enc 2023/03/01 v1.3
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/bxjatoucs/bxjatoucs.sty
 Package: bxjatoucs 2019/10/20 v0.2
 ))
-Package hyperref Info: Option `setpagesize' set `false' on input line 59.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 59.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 59.
-Package hyperref Info: Option `colorlinks' set `true' on input line 59.
+Package hyperref Info: Option `setpagesize' set `false' on input line 60.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 60.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 60.
+Package hyperref Info: Option `colorlinks' set `true' on input line 60.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
 Package cleveref Info: `hyperref' support loaded on input line 2370.
@@ -12738,22 +12738,22 @@ LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 5
 File: ts1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 ) [73
 
-] [74] [75] [76] [77]
-Overfull \hbox (206.71786pt too wide) in paragraph at lines 7--7
+] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84]
+Overfull \hbox (57.00566pt too wide) in paragraph at lines 9--9
+[][] 
+ []
+
+[85] [86] [87]
+Overfull \hbox (215.21162pt too wide) in paragraph at lines 10--10
 [][] 
  []
 
 
-Overfull \hbox (67.00566pt too wide) in paragraph at lines 7--7
+Overfull \hbox (29.26505pt too wide) in paragraph at lines 10--10
 [][] 
  []
 
-
-Overfull \hbox (2.27754pt too wide) in paragraph at lines 7--7
-[][] 
- []
-
-[78] [79] [80] [81] [82]) (out/seminar.bbl [83]) [84
+[88] [89] [90]) (out/seminar.bbl [91]) [92
 
 ] (out/seminar.aux)
 
@@ -12763,12 +12763,12 @@ Package rerunfilecheck Info: File `seminar.out' has not changed.
 (rerunfilecheck)             Checksum: BC753ED4F9680DD7298AFD0D0B68025F;6069.
  ) 
 Here is how much of TeX's memory you used:
- 37403 strings out of 476693
- 1175424 string characters out of 5805373
- 2105209 words of memory out of 5000000
- 56946 multiletter control sequences out of 15000+600000
+ 37452 strings out of 476693
+ 1176495 string characters out of 5805373
+ 2117209 words of memory out of 5000000
+ 56992 multiletter control sequences out of 15000+600000
  571107 words of font info for 157 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 89i,16n,92p,511b,2898s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,16n,92p,511b,2896s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/seminar.dvi (85 pages, 579596 bytes).
+Output written on out/seminar.dvi (93 pages, 683420 bytes).
