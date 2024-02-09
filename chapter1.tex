@@ -117,39 +117,39 @@
 
 \section{熱流}
 
-\subsection{数値計算}
+% \subsection{数値計算}
 
-langevin熱浴に侵入した粒子に対しては, brownian 動力学計算を実行する. その粒子$i$にはたらく力$\bm{F}_i$は\href{https://docs.lammps.org/fix_langevin.html}{LAMMPSのドキュメント}に則った形式だと以下のように書き表せる.
+% langevin熱浴に侵入した粒子に対しては, brownian 動力学計算を実行する. その粒子$i$にはたらく力$\bm{F}_i$は\href{https://docs.lammps.org/fix_langevin.html}{LAMMPSのドキュメント}に則った形式だと以下のように書き表せる.
 
-\begin{align}
-  \bm{F}_i &= \bm{F}_i^c + \bm{F}_i^f + \bm{F}_i^r \\
-  \bm{F}_i^c &= - \bm{\nabla} 
-  \left[
-    \sum_{j > i}^{N}
-        \tilde{\phi}_{\text{LJ}}^{\text{pair}}(r_{ij})
-      + mgy_i +V^{\text{wall}}(y_i)
-  \right] \\
-  \bm{F}_i^f &= -\frac{m_i}{\text{damp}}\bm{v}_i \\
-  F_i^r &\propto \sqrt{\frac{k_\text{B} Tm_i}{dt \text{damp}}}
-\end{align}
+% \begin{align}
+%   \bm{F}_i &= \bm{F}_i^c + \bm{F}_i^f + \bm{F}_i^r \\
+%   \bm{F}_i^c &= - \bm{\nabla} 
+%   \left[
+%     \sum_{j > i}^{N}
+%         \tilde{\phi}_{\text{LJ}}^{\text{pair}}(r_{ij})
+%       + mgy_i +V^{\text{wall}}(y_i)
+%   \right] \\
+%   \bm{F}_i^f &= -\frac{m_i}{\text{damp}}\bm{v}_i \\
+%   F_i^r &\propto \sqrt{\frac{k_\text{B} Tm_i}{dt \text{damp}}}
+% \end{align}
 
-それぞれの力の説明を記す.
+% それぞれの力の説明を記す.
 
-\begin{itemize}
-  \item $\bm{F}^c \colon$ ポテンシャルを介して計算される力
-  \item $\bm{F}^f \colon$ 摩擦力
-  \item $\bm{F}^r \colon$ ランダム力
-\end{itemize}
-
-
-\subsection{温度制御}
+% \begin{itemize}
+%   \item $\bm{F}^c \colon$ ポテンシャルを介して計算される力
+%   \item $\bm{F}^f \colon$ 摩擦力
+%   \item $\bm{F}^r \colon$ ランダム力
+% \end{itemize}
 
 
-2d kinetic temperature
+% \subsection{温度制御}
 
-\begin{align}
-  T \equiv \frac{1}{Nk_{\text{B}}}\sum_{i=1}^{N} \frac{1}{2}m_i v_{i}^2
-\end{align}
+
+% 2d kinetic temperature
+
+% \begin{align}
+%   T \equiv \frac{1}{Nk_{\text{B}}}\sum_{i=1}^{N} \frac{1}{2}m_i v_{i}^2
+% \end{align}
 
 粒子$i$が熱浴に侵入すると, その粒子の運動はランジュバン方程式に従う. 侵入していないときは, $\gamma = 0$になり, 正準方程式に等しくなる.
 
