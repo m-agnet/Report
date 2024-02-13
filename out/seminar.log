@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.9.10)  13 FEB 2024 19:38
+This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.9.10)  13 FEB 2024 19:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -838,93 +838,96 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 
 [1
 
-] (./abstract.tex
-File: /Users/2023_2gou/Desktop/r_yamamoto/Report/image/RaRtmap10_cycle/2023-12-28T12:38:52.986_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
-</Users/2023_2gou/Desktop/r_yamamoto/Report/image/RaRtmap10_cycle/2023-12-28T12:38:52.986_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e8.png>
+] (./chapter1.tex
+第1章
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 19.9311pt on input line 1.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 19.9311pt on input line 1.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 19.9311pt on input line 1.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 19.9311pt on input line 1.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 12.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 10.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 12.
+(Font)              scaled to size 8.64899pt on input line 10.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <9> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 12.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 10.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 12.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 17.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 17.
-) [2
+(Font)              scaled to size 8.64899pt on input line 10.
+File: image/system.jpg Graphic file (type bmp)
+<image/system.jpg>
+[2
 
-] (./ap_method.tex [3]
+]
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 15.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 15.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 15.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 15.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 28.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 4.805pt on input line 28.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 32.
+[3]
+File: image/system_periodic.jpg Graphic file (type bmp)
+<image/system_periodic.jpg>
+[4] [5] [6]) (./ap_method.tex [7]
 付録A
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 1.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 1.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 1.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 1.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 3.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 3.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 3.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 3.
-) (./ap_src.tex [4
+) (./ap_src.tex [8
 
 ]
 付録B
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 5.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 7.
 LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 5.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 5.
+(Font)              scaled to size 9.60999pt on input line 7.
 LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 5.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 5.
+(Font)              scaled to size 9.60999pt on input line 7.
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 5.
-LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 5.
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 7.
+LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 7.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-) [5
+) [9
 
-] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17]
-Overfull \hbox (57.00566pt too wide) in paragraph at lines 9--9
+] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21]
+Overfull \hbox (57.00566pt too wide) in paragraph at lines 11--11
 [][] 
  []
 
-[18] [19]
-Overfull \hbox (140.22751pt too wide) in paragraph at lines 10--10
+[22] [23]
+Overfull \hbox (140.22751pt too wide) in paragraph at lines 12--12
 [][] 
  []
 
 
-Overfull \hbox (29.26505pt too wide) in paragraph at lines 10--10
+Overfull \hbox (29.26505pt too wide) in paragraph at lines 12--12
 [][] 
  []
 
-[20] [21] [22]) (out/seminar.bbl [23]
-
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-) [24
+[24] [25] [26]) (out/seminar.bbl [27]) [28
 
 ] (out/seminar.aux)
 Package rerunfilecheck Info: File `seminar.out' has not changed.
-(rerunfilecheck)             Checksum: 0600EB48FAC02B2AC2518611771EA973;673.
+(rerunfilecheck)             Checksum: 8BF624A9663A582E1A4E8D8E19C9559A;1127.
  ) 
 Here is how much of TeX's memory you used:
- 33194 strings out of 476693
- 660947 string characters out of 5805373
- 2117209 words of memory out of 5000000
- 53121 multiletter control sequences out of 15000+600000
- 570087 words of font info for 153 fonts, out of 8000000 for 9000
+ 33218 strings out of 476693
+ 660452 string characters out of 5805373
+ 2134209 words of memory out of 5000000
+ 53143 multiletter control sequences out of 15000+600000
+ 570583 words of font info for 155 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 89i,11n,92p,511b,2896s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,16n,92p,498b,2899s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/seminar.dvi (25 pages, 236364 bytes).
+Output written on out/seminar.dvi (29 pages, 249020 bytes).
