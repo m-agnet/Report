@@ -115,14 +115,18 @@
 
 \section{熱流}
 
-熱伝導系はランジュバン熱浴を設計することで
+系の両端に温度制御できるランジュバン熱浴を設計することによって, 熱流を実装することにする.
 
-粒子$i$が熱浴に侵入すると, その粒子の運動はランジュバン方程式に従う. 侵入していないときは, $\gamma = 0$になり, 正準方程式に等しくなる.
+粒子$i$が熱浴に侵入すると, その粒子の運動は以下のランジュバン方程式に従う. 侵入していないときは, $\gamma = 0$になり, 正準方程式に等しくなる.
 
 \begin{align}
+  \label{langevin_r}
   \dot{\bm{r}_i} &= \pdv{H}{\bm{p}_i} \\
+  \label{langevin_p}
   \dot{\bm{p}_i} &= - \pdv{H}{\bm{r}_i} - \gamma \dot{\bm{r}_i} + \sqrt{2 \gamma k_{\text{B}}T_{\nu}}\bm{\xi}_i (t) 
 \end{align}
+
+式\eqref{langevin_p}の第1項は速度に比例する抵抗力, 第2項はランダムな揺動力である.
 
 \begin{align}
   \expval{\xi_{i}^{a}(t)} &= 0 \\
