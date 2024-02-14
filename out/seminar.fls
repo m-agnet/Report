@@ -1288,6 +1288,10 @@ INPUT ./image/system_periodic.jpg
 INPUT ./image/system_periodic.jpg
 INPUT image/system_periodic.jpg
 INPUT extractbb -B cropbox -O image/system_periodic.jpg
+INPUT ./chapter4.tex
+INPUT chapter4.tex
+INPUT ./chapter4.tex
+INPUT chapter4.tex
 INPUT ./ap_method.tex
 INPUT ap_method.tex
 INPUT ./ap_method.tex

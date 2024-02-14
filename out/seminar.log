@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.9.10)  14 FEB 2024 15:31
+This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.9.10)  14 FEB 2024 16:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -883,9 +883,13 @@ LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 [5]
 File: image/system_periodic.jpg Graphic file (type bmp)
 <image/system_periodic.jpg>
-[6] [7] [8]) (./ap_method.tex [9]
+[6] [7] [8]) (./chapter4.tex [9]
+第2章
+) (./ap_method.tex [10
+
+]
 付録A
-) (./ap_src.tex [10
+) (./ap_src.tex [11
 
 ]
 付録B
@@ -903,14 +907,14 @@ LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
 LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 7.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-) [11
+) [12
 
-] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23]
+] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24]
 Overfull \hbox (57.00566pt too wide) in paragraph at lines 11--11
 [][] 
  []
 
-[24] [25]
+[25] [26]
 Overfull \hbox (140.22751pt too wide) in paragraph at lines 12--12
 [][] 
  []
@@ -920,19 +924,22 @@ Overfull \hbox (29.26505pt too wide) in paragraph at lines 12--12
 [][] 
  []
 
-[26] [27] [28]) (out/seminar.bbl [29]) [30
+[27] [28] [29]) (out/seminar.bbl [30]) [31
 
 ] (out/seminar.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `seminar.out' has not changed.
-(rerunfilecheck)             Checksum: 96C1E4B49A53854C925E52E026CE1C61;1169.
+(rerunfilecheck)             Checksum: 61F52D8898D3CD6CE49320345D8AA65D;1414.
  ) 
 Here is how much of TeX's memory you used:
- 33236 strings out of 476693
- 661714 string characters out of 5805373
+ 33243 strings out of 476693
+ 661803 string characters out of 5805373
  2134209 words of memory out of 5000000
- 53155 multiletter control sequences out of 15000+600000
+ 53159 multiletter control sequences out of 15000+600000
  570583 words of font info for 155 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  89i,16n,92p,511b,2899s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/seminar.dvi (31 pages, 254252 bytes).
+Output written on out/seminar.dvi (32 pages, 256548 bytes).
