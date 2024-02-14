@@ -3,36 +3,38 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: seminar.aux
 The style file: junsrt.bst
 Database file #1: seminar.bib
-You've used 1 entry,
+Warning--empty title in Yoshida
+Warning--empty year in Yoshida
+You've used 3 entries,
             2270 wiz_defined-function locations,
-            543 strings with 4103 characters,
-and the built_in function-call counts, 211 in all, are:
-= -- 12
-> -- 4
+            553 strings with 4185 characters,
+and the built_in function-call counts, 570 in all, are:
+= -- 32
+> -- 12
 < -- 0
-+ -- 2
-- -- 1
-* -- 3
-:= -- 33
-add.period$ -- 3
-call.type$ -- 1
++ -- 6
+- -- 3
+* -- 10
+:= -- 79
+add.period$ -- 8
+call.type$ -- 3
 change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 17
-empty$ -- 26
-format.name$ -- 2
-if$ -- 49
+cite$ -- 5
+duplicate$ -- 48
+empty$ -- 71
+format.name$ -- 6
+if$ -- 135
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 2
-newline$ -- 8
-num.names$ -- 1
-pop$ -- 12
+int.to.str$ -- 3
+missing$ -- 5
+newline$ -- 17
+num.names$ -- 3
+pop$ -- 33
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 9
+skip$ -- 28
 stack$ -- 0
 substring$ -- 0
 swap$ -- 0
@@ -40,8 +42,9 @@ text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 1
-width$ -- 2
-write$ -- 12
-is.kanji.str$ -- 8
+warning$ -- 2
+while$ -- 3
+width$ -- 4
+write$ -- 29
+is.kanji.str$ -- 24
+(There were 2 warnings)
