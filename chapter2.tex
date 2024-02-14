@@ -72,47 +72,47 @@
   \label{}
 \end{figure}
 
-\section{先行研究}
+% \section{先行研究}
 
-壁を完全に濡らしている状態を考えたいので, $r^{\text{wall}}_{\text{cut}}=3.0\sigma$ に設定する.
+% 壁を完全に濡らしている状態を考えたいので, $r^{\text{wall}}_{\text{cut}}=3.0\sigma$ に設定する.
 
-また, 重力をかけた状態で粒子が下に落ちきり, 定常状態にあるとみなせるまでシミュレーションを行ってから, 熱流をかけている.\cite{Yoshida}
+% また, 重力をかけた状態で粒子が下に落ちきり, 定常状態にあるとみなせるまでシミュレーションを行ってから, 熱流をかけている.\cite{Yoshida}
 
-\begin{itemize}
-  \item $N = 5000$
-  \item $\rho \sigma^2 = 0.4$
-  \item $L_x / \sigma \simeq 79.0$
-  \item $L_y / \sigma \simeq 158.1$
-  \item $k_{\text{B}} T/\varepsilon = 4.3$
-  \item $k_{\text{B}} \Delta T/\varepsilon = 0.0$
-  \item $mg\sigma/\varepsilon \simeq 2.0 \times 10^{-4}$
-  \item ${t_f}^{\prime} \sqrt{\varepsilon / m \sigma^2} = 5.0 \times 10^{5}$
-\end{itemize}
+% \begin{itemize}
+%   \item $N = 5000$
+%   \item $\rho \sigma^2 = 0.4$
+%   \item $L_x / \sigma \simeq 79.0$
+%   \item $L_y / \sigma \simeq 158.1$
+%   \item $k_{\text{B}} T/\varepsilon = 4.3$
+%   \item $k_{\text{B}} \Delta T/\varepsilon = 0.0$
+%   \item $mg\sigma/\varepsilon \simeq 2.0 \times 10^{-4}$
+%   \item ${t_f}^{\prime} \sqrt{\varepsilon / m \sigma^2} = 5.0 \times 10^{5}$
+% \end{itemize}
 
-\begin{figure}[H]
-  \centering
-  \includegraphics[scale=0.2]{image/drop5000.png}
-  \caption{$t \sqrt{\varepsilon / m \sigma^2} = 5.0 \times 10^{5}$でのスナップショット}
-  \label{}
-\end{figure}
+% \begin{figure}[H]
+%   \centering
+%   \includegraphics[scale=0.2]{image/drop5000.png}
+%   \caption{$t \sqrt{\varepsilon / m \sigma^2} = 5.0 \times 10^{5}$でのスナップショット}
+%   \label{}
+% \end{figure}
 
-続いて重力をかけた緩和後の系で, 温度差のある熱浴をそれぞれ改めて以下のようにつけ, 熱流をかけてシミュレーションをしている. 
+% 続いて重力をかけた緩和後の系で, 温度差のある熱浴をそれぞれ改めて以下のようにつけ, 熱流をかけてシミュレーションをしている. 
 
-\begin{itemize}
-  \item $\chi = k_{\text{B}}\Delta T / mg L_y = 1.265$
-  \item $k_{\text{B}} \Delta T/\varepsilon = 0.04$
-  \item $t_i \sqrt{\varepsilon / m \sigma^2} = 5.0 \times 10^{5}$
-  \item $t_f \sqrt{\varepsilon / m \sigma^2} = 1.0 \times 10^{6}$
-\end{itemize}
+% \begin{itemize}
+%   \item $\chi = k_{\text{B}}\Delta T / mg L_y = 1.265$
+%   \item $k_{\text{B}} \Delta T/\varepsilon = 0.04$
+%   \item $t_i \sqrt{\varepsilon / m \sigma^2} = 5.0 \times 10^{5}$
+%   \item $t_f \sqrt{\varepsilon / m \sigma^2} = 1.0 \times 10^{6}$
+% \end{itemize}
 
-$(\text{R}_\text{t} = 0.5, \text{R}_\text{a} = 3.0 - 2^{1/6})$ で実験を行う. このときには, $(\varepsilon^{\text{wall}} = \varepsilon, \sigma^{\text{wall}} = \sigma, r^{\text{wall}}_{\text{cut}} = 3.0 \sigma^{\text{wall}})$ になるので, ${\phi_{\text{LJ}}^{\text{wall}}} = \phi_{\text{LJ}}$ ということになり, 先行研究と同じシミュレーションを行うことができる.
+% $(\text{R}_\text{t} = 0.5, \text{R}_\text{a} = 3.0 - 2^{1/6})$ で実験を行う. このときには, $(\varepsilon^{\text{wall}} = \varepsilon, \sigma^{\text{wall}} = \sigma, r^{\text{wall}}_{\text{cut}} = 3.0 \sigma^{\text{wall}})$ になるので, ${\phi_{\text{LJ}}^{\text{wall}}} = \phi_{\text{LJ}}$ ということになり, 先行研究と同じシミュレーションを行うことができる.
 
-\begin{figure}[H]
-  \centering
-  \href{https://youtu.be/CIEyUPvPY6A}{\includegraphics[scale=0.2]{image/2023-11-21T21:01:17.543_followup_chi1.265_Ay100_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.00019998593898298055_run1.0e8_output.png}}
-  \caption{$t \sqrt{\varepsilon / m \sigma^2} = 1.0 \times 10^{6}$でのスナップショット}
-  \label{}
-\end{figure}
+% \begin{figure}[H]
+%   \centering
+%   \href{https://youtu.be/CIEyUPvPY6A}{\includegraphics[scale=0.2]{image/2023-11-21T21:01:17.543_followup_chi1.265_Ay100_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.00019998593898298055_run1.0e8_output.png}}
+%   \caption{$t \sqrt{\varepsilon / m \sigma^2} = 1.0 \times 10^{6}$でのスナップショット}
+%   \label{}
+% \end{figure}
 
 \section{重力と熱流を同時にかける}
 

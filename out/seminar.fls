@@ -1292,10 +1292,6 @@ INPUT ./chapter4.tex
 INPUT chapter4.tex
 INPUT ./chapter4.tex
 INPUT chapter4.tex
-INPUT ./acknowledgement.tex
-INPUT acknowledgement.tex
-INPUT ./acknowledgement.tex
-INPUT acknowledgement.tex
 INPUT ./ap_method.tex
 INPUT ap_method.tex
 INPUT ./ap_method.tex
