@@ -11,7 +11,7 @@ variable        image_step equal ${run}/4 # 分母の数+1枚の画像を作成.
 variable        SEED equal 202035
 variable        Ay equal 50 # 粒子生成に用いるy方向でのセル数.
 variable        Ax equal ${Ay}/2 # 粒子生成に用いるx方向でのセル数.
-variable        rho equal PLACEHOLDER_rho # 密度. 密度と粒子数から体積が決まる.
+variable        rho equal 0.4 # 密度. 密度と粒子数から体積が決まる.
 variable        trange equal 5 # 各熱浴の幅.
 variable        gap equal 0.5 # boxとcatomのずれ. ずらさないと粒子が消えてしまう.
 # lo,hi が単に座標の小さい大きいであることに注意.
