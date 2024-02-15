@@ -1,19 +1,19 @@
 # Fdb version 4
-["bibtex out/seminar"] 1707971802 "out/seminar.aux" "out/seminar.bbl" "out/seminar" 1707973027 0
+["bibtex out/seminar"] 1707981170 "out/seminar.aux" "out/seminar.bbl" "out/seminar" 1707981230 0
   "./seminar.bib" 1707460993 741 4e2fcff57063c42b59fc246889751bda ""
   "junsrt.bst" 0 -1 0 ""
-  "out/seminar.aux" 1707973006 99911 6b89a43bc6312e64fbd924ee8d18f4ff "latex"
+  "out/seminar.aux" 1707981209 100045 e58de1d021fe9393523a27ec83425306 "latex"
   (generated)
   "out/seminar.bbl"
   "out/seminar.blg"
   (rewritten before read)
-["dvipdf"] 1707973007 "out/seminar.dvi" "out/seminar.pdf" "out/seminar" 1707973027 0
-  "out/seminar.dvi" 1707973006 371756 d289809c4169c0d6ffcb99a761262985 "latex"
+["dvipdf"] 1707981209 "out/seminar.dvi" "out/seminar.pdf" "out/seminar" 1707981230 0
+  "out/seminar.dvi" 1707981209 372052 a7d72eba726275ad071f0afca9c50be0 "latex"
   (generated)
   "out/seminar.pdf"
   (rewritten before read)
-["latex"] 1707972968 "/Users/2023_2gou/Desktop/r_yamamoto/Report/seminar.tex" "out/seminar.dvi" "seminar" 1707973027 0
-  "/Users/2023_2gou/Desktop/r_yamamoto/Report/seminar.tex" 1707971724 786 7d6e723aa1a5ca6015b850e14483a7c7 ""
+["latex"] 1707981171 "/Users/2023_2gou/Desktop/r_yamamoto/Report/seminar.tex" "out/seminar.dvi" "seminar" 1707981230 0
+  "/Users/2023_2gou/Desktop/r_yamamoto/Report/seminar.tex" 1707981092 786 7d6e723aa1a5ca6015b850e14483a7c7 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1136768653 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -229,7 +229,7 @@
   "/usr/local/texlive/2023/texmf-var/web2c/eptex/platex.fmt" 1694326018 7883682 d7630b6b2b162635e06112c975ffa0be ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
   "ap_src.tex" 1707919819 737 5a36b21ca52b14f6920e2d8483b15e76 ""
-  "chapter2.tex" 1707923578 9452 64e0110610db751a475539d2c620eb96 ""
+  "chapter2.tex" 1707973394 9567 87d8fff3fd828bc03a5b3607b7b99bfe ""
   "chapter3.tex" 1707209551 4642 91dd162f38346dd7c48205f20eef13cc ""
   "image/RaRtmap/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png" 1700539833 35738 5adb746e464ebd3e2d524cbd66e15745 ""
   "image/RaRtmap/2023-11-14T19:14:52.710__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7_output.png" 1700539833 32427 5b011877c56c130c6dfdff3a0edbde7b ""
@@ -507,14 +507,14 @@
   "image/lnStdYg_Ra0.5to1.0_Rt0.5_ti25000.png" 1701745462 26864 d2a465ace663ac966fd2489277f49b00 ""
   "image/lnStdYg_Ra0.70407675to0.98769_Rt0.5_ti25000.png" 1701745968 27792 52aefc1caf675ab70b56f7de8cfa7a42 ""
   "image/lnStdYg_Rt0.0to0.5_Ra0.0to1.877538_ti25000.png" 1700725477 53361 37a4569ad6bbfb31f9812a44f184c2a8 ""
-  "image/qrs10_drop_time/2023-12-28T10:59:29.242_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e8.png" 1707972641 47502 0fdda8910a763440d107f331ee45d3a4 ""
-  "image/qrs10_drop_time/2023-12-28T10:59:29.748_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e8.png" 1707972641 65648 7a607ebd27b449d4b59d575851c4477d ""
-  "image/qrs10_drop_time/2023-12-28T10:59:29.846_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e8.png" 1707972641 67085 3d4c4c5fe49890175cf0584e67b39612 ""
-  "out/seminar.aux" 1707973006 99911 6b89a43bc6312e64fbd924ee8d18f4ff "latex"
-  "out/seminar.bbl" 1707971802 157 a51a79d00c8bfde084dbfedab4530f36 "bibtex out/seminar"
-  "out/seminar.out" 1707973006 1396 c47df6ecc48160c04da90329f881b68c "latex"
-  "out/seminar.toc" 1707973006 1658 768a6652db9fa2be94bbde61162d63fb "latex"
-  "seminar.tex" 1707971724 786 7d6e723aa1a5ca6015b850e14483a7c7 ""
+  "image/qrs10_drop_time/2023-12-28T10:59:29.242_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e8.png" 1707973604 48892 447146e9144ba4ecf2e4baa6ff3632c6 ""
+  "image/qrs10_drop_time/2023-12-28T10:59:29.748_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e8.png" 1707973604 67631 8eaf310654cd08c5b50acb5a90854d1e ""
+  "image/qrs10_drop_time/2023-12-28T10:59:29.846_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e8.png" 1707973604 68900 fc9f1e1485325caa6e21d21eb66364fc ""
+  "out/seminar.aux" 1707981209 100045 e58de1d021fe9393523a27ec83425306 "latex"
+  "out/seminar.bbl" 1707981171 157 a51a79d00c8bfde084dbfedab4530f36 "bibtex out/seminar"
+  "out/seminar.out" 1707981209 1396 c47df6ecc48160c04da90329f881b68c "latex"
+  "out/seminar.toc" 1707981209 1658 295ddb9dd0dfe5446a8f58302e552151 "latex"
+  "seminar.tex" 1707981092 786 7d6e723aa1a5ca6015b850e14483a7c7 ""
   "src/in.2dLJ" 1707376777 6871 ec6d0056634e20d2a88e2a9c78107e52 ""
   "src/in.2dLJ_mod" 1707376132 6934 fdfed028af6dc546f4bc6e62f2197f83 ""
   "src/lammps_modexe.jl" 1707381366 4246 7e90f3e083ea7e6244086967b275705b ""
@@ -524,17 +524,17 @@
   "subtex/Ra0.469to0.938Rt0.5_time.tex" 1707089352 1783 809158d778f16914c4fc71db647e5a6c ""
   "subtex/Ra0.5to1.0Rt0.5_time.tex" 1703730309 1652 0287ccc9229fb9a9e96a53fbc6731636 ""
   "subtex/Ra0.762to0.938Rt0.5_time.tex" 1702619083 1720 a0c7b9b21cc834e17e9d612880adb2ec ""
-  "subtex/RaRtmap10_time.tex" 1704792332 9121 79f41c9eba4adf103fa2c546bc02eee3 ""
+  "subtex/RaRtmap10_time.tex" 1707973160 9123 3b8d9ddacc4d089b51f02faed0f33ded ""
   "subtex/RaRtmap_LJ.tex" 1707923203 824 83bc8b0a50d1c56ef9ef9fcbf0eb1994 ""
   "subtex/RaRtmap_cycle.tex" 1704798965 8988 a9cbb26cf78ba18533c60e750167cf1d ""
   "subtex/RaRtmap_cycle3d.tex" 1704800452 9044 fc7e51168bf1a5aa2cab645d302a212e ""
-  "subtex/RaRtmap_drop_time.tex" 1703216708 9121 04b8defe1d2a76c5db81708c6b6c61c5 ""
+  "subtex/RaRtmap_drop_time.tex" 1707973195 9123 9e12b70fea4a56316cd0ca20cff1df10 ""
   "subtex/RaRtmap_heat.tex" 1704799234 8960 0cac9b1a6d9e8e3eba6feef5bf464255 ""
-  "subtex/RaRtmap_movie.tex" 1707210355 9420 5853c8bc6f4d00dceff2d3825b34ee7a ""
+  "subtex/RaRtmap_movie.tex" 1707973420 9334 b41e428b6f5e3b9e8862447f80da5684 ""
   "subtex/RaRtmap_stdy.tex" 1704800234 9002 6f17209c77480a51049233a9b1015f3c ""
-  "subtex/RaRtmap_time.tex" 1703153927 8962 cdc3eb11377c0e63bfac77c4d8b64133 ""
-  "subtex/dT0_time.tex" 1705547896 8671 76288505e8a1d2afedf0a9c5b6510706 ""
-  "subtex/g0_time.tex" 1705560344 8242 8541a7d718e653f2bc649b42d6ae0782 ""
+  "subtex/RaRtmap_time.tex" 1707973205 8964 ddb79cd924945607950ba9df1718ecb6 ""
+  "subtex/dT0_time.tex" 1707973184 8673 10e17339183aa2f489250ab47d41746b ""
+  "subtex/g0_time.tex" 1707973175 8244 6c2b9beae56c6a9d1c06104b0a6a731d ""
   "subtex/qrs10_drop_time.tex" 1707202190 1263 17264dc63fc64f6daa9770e09260ae64 ""
   "usepackage.tex" 1707381550 1504 669e1eb429755c8ba852829869a584d1 ""
   (generated)
