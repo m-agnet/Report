@@ -9,6 +9,7 @@ function plot_data(data)
     Yg_value = [entry["Yg"] for entry in data]
 
     plot(time, Yg_value / 80, label="Yg", legend=:topleft)
+    vline!([4e4],label="")
     xlabel!("time")
     ylabel!("Yg/Ly")
     title!("Yg vs. time")
@@ -16,7 +17,7 @@ function plot_data(data)
 end
 
 # 対象ディレクトリ内のYAMLファイルを取得
-yaml_directory = "/Users/2023_2gou/Desktop/r_yamamoto/Research/outputdir_ness/231204outputdir/yamldir"
+yaml_directory = "/Users/2023_2gou/Desktop/r_yamamoto/Research/outputdir_pinkimac/231114outputdir/yamldir/"
 yaml_files = filter(x -> occursin(".yaml", x), readdir(yaml_directory))
 
 for yaml_file in yaml_files

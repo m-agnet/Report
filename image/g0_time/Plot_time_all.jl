@@ -7,8 +7,8 @@ using FilePaths
 function plot_data(data)
     time = [entry["time"] for entry in data]
     Yg_value = [entry["Yg"] for entry in data]
-
     plot(time, Yg_value / 80, label="Yg", legend=:topleft)
+    vline!([4e4],label="")
     xlabel!("time")
     ylabel!("Yg/Ly")
     title!("Yg vs. time")

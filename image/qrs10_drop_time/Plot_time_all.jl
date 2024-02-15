@@ -9,6 +9,7 @@ function plot_data(data)
     Yg_value = [entry["Yg"] for entry in data]
 
     plot(time, Yg_value / 80, label="Yg", legend=:topleft)
+    vline!([2e5+4e4],label="")
     xlabel!("time")
     ylabel!("Yg/Ly")
     title!("Yg vs. time")
