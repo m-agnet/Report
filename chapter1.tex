@@ -117,7 +117,7 @@
 
 系の両端に温度制御できるランジュバン熱浴を設計することによって, 熱流を実装することにする.
 
-粒子$i$が熱浴に侵入すると, その粒子の運動は以下のランジュバン方程式に従う. 侵入していないときは, $\gamma = 0$になり, 正準方程式に等しくなる.
+粒子$i$が熱浴に侵入すると, その粒子の運動は以下のランジュバン方程式に従う. 
 
 \begin{align}
   \label{langevin_r}
@@ -126,15 +126,15 @@
   \dot{\bm{p}_i} &= - \pdv{H}{\bm{r}_i} - \gamma \dot{\bm{r}_i} + \sqrt{2 \gamma k_{\text{B}}T_{\nu}}\bm{\xi}_i (t) 
 \end{align}
 
-式\eqref{langevin_p}の第1項は速度に比例する抵抗力, 第2項はランダムな揺動力である.
-
-$\bm{\xi}_{i}(t)$はホワイトノイズである.
+式\eqref{langevin_p}の第1項は速度に比例する抵抗力, 第2項はランダムな揺動力であり,$\bm{\xi}_{i}(t)$は以下の条件を満たすホワイトノイズである.
 
 \begin{align}
   \bm{\xi}_{i}(t) &= ({\xi_{i}^{x}(t)}, {\xi_{i}^{y}(t)}, {\xi_{i}^{z}(t)}) \\
   \expval{\xi_{i}^{a}(t)} &= 0 \\
   \expval{\xi_{i}^{a}(t)\xi_{j}^{b}(t')} &= \delta_{i,j} \delta_{a,b}\delta (t-t')
 \end{align}
+
+粒子がそれぞれの熱浴に侵入していないときには$\gamma=0$となり, 正準方程式に従うようになる. 
 
 \begin{align}
   \gamma(y_i) &= 1. \ T_{\nu}(y_i) = T_{\text{H}}. \ (0 < y_i < 8\sigma) \\
