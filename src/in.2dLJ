@@ -49,7 +49,7 @@ units		        lj # LJ単位系.
 atom_style	    atomic # 粒子.
 dimension       2 # 次元.
 timestep        0.005 # MDシミュレーションのtimestep.
-boundary        p f p # x=l,y=m,z=nの直線が周期境界条件.
+boundary        p f p # x=l,y=m,z=nの直線がpだと周期境界条件.
 lattice		      sq ${rho} # 粒子の初期配置. sq; 正方形セルの左隅に1つ置く.
 region		      box block ${box_xlo} ${box_xhi} ${box_ylo} ${box_yhi} -0.1 0.1 # 系の領域設定.
 region          catom block 0 ${Ax} 0 ${Ay} -0.1 0.1 # 粒子生成の領域設定.
@@ -58,7 +58,6 @@ create_atoms    1 region catom # 粒子の生成.
 mass		        1 1.0 # 粒子の設定.
 velocity	      all create ${T} ${SEED} dist gaussian # 粒子に温度tを目標とする初期速度をガウス分布に従って与える.
 
-  # 縦長のとき
 region          cold block INF INF ${coldlo} ${coldhi} -0.1 0.1 # 熱浴Cの領域.
 region          hot block  INF INF ${hotlo} ${hothi} -0.1 0.1 # 熱浴Hの領域.
 
@@ -79,7 +78,6 @@ neigh_modify    every 1 delay 0 check yes
 fix		          1 all nve
 
 # 壁-粒子間相互作用ポテンシャル
-# 縦長のとき
 fix             wallylo all wall/lj126 ylo EDGE ${epsilon_wall} ${sigma_wall} ${rc_wall} units box pbc yes
 fix             wallyhi all wall/lj126 yhi EDGE ${epsilon_wall} ${sigma_wall} ${rc_wall} units box pbc yes
 
@@ -94,8 +92,9 @@ fix             Gravity all gravity ${g} vector 0 -1 0
 
 # 重力を熱流をより先にかけるときコメントアウト解除.
 # run             200000 # 重力のみでの平衡までの緩和時間
-# unfix           hot # 熱浴Hについての設定の解除.
-# unfix           cold # 熱浴Cについての設定の解除.
+
+unfix           hot # 熱浴Hについての設定の解除.
+unfix           cold # 熱浴Cについての設定の解除.
 
 fix             hot all langevin ${thot} ${thot} 1.0 ${SEED} tally no # 熱浴が温度tloになるようにする.
 fix             cold all langevin ${tcold} ${tcold} 1.0 ${SEED} tally no # 熱浴が温度thiになるようにする.
@@ -107,7 +106,7 @@ compute         CoM all com # c_CoM[1]でXg, c_CoM[2]でYgを取得.
 
 
 # 出力コマンド
-# VMD
+# lammpstrj
 dump		    id all custom ${dump} output.lammpstrj id x y vx vy
 
 # 画像
