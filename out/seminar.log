@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.9.10)  15 FEB 2024 13:10
+This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.9.10)  15 FEB 2024 13:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -842,20 +842,20 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 File: /Users/2023_2gou/Desktop/r_yamamoto/Report/image/RaRtmap10_cycle/2023-12-28T12:38:52.986_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 </Users/2023_2gou/Desktop/r_yamamoto/Report/image/RaRtmap10_cycle/2023-12-28T12:38:52.986_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e8.png>
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 12.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 19.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 12.
+(Font)              scaled to size 8.64899pt on input line 19.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <9> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 12.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 19.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 12.
+(Font)              scaled to size 8.64899pt on input line 19.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 17.
+(Font)              scaled to size 6.72699pt on input line 25.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 17.
-[2
+(Font)              scaled to size 4.805pt on input line 25.
+) (./chapter1.tex [2
 
-]) (./chapter1.tex [3]
+]
 第1章
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 19.9311pt on input line 1.
@@ -867,9 +867,6 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 19.9311pt on input line 1.
 File: image/system.jpg Graphic file (type bmp)
 <image/system.jpg>
-[4
-
-]
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 15.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
@@ -878,20 +875,23 @@ LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 15.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 15.
+[3
+
+]
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 11.53198pt on input line 32.
-[5]
+[4]
 File: image/system_periodic.jpg Graphic file (type bmp)
 <image/system_periodic.jpg>
-[6] [7] [8]) (./chapter4.tex [9]
+[5] [6]) (./chapter4.tex [7]
 第2章
-) (./acknowledgement.tex [10
+) (./acknowledgement.tex [8
 
-]) (./ap_method.tex [11
+]) (./ap_method.tex [9
 
 ]
 付録A
-) (./ap_src.tex [12
+) (./ap_src.tex [10
 
 ]
 付録B
@@ -909,26 +909,26 @@ LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
 LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 7.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-) [13
+) [11
 
-] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27]
+] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25]
 Overfull \hbox (1.52443pt too wide) in paragraph at lines 13--13
 [][] 
  []
 
-[28] [29] [30]) (out/seminar.bbl [31]) [32
+[26] [27] [28]) (out/seminar.bbl [29]) [30
 
 ] (out/seminar.aux)
 Package rerunfilecheck Info: File `seminar.out' has not changed.
 (rerunfilecheck)             Checksum: D56E5DAA273CF63873A765BA95DF4994;1457.
  ) 
 Here is how much of TeX's memory you used:
- 33245 strings out of 476693
- 661618 string characters out of 5805373
+ 33246 strings out of 476693
+ 661640 string characters out of 5805373
  2134209 words of memory out of 5000000
- 53158 multiletter control sequences out of 15000+600000
+ 53159 multiletter control sequences out of 15000+600000
  570583 words of font info for 155 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 89i,16n,92p,511b,2899s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,16n,92p,528b,2899s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/seminar.dvi (33 pages, 259640 bytes).
+Output written on out/seminar.dvi (31 pages, 258464 bytes).
