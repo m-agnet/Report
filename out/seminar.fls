@@ -1272,10 +1272,10 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmss17.tfm
-INPUT ./image/system.jpg
-INPUT ./image/system.jpg
-INPUT image/system.jpg
-INPUT extractbb -B cropbox -O image/system.jpg
+INPUT ./image/system_pair.png
+INPUT ./image/system_pair.png
+INPUT image/system_pair.png
+INPUT extractbb -B cropbox -O image/system_pair.png
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
@@ -1288,6 +1288,10 @@ INPUT ./image/system_periodic.jpg
 INPUT ./image/system_periodic.jpg
 INPUT image/system_periodic.jpg
 INPUT extractbb -B cropbox -O image/system_periodic.jpg
+INPUT ./image/system_heatflux.png
+INPUT ./image/system_heatflux.png
+INPUT image/system_heatflux.png
+INPUT extractbb -B cropbox -O image/system_heatflux.png
 INPUT ./chapter4.tex
 INPUT chapter4.tex
 INPUT ./chapter4.tex
