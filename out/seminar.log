@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.9.10)  15 FEB 2024 13:30
+This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.9.10)  15 FEB 2024 13:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -842,17 +842,17 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 File: /Users/2023_2gou/Desktop/r_yamamoto/Report/image/RaRtmap10_cycle/2023-12-28T12:38:52.986_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 </Users/2023_2gou/Desktop/r_yamamoto/Report/image/RaRtmap10_cycle/2023-12-28T12:38:52.986_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e8.png>
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 19.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 13.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 19.
+(Font)              scaled to size 8.64899pt on input line 13.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <9> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 19.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 13.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 19.
+(Font)              scaled to size 8.64899pt on input line 13.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 25.
+(Font)              scaled to size 6.72699pt on input line 19.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 25.
+(Font)              scaled to size 4.805pt on input line 19.
 ) (./chapter1.tex [2
 
 ]
