@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.9.10)  15 FEB 2024 18:21
+This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.9.10)  15 FEB 2024 18:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3547,17 +3547,28 @@ File: image/RaRtmap_LJ/LJ-Potential_Rt0.375.png Graphic file (type bmp)
 File: image/RaRtmap_LJ/LJ-Potential_Rt0.5.png Graphic file (type bmp)
 <image/RaRtmap_LJ/LJ-Potential_Rt0.5.png>
 ) [5]
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 80.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 80.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 80.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 80.
+
+LaTeX Warning: Reference `fig{fig:qrs10_drop_time}' on page 6 undefined on input line 80.
+
 File: image/initial1250.png Graphic file (type bmp)
 <image/initial1250.png>
 [6]
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 131.
+(Font)              scaled to size 13.83836pt on input line 133.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 131.
+(Font)              scaled to size 13.83836pt on input line 133.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 131.
+(Font)              scaled to size 13.83836pt on input line 133.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 131.
+(Font)              scaled to size 13.83836pt on input line 133.
 [7] (./subtex/RaRtmap_movie.tex
 File: image/RaRtmap/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
 <image/RaRtmap/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png>
@@ -3914,14 +3925,6 @@ File: image/qrs10_drop_time/2023-12-28T10:59:29.846_qrs_gap_chi1.265_Ay50_rho0.4
 <image/qrs10_drop_time/2023-12-28T10:59:29.846_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e8.png>
 )) (./chapter3.tex [17] [18]
 第2章
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 3.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 3.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 3.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 3.
 
 LaTeX Warning: Reference `ap:analysis' on page 19 undefined on input line 3.
 
@@ -4263,12 +4266,12 @@ Package rerunfilecheck Info: File `seminar.out' has not changed.
 (rerunfilecheck)             Checksum: C47DF6ECC48160C04DA90329F881B68C;1396.
  ) 
 Here is how much of TeX's memory you used:
- 34727 strings out of 476693
- 845002 string characters out of 5805373
+ 34734 strings out of 476693
+ 845238 string characters out of 5805373
  2134209 words of memory out of 5000000
- 54429 multiletter control sequences out of 15000+600000
+ 54436 multiletter control sequences out of 15000+600000
  570611 words of font info for 155 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  89i,16n,92p,498b,2899s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/seminar.dvi (49 pages, 371848 bytes).
+Output written on out/seminar.dvi (49 pages, 372676 bytes).
