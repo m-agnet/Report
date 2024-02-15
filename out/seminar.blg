@@ -3,36 +3,36 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: seminar.aux
 The style file: junsrt.bst
 Database file #1: seminar.bib
-You've used 1 entry,
+You've used 2 entries,
             2270 wiz_defined-function locations,
-            543 strings with 4103 characters,
-and the built_in function-call counts, 211 in all, are:
-= -- 12
-> -- 4
+            549 strings with 4157 characters,
+and the built_in function-call counts, 402 in all, are:
+= -- 24
+> -- 8
 < -- 0
-+ -- 2
-- -- 1
-* -- 3
-:= -- 33
-add.period$ -- 3
-call.type$ -- 1
++ -- 4
+- -- 2
+* -- 4
+:= -- 57
+add.period$ -- 6
+call.type$ -- 2
 change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 17
-empty$ -- 26
-format.name$ -- 2
-if$ -- 49
+cite$ -- 2
+duplicate$ -- 34
+empty$ -- 51
+format.name$ -- 4
+if$ -- 97
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 2
-newline$ -- 8
-num.names$ -- 1
-pop$ -- 12
+int.to.str$ -- 2
+missing$ -- 4
+newline$ -- 13
+num.names$ -- 2
+pop$ -- 24
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 9
+skip$ -- 18
 stack$ -- 0
 substring$ -- 0
 swap$ -- 0
@@ -41,7 +41,7 @@ text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 1
-width$ -- 2
-write$ -- 12
-is.kanji.str$ -- 8
+while$ -- 2
+width$ -- 3
+write$ -- 22
+is.kanji.str$ -- 16
