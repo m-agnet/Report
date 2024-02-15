@@ -40,6 +40,20 @@ $\text{R}_\text{t}$ と $\text{R}_\text{a}$ を少しずつ変えた系でシミ
 
 以下は$\text{R}_\text{t}$, $\text{R}_\text{a}$を変化させたときのLJポテンシャルがどのように変化するのかをそれぞれ可視化したグラフである.
 
+参考のために, 各パラメータの値を変えることによって, カットオフ長と衝突直径がどのように変わるのかを示す.
+
+\begin{align}
+  \text{R}_\text{a} &= 0.0 \Rightarrow r_{\text{cut}}^{\text{wall}} = 2^{1/6} \sigma^{\text{wall}} \\
+  \text{R}_\text{a} &= 1.877 \Rightarrow r_{\text{cut}}^{\text{wall}} = 3.0 \sigma^{\text{wall}} 
+\end{align}
+
+\begin{align}
+  \text{R}_\text{t} &= 0.0 \Rightarrow \sigma^{\text{wall}} = 0.5 \sigma \\
+  \text{R}_\text{t} &= 0.5 \Rightarrow \sigma^{\text{wall}} = \sigma 
+\end{align}
+
+である. 
+
 \input{subtex/RaRtmap_LJ.tex}
 
 本章の以降の実験は特記がない限り以下のパラメータで行うものとする. 
@@ -52,7 +66,7 @@ $\text{R}_\text{t}$ と $\text{R}_\text{a}$ を少しずつ変えた系でシミ
   \item $k_{\text{B}} T / \varepsilon = 0.43$: 初期温度
   \item $k_{\text{B}} \Delta T / \varepsilon = 0.04$: 熱浴の温度差
   \item $mg\sigma/\varepsilon = 0.0003999718779659611 \simeq 4.0 \times 10^{-4}$: 粒子にかかる重力の大きさ
-  \item $\dd t \sqrt{\epsilon/m{\sigma}^2} = 0.005$: シミュレーションにおける時間刻み.
+  \item $\dd t \sqrt{\varepsilon/m{\sigma}^2} = 0.005$: シミュレーションにおける時間刻み.
 \end{itemize}
 
 
@@ -63,12 +77,12 @@ $\text{R}_\text{t}$ と $\text{R}_\text{a}$ を少しずつ変えた系でシミ
   \item $t_f \colon$ シミュレーション開始時から, シミュレーションの終了時までの時間.
 \end{itemize}
 
-いずれの実験の場合も$t\sqrt{\epsilon/m{\sigma}^2}=0$の時点では粒子は以下の画像のように, 系に規則正しく並べられているとする.
+いずれの実験の場合も$t\sqrt{\varepsilon/m{\sigma}^2}=0$の時点では粒子は以下の画像のように, 系に規則正しく並べられているとする.
 
 \begin{figure}[H]
   \centering
   \includegraphics[scale=0.2]{image/initial1250.png}
-  \caption{$N=1250$}
+  \caption{$N=1250, t\sqrt{\varepsilon/m{\sigma}^2}=0$}
   \label{}
 \end{figure}
 
@@ -131,16 +145,7 @@ $\text{R}_\text{t}$ と $\text{R}_\text{a}$ を少しずつ変えた系でシミ
 
 \vspace{1\baselineskip}
 
-参考のために, 各パラメータの値を変えることによって, カットオフ長と衝突直径がどのように変わるのかを示す.
 
-\begin{align}
-  \text{R}_\text{a} = 0.0 &\Rightarrow r_{\text{cut}}^{\text{wall}} = 2^{1/6} \sigma^{\text{wall}} \\
-  \text{R}_\text{a} = 1.877 &\Rightarrow r_{\text{cut}}^{\text{wall}} = 3.0 \sigma^{\text{wall}} \\
-  \text{R}_\text{t} = 0.0 &\Rightarrow \sigma^{\text{wall}} = 0.5 \sigma \\
-  \text{R}_\text{t} = 0.5 &\Rightarrow \sigma^{\text{wall}} = \sigma 
-\end{align}
-
-である. 
 
 パラメータを確認する.
 
