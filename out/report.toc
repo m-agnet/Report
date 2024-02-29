@@ -18,8 +18,7 @@
 \contentsline {section}{\numberline {3.2}リミットサイクル}{32}{section.3.2}%
 \contentsline {chapter}{\numberline {第4章}まとめ}{34}{chapter.4}%
 \contentsline {section}{\numberline {4.1}壁の濡れ性と周期的なダイナミクス}{34}{section.4.1}%
-\contentsline {section}{\numberline {4.2}ダイナミクスとリミットサイクル}{34}{section.4.2}%
-\contentsline {chapter}{謝辞}{34}{section.4.2}%
+\contentsline {chapter}{謝辞}{34}{section.4.1}%
 \contentsline {chapter}{\numberline {付録A}研究手法}{36}{appendix.A}%
 \contentsline {section}{\numberline {A.1}LAMMPS}{36}{section.A.1}%
 \contentsline {section}{\numberline {A.2}Lennard-Jones potential}{36}{section.A.2}%
