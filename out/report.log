@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.9.10)  3 MAR 2024 09:36
+This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.9.10)  8 MAR 2024 18:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -9397,7 +9397,7 @@ File: image/RaRtmap/2023-11-15T14:30:22.529__chi1.265_Ay50_rho0.4_T0.43_dT0.04_R
 File: image/RaRtmap/2023-11-15T15:21:59.073__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
 <image/RaRtmap/2023-11-15T15:21:59.073__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e7_output.png>
 
-Overfull \hbox (59.99443pt too wide) in paragraph at lines 2--168
+Overfull \hbox (59.99443pt too wide) in paragraph at lines 2--169
 [][] 
  []
 
@@ -11250,7 +11250,7 @@ Overfull \hbox (1.52443pt too wide) in paragraph at lines 13--13
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: C941220F458290B82E442383CDAE6DF2;5595.
+(rerunfilecheck)             Checksum: DD1041D94C08B28A341135E92967CAE5;5592.
  ) 
 Here is how much of TeX's memory you used:
  37444 strings out of 476693
@@ -11261,4 +11261,4 @@ Here is how much of TeX's memory you used:
  934 hyphenation exceptions out of 8191
  89i,16n,92p,527b,2892s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/report.dvi (88 pages, 639984 bytes).
+Output written on out/report.dvi (88 pages, 640144 bytes).

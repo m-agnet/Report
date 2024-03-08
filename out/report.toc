@@ -15,7 +15,7 @@
 \contentsline {section}{\numberline {2.6}重力を先にかけて, 熱流を後からかける(時間10倍)}{27}{section.2.6}%
 \contentsline {chapter}{\numberline {第3章}分析と考察}{28}{chapter.3}%
 \contentsline {section}{\numberline {3.1}重心位置}{28}{section.3.1}%
-\contentsline {section}{\numberline {3.2}時系列分析}{32}{section.3.2}%
+\contentsline {section}{\numberline {3.2}定常過程}{32}{section.3.2}%
 \contentsline {section}{\numberline {3.3}リミットサイクル}{32}{section.3.3}%
 \contentsline {section}{\numberline {3.4}}{33}{section.3.4}%
 \contentsline {chapter}{\numberline {第4章}まとめ}{34}{chapter.4}%
