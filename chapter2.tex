@@ -1,6 +1,6 @@
 \chapter{実験の設定}\label{sec:simulation}
 
-この章では, 行ったシミュレーションの設定についてそれぞれ説明をしていく.
+この章では, 行ったシミュレーションの設定についてそれぞれ説明をする.
 
 系の上下両端のポテンシャルエネルギー差$mgL_y$と運動エネルギー差$k_{\text{B}}\Delta T$の比を$\chi$として以下のように設定する.
 
@@ -15,16 +15,16 @@
   \text{R}_\text{a} &: 引力幅.
 \end{align}
 
-これらを用いて, 壁-粒子間相互作用のLJポテンシャルを以下のように書き表す.
+これらを用いて, 壁-粒子間相互作用のLJポテンシャルのパラメータ$\sigma^{\text{wall}}$と$r^{\text{wall}}_{\text{cut}}$を以下のように書き表す.
 
 \begin{align}
   \sigma^{\text{wall}} &= \qty(0.5 + \text{R}_\text{t}) \times \sigma , \\
   r^{\text{wall}}_{\text{cut}} &= \qty(2^{1/6} + \text{R}_\text{a}) \times \sigma^{\text{wall}} 
 \end{align}
 
-パラメータ $(\text{R}_\text{t}, \text{R}_\text{a})$ を変えることによって, 壁-粒子間相互作用LJポテンシャルが変わる. このときに, 粒子集団の様相がどのように変化するかをみることが本論の主題である.
+パラメータ $(\text{R}_\text{t}, \text{R}_\text{a})$ を変えることによって, 壁-粒子間相互作用LJポテンシャルが変化する. このときに, 粒子集団の様相がどのように変わるのかをみることが本論の主題である.
 
-$\text{R}_\text{t}$ と $\text{R}_\text{a}$ を少しずつ変えた系でシミュレーションをして, 粒子集団の様相の変化を見たい. 以下に示すのが, それらを動かす範囲である.
+$\text{R}_\text{t}$ と $\text{R}_\text{a}$ を少しずつ変えた系でシミュレーションをして, 粒子集団の様相の変化を見た. 以下に示すのが, それらを動かす範囲である.
 
 \begin{align}
   \text{R}_\text{t} &\colon 0.0 \sim 0.5 \\
@@ -79,13 +79,13 @@ $\text{R}_\text{t}$ と $\text{R}_\text{a}$ を少しずつ変えた系でシミ
 
 図\ref{fig:RaRtmap_time}, \ref{fig:RaRtmap_drop_time}, \ref{fig:dT0_time}, \ref{fig:g0_time}, \ref{fig:RaRtmap10_time}, \ref{fig:qrs10_drop_time}では重心位置の時間発展を示しているのだが, 分析と考察で用いる$t_i$の時点がわかるように赤直線を引くことにしている.
 
-いずれの実験の場合も$t\sqrt{\varepsilon/m{\sigma}^2}=0$の時点では粒子は以下の画像のように, 系に規則正しく並べられているとする.
+いずれの実験の場合も$t\sqrt{\varepsilon/m{\sigma}^2}=0$の時点では粒子は図\ref{fig:linedUp}のように, 規則正しく並べられている.
 
 \begin{figure}[H]
   \centering
   \includegraphics[scale=0.2]{image/initial1250.png}
   \caption{$N=1250, t\sqrt{\varepsilon/m{\sigma}^2}=0$}
-  \label{}
+  \label{fig:linedUp}
 \end{figure}
 
 % \section{先行研究}
@@ -154,21 +154,21 @@ $\text{R}_\text{t}$ と $\text{R}_\text{a}$ を少しずつ変えた系でシミ
 \begin{itemize}
   \item $N = 1250$
   \item $\rho {\sigma}^2 = 0.4$
-  \item $L_x / \sigma = 39.5\dots$
-  \item $L_y / \sigma = 79.0\dots$
+  \item $L_x / \sigma \simeq 39.5$
+  \item $L_y / \sigma \simeq 79.0$
   \item $k_{\text{B}} T / \varepsilon = 0.43$
   \item $k_{\text{B}} \Delta T / \varepsilon = 0.04$
-  \item $mg\sigma/\varepsilon = 4.0 \times 10^{-4}$
+  \item $mg\sigma/\varepsilon \simeq 4.0 \times 10^{-4}$
   \item $t_f \sqrt{\varepsilon / m \sigma^2} = 2.0 \times 10^{5}$
 \end{itemize}
 
-この際の粒子集団の様相は以下のようになる.
+この際の粒子集団の様相は以下のようである.
 
-リンク先の動画は $t \sqrt{\varepsilon / m \sigma^2} = 200$ ごとに表示している. 
+リンク先の動画は $t \sqrt{\varepsilon / m \sigma^2} = 200$ ごとに描画している. 
 
 \input{subtex/RaRtmap_movie.tex}
 
-重心位置$Y_g$を系の$y$幅でスケーリングして, 時系列プロットすると,
+重心位置$Y_g$を, 系の$y$幅を用いて$0\sim 1$にスケーリングして, 時系列プロットする.
 
 \begin{align}
   Y_g &\equiv \bar{y_i} = \frac{1}{N} \sum_{i}^{N} y_i
@@ -179,7 +179,27 @@ $\text{R}_\text{t}$ と $\text{R}_\text{a}$ を少しずつ変えた系でシミ
 
 \section{重力を先にかけて, 熱流を後からかける}
 
-以下は, 追実験のときと同じように, まず重力のみをかけて, 粒子集団が落ちきってから熱流をかけると同時に測定を開始するものである.
+まず重力のみをかけて, 粒子集団が落ちきってから熱流をかけると同時に測定を開始する.
+
+\begin{itemize}
+  \item $N = 1250$
+  \item $\rho \sigma^2 = 0.4$
+  \item $L_x / \sigma \simeq 79.0$
+  \item $L_y / \sigma \simeq 158.1$
+  \item $k_{\text{B}} T/\varepsilon = 4.3$
+  \item $k_{\text{B}} \Delta T/\varepsilon = 0.0$
+  \item $mg\sigma/\varepsilon \simeq 2.0 \times 10^{-4}$
+  \item ${t_f}^{\prime} \sqrt{\varepsilon / m \sigma^2} = 2.0 \times 10^{5}$
+\end{itemize}
+
+続いて重力をかけた緩和後の系で, 温度差のある熱浴をそれぞれ改めて以下のようにつけ, 熱流をかけてシミュレーションをする. 
+
+\begin{itemize}
+  \item $\chi = k_{\text{B}}\Delta T / mg L_y = 1.265$
+  \item $k_{\text{B}} \Delta T/\varepsilon = 0.04$
+  \item $t_i \sqrt{\varepsilon / m \sigma^2} = 2.4 \times 10^{5}$
+  \item $t_f \sqrt{\varepsilon / m \sigma^2} = 4.0 \times 10^{5}$
+\end{itemize}
 
 \input{subtex/RaRtmap_drop_time.tex}
 
@@ -190,11 +210,11 @@ $\text{R}_\text{t}$ と $\text{R}_\text{a}$ を少しずつ変えた系でシミ
 \begin{itemize}
   \item $N = 1250$
   \item $\rho {\sigma}^2 = 0.4$
-  \item $L_x / \sigma = 39.5\dots$
-  \item $L_y / \sigma = 79.0\dots$
+  \item $L_x / \sigma \simeq 39.5$
+  \item $L_y / \sigma \simeq 79.0$
   \item $k_{\text{B}} T / \varepsilon = 0.43$
   \item $k_{\text{B}} \Delta T / \varepsilon = 0.0$
-  \item $mg\sigma/\varepsilon = 4.0 \times 10^{-4}$
+  \item $mg\sigma/\varepsilon \simeq 4.0 \times 10^{-4}$
   \item $t_f \sqrt{\varepsilon / m \sigma^2} = 2.0 \times 10^{5}$
 \end{itemize}
 
@@ -205,8 +225,8 @@ $\text{R}_\text{t}$ と $\text{R}_\text{a}$ を少しずつ変えた系でシミ
 \begin{itemize}
   \item $N = 1250$
   \item $\rho {\sigma}^2 = 0.4$
-  \item $L_x / \sigma = 39.5\dots$
-  \item $L_y / \sigma = 79.0\dots$
+  \item $L_x / \sigma \simeq 39.5$
+  \item $L_y / \sigma \simeq 79.0$
   \item $k_{\text{B}} T / \varepsilon = 0.43$
   \item $k_{\text{B}} \Delta T / \varepsilon = 0.04$
   \item $mg\sigma/\varepsilon = 0.0$
@@ -220,16 +240,38 @@ $\text{R}_\text{t}$ と $\text{R}_\text{a}$ を少しずつ変えた系でシミ
 \begin{itemize}
   \item $N = 1250$
   \item $\rho {\sigma}^2 = 0.4$
-  \item $L_x / \sigma = 39.5\dots$
-  \item $L_y / \sigma = 79.0\dots$
+  \item $L_x / \sigma \simeq 39.5$
+  \item $L_y / \sigma \simeq 79.0$
   \item $k_{\text{B}} T / \varepsilon = 0.43$
   \item $k_{\text{B}} \Delta T / \varepsilon = 0.04$
-  \item $mg\sigma/\varepsilon = 4.0 \times 10^{-4}$
+  \item $mg\sigma/\varepsilon \simeq 4.0 \times 10^{-4}$
   \item $t_f \sqrt{\varepsilon / m \sigma^2} = 2.0 \times 10^{6}$
 \end{itemize}
 
 \input{subtex/RaRtmap10_time.tex}
 
 \section{重力を先にかけて, 熱流を後からかける(時間10倍)}
+
+先ほどと同様に重力のみをかけて, 粒子集団が落ちきってから熱流をかけると同時に測定を開始する.
+
+\begin{itemize}
+  \item $N = 1250$
+  \item $\rho \sigma^2 = 0.4$
+  \item $L_x / \sigma \simeq $
+  \item $L_y / \sigma \simeq $
+  \item $k_{\text{B}} T/\varepsilon = 4.3$
+  \item $k_{\text{B}} \Delta T/\varepsilon = 0.0$
+  \item $mg\sigma/\varepsilon \simeq 2.0 \times 10^{-4}$
+  \item ${t_f}^{\prime} \sqrt{\varepsilon / m \sigma^2} = 2.0 \times 10^{5}$
+\end{itemize}
+
+続いて重力をかけた緩和後の系で, 温度差のある熱浴をそれぞれ改めて以下のようにつけ, 熱流をかけてシミュレーションをする. 
+
+\begin{itemize}
+  \item $\chi = k_{\text{B}}\Delta T / mg L_y = 1.265$
+  \item $k_{\text{B}} \Delta T/\varepsilon = 0.04$
+  \item $t_i \sqrt{\varepsilon / m \sigma^2} = 2.4 \times 10^{5}$
+  \item $t_f \sqrt{\varepsilon / m \sigma^2} = 2.2 \times 10^{6}$
+\end{itemize}
 
 \input{subtex/qrs10_drop_time.tex}
