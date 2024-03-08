@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.9.10)  8 MAR 2024 18:26
+This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.9.10)  8 MAR 2024 19:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -9314,10 +9314,10 @@ LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 [6]
 File: image/system_periodic.jpg Graphic file (type bmp)
 <image/system_periodic.jpg>
-[7]
+[7] [8]
 File: image/system_heatflux.png Graphic file (type bmp)
 <image/system_heatflux.png>
-[8] [9]) (./chapter2.tex [10]
+[9]) (./chapter2.tex [10]
 第2章
 [11
 
@@ -11261,4 +11261,4 @@ Here is how much of TeX's memory you used:
  934 hyphenation exceptions out of 8191
  89i,16n,92p,527b,2892s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/report.dvi (88 pages, 640144 bytes).
+Output written on out/report.dvi (88 pages, 640524 bytes).

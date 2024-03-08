@@ -7,7 +7,7 @@
 
 \begin{figure}[H]
   \centering
-  \caption{}
+  \caption{系の概略図}
   \label{fig:system}
   \includegraphics[scale=0.5]{image/system_pair.png}
 \end{figure}
@@ -27,7 +27,7 @@
   \right] 
 \end{align}
 
-第1項から第4項まで順に, 運動エネルギー, 粒子-粒子間相互作用ポテンシャル, 重力ポテンシャル, 壁-粒子間相互作用ポテンシャルである. 以降, 本節はこのハミルトニアンに至るまでの過程を述べる.
+第1項から第4項まで順に, 運動エネルギー, 粒子-粒子間相互作用ポテンシャル, 重力ポテンシャル, 壁-粒子間相互作用ポテンシャルである. 以降, 本節では自明な運動エネルギーと重力ポテンシャルの項は別として, 第2項の粒子-粒子間相互作用ポテンシャル, 第4項の壁-粒子間相互作用ポテンシャルについて説明する.
 
 \subsection{粒子-粒子間相互作用ポテンシャル}
 
@@ -50,14 +50,14 @@
 周期境界条件を考慮すると, 粒子-粒子間相互ポテンシャルの総計はまず以下のように書ける.\cite{MD}
 
 \begin{align}
-  \sum_{n_x \in \mathbb{Z}} \sum_{i=1}^{N} \sum_{\substack{j=1 \\ (j \neq i \ \text{for} \ n_{x} = 0)}}^{N} \frac{1}{2} \phi_{\text{LJ}}^{\text{pair}}(|\bm{r}_i -(\bm{r}_j + L_x \bm{e}_x)|) 
+  \sum_{n_x \in \mathbb{Z}} \sum_{i=1}^{N} \sum_{\substack{j=1 \\ (j \neq i \ \text{for} \ n_{x} = 0)}}^{N} \frac{1}{2} \tilde{\phi}_{\text{LJ}}^{\text{pair}}(|\bm{r}_i -(\bm{r}_j + L_x \bm{e}_x)|) 
 \end{align}
 
-ここで, $n_x = 0$; オリジナルセルの中では, 同じ$i,\ j$ペアのポテンシャルエネルギーを2回足すことになるので, ポテンシャルを$1/2$している. その上で, $j = i$の場合は自分自身との相互作用になるため, これは除外する. $n_x \neq 0$の場合, 粒子$j$はイメージ粒子となるため, $j=i$の場合も含めることになる. このときにもダブルカウントがあるので, ポテンシャルを$1/2$している. 
+$n_x = 0$ (オリジナルセルの中)では, 同じ$i,\ j$ペアのポテンシャルエネルギーを2回足すことになるので, ポテンシャルを$1/2$している. その上で, $j = i$の場合は自分自身との相互作用になるため, これは除外する. $n_x \neq 0$の場合, 粒子$j$はイメージ粒子となるため, $j=i$の場合も含めることになる. このときにもダブルカウントがあるので, ポテンシャルを$1/2$している. 
 
 \begin{figure}[H]
   \centering
-  \caption{}
+  \caption{オリジナルセルとイメージセル}
   \label{fig:system_periodic}
   \includegraphics[scale=0.7]{image/system_periodic.jpg}
 \end{figure}
@@ -68,11 +68,12 @@
   x_{i} = x_{i}' \mod L_{x} 
 \end{align}
 
-のように,  飛び出した粒子の$x$座標$x_{i}'$を上式のように$x_i$にシフトすれば良い. しかし, 周期境界条件とセットに, 最近接イメージ規約として, 粒子$i$がオリジナル粒子と各イメージ粒子の中で最も近い粒子$j$らとのみ相互作用をすることを課すと, 粒子間の相互ポテンシャルの総計は先ほどよりも簡単に書けるようになる.
+と,  飛び出した粒子の$x$座標$x_{i}'$を上式のように$x_i$にシフトすれば良い. しかし, 周期境界条件とセットに, 最近接イメージ規約として, 粒子$i$がオリジナル粒子と各イメージ粒子の中で最も近い粒子$j$らとのみ相互作用をすることを課すと, 粒子間の相互ポテンシャルの総計は先ほどよりも簡単に書けるようになる.
 
 \begin{align}
-  \sum_{i=1}^{N} \sum_{j > i}^{N} \phi_{\text{LJ}}^{\text{pair}} (r_{ij})
+  \sum_{i=1}^{N} \sum_{j > i}^{N} \tilde{\phi}_{\text{LJ}}^{\text{pair}} (r_{ij})
 \end{align}
+
 
 \subsection{壁-粒子間相互作用ポテンシャル}
 
@@ -80,10 +81,10 @@
   \phi_{\text{LJ}}^{\text{wall}}(r; \varepsilon^{\text{wall}}, \sigma^{\text{wall}}) = 4\varepsilon^{\text{wall}} \qty[\qty(\frac{\sigma^{\text{wall}}}{r})^{12} - \qty(\frac{\sigma^{\text{wall}}}{r})^{6} ] \\
 \end{align}
 
-パラメータは以下のようにする.
+各パラメータは以下のように設定する.
 
 \begin{align}
-  \varepsilon^{\text{wall}} &= \qty(1.0 - \text{R}_\text{d}) \times \varepsilon \\
+  \varepsilon^{\text{wall}} &= \varepsilon \\
   \sigma^{\text{wall}} &= \qty(0.5 + \text{R}_\text{t}) \times \sigma \\
   r^{\text{wall}}_{\text{cut}} &= \qty(2^{1/6} + \text{R}_\text{a}) \times \sigma^{\text{wall}}
 \end{align}
@@ -100,7 +101,7 @@
   V^{\text{wall}}(y; L_y) &= \tilde{\phi}_{\text{LJ}}^{\text{wall}}(y;r_{\text{cut}}^{\text{wall}}) + \tilde{\phi}_{\text{LJ}}^{\text{wall}}(L_y - y;r_{\text{cut}}^{\text{wall}})
 \end{align}
 
-のように書ける. これまでのことより, ハミルトニアンは式\eqref{Hamiltonian}のように書き表せる.
+のように書ける. これまでのことより, 系のハミルトニアンは式\eqref{Hamiltonian}のように書き表せる.
 
 \begin{align}
     H(\Gamma; g)
@@ -120,7 +121,7 @@
 \begin{figure}[H]
   \centering
   \includegraphics[scale=0.5]{image/system_heatflux.png}
-  \caption{}
+  \caption{熱浴から飛び出る粒子の様子}
   \label{}
 \end{figure}
 
@@ -141,7 +142,7 @@
   \expval{\xi_{i}^{a}(t)\xi_{j}^{b}(t')} &= \delta_{i,j} \delta_{a,b}\delta (t-t')
 \end{align}
 
-粒子がそれぞれの熱浴に侵入していないときには$\gamma=0$となり, 正準方程式に従うようになる. 
+以下のように条件づけをしているので, 粒子がそれぞれの熱浴に侵入していないときには$\gamma=0$となり, 正準方程式に従うようになっている. 
 
 \begin{align}
   \gamma(y_i) &= 1. \ T_{\nu}(y_i) = T_{\text{H}}. \ (0 < y_i < 8\sigma) \\
