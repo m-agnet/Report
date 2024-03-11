@@ -1,8 +1,8 @@
 \chapter{分析と考察}
 
-この章では, 第\ref{sec:simulation}章において行ったシミュレーションを用いて, それぞれ分析と考察をしていく. 適宜文脈に則した分析画像を提示するが, 入りきらない部分は付録\ref{ap:analysis}に収録する.
+この章では, 第\ref{sec:simulation}章において行ったシミュレーションを用いて, 分析と考察をする. 適宜文脈に則した画像を添付するが, 入りきらない部分は付録\ref{ap:analysis}に収録する.
 
-以降の解析は定常状態であるとみなす, $t_i \sqrt{\varepsilon / m \sigma^2} = 4.0 \times 10^{4}$からのデータを用いてプロットすることにしている.
+また, 以降の解析は定常状態であるとみなす, $t_i \sqrt{\varepsilon / m \sigma^2} = 4.0 \times 10^{4}$からのデータを用いてプロットすることにしている.
 
 \section{重心位置}
 
@@ -15,7 +15,7 @@
 
 これは, 時間発展する重心位置のばらつき具合を意味する. 後述する空間的なばらつきとは定義から見ても分かるとおり異なる量である.
 
-重心位置の標準偏差についてそれぞれ横軸を変えて同時プロットで表してみる. 
+\ref{sec:RaRtmap}節(重力と熱流を同時にかける)のシミュレーションで得たデータを用いて, 重心位置の標準偏差についてそれぞれ横軸を変えて同時プロットで表す. 
 
 \begin{figure}[H]
   \begin{tabular}{cc}
@@ -89,30 +89,239 @@
 
 \begin{align}
   \sigma_{y} (t)
-  &= \sqrt{\frac{1}{N} \sum_{i=1}^{N} (y_i (t) - \bar{y_i}(t) )^2} \\
-  &= \sqrt{\frac{1}{N} \sum_{i=1}^{N} (y_i (t) - Y_g (t) )^2} \\
-  &= \sqrt{\frac{1}{N} \sum_{i=1}^{N} {{y_i} (t)}^2 - {{Y_g} (t)}^2}
+  &\equiv \sqrt{\frac{1}{N} \sum_{i=1}^{N} (y_i (t) - \bar{y_i}(t) )^2} \\
+  &= \sqrt{\frac{1}{N} \sum_{i=1}^{N} (y_i (t) - Y_g (t) )^2} 
+  % &= \sqrt{\frac{1}{N} \sum_{i=1}^{N} {{y_i} (t)}^2 - {{Y_g} (t)}^2}
 \end{align}
 
-以下のように並べると, 壁の濡れ性を強くするとサイクルが閉じ, このとき非定常で周期的なダイナミクスが現れているということがわかる.
+\ref{sec:RaRtmap10}節(重力と熱流を同時にかける(時間10倍))で得たデータを用いて, 重心位置と, 流体系の空間的なばらつきの時系列プロットをそれぞれ並べる.
 
-画像
-
-また, このリミットサイクルからは, 周期的なダイナミクスが見れる系においては流体系が液滴を形成しつつ, 上壁に吸着しきるまでのスピードが, 液体の落下のスピードよりも遅いことが分かる.
+まず, $\text{R}_\text{a}$を固定して, $\text{R}_\text{t}$のみを変えた系での各物理量の時系列プロットを示す. 
 
 
-% \input{subtex/RaRtmap_cycle.tex}
+\begin{figure}[H]
+  \centering
+  \begin{tabular}{ccc}
+    \begin{minipage}[t]{0.3\hsize}
+      \centering
+      \includegraphics[width=\textwidth]{image/RaRtmap10_time/2023-12-28T12:38:51.436_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.877538_g0.0003999718779659611_run4.0e8.png}
+      \subcaption{Ra1.877,Rt0.0}
+      \label{}
+    \end{minipage} &
+    \begin{minipage}[t]{0.3\hsize}
+      \centering
+      \includegraphics[width=\textwidth]{image/RaRtmap10_time/2023-12-28T12:38:51.827_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e8.png}
+      \subcaption{Ra1.877,Rt0.125}
+      \label{}
+    \end{minipage} &
+    \begin{minipage}[t]{0.3\hsize}
+      \centering
+      \includegraphics[width=\textwidth]{image/RaRtmap10_time/2023-12-28T12:38:52.986_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e8.png}
+      \subcaption{Ra1.877,Rt0.5}
+      \label{}
+    \end{minipage} 
+  \end{tabular}
+  \caption{重心位置の時系列プロット, $t_i = 4.0 \times 10^4 , t_f = 2.0 \times 10^6, t\sqrt{\epsilon/m{\sigma}^2} = 2000$ごとにプロット.}
+  \label{}
+\end{figure}
 
-% \section{リミットサイクル3D}
+\begin{figure}[H]
+  \centering
+  \begin{tabular}{ccc}
+    \begin{minipage}[t]{0.3\hsize}
+      \centering
+      \includegraphics[width=\textwidth]{image/RaRtmap10_stdy/2023-12-28T12:38:51.436_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.877538_g0.0003999718779659611_run4.0e8.png}
+      \subcaption{Ra1.877,Rt0.0}
+      \label{}
+    \end{minipage} &
+    \begin{minipage}[t]{0.3\hsize}
+      \centering
+      \includegraphics[width=\textwidth]{image/RaRtmap10_stdy/2023-12-28T12:38:51.827_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e8.png}
+      \subcaption{Ra1.877,Rt0.125}
+      \label{}
+    \end{minipage} &
+    \begin{minipage}[t]{0.3\hsize}
+      \centering
+      \includegraphics[width=\textwidth]{image/RaRtmap10_stdy/2023-12-28T12:38:52.986_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e8.png}
+      \subcaption{Ra1.877,Rt0.5}
+      \label{}
+    \end{minipage} 
+  \end{tabular}
+  \caption{流体系の空間的なばらつきの時系列プロット, $t_i = 4.0 \times 10^4 , t_f = 2.0 \times 10^6, t\sqrt{\epsilon/m{\sigma}^2} = 2000$ごとにプロット.}
+  \label{}
+\end{figure}
 
-% \input{subtex/RaRtmap_cycle3d.tex}
+\vspace{1\baselineskip}
+
+次に, $\text{R}_\text{t}$を固定して, $\text{R}_\text{a}$のみを変えた系での各物理量の時系列プロットを示す. 
 
 
-% \section{ヒートマップ}
+\begin{figure}[H]
+  \centering
+  \begin{tabular}{ccc}
+    \begin{minipage}[t]{0.3\hsize}
+      \centering
+      \includegraphics[width=\textwidth]{image/RaRtmap10_time/2023-12-28T12:38:52.686_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.0_g0.0003999718779659611_run4.0e8.png}
+      \subcaption{Ra0.0,Rt0.5}
+      \label{}
+    \end{minipage} &
+    \begin{minipage}[t]{0.3\hsize}
+      \centering
+      \includegraphics[width=\textwidth]{image/RaRtmap10_time/2023-12-28T12:38:52.752_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run4.0e8.png}
+      \subcaption{Ra0.469,Rt0.5}
+      \label{}
+    \end{minipage} &
+    \begin{minipage}[t]{0.3\hsize}
+      \centering
+      \includegraphics[width=\textwidth]{image/RaRtmap10_time/2023-12-28T12:38:52.986_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e8.png}
+      \subcaption{Ra1.877,Rt0.5}
+      \label{}
+    \end{minipage} 
+  \end{tabular}
+  \caption{重心位置の時系列プロット, $t_i = 4.0 \times 10^4 , t_f = 2.0 \times 10^6, t\sqrt{\epsilon/m{\sigma}^2} = 2000$ごとにプロット.}
+  \label{}
+\end{figure}
 
-リミットサイクルのプロットが多く密集している箇所が濃くなるようにヒートマップを作ると以下のように, 流体系がある位置に長く留まることが分かりやすくなる.
+\begin{figure}[H]
+  \centering
+  \begin{tabular}{ccc}
+    \begin{minipage}[t]{0.3\hsize}
+      \centering
+      \includegraphics[width=\textwidth]{image/RaRtmap10_stdy/2023-12-28T12:38:52.686_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.0_g0.0003999718779659611_run4.0e8.png}
+      \subcaption{Ra0.0,Rt0.5}
+      \label{}
+    \end{minipage} &
+    \begin{minipage}[t]{0.3\hsize}
+      \centering
+      \includegraphics[width=\textwidth]{image/RaRtmap10_stdy/2023-12-28T12:38:52.752_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run4.0e8.png}
+      \subcaption{Ra0.469,Rt0.5}
+      \label{}
+    \end{minipage} &
+    \begin{minipage}[t]{0.3\hsize}
+      \centering
+      \includegraphics[width=\textwidth]{image/RaRtmap10_stdy/2023-12-28T12:38:52.986_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e8.png}
+      \subcaption{Ra1.877,Rt0.5}
+      \label{}
+    \end{minipage} 
+  \end{tabular}
+  \caption{流体系の空間的なばらつきの時系列プロット, $t_i = 4.0 \times 10^4 , t_f = 2.0 \times 10^6, t\sqrt{\epsilon/m{\sigma}^2} = 2000$ごとにプロット.}
+  \label{}
+\end{figure}
 
-画像
+\vspace{1\baselineskip}
+
+これらを踏まえて,流体系の重心位置と空間的なばらつきの相空間での軌道をそれぞれ並べる.
+
+
+\begin{figure}[H]
+  \centering
+  \begin{tabular}{ccc}
+    \begin{minipage}[t]{0.3\hsize}
+      \centering
+      \includegraphics[width=\textwidth]{image/RaRtmap10_cycle/2023-12-28T12:38:51.436_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.877538_g0.0003999718779659611_run4.0e8.png}
+      \subcaption{Ra1.877,Rt0.0}
+      \label{}
+    \end{minipage} &
+    \begin{minipage}[t]{0.3\hsize}
+      \centering
+      \includegraphics[width=\textwidth]{image/RaRtmap10_cycle/2023-12-28T12:38:51.827_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e8.png}
+      \subcaption{Ra1.877,Rt0.125}
+      \label{}
+    \end{minipage} &
+    \begin{minipage}[t]{0.3\hsize}
+      \centering
+      \includegraphics[width=\textwidth]{image/RaRtmap10_cycle/2023-12-28T12:38:52.986_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e8.png}
+      \subcaption{Ra1.877,Rt0.5}
+      \label{}
+    \end{minipage} 
+  \end{tabular}
+  \caption{リミットサイクル, Ra固定 $t_i = 4.0 \times 10^4 , t_f = 2.0 \times 10^6, t\sqrt{\epsilon/m{\sigma}^2} = 2000$ごとにプロット.}
+  \label{}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \begin{tabular}{ccc}
+    \begin{minipage}[t]{0.3\hsize}
+      \centering
+      \includegraphics[width=\textwidth]{image/RaRtmap10_cycle/2023-12-28T12:38:52.686_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.0_g0.0003999718779659611_run4.0e8.png}
+      \subcaption{Ra0.0,Rt0.5}
+      \label{}
+    \end{minipage} &
+    \begin{minipage}[t]{0.3\hsize}
+      \centering
+      \includegraphics[width=\textwidth]{image/RaRtmap10_cycle/2023-12-28T12:38:52.752_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run4.0e8.png}
+      \subcaption{Ra0.469,Rt0.5}
+      \label{}
+    \end{minipage} &
+    \begin{minipage}[t]{0.3\hsize}
+      \centering
+      \includegraphics[width=\textwidth]{image/RaRtmap10_cycle/2023-12-28T12:38:52.986_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e8.png}
+      \subcaption{Ra1.877,Rt0.5}
+      \label{}
+    \end{minipage} 
+  \end{tabular}
+  \caption{リミットサイクル, Rt固定, $t_i = 4.0 \times 10^4 , t_f = 2.0 \times 10^6, t\sqrt{\epsilon/m{\sigma}^2} = 2000$ごとにプロット.}
+  \label{}
+\end{figure}
+
+これらを見ると, 壁の濡れ性を強くするとサイクルが閉じ, このとき非定常で周期的なダイナミクスが現れているということがわかる.
+
+また, このリミットサイクルからは, 周期的なダイナミクスが見れる系においては流体系が液滴を形成しつつ, 上壁に吸着しきるまでのスピードが, 液体の落下のスピードよりも遅いことも分かる.
+
+リミットサイクルのプロットが多く密集している箇所が濃くなるようにヒートマップを作ると以下のように, 系によって流体系が一定の位置に長く留まることが分かりやすくなる.
+
+\begin{figure}[H]
+  \centering
+  \begin{tabular}{ccc}
+    \begin{minipage}[t]{0.3\hsize}
+      \centering
+      \includegraphics[width=\textwidth]{image/RaRtmap10_heat/2023-12-28T12:38:51.436_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.877538_g0.0003999718779659611_run4.0e8.png}
+      \subcaption{Ra1.877,Rt0.0}
+      \label{}
+    \end{minipage} &
+    \begin{minipage}[t]{0.3\hsize}
+      \centering
+      \includegraphics[width=\textwidth]{image/RaRtmap10_heat/2023-12-28T12:38:51.827_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e8.png}
+      \subcaption{Ra1.877,Rt0.125}
+      \label{}
+    \end{minipage} &
+    \begin{minipage}[t]{0.3\hsize}
+      \centering
+      \includegraphics[width=\textwidth]{image/RaRtmap10_heat/2023-12-28T12:38:52.986_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e8.png}
+      \subcaption{Ra1.877,Rt0.5}
+      \label{}
+    \end{minipage} 
+  \end{tabular}
+  \caption{ヒートマップ, Ra固定}
+  \label{}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \begin{tabular}{ccc}
+    \begin{minipage}[t]{0.3\hsize}
+      \centering
+      \includegraphics[width=\textwidth]{image/RaRtmap10_heat/2023-12-28T12:38:52.686_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.0_g0.0003999718779659611_run4.0e8.png}
+      \subcaption{Ra0.0,Rt0.5}
+      \label{}
+    \end{minipage} &
+    \begin{minipage}[t]{0.3\hsize}
+      \centering
+      \includegraphics[width=\textwidth]{image/RaRtmap10_heat/2023-12-28T12:38:52.752_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run4.0e8.png}
+      \subcaption{Ra0.469,Rt0.5}
+      \label{}
+    \end{minipage} &
+    \begin{minipage}[t]{0.3\hsize}
+      \centering
+      \includegraphics[width=\textwidth]{image/RaRtmap10_heat/2023-12-28T12:38:52.986_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e8.png}
+      \subcaption{Ra1.877,Rt0.5}
+      \label{}
+    \end{minipage} 
+  \end{tabular}
+  \caption{ヒートマップ, Rt固定}
+  \label{}
+\end{figure}
 
 % \input{subtex/RaRtmap_heat.tex}
 
