@@ -1,60 +1,62 @@
 \providecommand \autonum@processReference [2]{}
 \contentsline {chapter}{概要}{4}{chapter*.1}%
-\contentsline {chapter}{\numberline {第1章}系の設定}{5}{chapter.1}%
-\contentsline {section}{\numberline {1.1}ハミルトニアン}{6}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}粒子-粒子間相互作用ポテンシャル}{6}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}周期境界条件と最近接イメージ規約}{6}{subsection.1.1.2}%
-\contentsline {subsection}{\numberline {1.1.3}壁-粒子間相互作用ポテンシャル}{8}{subsection.1.1.3}%
-\contentsline {section}{\numberline {1.2}熱流}{8}{section.1.2}%
-\contentsline {chapter}{\numberline {第2章}実験の設定}{10}{chapter.2}%
-\contentsline {section}{\numberline {2.1}重力と熱流を同時にかける}{14}{section.2.1}%
-\contentsline {section}{\numberline {2.2}重力を先にかけて, 熱流を後からかける}{18}{section.2.2}%
-\contentsline {section}{\numberline {2.3}重力のみをかける}{19}{section.2.3}%
-\contentsline {section}{\numberline {2.4}熱流のみをかける}{20}{section.2.4}%
-\contentsline {section}{\numberline {2.5}重力と熱流を同時にかける(時間10倍)}{22}{section.2.5}%
-\contentsline {section}{\numberline {2.6}重力を先にかけて, 熱流を後からかける(時間10倍)}{23}{section.2.6}%
-\contentsline {chapter}{\numberline {第3章}分析と考察}{25}{chapter.3}%
-\contentsline {section}{\numberline {3.1}重心位置}{25}{section.3.1}%
-\contentsline {section}{\numberline {3.2}リミットサイクル}{28}{section.3.2}%
-\contentsline {chapter}{謝辞}{31}{figure.caption.36}%
-\contentsline {chapter}{\numberline {付録A}分析画像}{33}{appendix.A}%
-\contentsline {section}{\numberline {A.1}ヒストグラム}{33}{section.A.1}%
-\contentsline {subsection}{\numberline {A.1.1}重力と熱流を同時にかける}{33}{subsection.A.1.1}%
-\contentsline {subsection}{\numberline {A.1.2}重力を先にかけて, 熱流を後からかける}{35}{subsection.A.1.2}%
-\contentsline {subsection}{\numberline {A.1.3}重力のみをかける}{36}{subsection.A.1.3}%
-\contentsline {subsection}{\numberline {A.1.4}熱流のみをかける}{37}{subsection.A.1.4}%
-\contentsline {subsection}{\numberline {A.1.5}重力と熱流を同時にかける(10倍)}{38}{subsection.A.1.5}%
-\contentsline {subsection}{\numberline {A.1.6}重力を先にかけて, 熱流を後からかける(10倍)}{39}{subsection.A.1.6}%
-\contentsline {section}{\numberline {A.2}空間的な揺らぎ}{39}{section.A.2}%
-\contentsline {subsection}{\numberline {A.2.1}重力と熱流を同時にかける}{40}{subsection.A.2.1}%
-\contentsline {subsection}{\numberline {A.2.2}重力を先にかけて, 熱流を後からかける}{41}{subsection.A.2.2}%
-\contentsline {subsection}{\numberline {A.2.3}重力のみをかける}{42}{subsection.A.2.3}%
-\contentsline {subsection}{\numberline {A.2.4}熱流のみをかける}{43}{subsection.A.2.4}%
-\contentsline {subsection}{\numberline {A.2.5}重力と熱流を同時にかける(10倍)}{44}{subsection.A.2.5}%
-\contentsline {subsection}{\numberline {A.2.6}重力を先にかけて, 熱流を後からかける(10倍)}{45}{subsection.A.2.6}%
-\contentsline {section}{\numberline {A.3}サイクル}{46}{section.A.3}%
-\contentsline {subsection}{\numberline {A.3.1}重力と熱流を同時にかける}{46}{subsection.A.3.1}%
-\contentsline {subsection}{\numberline {A.3.2}重力を先にかけて, 熱流を後からかける}{47}{subsection.A.3.2}%
-\contentsline {subsection}{\numberline {A.3.3}重力のみをかける}{48}{subsection.A.3.3}%
-\contentsline {subsection}{\numberline {A.3.4}熱流のみをかける}{49}{subsection.A.3.4}%
-\contentsline {subsection}{\numberline {A.3.5}重力と熱流を同時にかける(10倍)}{50}{subsection.A.3.5}%
-\contentsline {subsection}{\numberline {A.3.6}重力を先にかけて, 熱流を後からかける(10倍)}{51}{subsection.A.3.6}%
-\contentsline {section}{\numberline {A.4}サイクル3D}{52}{section.A.4}%
-\contentsline {subsection}{\numberline {A.4.1}重力と熱流を同時にかける}{52}{subsection.A.4.1}%
-\contentsline {subsection}{\numberline {A.4.2}重力を先にかけて, 熱流を後からかける}{53}{subsection.A.4.2}%
-\contentsline {subsection}{\numberline {A.4.3}重力のみをかける}{54}{subsection.A.4.3}%
-\contentsline {subsection}{\numberline {A.4.4}熱流のみをかける}{55}{subsection.A.4.4}%
-\contentsline {subsection}{\numberline {A.4.5}重力と熱流を同時にかける(10倍)}{56}{subsection.A.4.5}%
-\contentsline {subsection}{\numberline {A.4.6}重力を先にかけて, 熱流を後からかける(10倍)}{57}{subsection.A.4.6}%
-\contentsline {section}{\numberline {A.5}ヒートマップ}{58}{section.A.5}%
-\contentsline {subsection}{\numberline {A.5.1}重力と熱流を同時にかける}{58}{subsection.A.5.1}%
-\contentsline {subsection}{\numberline {A.5.2}重力を先にかけて, 熱流を後からかける}{59}{subsection.A.5.2}%
-\contentsline {subsection}{\numberline {A.5.3}重力のみをかける}{60}{subsection.A.5.3}%
-\contentsline {subsection}{\numberline {A.5.4}熱流のみをかける}{61}{subsection.A.5.4}%
-\contentsline {subsection}{\numberline {A.5.5}重力と熱流を同時にかける(10倍)}{62}{subsection.A.5.5}%
-\contentsline {subsection}{\numberline {A.5.6}重力を先にかけて, 熱流を後からかける(10倍)}{63}{subsection.A.5.6}%
-\contentsline {chapter}{\numberline {付録B}\href {https://github.com/m-agnet/Report.git}{ソースコード}}{64}{appendix.B}%
-\contentsline {section}{\numberline {B.1}LAMMPSファイル}{64}{section.B.1}%
-\contentsline {section}{\numberline {B.2}実行ファイル}{73}{section.B.2}%
-\contentsline {section}{\numberline {B.3}プロットファイル}{79}{section.B.3}%
-\contentsline {chapter}{参考文献}{82}{appendix*.68}%
+\contentsline {chapter}{はじめに}{4}{figure.caption.3}%
+\contentsline {chapter}{\numberline {第1章}系の設定}{6}{chapter.1}%
+\contentsline {section}{\numberline {1.1}ハミルトニアン}{7}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}粒子-粒子間相互作用ポテンシャル}{7}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}周期境界条件と最近接イメージ規約}{8}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}壁-粒子間相互作用ポテンシャル}{10}{subsection.1.1.3}%
+\contentsline {section}{\numberline {1.2}熱流}{10}{section.1.2}%
+\contentsline {chapter}{\numberline {第2章}実験の設定}{12}{chapter.2}%
+\contentsline {section}{\numberline {2.1}重力と熱流を同時にかける}{16}{section.2.1}%
+\contentsline {section}{\numberline {2.2}重力を先にかけて, 熱流を後からかける}{20}{section.2.2}%
+\contentsline {section}{\numberline {2.3}重力のみをかける}{21}{section.2.3}%
+\contentsline {section}{\numberline {2.4}熱流のみをかける}{22}{section.2.4}%
+\contentsline {section}{\numberline {2.5}重力と熱流を同時にかける(時間10倍)}{24}{section.2.5}%
+\contentsline {section}{\numberline {2.6}重力を先にかけて, 熱流を後からかける(時間10倍)}{25}{section.2.6}%
+\contentsline {chapter}{\numberline {第3章}分析と考察}{27}{chapter.3}%
+\contentsline {section}{\numberline {3.1}重心位置}{27}{section.3.1}%
+\contentsline {section}{\numberline {3.2}リミットサイクル}{30}{section.3.2}%
+\contentsline {chapter}{\numberline {第4章}まとめ}{34}{chapter.4}%
+\contentsline {chapter}{謝辞}{35}{figure.caption.44}%
+\contentsline {chapter}{\numberline {付録A}分析画像}{37}{appendix.A}%
+\contentsline {section}{\numberline {A.1}ヒストグラム}{37}{section.A.1}%
+\contentsline {subsection}{\numberline {A.1.1}重力と熱流を同時にかける}{37}{subsection.A.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}重力を先にかけて, 熱流を後からかける}{39}{subsection.A.1.2}%
+\contentsline {subsection}{\numberline {A.1.3}重力のみをかける}{40}{subsection.A.1.3}%
+\contentsline {subsection}{\numberline {A.1.4}熱流のみをかける}{41}{subsection.A.1.4}%
+\contentsline {subsection}{\numberline {A.1.5}重力と熱流を同時にかける(10倍)}{42}{subsection.A.1.5}%
+\contentsline {subsection}{\numberline {A.1.6}重力を先にかけて, 熱流を後からかける(10倍)}{43}{subsection.A.1.6}%
+\contentsline {section}{\numberline {A.2}空間的な揺らぎ}{43}{section.A.2}%
+\contentsline {subsection}{\numberline {A.2.1}重力と熱流を同時にかける}{44}{subsection.A.2.1}%
+\contentsline {subsection}{\numberline {A.2.2}重力を先にかけて, 熱流を後からかける}{45}{subsection.A.2.2}%
+\contentsline {subsection}{\numberline {A.2.3}重力のみをかける}{46}{subsection.A.2.3}%
+\contentsline {subsection}{\numberline {A.2.4}熱流のみをかける}{47}{subsection.A.2.4}%
+\contentsline {subsection}{\numberline {A.2.5}重力と熱流を同時にかける(10倍)}{48}{subsection.A.2.5}%
+\contentsline {subsection}{\numberline {A.2.6}重力を先にかけて, 熱流を後からかける(10倍)}{49}{subsection.A.2.6}%
+\contentsline {section}{\numberline {A.3}サイクル}{50}{section.A.3}%
+\contentsline {subsection}{\numberline {A.3.1}重力と熱流を同時にかける}{50}{subsection.A.3.1}%
+\contentsline {subsection}{\numberline {A.3.2}重力を先にかけて, 熱流を後からかける}{51}{subsection.A.3.2}%
+\contentsline {subsection}{\numberline {A.3.3}重力のみをかける}{52}{subsection.A.3.3}%
+\contentsline {subsection}{\numberline {A.3.4}熱流のみをかける}{53}{subsection.A.3.4}%
+\contentsline {subsection}{\numberline {A.3.5}重力と熱流を同時にかける(10倍)}{54}{subsection.A.3.5}%
+\contentsline {subsection}{\numberline {A.3.6}重力を先にかけて, 熱流を後からかける(10倍)}{55}{subsection.A.3.6}%
+\contentsline {section}{\numberline {A.4}サイクル3D}{56}{section.A.4}%
+\contentsline {subsection}{\numberline {A.4.1}重力と熱流を同時にかける}{56}{subsection.A.4.1}%
+\contentsline {subsection}{\numberline {A.4.2}重力を先にかけて, 熱流を後からかける}{57}{subsection.A.4.2}%
+\contentsline {subsection}{\numberline {A.4.3}重力のみをかける}{58}{subsection.A.4.3}%
+\contentsline {subsection}{\numberline {A.4.4}熱流のみをかける}{59}{subsection.A.4.4}%
+\contentsline {subsection}{\numberline {A.4.5}重力と熱流を同時にかける(10倍)}{60}{subsection.A.4.5}%
+\contentsline {subsection}{\numberline {A.4.6}重力を先にかけて, 熱流を後からかける(10倍)}{61}{subsection.A.4.6}%
+\contentsline {section}{\numberline {A.5}ヒートマップ}{62}{section.A.5}%
+\contentsline {subsection}{\numberline {A.5.1}重力と熱流を同時にかける}{62}{subsection.A.5.1}%
+\contentsline {subsection}{\numberline {A.5.2}重力を先にかけて, 熱流を後からかける}{63}{subsection.A.5.2}%
+\contentsline {subsection}{\numberline {A.5.3}重力のみをかける}{64}{subsection.A.5.3}%
+\contentsline {subsection}{\numberline {A.5.4}熱流のみをかける}{65}{subsection.A.5.4}%
+\contentsline {subsection}{\numberline {A.5.5}重力と熱流を同時にかける(10倍)}{66}{subsection.A.5.5}%
+\contentsline {subsection}{\numberline {A.5.6}重力を先にかけて, 熱流を後からかける(10倍)}{67}{subsection.A.5.6}%
+\contentsline {chapter}{\numberline {付録B}\href {https://github.com/m-agnet/Report.git}{ソースコード}}{68}{appendix.B}%
+\contentsline {section}{\numberline {B.1}LAMMPSファイル}{68}{section.B.1}%
+\contentsline {section}{\numberline {B.2}実行ファイル}{77}{section.B.2}%
+\contentsline {section}{\numberline {B.3}プロットファイル}{83}{section.B.3}%
+\contentsline {chapter}{参考文献}{87}{appendix*.76}%

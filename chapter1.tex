@@ -1,4 +1,4 @@
-\chapter{系の設定}
+\chapter{系の設定}\label{chap:system}
 
 この章では, 本研究で扱う系の設定について説明する. 
 
@@ -36,6 +36,13 @@
 \begin{align}
   \phi_{\text{LJ}}^{\text{pair}}(r; \varepsilon, \sigma) = 4\varepsilon \qty[\qty(\frac{\sigma}{r})^{12} - \qty(\frac{\sigma}{r})^{6}] 
 \end{align}
+
+\begin{figure}
+  \centering
+  \caption{LJポテンシャル}
+  \label{}
+  \includegraphics[scale=0.5]{image/LJ-Potential_pair.png}
+\end{figure}
 
 シミュレーション上では, カットオフ長 $r_{\text{cut}}^{\text{pair}}=3\sigma$ とポテンシャルのシフトアップを考慮して
 
@@ -101,7 +108,7 @@ $n_x = 0$ (オリジナルセルの中)では, 同じ$i,\ j$ペアのポテン�
   V^{\text{wall}}(y; L_y) &= \tilde{\phi}_{\text{LJ}}^{\text{wall}}(y;r_{\text{cut}}^{\text{wall}}) + \tilde{\phi}_{\text{LJ}}^{\text{wall}}(L_y - y;r_{\text{cut}}^{\text{wall}})
 \end{align}
 
-のように書ける. これまでのことより, 系のハミルトニアンは式\eqref{Hamiltonian}のように書き表せる.
+のように書ける. これまでのことを踏まえて, 系のハミルトニアンは式\eqref{Hamiltonian}のように書き表せる.
 
 \begin{align}
     H(\Gamma; g)
@@ -142,7 +149,7 @@ $n_x = 0$ (オリジナルセルの中)では, 同じ$i,\ j$ペアのポテン�
   \expval{\xi_{i}^{a}(t)\xi_{j}^{b}(t')} &= \delta_{i,j} \delta_{a,b}\delta (t-t')
 \end{align}
 
-以下のように条件づけをしているので, 粒子がそれぞれの熱浴に侵入していないときには$\gamma=0$となり, 正準方程式に従うようになっている. 
+また, 以下のように条件づけをしているので, 粒子がそれぞれの熱浴に侵入していないときには$\gamma=0$となり, 正準方程式に従うようになっている. 
 
 \begin{align}
   \gamma(y_i) &= 1. \ T_{\nu}(y_i) = T_{\text{H}}. \ (0 < y_i < 8\sigma) \\

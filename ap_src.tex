@@ -1,16 +1,17 @@
 \chapter{\href{https://github.com/m-agnet/Report.git}{ソースコード}}
 
-再現しやすいようにソースコードを書き記す. リンク先のGitHubで, Report/src内にファイルが保存されている.
+再現しやすいようにソースコードを書き記す. リンク先のGitHubで, Report/src内に収まりきらないファイルも含めて保存している.
 
 % ここにソースコードを追加.
 \section{LAMMPSファイル}
-\lstinputlisting[caption=in.2dLJ]{src/in.2dLJ}
-\lstinputlisting[caption=in.2dLJ\_mod]{src/in.2dLJ_mod}
+\lstinputlisting[caption=in.2dLJ]{src/lammps/in.2dLJ}
+\lstinputlisting[caption=in.2dLJ\_mod]{src/lammps/in.2dLJ_mod}
 
 \section{実行ファイル}
-\lstinputlisting[caption=lammps\_modexe.jl]{src/lammps_modexe.jl}
-\lstinputlisting[caption=lammps\_qsub\_job.jl]{src/lammps_qsub_job.jl}
-\lstinputlisting[caption=lammps\_qsub\_out.jl]{src/lammps_qsub_out.jl}
+\lstinputlisting[caption=lammps\_modexe.jl]{src/exe/lammps_modexe.jl}
+\lstinputlisting[caption=lammps\_qsub\_job.jl]{src/exe/lammps_qsub_job.jl}
+\lstinputlisting[caption=lammps\_qsub\_out.jl]{src/exe/lammps_qsub_out.jl}
 
 \section{プロットファイル}
-\lstinputlisting[caption=plot\_LJpotential.jl]{src/plot_LJpotential.jl}
+\lstinputlisting[caption=plot\_LJpotential.jl]{src/plot/plot_LJpotential.jl}
+\lstinputlisting[caption=Plot\_time\_all.jl]{src/plot/Plot_time_all.jl}
