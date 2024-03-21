@@ -1,19 +1,18 @@
-\chapter{分析と考察}\label{chap:analysis}
+\chapter{ダイナミクスの特徴づけ}\label{chap:analysis}
 
-この章では, 第\ref{sec:simulation}章において行ったシミュレーションを用いて, 分析と考察をする. 適宜文脈に則した画像を添付するが, 入りきらない部分は付録\ref{ap:analysis}に収録する.
+この章では, 第\ref{sec:simulation}章において行ったシミュレーションを用いて, ダイナミクスについて考える. 適宜文脈に則した画像を添付するが, 入りきらない部分は付録\ref{ap:analysis}に収録する.
 
-また, 以降の解析は定常状態であるとみなす, $t_i \sqrt{\varepsilon / m \sigma^2} = 4.0 \times 10^{4}$からのデータを用いてプロットすることにしている.
+また, 以降の議論は定常状態であるとみなした$t_i \sqrt{\varepsilon / m \sigma^2} = 4.0 \times 10^{4}$以降のデータを用いて行う.
 
 \section{重心位置}\label{sec:CoM}
 
-
-重心位置の標準偏差は以下のように書くことができる.
+重心位置の標準偏差$\sigma (Y_g)$は以下のように書くことができる.
 
 \begin{align}
   \sigma (Y_g) &= \sqrt{\frac{1}{N_{D}}\sum_{t=t_i}^{t=t_f} (Y_{g}(t) - \bar{Y_g})^2}
 \end{align}
 
-これは, 時間発展する重心位置のばらつき具合を意味する. 後述する空間的なばらつきとは定義から見ても分かるとおり異なる量である.
+これは, 時間発展する重心位置のばらつき具合を意味する. 後述する空間的なばらつき$\sigma_{y} (t) (式\eqref{dis_field})$とは定義から見ても分かるとおり異なる量である.
 
 \ref{sec:RaRtmap}節(重力と熱流を同時にかける)のシミュレーションで得たデータを用いて, 重心位置の標準偏差について, それぞれ横軸を変えて同時プロットで表す. 
 
@@ -84,6 +83,7 @@
 流体系の空間的なばらつき$\sigma_{y} (t)$を以下のように定義する.
 
 \begin{align}
+  \label{dis_field}
   \sigma_{y} (t)
   &\equiv \sqrt{\frac{1}{N} \sum_{i=1}^{N} (y_i (t) - \bar{y_i}(t) )^2} \\
   &= \sqrt{\frac{1}{N} \sum_{i=1}^{N} (y_i (t) - Y_g (t) )^2} 
@@ -269,20 +269,20 @@
 
 \begin{figure}[H]
   \centering
-  \begin{tabular}{ccc}
-    \begin{minipage}[t]{0.3\hsize}
+  \begin{tabular}{c}
+    \begin{minipage}[t]{0.7\hsize}
       \centering
       \includegraphics[width=\textwidth]{image/RaRtmap10_heat/2023-12-28T12:38:51.436_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.877538_g0.0003999718779659611_run4.0e8.png}
       \subcaption{Ra1.877,Rt0.0}
       \label{}
-    \end{minipage} &
-    \begin{minipage}[t]{0.3\hsize}
+    \end{minipage} \\
+    \begin{minipage}[t]{0.7\hsize}
       \centering
       \includegraphics[width=\textwidth]{image/RaRtmap10_heat/2023-12-28T12:38:51.827_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e8.png}
       \subcaption{Ra1.877,Rt0.125}
       \label{}
-    \end{minipage} &
-    \begin{minipage}[t]{0.3\hsize}
+    \end{minipage} \\
+    \begin{minipage}[t]{0.7\hsize}
       \centering
       \includegraphics[width=\textwidth]{image/RaRtmap10_heat/2023-12-28T12:38:52.986_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e8.png}
       \subcaption{Ra1.877,Rt0.5}
@@ -295,20 +295,20 @@
 
 \begin{figure}[H]
   \centering
-  \begin{tabular}{ccc}
-    \begin{minipage}[t]{0.3\hsize}
+  \begin{tabular}{c}
+    \begin{minipage}[t]{0.7\hsize}
       \centering
       \includegraphics[width=\textwidth]{image/RaRtmap10_heat/2023-12-28T12:38:52.686_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.0_g0.0003999718779659611_run4.0e8.png}
       \subcaption{Ra0.0,Rt0.5}
       \label{}
-    \end{minipage} &
-    \begin{minipage}[t]{0.3\hsize}
+    \end{minipage} \\
+    \begin{minipage}[t]{0.7\hsize}
       \centering
       \includegraphics[width=\textwidth]{image/RaRtmap10_heat/2023-12-28T12:38:52.752_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run4.0e8.png}
       \subcaption{Ra0.469,Rt0.5}
       \label{}
-    \end{minipage} &
-    \begin{minipage}[t]{0.3\hsize}
+    \end{minipage} \\
+    \begin{minipage}[t]{0.7\hsize}
       \centering
       \includegraphics[width=\textwidth]{image/RaRtmap10_heat/2023-12-28T12:38:52.986_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e8.png}
       \subcaption{Ra1.877,Rt0.5}

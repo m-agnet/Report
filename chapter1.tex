@@ -121,7 +121,7 @@ $n_x = 0$ (オリジナルセルの中)では, 同じ$i,\ j$ペアのポテン�
     \right] \ \tag*{\eqref{Hamiltonian}} 
 \end{align}
 
-\section{熱流}
+\section{熱浴領域}\label{sec:heat_region}
 
 系の両端に温度制御できるランジュバン熱浴を設計することによって, 熱流を実装することにする.
 
@@ -156,3 +156,97 @@ $n_x = 0$ (オリジナルセルの中)では, 同じ$i,\ j$ペアのポテン�
   \gamma(y_i) &= 1. \ T_{\nu}(y_i) = T_{\text{L}}. \ (L_y - 8\sigma < y_i < L_y) \\
   \gamma(y_i) &= 0.  \ (8\sigma < y_i < L_y - 8\sigma)
 \end{align}
+
+\section{重力と熱流を導入}
+
+\ref{sec:heat_region}節において, $T_{\text{H}} < T_{\text{L}}$ として, 熱流が流れるようにする. 
+
+当実験での系では, 熱流とともに重力ポテンシャルがかかっており, 重力と熱流のどちらも粒子密度の濃度勾配を生み出す効果をもつ. そこで両者の影響を比較するため, 系の上下両端のポテンシャルエネルギー差$mgL_y$と運動エネルギー差$k_{\text{B}}\Delta T \ (\Delta T \equiv T_{\text{H}} - T_{\text{L}})$の比を$\chi$として先行研究に倣って以下のように設定する. \cite{Yoshida}
+
+\begin{align}
+  \chi &\equiv \frac{k_{\text{B}}\Delta T}{mgL_{y}} = 1.265
+\end{align}
+
+\section{容器壁を系統的に比較}
+
+壁の濡れ性を制御する無次元パラメータを2つ用意する.
+
+\begin{align}
+  \text{R}_\text{t} &: 壁の厚み. \\
+  \text{R}_\text{a} &: 引力幅.
+\end{align}
+
+これらを用いて, 壁-粒子間相互作用のLJポテンシャルのパラメータ$\sigma^{\text{wall}}$と$r^{\text{wall}}_{\text{cut}}$を以下のように書き表す.
+
+\begin{align}
+  \sigma^{\text{wall}} &= \qty(0.5 + \text{R}_\text{t}) \times \sigma , \\
+  r^{\text{wall}}_{\text{cut}} &= \qty(2^{1/6} + \text{R}_\text{a}) \times \sigma^{\text{wall}} 
+\end{align}
+
+パラメータ $(\text{R}_\text{t}, \text{R}_\text{a})$ を変えることによって, 壁-粒子間相互作用LJポテンシャルが変化する. このときに, 粒子集団の様相がどのように変わるのかをみることが本論の主題である.
+
+$\text{R}_\text{t}$ と $\text{R}_\text{a}$ を少しずつ変えた系でシミュレーションをして, 粒子集団の様相の変化を見た. 以下に示すのが, それらを動かす範囲である.
+
+\begin{align}
+  \text{R}_\text{t} &\colon 0.0 \sim 0.5 \\
+  \text{R}_\text{a} &\colon 0.0 \sim 3.0 - 2^{1/6} = 1.877538\dots
+\end{align}
+
+数値実験上で実際に入力する値を以下に示す. 本論では簡単のため小数点以下をいくらか簡略して示すことがある.
+
+\begin{align}
+  \text{R}_\text{t} &= 0.0,  0.125,  0.25,  0.375,  0.5 \\
+  \text{R}_\text{a} &= 0.0,  0.4693845,  0.938769,  1.4081535,  1.877538
+\end{align}
+
+以下は$\text{R}_\text{t}$, $\text{R}_\text{a}$を変化させたときのLJポテンシャルがどのように変化するのかをそれぞれ可視化したグラフである.
+
+参考のために, 各パラメータの値を変えることによって, カットオフ長と衝突直径がどのように変わるのかを示す.
+
+\begin{align}
+  \text{R}_\text{a} &= 0.0 \Rightarrow r_{\text{cut}}^{\text{wall}} = 2^{1/6} \sigma^{\text{wall}} \\
+  \text{R}_\text{a} &= 1.877 \Rightarrow r_{\text{cut}}^{\text{wall}} = 3.0 \sigma^{\text{wall}} 
+\end{align}
+
+\begin{align}
+  \text{R}_\text{t} &= 0.0 \Rightarrow \sigma^{\text{wall}} = 0.5 \sigma \\
+  \text{R}_\text{t} &= 0.5 \Rightarrow \sigma^{\text{wall}} = \sigma 
+\end{align}
+
+である. 
+
+\input{subtex/RaRtmap_LJ.tex}
+
+本章の以降の実験は特記がない限り以下のパラメータで行うものとする. 
+
+\begin{itemize}
+  \item $N = 1250$: 粒子数
+  \item $\rho {\sigma}^2 = 0.4$: 粒子数密度
+  \item $L_x / \sigma = 39.528471 \simeq 39.5$: 系の$x$幅
+  \item $L_y / \sigma = 79.0569414 \simeq 79.0$: 系の$y$幅
+  \item $k_{\text{B}} T / \varepsilon = 0.43$: 初期温度
+  \item $k_{\text{B}} \Delta T / \varepsilon = 0.04$: 熱浴の温度差
+  \item $mg\sigma/\varepsilon = 0.0003999718779659611 \simeq 4.0 \times 10^{-4}$: 粒子にかかる重力の大きさ
+  \item $\dd t \sqrt{\varepsilon/m{\sigma}^2} = 0.005$: シミュレーションにおける時間刻み.
+\end{itemize}
+
+
+以下に記すのは, 今後解析をする際に示すシミュレーションについての時間に関する説明である.
+
+\begin{itemize}
+  \item $t_i \colon$ シミュレーション開始時から, 物理量を解析する際にデータを採用し始める時間. これ以降は定常状態であるとみなす.
+  \item $t_f \colon$ シミュレーション開始時から, シミュレーションの終了時までの時間.
+\end{itemize}
+
+図\ref{fig:RaRtmap_time}, \ref{fig:RaRtmap_drop_time}, \ref{fig:dT0_time}, \ref{fig:g0_time}, \ref{fig:RaRtmap10_time}, \ref{fig:qrs10_drop_time}では重心位置の時間発展を示している.
+
+また, 第\ref{chap:analysis}章で用いる$t_i$の時点がわかるように赤い直線を引くことにしている. 紙面上では画像が小さくなってしまうので, 各系ごとに拡大した画像を最初に示す. 
+
+いずれの実験の場合も$t\sqrt{\varepsilon/m{\sigma}^2}=0$の時点では粒子は図\ref{fig:linedUp}のように, 規則正しく並べられている.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.2]{image/initial1250.png}
+  \caption{$N=1250, t\sqrt{\varepsilon/m{\sigma}^2}=0$}
+  \label{fig:linedUp}
+\end{figure}

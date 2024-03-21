@@ -1,92 +1,6 @@
-\chapter{実験の設定}\label{sec:simulation}
+\chapter{数値実験の結果}\label{sec:simulation}
 
-この章では, 行ったシミュレーションの設定についてそれぞれ説明をする.
-
-系の上下両端のポテンシャルエネルギー差$mgL_y$と運動エネルギー差$k_{\text{B}}\Delta T$の比を$\chi$として以下のように設定する.
-
-\begin{align}
-  \chi &\equiv \frac{k_{\text{B}}\Delta T}{mgL_{y}} = 1.265
-\end{align}
-
-壁の濡れ性を制御する無次元パラメータを2つ用意する.
-
-\begin{align}
-  \text{R}_\text{t} &: 壁の厚み. \\
-  \text{R}_\text{a} &: 引力幅.
-\end{align}
-
-これらを用いて, 壁-粒子間相互作用のLJポテンシャルのパラメータ$\sigma^{\text{wall}}$と$r^{\text{wall}}_{\text{cut}}$を以下のように書き表す.
-
-\begin{align}
-  \sigma^{\text{wall}} &= \qty(0.5 + \text{R}_\text{t}) \times \sigma , \\
-  r^{\text{wall}}_{\text{cut}} &= \qty(2^{1/6} + \text{R}_\text{a}) \times \sigma^{\text{wall}} 
-\end{align}
-
-パラメータ $(\text{R}_\text{t}, \text{R}_\text{a})$ を変えることによって, 壁-粒子間相互作用LJポテンシャルが変化する. このときに, 粒子集団の様相がどのように変わるのかをみることが本論の主題である.
-
-$\text{R}_\text{t}$ と $\text{R}_\text{a}$ を少しずつ変えた系でシミュレーションをして, 粒子集団の様相の変化を見た. 以下に示すのが, それらを動かす範囲である.
-
-\begin{align}
-  \text{R}_\text{t} &\colon 0.0 \sim 0.5 \\
-  \text{R}_\text{a} &\colon 0.0 \sim 3.0 - 2^{1/6} = 1.877538\dots
-\end{align}
-
-数値実験上で実際に入力する値を以下に示す. 本論では簡単のため小数点以下をいくらか簡略して示すことがある.
-
-\begin{align}
-  \text{R}_\text{t} &= 0.0,  0.125,  0.25,  0.375,  0.5 \\
-  \text{R}_\text{a} &= 0.0,  0.4693845,  0.938769,  1.4081535,  1.877538
-\end{align}
-
-以下は$\text{R}_\text{t}$, $\text{R}_\text{a}$を変化させたときのLJポテンシャルがどのように変化するのかをそれぞれ可視化したグラフである.
-
-参考のために, 各パラメータの値を変えることによって, カットオフ長と衝突直径がどのように変わるのかを示す.
-
-\begin{align}
-  \text{R}_\text{a} &= 0.0 \Rightarrow r_{\text{cut}}^{\text{wall}} = 2^{1/6} \sigma^{\text{wall}} \\
-  \text{R}_\text{a} &= 1.877 \Rightarrow r_{\text{cut}}^{\text{wall}} = 3.0 \sigma^{\text{wall}} 
-\end{align}
-
-\begin{align}
-  \text{R}_\text{t} &= 0.0 \Rightarrow \sigma^{\text{wall}} = 0.5 \sigma \\
-  \text{R}_\text{t} &= 0.5 \Rightarrow \sigma^{\text{wall}} = \sigma 
-\end{align}
-
-である. 
-
-\input{subtex/RaRtmap_LJ.tex}
-
-本章の以降の実験は特記がない限り以下のパラメータで行うものとする. 
-
-\begin{itemize}
-  \item $N = 1250$: 粒子数
-  \item $\rho {\sigma}^2 = 0.4$: 粒子数密度
-  \item $L_x / \sigma = 39.528471 \simeq 39.5$: 系の$x$幅
-  \item $L_y / \sigma = 79.0569414 \simeq 79.0$: 系の$y$幅
-  \item $k_{\text{B}} T / \varepsilon = 0.43$: 初期温度
-  \item $k_{\text{B}} \Delta T / \varepsilon = 0.04$: 熱浴の温度差
-  \item $mg\sigma/\varepsilon = 0.0003999718779659611 \simeq 4.0 \times 10^{-4}$: 粒子にかかる重力の大きさ
-  \item $\dd t \sqrt{\varepsilon/m{\sigma}^2} = 0.005$: シミュレーションにおける時間刻み.
-\end{itemize}
-
-
-以下に記すのは, 今後解析をする際に示すシミュレーションについての時間に関する説明である.
-
-\begin{itemize}
-  \item $t_i \colon$ シミュレーション開始時から, 物理量を解析する際にデータを採用し始める時間. これ以降は定常状態であるとみなす.
-  \item $t_f \colon$ シミュレーション開始時から, シミュレーションの終了時までの時間.
-\end{itemize}
-
-図\ref{fig:RaRtmap_time}, \ref{fig:RaRtmap_drop_time}, \ref{fig:dT0_time}, \ref{fig:g0_time}, \ref{fig:RaRtmap10_time}, \ref{fig:qrs10_drop_time}では重心位置の時間発展を示しているのだが, 分析と考察で用いる$t_i$の時点がわかるように赤直線を引くことにしている.
-
-いずれの実験の場合も$t\sqrt{\varepsilon/m{\sigma}^2}=0$の時点では粒子は図\ref{fig:linedUp}のように, 規則正しく並べられている.
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[scale=0.2]{image/initial1250.png}
-  \caption{$N=1250, t\sqrt{\varepsilon/m{\sigma}^2}=0$}
-  \label{fig:linedUp}
-\end{figure}
+この章では, 行ったシミュレーションの設定についてそれぞれ説明をして, その結果得た各系の重心位置の推移を示す.
 
 % \section{先行研究}
 
@@ -130,8 +44,6 @@ $\text{R}_\text{t}$ と $\text{R}_\text{a}$ を少しずつ変えた系でシミ
 %   \label{}
 % \end{figure}
 
-\section{重力と熱流を同時にかける}\label{sec:RaRtmap}
-
 以下のように, $\text{R}_\text{a}$と$\text{R}_\text{t}$を少しずつ変えた系を設定して, 25種類の系でそれぞれシミュレーションをした.
 
 \vspace{1\baselineskip}
@@ -147,9 +59,11 @@ $\text{R}_\text{t}$ と $\text{R}_\text{a}$ を少しずつ変えた系でシミ
 \end{tabular}
 \end{center}
 
+\section{重力と熱流を同時にかける}\label{sec:RaRtmap}
+
 \vspace{1\baselineskip}
 
-パラメータを確認する.
+まずは, 重力と熱流を同じタイミングでかけたシミュレーションを用意した. 粒子数については1250個と少なめではあるが, その他のパラメータについては先行研究\cite{Yoshida}を参考にした. 
 
 \begin{itemize}
   \item $N = 1250$
@@ -162,20 +76,28 @@ $\text{R}_\text{t}$ と $\text{R}_\text{a}$ を少しずつ変えた系でシミ
   \item $t_f \sqrt{\varepsilon / m \sigma^2} = 2.0 \times 10^{5}$
 \end{itemize}
 
-この際の粒子集団の様相は以下のようになる.
+図\ref{fig:RaRtmap_movie}で定常状態($t\sqrt{\varepsilon / m \sigma^2} = 2.0 \times 10^{5}$)時点でのスナップショットを見る.
 
 \input{subtex/RaRtmap_movie.tex}
 
-重心位置$Y_g$を, 系の$y$幅を用いて$0\sim 1$にスケーリングして, 時系列プロットする.
+スナップショットだけではダイナミクスがわからないので, 次に図\ref{fig:RaRtmap_time}で重心位置$Y_g$(式\eqref{CoM})を使って, 時間変化の様子を見る. 
 
 \begin{align}
+  \label{CoM}
   Y_g &\equiv \bar{y_i} = \frac{1}{N} \sum_{i}^{N} y_i
 \end{align}
 
+重心位置$Y_g$を, 系の$y$幅を用いて$0\sim 1$にスケーリングして, 時系列プロットしている.
+
 \input{subtex/RaRtmap_time.tex}
 
+図\ref{fig:RaRtmap_time}では, 初期条件から$t_f \sqrt{\varepsilon / m \sigma^2} = 2.0 \times 10^{5}$までの時間変化をプロットしており, 赤い線の時刻あたりで定常状態に到達していると判断した. 
+
+図\ref{fig:RaRtmap_time}を見ると, 引力幅$\text{R}_\text{a}=0.0$の時は, ある定常状態のまわりのランダムなゆらぎが観測されているが, $\text{R}_\text{a} \ge 0.938, \text{R}_\text{t} \ge 0.25$の時は決してランダムとは言えない. 周期的なダイナミクスが発生していることが見てとれる.
 
 \section{重力を先にかけて, 熱流を後からかける}
+
+初期条件が異なる場合にダイナミクスが変化するかを調べたい. 
 
 まず重力のみをかけて, 粒子集団が落ちきってから熱流をかけると同時に測定を開始する.
 
