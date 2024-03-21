@@ -1,48 +1,6 @@
-\chapter{数値実験の結果}\label{sec:simulation}
+\chapter{数値実験の結果}\label{chap:simulation}
 
 この章では, 行ったシミュレーションの設定についてそれぞれ説明をして, その結果得た各系の重心位置の推移を示す.
-
-% \section{先行研究}
-
-% 壁を完全に濡らしている状態を考えたいので, $r^{\text{wall}}_{\text{cut}}=3.0\sigma$ に設定する.
-
-% また, 重力をかけた状態で粒子が下に落ちきり, 定常状態にあるとみなせるまでシミュレーションを行ってから, 熱流をかけている.\cite{Yoshida}
-
-% \begin{itemize}
-%   \item $N = 5000$
-%   \item $\rho \sigma^2 = 0.4$
-%   \item $L_x / \sigma \simeq 79.0$
-%   \item $L_y / \sigma \simeq 158.1$
-%   \item $k_{\text{B}} T/\varepsilon = 4.3$
-%   \item $k_{\text{B}} \Delta T/\varepsilon = 0.0$
-%   \item $mg\sigma/\varepsilon \simeq 2.0 \times 10^{-4}$
-%   \item ${t_f}^{\prime} \sqrt{\varepsilon / m \sigma^2} = 5.0 \times 10^{5}$
-% \end{itemize}
-
-% \begin{figure}[H]
-%   \centering
-%   \includegraphics[scale=0.2]{image/drop5000.png}
-%   \caption{$t \sqrt{\varepsilon / m \sigma^2} = 5.0 \times 10^{5}$でのスナップショット}
-%   \label{}
-% \end{figure}
-
-% 続いて重力をかけた緩和後の系で, 温度差のある熱浴をそれぞれ改めて以下のようにつけ, 熱流をかけてシミュレーションをしている. 
-
-% \begin{itemize}
-%   \item $\chi = k_{\text{B}}\Delta T / mg L_y = 1.265$
-%   \item $k_{\text{B}} \Delta T/\varepsilon = 0.04$
-%   \item $t_i \sqrt{\varepsilon / m \sigma^2} = 5.0 \times 10^{5}$
-%   \item $t_f \sqrt{\varepsilon / m \sigma^2} = 1.0 \times 10^{6}$
-% \end{itemize}
-
-% $(\text{R}_\text{t} = 0.5, \text{R}_\text{a} = 3.0 - 2^{1/6})$ で実験を行う. このときには, $(\varepsilon^{\text{wall}} = \varepsilon, \sigma^{\text{wall}} = \sigma, r^{\text{wall}}_{\text{cut}} = 3.0 \sigma^{\text{wall}})$ になるので, ${\phi_{\text{LJ}}^{\text{wall}}} = \phi_{\text{LJ}}$ ということになり, 先行研究と同じシミュレーションを行うことができる.
-
-% \begin{figure}[H]
-%   \centering
-%   \href{https://youtu.be/CIEyUPvPY6A}{\includegraphics[scale=0.2]{image/2023-11-21T21:01:17.543_followup_chi1.265_Ay100_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.00019998593898298055_run1.0e8_output.png}}
-%   \caption{$t \sqrt{\varepsilon / m \sigma^2} = 1.0 \times 10^{6}$でのスナップショット}
-%   \label{}
-% \end{figure}
 
 以下のように, $\text{R}_\text{a}$と$\text{R}_\text{t}$を少しずつ変えた系を設定して, 25種類の系でそれぞれシミュレーションをした.
 
@@ -91,15 +49,11 @@
 
 \input{subtex/RaRtmap_time.tex}
 
-図\ref{fig:RaRtmap_time}では, 初期条件から$t_f \sqrt{\varepsilon / m \sigma^2} = 2.0 \times 10^{5}$までの時間変化をプロットしており, 赤い線の時刻あたりで定常状態に到達していると判断した. 
-
-図\ref{fig:RaRtmap_time}を見ると, 引力幅$\text{R}_\text{a}=0.0$の時は, ある定常状態のまわりのランダムなゆらぎが観測されているが, $\text{R}_\text{a} \ge 0.938, \text{R}_\text{t} \ge 0.25$の時は決してランダムとは言えない. 周期的なダイナミクスが発生していることが見てとれる.
+図\ref{fig:RaRtmap_time}では, 初期条件から$t_f \sqrt{\varepsilon / m \sigma^2} = 2.0 \times 10^{5}$までの時間変化をプロットしており, 赤い線の時刻あたりで定常状態に到達していると判断した. 図\ref{fig:RaRtmap_time}を見ると, 引力幅$\text{R}_\text{a}=0.0$の時は, ある定常状態のまわりのランダムなゆらぎが観測されているが, $\text{R}_\text{a} \ge 0.938, \text{R}_\text{t} \ge 0.25$の時は決してランダムとは言えない. 周期的なダイナミクスが発生していることが見てとれる. しかし, 
 
 \section{重力を先にかけて, 熱流を後からかける}
 
-初期条件が異なる場合にダイナミクスが変化するかを調べたい. 
-
-まず重力のみをかけて, 粒子集団が落ちきってから熱流をかけると同時に測定を開始する.
+初期条件が異なる場合にダイナミクスが変化するかを調べるために, 重力と熱流をかけるタイミングをずらしたシミュレーションを設定した. まず, $t \sqrt{\varepsilon / m \sigma^2} = 2.0 \times 10^{5}$の時点まで重力のみをかけて, 粒子集団が落ちきってから熱流をかける. 
 
 \begin{itemize}
   \item $N = 1250$
@@ -109,10 +63,9 @@
   \item $k_{\text{B}} T/\varepsilon = 4.3$
   \item $k_{\text{B}} \Delta T/\varepsilon = 0.0$
   \item $mg\sigma/\varepsilon \simeq 2.0 \times 10^{-4}$
-  \item ${t_f}^{\prime} \sqrt{\varepsilon / m \sigma^2} = 2.0 \times 10^{5}$
 \end{itemize}
 
-続いて重力をかけた緩和後の系で, 温度差のある熱浴をそれぞれ改めて以下のようにつけ, 熱流をかけてシミュレーションをする. 
+温度差のある熱浴をそれぞれ改めて以下のようにつけ, 熱流をかけてシミュレーションを続ける. 熱流をかけ始めてから, 定常状態に至るまでの時間を\ref{sec:RaRtmap}節と同様に$t \sqrt{\varepsilon / m \sigma^2} = 4.0 \times 10^{4}$として, 重力をかけ始めてから数えて$t \sqrt{\varepsilon / m \sigma^2} = 2.4 \times 10^{5}$の時点で定常状態に到達していると考える. 
 
 \begin{itemize}
   \item $\chi = k_{\text{B}}\Delta T / mg L_y = 1.265$
@@ -123,9 +76,11 @@
 
 \input{subtex/RaRtmap_drop_time.tex}
 
-
+\ref{sec:RaRtmap}節と同様に, 図\ref{fig:RaRtmap_drop_time}を見たとき, 引力幅$\text{R}_\text{a}=0.0$の時は, ある定常状態のまわりのランダムなゆらぎが観測されているが, $\text{R}_\text{a} \ge 0.938, \text{R}_\text{t} \ge 0.25$の時は決してランダムとは言えない. 周期的なダイナミクスが発生していることが見てとれる. (x), (y) に注目すると, \ref{sec:RaRtmap}節でのそれと比べて, 上壁に張りついている時間が長く見える. 周期的なダイナミクスが発生しているのかどうか, \ref{sec:RaRtmap10_drop}では, 本節よりも長い時間をとって実験をする. 
 
 \section{重力のみをかける}
+
+次に, 重力のみをかけた系を考える. 
 
 \begin{itemize}
   \item $N = 1250$
@@ -170,7 +125,7 @@
 
 \input{subtex/RaRtmap10_time.tex}
 
-\section{重力を先にかけて, 熱流を後からかける(時間10倍)}
+\section{重力を先にかけて, 熱流を後からかける(時間10倍)}\label{sec:RaRtmap10_drop}
 
 先ほどと同様に重力のみをかけて, 粒子集団が落ちきってから熱流をかけると同時に測定を開始する.
 
