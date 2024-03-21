@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.9.10)  21 MAR 2024 15:09
+This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.9.10)  21 MAR 2024 15:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2703,12 +2703,12 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 639F7FA4E303A2EEDB4DC2DF57400A60;716.
  ) 
 Here is how much of TeX's memory you used:
- 33542 strings out of 476693
- 762211 string characters out of 5805373
- 1871209 words of memory out of 5000000
- 53318 multiletter control sequences out of 15000+600000
+ 33548 strings out of 476693
+ 762296 string characters out of 5805373
+ 1872209 words of memory out of 5000000
+ 53324 multiletter control sequences out of 15000+600000
  570146 words of font info for 153 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 89i,16n,92p,636b,1019s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,16n,92p,638b,1017s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on out/report.dvi (19 pages, 92544 bytes).
