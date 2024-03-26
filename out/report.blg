@@ -5,36 +5,36 @@ The style file: junsrt.bst
 Database file #1: report.bib
 Warning--empty journal in Yoshida
 Warning--empty year in Yoshida
-You've used 1 entry,
+You've used 3 entries,
             2270 wiz_defined-function locations,
-            541 strings with 4110 characters,
-and the built_in function-call counts, 208 in all, are:
-= -- 10
-> -- 7
+            553 strings with 4220 characters,
+and the built_in function-call counts, 590 in all, are:
+= -- 34
+> -- 15
 < -- 0
-+ -- 3
-- -- 2
-* -- 10
-:= -- 34
-add.period$ -- 2
-call.type$ -- 1
++ -- 7
+- -- 4
+* -- 12
+:= -- 82
+add.period$ -- 8
+call.type$ -- 3
 change.case$ -- 1
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 13
-empty$ -- 21
-format.name$ -- 4
-if$ -- 44
+cite$ -- 5
+duplicate$ -- 47
+empty$ -- 71
+format.name$ -- 8
+if$ -- 140
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 1
-newline$ -- 7
-num.names$ -- 1
-pop$ -- 9
+int.to.str$ -- 3
+missing$ -- 5
+newline$ -- 17
+num.names$ -- 3
+pop$ -- 33
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 10
+skip$ -- 28
 stack$ -- 0
 substring$ -- 0
 swap$ -- 0
@@ -43,8 +43,8 @@ text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 1
-width$ -- 2
-write$ -- 9
-is.kanji.str$ -- 9
+while$ -- 3
+width$ -- 4
+write$ -- 29
+is.kanji.str$ -- 25
 (There were 2 warnings)

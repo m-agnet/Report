@@ -21,7 +21,7 @@
 
 \vspace{1\baselineskip}
 
-まずは, 重力と熱流を同じタイミングでかけたシミュレーションを用意した. 粒子数については1250個と少なめではあるが, その他のパラメータについては先行研究\cite{Yoshida}を参考にした. 
+まずは, 重力と熱流を同じタイミングでかけたシミュレーションを用意した. 粒子数については1250個, その他のパラメータについては先行研究\cite{Yoshida}を参考にした. 
 
 \begin{itemize}
   \item $N = 1250$
@@ -38,7 +38,7 @@
 
 \input{subtex/RaRtmap_movie.tex}
 
-スナップショットだけではダイナミクスがわからないので, 次に図\ref{fig:RaRtmap_time}で重心位置$Y_g$(式\eqref{CoM})を使って, 時間変化の様子を見る. 
+スナップショットだけではダイナミクスがわからないので, 次に図\ref{fig:RaRtmap_time}で重心位置$Y_g$(式\eqref{CoM})の時間変化の様子を見る. 
 
 \begin{align}
   \label{CoM}
@@ -49,7 +49,7 @@
 
 \input{subtex/RaRtmap_time.tex}
 
-図\ref{fig:RaRtmap_time}では, 初期条件から$t_f \sqrt{\varepsilon / m \sigma^2} = 2.0 \times 10^{5}$までの時間変化をプロットしており, 赤い線の時刻あたりで定常状態に到達していると判断した. 図\ref{fig:RaRtmap_time}を見ると, 引力幅$\text{R}_\text{a}=0.0$の時は, ある定常状態のまわりのランダムなゆらぎが観測されているが, $\text{R}_\text{a} \ge 0.938, \text{R}_\text{t} \ge 0.25$の時は決してランダムとは言えない. 周期的なダイナミクスが発生していることが見てとれる. しかし, 
+図\ref{fig:RaRtmap_time}では, 初期条件から$t_f \sqrt{\varepsilon / m \sigma^2} = 2.0 \times 10^{5}$までの時間変化をプロットしており, 赤い線の時刻あたりで定常状態に到達していると判断した. 図\ref{fig:RaRtmap_time}を見ると, 引力幅$\text{R}_\text{a}=0.0$の時は, ある定常状態のまわりのランダムなゆらぎが観測されているが, $\text{R}_\text{a} \ge 0.469, \text{R}_\text{t} \ge 0.125$の時は決してランダムとは言えない. $\text{R}_\text{a} \ge 0.938 かつ\text{R}_\text{t} \ge 0.250$の時には周期的なダイナミクスが発生していることが見てとれる. 
 
 \section{重力を先にかけて, 熱流を後からかける}\label{sec:RaRtmap_drop}
 
@@ -76,7 +76,10 @@
 
 \input{subtex/RaRtmap_drop_time.tex}
 
-\ref{sec:RaRtmap}節と同様に, 図\ref{fig:RaRtmap_drop_time}を見たとき, 引力幅$\text{R}_\text{a}=0.0$の時は, ある定常状態のまわりのランダムなゆらぎが観測されているが, $\text{R}_\text{a} \ge 0.938, \text{R}_\text{t} \ge 0.25$の時は決してランダムとは言えない. 周期的なダイナミクスが発生していることが見てとれる. (x), (y) に注目すると, \ref{sec:RaRtmap}節でのそれと比べて, 上壁に張りついている時間が長く見える. 周期的なダイナミクスが発生しているのかどうか, \ref{sec:RaRtmap10_drop}節では, 本節よりも長い時間をとって実験をする. 
+\ref{sec:RaRtmap}節と同様に, 図\ref{fig:RaRtmap_drop_time}を見たとき, 引力幅$\text{R}_\text{a}=0.0$の時は, ある定常状態のまわりのランダムなゆらぎが観測されているが, $\text{R}_\text{a} \ge 0.469, \text{R}_\text{t} \ge 0.125$の時は決してランダムとは言えない. $\text{R}_\text{a} \ge 0.938 かつ\text{R}_\text{t} \ge 0.250$の時には周期的なダイナミクスが発生していることが見てとれる.  
+
+
+図\ref{fig:RaRtmap}図\ref{fig:RaRtmap_drop_time}(x), (y) に注目すると, \ref{sec:RaRtmap}節でのそれと比べて, 上壁に張りついている時間が長く見える. 周期的なダイナミクスが発生しているのかどうか, \ref{sec:RaRtmap10_drop}節では, 本節よりも長い時間をとって実験をする. 
 
 \section{重力のみをかける}\label{sec:dT0}
 
