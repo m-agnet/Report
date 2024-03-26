@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.9.10)  26 MAR 2024 20:41
+This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.9.10)  27 MAR 2024 01:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -10804,19 +10804,7 @@ Overfull \hbox (59.99469pt too wide) in paragraph at lines 9--161
 [][] 
  []
 
-) [23]
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 82.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 82.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 82.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 82.
-
-LaTeX Warning: Reference `fig:RaRtmap' on page 24 undefined on input line 82.
-
-[24] (./subtex/dT0_time.tex
+) [23] [24] (./subtex/dT0_time.tex
 File: image/dT0_time/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/dT0_time/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png>
 
@@ -13782,21 +13770,18 @@ Overfull \hbox (3.10992pt too wide) in paragraph at lines 17--17
 
 ] (out/report.aux)
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 7B710B51B4095D26BAC13A86E5E4EB3A;5467.
  ) 
 Here is how much of TeX's memory you used:
- 38057 strings out of 476693
- 1185876 string characters out of 5805373
+ 38052 strings out of 476693
+ 1185770 string characters out of 5805373
  2118209 words of memory out of 5000000
- 57583 multiletter control sequences out of 15000+600000
+ 57578 multiletter control sequences out of 15000+600000
  571107 words of font info for 157 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  89i,16n,92p,640b,2904s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/report.dvi (150 pages, 760080 bytes).
+Output written on out/report.dvi (150 pages, 761072 bytes).
