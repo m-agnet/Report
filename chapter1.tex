@@ -230,19 +230,7 @@ $\text{R}_\text{t}$ と $\text{R}_\text{a}$ を少しずつ変えた系でシミ
   \item $\dd t \sqrt{\varepsilon/m{\sigma}^2} = 0.005$: シミュレーションにおける時間刻み.
 \end{itemize}
 
-
-以下に記すのは, 今後解析をする際に示すシミュレーションについての時間に関する説明である.
-
-\begin{itemize}
-  \item $t_i \colon$ シミュレーション開始時から, 物理量を解析する際にデータを採用し始める時間. これ以降は定常状態であるとみなす.
-  \item $t_f \colon$ シミュレーション開始時から, シミュレーションの終了時までの時間.
-\end{itemize}
-
-図\ref{fig:RaRtmap_time}, \ref{fig:RaRtmap_drop_time}, \ref{fig:dT0_time}, \ref{fig:g0_time}, \ref{fig:RaRtmap10_time}, \ref{fig:qrs10_drop_time}では重心位置の時間発展を示している.
-
-また, 第\ref{chap:analysis}章で用いる$t_i$の時点がわかるように赤い直線を引くことにしている. 紙面上では画像が小さくなってしまうので, 各系ごとに拡大した画像を最初に示す. 
-
-いずれの実験の場合も$t\sqrt{\varepsilon/m{\sigma}^2}=0$の時点では粒子は図\ref{fig:linedUp}のように, 規則正しく並べられている.
+いずれの実験の場合も$t\sqrt{\varepsilon/m{\sigma}^2}=0.0$(シミュレーション開始)の時点では粒子は図\ref{fig:linedUp}のように, 規則正しく並べられている.
 
 \begin{figure}[H]
   \centering
@@ -250,3 +238,14 @@ $\text{R}_\text{t}$ と $\text{R}_\text{a}$ を少しずつ変えた系でシミ
   \caption{$N=1250, t\sqrt{\varepsilon/m{\sigma}^2}=0$}
   \label{fig:linedUp}
 \end{figure}
+
+以下に記すのは, シミュレーションについての時間に関して説明するときに用いる文字の説明である.
+
+\begin{itemize}
+  \item $t_i \colon$ シミュレーション開始時から, 物理量を解析する際にデータを採用し始める時間. これ以降は定常状態であるとみなす.
+  \item $t_f \colon$ シミュレーション開始時から, シミュレーションの終了時までの時間.
+\end{itemize}
+
+図 \ref{fig:RaRtmap_time}, 図 \ref{fig:RaRtmap_drop_time}, 図 \ref{fig:dT0_time}, 図 \ref{fig:g0_time}, 図 \ref{fig:RaRtmap10_time}, 図 \ref{fig:qrs10_drop_time}では重心位置の時間発展を示している.
+
+また, 第 \ref{chap:simulation} 章における上記の重心位置の時間発展の図においてはシミュレーション開始時, つまり定常状態とみなすまでの非定常状態の重心位置もグラフに描かれている. しかし, 定常状態であるとみなす時点がわかるように赤い直線を引くことにしている. さらに, 紙面上ではマップ上に並べた画像は小さくなってしまうので, 各系ごとに拡大した画像を最初に示すことにする. 

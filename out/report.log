@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.9.10)  27 MAR 2024 01:07
+This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.9.10)  27 MAR 2024 06:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -10812,6 +10812,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 3--5
  [][] 
  []
 
+[25]
 File: image/dT0_time/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/dT0_time/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png>
 File: image/dT0_time/2024-01-15T14:30:46.901_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
@@ -10867,7 +10868,7 @@ Overfull \hbox (59.99469pt too wide) in paragraph at lines 9--161
 [][] 
  []
 
-) [25] [26] (./subtex/g0_time.tex
+) [26] [27] (./subtex/g0_time.tex
 File: image/g0_time/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png Graphic file (type bmp)
 <image/g0_time/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png>
 
@@ -10930,7 +10931,7 @@ Overfull \hbox (59.99469pt too wide) in paragraph at lines 9--161
 [][] 
  []
 
-) [27] [28] (./subtex/RaRtmap10_time.tex
+) [28] [29] (./subtex/RaRtmap10_time.tex
 File: image/RaRtmap10_time/2023-12-28T12:38:50.578_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/RaRtmap10_time/2023-12-28T12:38:50.578_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e8.png>
 
@@ -10993,7 +10994,7 @@ Overfull \hbox (59.99469pt too wide) in paragraph at lines 9--161
 [][] 
  []
 
-) [29] [30] (./subtex/qrs10_drop_time.tex
+) [30] [31] (./subtex/qrs10_drop_time.tex
 File: image/qrs10_drop_time/2023-12-28T10:59:29.242_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/qrs10_drop_time/2023-12-28T10:59:29.242_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e8.png>
 
@@ -11001,13 +11002,14 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 3--5
  [][] 
  []
 
+[32]
 File: image/qrs10_drop_time/2023-12-28T10:59:29.242_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/qrs10_drop_time/2023-12-28T10:59:29.242_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e8.png>
 File: image/qrs10_drop_time/2023-12-28T10:59:29.748_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/qrs10_drop_time/2023-12-28T10:59:29.748_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e8.png>
 File: image/qrs10_drop_time/2023-12-28T10:59:29.846_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/qrs10_drop_time/2023-12-28T10:59:29.846_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e8.png>
-)) (./chapter3.tex [31] [32]
+)) (./chapter3.tex [33]
 第3章
 File: image/lnStdYg_Ra0.0to1.877538_Rt0.0to0.5_ti25000.png Graphic file (type bmp)
 <image/lnStdYg_Ra0.0to1.877538_Rt0.0to0.5_ti25000.png>
@@ -11018,7 +11020,7 @@ Overfull \hbox (15.33334pt too wide) in paragraph at lines 20--34
 [][] 
  []
 
-[33
+[34
 
 ] (./subtex/Ra0.469to0.938Rt0.5_time.tex
 File: image/RaRtmap_time/2023-11-22T18:19:26.970_RaRt_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run1.2e8.png Graphic file (type bmp)
@@ -11080,7 +11082,7 @@ Overfull \hbox (59.99469pt too wide) in paragraph at lines 10--42
  [][] 
  []
 
-[34])
+[35])
 File: image/lnStdYg_Ra0.70407675to0.98769_Rt0.5_ti25000.png Graphic file (type bmp)
 <image/lnStdYg_Ra0.70407675to0.98769_Rt0.5_ti25000.png>
 (./subtex/Ra0.5to1.0Rt0.5_time.tex
@@ -11102,7 +11104,7 @@ Overfull \hbox (59.99469pt too wide) in paragraph at lines 10--42
 )
 File: image/lnStdYg_Ra0.5to1.0_Rt0.5_ti25000.png Graphic file (type bmp)
 <image/lnStdYg_Ra0.5to1.0_Rt0.5_ti25000.png>
-[35]
+[36]
 File: image/RaRtmap10_time/2023-12-28T12:38:51.436_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.877538_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/RaRtmap10_time/2023-12-28T12:38:51.436_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.877538_g0.0003999718779659611_run4.0e8.png>
 File: image/RaRtmap10_time/2023-12-28T12:38:51.827_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
@@ -11114,7 +11116,7 @@ Overfull \hbox (1.14897pt too wide) in paragraph at lines 100--120
  [][] 
  []
 
-[36]
+[37]
 File: image/RaRtmap10_stdy/2023-12-28T12:38:51.436_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.877538_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/RaRtmap10_stdy/2023-12-28T12:38:51.436_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.877538_g0.0003999718779659611_run4.0e8.png>
 File: image/RaRtmap10_stdy/2023-12-28T12:38:51.827_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
@@ -11148,7 +11150,7 @@ Overfull \hbox (1.14897pt too wide) in paragraph at lines 183--203
  [][] 
  []
 
-[37]
+[38]
 File: image/RaRtmap10_cycle/2023-12-28T12:38:51.436_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.877538_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/RaRtmap10_cycle/2023-12-28T12:38:51.436_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.877538_g0.0003999718779659611_run4.0e8.png>
 File: image/RaRtmap10_cycle/2023-12-28T12:38:51.827_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
@@ -11171,17 +11173,17 @@ Overfull \hbox (1.14897pt too wide) in paragraph at lines 240--260
  [][] 
  []
 
-[38]
+[39]
 File: image/RaRtmap10_heat/2023-12-28T12:38:51.436_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.877538_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/RaRtmap10_heat/2023-12-28T12:38:51.436_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.877538_g0.0003999718779659611_run4.0e8.png>
 File: image/RaRtmap10_heat/2023-12-28T12:38:51.827_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/RaRtmap10_heat/2023-12-28T12:38:51.827_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e8.png>
 File: image/RaRtmap10_heat/2023-12-28T12:38:52.986_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/RaRtmap10_heat/2023-12-28T12:38:52.986_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.877538_g0.0003999718779659611_run4.0e8.png>
-[39]
+[40]
 Overfull \vbox (4.67448pt too high) has occurred while \output is active []
 
-[40]
+[41]
 File: image/RaRtmap10_heat/2023-12-28T12:38:52.686_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.0_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/RaRtmap10_heat/2023-12-28T12:38:52.686_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.0_g0.0003999718779659611_run4.0e8.png>
 File: image/RaRtmap10_heat/2023-12-28T12:38:52.752_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
@@ -11191,11 +11193,11 @@ File: image/RaRtmap10_heat/2023-12-28T12:38:52.986_map_10times_chi1.265_Ay50_rho
 
 Overfull \vbox (4.67448pt too high) has occurred while \output is active []
 
-[41]) (./chapter4.tex
+[42]) (./chapter4.tex
 第4章
 File: image/system_pair.png Graphic file (type bmp)
 <image/system_pair.png>
-[42
+[43
 
 ]
 File: image/lnStdYg_Ra0.0to1.877538_Rt0.0to0.5_ti25000.png Graphic file (type bmp)
@@ -11229,7 +11231,7 @@ Overfull \hbox (1.14897pt too wide) in paragraph at lines 85--105
  [][] 
  []
 
-) (./acknowledgement.tex [43]) (./ap_analysis.tex [44
+) (./acknowledgement.tex [44]) (./ap_analysis.tex [45
 
 ]
 付録A
@@ -11241,9 +11243,9 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 3--4
  [][] 
  []
 
-[45
+[46
 
-] [46]
+] [47]
 File: image/RaRtmap_hist/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
 <image/RaRtmap_hist/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png>
 File: image/RaRtmap_hist/2023-11-14T19:14:52.710__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
@@ -11360,7 +11362,7 @@ Overfull \hbox (59.99469pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [47] (./subtex/dT0_hist.tex
+) [48] (./subtex/dT0_hist.tex
 File: image/dT0_hist/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/dT0_hist/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png>
 File: image/dT0_hist/2024-01-15T14:30:46.901_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
@@ -11416,7 +11418,7 @@ Overfull \hbox (59.99469pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [48] (./subtex/g0_hist.tex
+) [49] (./subtex/g0_hist.tex
 File: image/g0_hist/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png Graphic file (type bmp)
 <image/g0_hist/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png>
 File: image/g0_hist/2024-01-15T14:07:34.556_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0_run4.0e7.png Graphic file (type bmp)
@@ -11472,7 +11474,7 @@ Overfull \hbox (59.99469pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [49] (./subtex/RaRtmap10_hist.tex
+) [50] (./subtex/RaRtmap10_hist.tex
 File: image/RaRtmap10_hist/2023-12-28T12:38:50.578_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/RaRtmap10_hist/2023-12-28T12:38:50.578_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e8.png>
 File: image/RaRtmap10_hist/2023-12-28T12:38:51.188_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
@@ -11528,14 +11530,14 @@ Overfull \hbox (59.99469pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [50] (./subtex/qrs10_drop_hist.tex
+) [51] (./subtex/qrs10_drop_hist.tex
 File: image/qrs10_drop_hist/2023-12-28T10:59:29.242_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/qrs10_drop_hist/2023-12-28T10:59:29.242_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e8.png>
 File: image/qrs10_drop_hist/2023-12-28T10:59:29.748_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/qrs10_drop_hist/2023-12-28T10:59:29.748_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e8.png>
 File: image/qrs10_drop_hist/2023-12-28T10:59:29.846_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/qrs10_drop_hist/2023-12-28T10:59:29.846_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e8.png>
-) [51] (./subtex/RaRtmap_stdy.tex
+) [52] (./subtex/RaRtmap_stdy.tex
 File: image/RaRtmap_stdy/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
 <image/RaRtmap_stdy/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png>
 
@@ -11543,7 +11545,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 3--4
  [][] 
  []
 
-[52] [53]
+[53] [54]
 File: image/RaRtmap_stdy/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
 <image/RaRtmap_stdy/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png>
 
@@ -11665,7 +11667,7 @@ Overfull \hbox (59.99469pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [54] (./subtex/dT0_stdy.tex
+) [55] (./subtex/dT0_stdy.tex
 File: image/dT0_stdy/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/dT0_stdy/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png>
 File: image/dT0_stdy/2024-01-15T14:30:46.901_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
@@ -11721,7 +11723,7 @@ Overfull \hbox (59.99469pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [55] (./subtex/g0_stdy.tex
+) [56] (./subtex/g0_stdy.tex
 File: image/g0_stdy/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png Graphic file (type bmp)
 <image/g0_stdy/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png>
 File: image/g0_stdy/2024-01-15T14:07:34.556_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0_run4.0e7.png Graphic file (type bmp)
@@ -11777,7 +11779,7 @@ Overfull \hbox (59.99469pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [56] (./subtex/RaRtmap10_stdy.tex
+) [57] (./subtex/RaRtmap10_stdy.tex
 File: image/RaRtmap10_stdy/2023-12-28T12:38:50.578_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/RaRtmap10_stdy/2023-12-28T12:38:50.578_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e8.png>
 File: image/RaRtmap10_stdy/2023-12-28T12:38:51.188_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
@@ -11833,14 +11835,14 @@ Overfull \hbox (59.99469pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [57] (./subtex/qrs10_drop_stdy.tex
+) [58] (./subtex/qrs10_drop_stdy.tex
 File: image/qrs10_drop_stdy/2023-12-28T10:59:29.242_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/qrs10_drop_stdy/2023-12-28T10:59:29.242_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e8.png>
 File: image/qrs10_drop_stdy/2023-12-28T10:59:29.748_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/qrs10_drop_stdy/2023-12-28T10:59:29.748_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e8.png>
 File: image/qrs10_drop_stdy/2023-12-28T10:59:29.846_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/qrs10_drop_stdy/2023-12-28T10:59:29.846_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e8.png>
-) [58] (./subtex/RaRtmap_cycle.tex
+) [59] (./subtex/RaRtmap_cycle.tex
 File: image/RaRtmap_cycle/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
 <image/RaRtmap_cycle/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png>
 
@@ -11913,7 +11915,7 @@ Overfull \hbox (59.99469pt too wide) in paragraph at lines 10--162
 [][] 
  []
 
-) [59] (./subtex/RaRtmap_drop_cycle.tex
+) [60] (./subtex/RaRtmap_drop_cycle.tex
 File: image/RaRtmap_drop_cycle/2023-12-21T10:44:56.628_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/RaRtmap_drop_cycle/2023-12-21T10:44:56.628_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png>
 File: image/RaRtmap_drop_cycle/2023-12-21T10:44:57.232_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
@@ -11969,7 +11971,7 @@ Overfull \hbox (59.99469pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [60] (./subtex/dT0_cycle.tex
+) [61] (./subtex/dT0_cycle.tex
 File: image/dT0_cycle/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/dT0_cycle/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png>
 File: image/dT0_cycle/2024-01-15T14:30:46.901_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
@@ -12025,7 +12027,7 @@ Overfull \hbox (59.99469pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [61] (./subtex/g0_cycle.tex
+) [62] (./subtex/g0_cycle.tex
 File: image/g0_cycle/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png Graphic file (type bmp)
 <image/g0_cycle/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png>
 File: image/g0_cycle/2024-01-15T14:07:34.556_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0_run4.0e7.png Graphic file (type bmp)
@@ -12081,7 +12083,7 @@ Overfull \hbox (59.99469pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [62] (./subtex/RaRtmap10_cycle.tex
+) [63] (./subtex/RaRtmap10_cycle.tex
 File: image/RaRtmap10_cycle/2023-12-28T12:38:50.578_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/RaRtmap10_cycle/2023-12-28T12:38:50.578_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e8.png>
 
@@ -12142,14 +12144,14 @@ Overfull \hbox (59.99469pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [63] (./subtex/qrs10_drop_cycle.tex
+) [64] (./subtex/qrs10_drop_cycle.tex
 File: image/qrs10_drop_cycle/2023-12-28T10:59:29.242_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/qrs10_drop_cycle/2023-12-28T10:59:29.242_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e8.png>
 File: image/qrs10_drop_cycle/2023-12-28T10:59:29.748_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/qrs10_drop_cycle/2023-12-28T10:59:29.748_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e8.png>
 File: image/qrs10_drop_cycle/2023-12-28T10:59:29.846_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/qrs10_drop_cycle/2023-12-28T10:59:29.846_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e8.png>
-) [64] (./subtex/RaRtmap_cycle3d.tex
+) [65] (./subtex/RaRtmap_cycle3d.tex
 File: image/RaRtmap_cycle3d/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
 <image/RaRtmap_cycle3d/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png>
 
@@ -12167,7 +12169,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 3--4
  [][] 
  []
 
-[65]
+[66]
 File: image/RaRtmap_cycle3d/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
 <image/RaRtmap_cycle3d/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png>
 File: image/RaRtmap_cycle3d/2023-11-14T19:14:52.710__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
@@ -12279,7 +12281,7 @@ Overfull \hbox (59.99469pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [66] (./subtex/dT0_cycle3d.tex
+) [67] (./subtex/dT0_cycle3d.tex
 File: image/dT0_cycle3d/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/dT0_cycle3d/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png>
 File: image/dT0_cycle3d/2024-01-15T14:30:46.901_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
@@ -12335,7 +12337,7 @@ Overfull \hbox (59.99469pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [67] (./subtex/g0_cycle3d.tex
+) [68] (./subtex/g0_cycle3d.tex
 File: image/g0_cycle3d/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png Graphic file (type bmp)
 <image/g0_cycle3d/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png>
 File: image/g0_cycle3d/2024-01-15T14:07:34.556_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0_run4.0e7.png Graphic file (type bmp)
@@ -12391,7 +12393,7 @@ Overfull \hbox (59.99469pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [68] (./subtex/RaRtmap10_cycle3d.tex
+) [69] (./subtex/RaRtmap10_cycle3d.tex
 File: image/RaRtmap10_cycle3d/2023-12-28T12:38:50.578_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/RaRtmap10_cycle3d/2023-12-28T12:38:50.578_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e8.png>
 
@@ -12452,14 +12454,14 @@ Overfull \hbox (59.99469pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [69] (./subtex/qrs10_drop_cycle3d.tex
+) [70] (./subtex/qrs10_drop_cycle3d.tex
 File: image/qrs10_drop_cycle3d/2023-12-28T10:59:29.242_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/qrs10_drop_cycle3d/2023-12-28T10:59:29.242_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e8.png>
 File: image/qrs10_drop_cycle3d/2023-12-28T10:59:29.748_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/qrs10_drop_cycle3d/2023-12-28T10:59:29.748_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e8.png>
 File: image/qrs10_drop_cycle3d/2023-12-28T10:59:29.846_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/qrs10_drop_cycle3d/2023-12-28T10:59:29.846_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e8.png>
-) [70] (./subtex/RaRtmap_heat.tex
+) [71] (./subtex/RaRtmap_heat.tex
 File: image/RaRtmap_heat/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
 <image/RaRtmap_heat/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png>
 File: image/RaRtmap_heat/2023-11-14T19:14:52.710__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
@@ -12515,7 +12517,7 @@ Overfull \hbox (59.99469pt too wide) in paragraph at lines 3--155
 [][] 
  []
 
-) [71] (./subtex/RaRtmap_heat_big.tex
+) [72] (./subtex/RaRtmap_heat_big.tex
 File: image/RaRtmap_heat/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
 <image/RaRtmap_heat/2023-11-14T18:19:29.358__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7_output.png>
 
@@ -12523,7 +12525,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 5--6
  [][] 
  []
 
-[72]
+[73]
 File: image/RaRtmap_heat/2023-11-14T19:14:52.710__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
 <image/RaRtmap_heat/2023-11-14T19:14:52.710__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7_output.png>
 
@@ -12558,7 +12560,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 18--19
  [][] 
  []
 
-[73]
+[74]
 File: image/RaRtmap_heat/2023-11-14T21:01:09.992__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.4081535_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
 <image/RaRtmap_heat/2023-11-14T21:01:09.992__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.4081535_g0.0003999718779659611_run4.0e7_output.png>
 
@@ -12593,7 +12595,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 32--33
  [][] 
  []
 
-[74]
+[75]
 File: image/RaRtmap_heat/2023-11-14T22:51:24.191__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.0_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
 <image/RaRtmap_heat/2023-11-14T22:51:24.191__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.0_g0.0003999718779659611_run4.0e7_output.png>
 
@@ -12628,7 +12630,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 46--47
  [][] 
  []
 
-[75]
+[76]
 File: image/RaRtmap_heat/2023-11-15T00:43:33.781__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.938769_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
 <image/RaRtmap_heat/2023-11-15T00:43:33.781__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.938769_g0.0003999718779659611_run4.0e7_output.png>
 
@@ -12663,7 +12665,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 60--61
  [][] 
  []
 
-[76]
+[77]
 File: image/RaRtmap_heat/2023-11-15T02:27:34.337__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
 <image/RaRtmap_heat/2023-11-15T02:27:34.337__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e7_output.png>
 
@@ -12698,7 +12700,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 74--75
  [][] 
  []
 
-[77]
+[78]
 File: image/RaRtmap_heat/2023-11-15T04:11:00.956__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.4693845_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
 <image/RaRtmap_heat/2023-11-15T04:11:00.956__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.4693845_g0.0003999718779659611_run4.0e7_output.png>
 
@@ -12733,7 +12735,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 88--89
  [][] 
  []
 
-[78]
+[79]
 File: image/RaRtmap_heat/2023-11-15T05:53:00.667__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.4081535_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
 <image/RaRtmap_heat/2023-11-15T05:53:00.667__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.4081535_g0.0003999718779659611_run4.0e7_output.png>
 
@@ -12768,7 +12770,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 102--103
  [][] 
  []
 
-[79]
+[80]
 File: image/RaRtmap_heat/2023-11-15T07:34:00.555__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.0_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
 <image/RaRtmap_heat/2023-11-15T07:34:00.555__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.0_g0.0003999718779659611_run4.0e7_output.png>
 
@@ -12803,7 +12805,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 116--117
  [][] 
  []
 
-[80]
+[81]
 File: image/RaRtmap_heat/2023-11-15T09:16:40.082__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
 <image/RaRtmap_heat/2023-11-15T09:16:40.082__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7_output.png>
 
@@ -12838,7 +12840,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 130--131
  [][] 
  []
 
-[81]
+[82]
 File: image/RaRtmap_heat/2023-11-15T10:59:30.665__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.877538_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
 <image/RaRtmap_heat/2023-11-15T10:59:30.665__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.877538_g0.0003999718779659611_run4.0e7_output.png>
 
@@ -12873,7 +12875,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 144--145
  [][] 
  []
 
-[82]
+[83]
 File: image/RaRtmap_heat/2023-11-15T12:45:26.303__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
 <image/RaRtmap_heat/2023-11-15T12:45:26.303__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run4.0e7_output.png>
 
@@ -12908,7 +12910,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 158--159
  [][] 
  []
 
-[83]
+[84]
 File: image/RaRtmap_heat/2023-11-15T14:30:22.529__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.4081535_g0.0003999718779659611_run4.0e7_output.png Graphic file (type bmp)
 <image/RaRtmap_heat/2023-11-15T14:30:22.529__chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.4081535_g0.0003999718779659611_run4.0e7_output.png>
 
@@ -12943,7 +12945,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 172--173
  [][] 
  []
 
-) [84] (./subtex/RaRtmap_drop_heat.tex
+) [85] (./subtex/RaRtmap_drop_heat.tex
 File: image/RaRtmap_drop_heat/2023-12-21T10:44:56.628_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/RaRtmap_drop_heat/2023-12-21T10:44:56.628_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png>
 File: image/RaRtmap_drop_heat/2023-12-21T10:44:57.232_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
@@ -12999,30 +13001,30 @@ Overfull \hbox (59.99469pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [85] (./subtex/RaRtmap_drop_heat_big.tex
+) [86] (./subtex/RaRtmap_drop_heat_big.tex
 File: image/RaRtmap_drop_heat/2023-12-21T10:44:56.628_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/RaRtmap_drop_heat/2023-12-21T10:44:56.628_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png>
 
 Overfull \hbox (12.81107pt too wide) in paragraph at lines 4--5
- [][] 
- []
-
-[86]
-File: image/RaRtmap_drop_heat/2023-12-21T10:44:57.232_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
-<image/RaRtmap_drop_heat/2023-12-21T10:44:57.232_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png>
-
-Overfull \hbox (12.81107pt too wide) in paragraph at lines 10--11
- [][] 
- []
-
-File: image/RaRtmap_drop_heat/2023-12-21T10:44:57.302_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.938769_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
-<image/RaRtmap_drop_heat/2023-12-21T10:44:57.302_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.938769_g0.0003999718779659611_run4.0e7.png>
-
-Overfull \hbox (12.81107pt too wide) in paragraph at lines 17--18
  [][] 
  []
 
 [87]
+File: image/RaRtmap_drop_heat/2023-12-21T10:44:57.232_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
+<image/RaRtmap_drop_heat/2023-12-21T10:44:57.232_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png>
+
+Overfull \hbox (12.81107pt too wide) in paragraph at lines 10--11
+ [][] 
+ []
+
+File: image/RaRtmap_drop_heat/2023-12-21T10:44:57.302_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.938769_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
+<image/RaRtmap_drop_heat/2023-12-21T10:44:57.302_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.938769_g0.0003999718779659611_run4.0e7.png>
+
+Overfull \hbox (12.81107pt too wide) in paragraph at lines 17--18
+ [][] 
+ []
+
+[88]
 File: image/RaRtmap_drop_heat/2023-12-21T10:44:57.379_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.4081535_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/RaRtmap_drop_heat/2023-12-21T10:44:57.379_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.4081535_g0.0003999718779659611_run4.0e7.png>
 
@@ -13037,7 +13039,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 31--32
  [][] 
  []
 
-[88]
+[89]
 File: image/RaRtmap_drop_heat/2023-12-21T10:44:57.529_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.0_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/RaRtmap_drop_heat/2023-12-21T10:44:57.529_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.0_g0.0003999718779659611_run4.0e7.png>
 
@@ -13052,7 +13054,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 45--46
  [][] 
  []
 
-[89]
+[90]
 File: image/RaRtmap_drop_heat/2023-12-21T10:44:57.672_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.938769_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/RaRtmap_drop_heat/2023-12-21T10:44:57.672_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.938769_g0.0003999718779659611_run4.0e7.png>
 
@@ -13067,7 +13069,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 59--60
  [][] 
  []
 
-[90]
+[91]
 File: image/RaRtmap_drop_heat/2023-12-21T10:44:57.821_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/RaRtmap_drop_heat/2023-12-21T10:44:57.821_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e7.png>
 
@@ -13082,7 +13084,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 73--74
  [][] 
  []
 
-[91]
+[92]
 File: image/RaRtmap_drop_heat/2023-12-21T10:44:57.979_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.4693845_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/RaRtmap_drop_heat/2023-12-21T10:44:57.979_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.4693845_g0.0003999718779659611_run4.0e7.png>
 
@@ -13097,7 +13099,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 87--88
  [][] 
  []
 
-[92]
+[93]
 File: image/RaRtmap_drop_heat/2023-12-21T10:44:58.129_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.4081535_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/RaRtmap_drop_heat/2023-12-21T10:44:58.129_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.4081535_g0.0003999718779659611_run4.0e7.png>
 
@@ -13112,7 +13114,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 101--102
  [][] 
  []
 
-[93]
+[94]
 File: image/RaRtmap_drop_heat/2023-12-21T10:44:58.258_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.0_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/RaRtmap_drop_heat/2023-12-21T10:44:58.258_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.0_g0.0003999718779659611_run4.0e7.png>
 
@@ -13127,7 +13129,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 115--116
  [][] 
  []
 
-[94]
+[95]
 File: image/RaRtmap_drop_heat/2023-12-21T10:44:58.387_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/RaRtmap_drop_heat/2023-12-21T10:44:58.387_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png>
 
@@ -13142,7 +13144,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 129--130
  [][] 
  []
 
-[95]
+[96]
 File: image/RaRtmap_drop_heat/2023-12-21T10:44:58.541_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.877538_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/RaRtmap_drop_heat/2023-12-21T10:44:58.541_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.877538_g0.0003999718779659611_run4.0e7.png>
 
@@ -13157,7 +13159,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 143--144
  [][] 
  []
 
-[96]
+[97]
 File: image/RaRtmap_drop_heat/2023-12-21T10:44:58.706_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/RaRtmap_drop_heat/2023-12-21T10:44:58.706_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run4.0e7.png>
 
@@ -13172,7 +13174,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 157--158
  [][] 
  []
 
-[97]
+[98]
 File: image/RaRtmap_drop_heat/2023-12-21T10:44:58.872_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.4081535_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/RaRtmap_drop_heat/2023-12-21T10:44:58.872_RaRtmap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.4081535_g0.0003999718779659611_run4.0e7.png>
 
@@ -13187,7 +13189,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 171--172
  [][] 
  []
 
-[98]) (./subtex/dT0_heat.tex
+[99]) (./subtex/dT0_heat.tex
 File: image/dT0_heat/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/dT0_heat/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png>
 File: image/dT0_heat/2024-01-15T14:30:46.901_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
@@ -13243,7 +13245,7 @@ Overfull \hbox (59.99469pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [99] (./subtex/dT0_heat_big.tex
+) [100] (./subtex/dT0_heat_big.tex
 File: image/dT0_heat/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/dT0_heat/2024-01-15T14:30:46.366_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e7.png>
 
@@ -13251,7 +13253,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 4--5
  [][] 
  []
 
-[100]
+[101]
 File: image/dT0_heat/2024-01-15T14:30:46.901_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/dT0_heat/2024-01-15T14:30:46.901_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e7.png>
 
@@ -13266,7 +13268,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 17--18
  [][] 
  []
 
-[101]
+[102]
 File: image/dT0_heat/2024-01-15T14:30:47.037_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.4081535_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/dT0_heat/2024-01-15T14:30:47.037_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.0_Ra1.4081535_g0.0003999718779659611_run4.0e7.png>
 
@@ -13281,7 +13283,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 31--32
  [][] 
  []
 
-[102]
+[103]
 File: image/dT0_heat/2024-01-15T14:30:47.186_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.0_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/dT0_heat/2024-01-15T14:30:47.186_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.0_g0.0003999718779659611_run4.0e7.png>
 
@@ -13296,7 +13298,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 45--46
  [][] 
  []
 
-[103]
+[104]
 File: image/dT0_heat/2024-01-15T14:30:47.323_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.938769_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/dT0_heat/2024-01-15T14:30:47.323_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra0.938769_g0.0003999718779659611_run4.0e7.png>
 
@@ -13311,7 +13313,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 59--60
  [][] 
  []
 
-[104]
+[105]
 File: image/dT0_heat/2024-01-15T14:30:47.459_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/dT0_heat/2024-01-15T14:30:47.459_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.125_Ra1.877538_g0.0003999718779659611_run4.0e7.png>
 
@@ -13326,7 +13328,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 73--74
  [][] 
  []
 
-[105]
+[106]
 File: image/dT0_heat/2024-01-15T14:30:47.592_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.4693845_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/dT0_heat/2024-01-15T14:30:47.592_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra0.4693845_g0.0003999718779659611_run4.0e7.png>
 
@@ -13341,7 +13343,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 87--88
  [][] 
  []
 
-[106]
+[107]
 File: image/dT0_heat/2024-01-15T14:30:47.726_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.4081535_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/dT0_heat/2024-01-15T14:30:47.726_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.25_Ra1.4081535_g0.0003999718779659611_run4.0e7.png>
 
@@ -13356,7 +13358,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 101--102
  [][] 
  []
 
-[107]
+[108]
 File: image/dT0_heat/2024-01-15T14:30:47.876_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.0_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/dT0_heat/2024-01-15T14:30:47.876_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.0_g0.0003999718779659611_run4.0e7.png>
 
@@ -13371,7 +13373,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 115--116
  [][] 
  []
 
-[108]
+[109]
 File: image/dT0_heat/2024-01-15T14:30:48.012_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/dT0_heat/2024-01-15T14:30:48.012_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e7.png>
 
@@ -13386,7 +13388,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 129--130
  [][] 
  []
 
-[109]
+[110]
 File: image/dT0_heat/2024-01-15T14:30:48.147_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.877538_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/dT0_heat/2024-01-15T14:30:48.147_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.375_Ra1.877538_g0.0003999718779659611_run4.0e7.png>
 
@@ -13401,7 +13403,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 143--144
  [][] 
  []
 
-[110]
+[111]
 File: image/dT0_heat/2024-01-15T14:30:48.295_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/dT0_heat/2024-01-15T14:30:48.295_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra0.4693845_g0.0003999718779659611_run4.0e7.png>
 
@@ -13416,7 +13418,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 157--158
  [][] 
  []
 
-[111]
+[112]
 File: image/dT0_heat/2024-01-15T14:30:48.432_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.4081535_g0.0003999718779659611_run4.0e7.png Graphic file (type bmp)
 <image/dT0_heat/2024-01-15T14:30:48.432_mapg0_chi0_Ay50_rho0.4_T0.43_dT0.0_Rd0.0_Rt0.5_Ra1.4081535_g0.0003999718779659611_run4.0e7.png>
 
@@ -13431,7 +13433,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 171--172
  [][] 
  []
 
-[112]) (./subtex/g0_heat.tex
+[113]) (./subtex/g0_heat.tex
 File: image/g0_heat/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png Graphic file (type bmp)
 <image/g0_heat/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png>
 File: image/g0_heat/2024-01-15T14:07:34.556_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0_run4.0e7.png Graphic file (type bmp)
@@ -13487,7 +13489,7 @@ Overfull \hbox (59.99469pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [113] (./subtex/g0_heat_big.tex
+) [114] (./subtex/g0_heat_big.tex
 File: image/g0_heat/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png Graphic file (type bmp)
 <image/g0_heat/2024-01-15T14:07:33.905_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0_run4.0e7.png>
 
@@ -13495,7 +13497,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 4--5
  [][] 
  []
 
-[114]
+[115]
 File: image/g0_heat/2024-01-15T14:07:34.556_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0_run4.0e7.png Graphic file (type bmp)
 <image/g0_heat/2024-01-15T14:07:34.556_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0_run4.0e7.png>
 
@@ -13510,7 +13512,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 18--19
  [][] 
  []
 
-[115]
+[116]
 File: image/g0_heat/2024-01-15T14:07:34.689_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.4081535_g0_run4.0e7.png Graphic file (type bmp)
 <image/g0_heat/2024-01-15T14:07:34.689_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra1.4081535_g0_run4.0e7.png>
 
@@ -13525,7 +13527,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 32--33
  [][] 
  []
 
-[116]
+[117]
 File: image/g0_heat/2024-01-15T14:07:34.852_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.0_g0_run4.0e7.png Graphic file (type bmp)
 <image/g0_heat/2024-01-15T14:07:34.852_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.0_g0_run4.0e7.png>
 
@@ -13540,7 +13542,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 46--47
  [][] 
  []
 
-[117]
+[118]
 File: image/g0_heat/2024-01-15T14:07:34.988_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.938769_g0_run4.0e7.png Graphic file (type bmp)
 <image/g0_heat/2024-01-15T14:07:34.988_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra0.938769_g0_run4.0e7.png>
 
@@ -13555,7 +13557,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 60--61
  [][] 
  []
 
-[118]
+[119]
 File: image/g0_heat/2024-01-15T14:07:35.126_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0_run4.0e7.png Graphic file (type bmp)
 <image/g0_heat/2024-01-15T14:07:35.126_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.125_Ra1.877538_g0_run4.0e7.png>
 
@@ -13570,7 +13572,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 74--75
  [][] 
  []
 
-[119]
+[120]
 File: image/g0_heat/2024-01-15T14:07:35.278_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.4693845_g0_run4.0e7.png Graphic file (type bmp)
 <image/g0_heat/2024-01-15T14:07:35.278_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra0.4693845_g0_run4.0e7.png>
 
@@ -13585,7 +13587,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 88--89
  [][] 
  []
 
-[120]
+[121]
 File: image/g0_heat/2024-01-15T14:07:35.445_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.4081535_g0_run4.0e7.png Graphic file (type bmp)
 <image/g0_heat/2024-01-15T14:07:35.445_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.25_Ra1.4081535_g0_run4.0e7.png>
 
@@ -13600,7 +13602,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 102--103
  [][] 
  []
 
-[121]
+[122]
 File: image/g0_heat/2024-01-15T14:07:35.582_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.0_g0_run4.0e7.png Graphic file (type bmp)
 <image/g0_heat/2024-01-15T14:07:35.582_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.0_g0_run4.0e7.png>
 
@@ -13615,7 +13617,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 116--117
  [][] 
  []
 
-[122]
+[123]
 File: image/g0_heat/2024-01-15T14:07:35.728_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png Graphic file (type bmp)
 <image/g0_heat/2024-01-15T14:07:35.728_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0_run4.0e7.png>
 
@@ -13630,7 +13632,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 130--131
  [][] 
  []
 
-[123]
+[124]
 File: image/g0_heat/2024-01-15T14:07:35.863_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.877538_g0_run4.0e7.png Graphic file (type bmp)
 <image/g0_heat/2024-01-15T14:07:35.863_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.877538_g0_run4.0e7.png>
 
@@ -13645,7 +13647,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 144--145
  [][] 
  []
 
-[124]
+[125]
 File: image/g0_heat/2024-01-15T14:07:36.002_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0_run4.0e7.png Graphic file (type bmp)
 <image/g0_heat/2024-01-15T14:07:36.002_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra0.4693845_g0_run4.0e7.png>
 
@@ -13660,7 +13662,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 158--159
  [][] 
  []
 
-[125]
+[126]
 File: image/g0_heat/2024-01-15T14:07:36.149_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.4081535_g0_run4.0e7.png Graphic file (type bmp)
 <image/g0_heat/2024-01-15T14:07:36.149_mapg0_chiinf_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.5_Ra1.4081535_g0_run4.0e7.png>
 
@@ -13675,7 +13677,7 @@ Overfull \hbox (12.81107pt too wide) in paragraph at lines 172--173
  [][] 
  []
 
-[126]) (./subtex/RaRtmap10_heat.tex
+[127]) (./subtex/RaRtmap10_heat.tex
 File: image/RaRtmap10_heat/2023-12-28T12:38:50.578_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/RaRtmap10_heat/2023-12-28T12:38:50.578_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.0_g0.0003999718779659611_run4.0e8.png>
 File: image/RaRtmap10_heat/2023-12-28T12:38:51.188_map_10times_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.0_Ra0.4693845_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
@@ -13731,14 +13733,14 @@ Overfull \hbox (59.99469pt too wide) in paragraph at lines 2--154
 [][] 
  []
 
-) [127] (./subtex/qrs10_drop_heat.tex
+) [128] (./subtex/qrs10_drop_heat.tex
 File: image/qrs10_drop_heat/2023-12-28T10:59:29.242_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/qrs10_drop_heat/2023-12-28T10:59:29.242_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.4693845_g0.0003999718779659611_run4.0e8.png>
 File: image/qrs10_drop_heat/2023-12-28T10:59:29.748_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/qrs10_drop_heat/2023-12-28T10:59:29.748_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra0.938769_g0.0003999718779659611_run4.0e8.png>
 File: image/qrs10_drop_heat/2023-12-28T10:59:29.846_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e8.png Graphic file (type bmp)
 <image/qrs10_drop_heat/2023-12-28T10:59:29.846_qrs_gap_chi1.265_Ay50_rho0.4_T0.43_dT0.04_Rd0.0_Rt0.375_Ra1.4081535_g0.0003999718779659611_run4.0e8.png>
-) [128]) (./ap_src.tex [129]
+) [129]) (./ap_src.tex [130]
 付録B
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 7.
 LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <10> not available
@@ -13754,34 +13756,34 @@ LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
 LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 7.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-) [130
+) [131
 
-] [131] [132] [133] [134] [135] [136] [137] [138] [139] [140] [141] [142] [143]
+] [132] [133] [134] [135] [136] [137] [138] [139] [140] [141] [142] [143] [144]
 Overfull \hbox (22.8567pt too wide) in paragraph at lines 13--13
 [][] 
  []
 
-[144] [145] [146]
+[145] [146] [147]
 Overfull \hbox (3.10992pt too wide) in paragraph at lines 17--17
 [][] 
  []
 
-[147]) (out/report.bbl [148]) [149
+[148]) (out/report.bbl [149]) [150
 
 ] (out/report.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 7B710B51B4095D26BAC13A86E5E4EB3A;5467.
+(rerunfilecheck)             Checksum: EE2FC26FDE8803072735E0B49199579E;5467.
  ) 
 Here is how much of TeX's memory you used:
- 38052 strings out of 476693
- 1185770 string characters out of 5805373
+ 38057 strings out of 476693
+ 1185862 string characters out of 5805373
  2118209 words of memory out of 5000000
- 57578 multiletter control sequences out of 15000+600000
+ 57583 multiletter control sequences out of 15000+600000
  571107 words of font info for 157 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 89i,16n,92p,640b,2904s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,16n,92p,694b,2904s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/report.dvi (150 pages, 761072 bytes).
+Output written on out/report.dvi (151 pages, 767160 bytes).
