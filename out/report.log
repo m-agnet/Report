@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.9.10)  27 MAR 2024 17:21
+This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.9.10)  27 MAR 2024 17:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -13768,7 +13768,7 @@ Overfull \hbox (3.10992pt too wide) in paragraph at lines 17--17
 [][] 
  []
 
-[149]) (out/report.bbl [150]) [151
+[149] [150] [151] [152]) (out/report.bbl [153]) [154
 
 ] (out/report.aux)
 
@@ -13778,12 +13778,12 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: EE2FC26FDE8803072735E0B49199579E;5467.
  ) 
 Here is how much of TeX's memory you used:
- 38059 strings out of 476693
- 1185912 string characters out of 5805373
+ 38191 strings out of 476693
+ 1187709 string characters out of 5805373
  2118209 words of memory out of 5000000
- 57585 multiletter control sequences out of 15000+600000
+ 57716 multiletter control sequences out of 15000+600000
  571107 words of font info for 157 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  89i,16n,92p,694b,2904s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/report.dvi (152 pages, 770096 bytes).
+Output written on out/report.dvi (155 pages, 801216 bytes).
